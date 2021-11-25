@@ -6,10 +6,6 @@ And, Not
 
 Or, Not
 
-Or, And
-
-Or, Or
-
 NAND 
 
 NOR
