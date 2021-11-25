@@ -10,4 +10,4 @@ NAND
 
 NOR
 
-And then you can add certain combinations to them and they'll still be complete sets. 
+And then you can addany additional gates to them and they'll still be complete sets. 
