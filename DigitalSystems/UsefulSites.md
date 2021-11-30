@@ -13,3 +13,7 @@ Boolean Algebra
 * https://www.wolframalpha.com/input/?i=Z++XOR+%28V*X%29
 
 * https://www.boolean-algebra.com/ 
+
+Logic Gates 
+
+* https://www.csie.ntu.edu.tw/~lyuu/complexity/2016/20161011.pdf
