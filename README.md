@@ -13,7 +13,7 @@ Coding problems (C/C++)... it's really C'esque but written and compiled in C++ (
 [https://avipars.github.io/CS-Resources/coding/](https://avipars.github.io/CS-Resources/coding/)
 
 The following semester, we had a formal Workshop in C++ 
-[https://avipars.github.io/CS-Resources/coding/cppworkshop](https://avipars.github.io/CS-Resources/coding/cppworkshop)
+[https://avipars.github.io/CS-Resources/cppworkshop](https://avipars.github.io/CS-Resources/cppworkshop)
 
 Digital Systems:
 [https://avipars.github.io/CS-Resources/DigitalSystems/UsefulSites](https://avipars.github.io/CS-Resources/DigitalSystems/)
