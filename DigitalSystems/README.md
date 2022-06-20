@@ -13,6 +13,7 @@ Boolean Algebra
 
 * [https://www.wolframalpha.com/input/?i=Z++XOR+%28V*X%29](https://www.wolframalpha.com/input/?i=Z++XOR+%28V*X%29)
 
+
 * [https://www.boolean-algebra.com/](https://www.boolean-algebra.com/) 
 
 Logic Gates 
