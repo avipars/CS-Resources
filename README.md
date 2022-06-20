@@ -23,3 +23,6 @@ Computer Architecture Deep Dive (MIPS)
 
 Data Structures Deep Dive 
 [https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html](https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html)
+
+
+[![Jekyll site CI](https://github.com/avipars/CS-Resources/actions/workflows/jekyll.yml/badge.svg)](https://github.com/avipars/CS-Resources/actions/workflows/jekyll.yml)
