@@ -18,7 +18,7 @@ The following semester, we had a formal Workshop in C++ (I will add more files a
 [https://github.com/avipars/CS-Resources/tree/main/coding/cppworkshop](https://github.com/avipars/CS-Resources/tree/main/coding/cppworkshop)
 
 Digital Systems Files:
-[https://github.com/avipars/CS-Resources/tree/main/DigitalSystems](https://github.com/avipars/CS-Resources/tree/main/DigitalSystems)
+[https://avipars.github.io/CS-Resources/DigitalSystems/UsefulSites](https://avipars.github.io/CS-Resources/DigitalSystems/UsefulSites)
 
 Computer Architecture Deep Dive (MIPS)
 [https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
