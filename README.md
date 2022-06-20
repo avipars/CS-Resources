@@ -1,5 +1,6 @@
 # CS-Resources
 Free CS resources from yours truly.
+https://avipars.github.io/CS-Resources/
 
 
 I will be adding new files, videos, and interesting information that will be relevant for every computer science student!
