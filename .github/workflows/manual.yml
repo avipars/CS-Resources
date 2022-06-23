@@ -15,7 +15,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
+      
+      
+      - name: create gem
+        run: echo "bundle gem lorem"
+      - name: gem2
+        run: echo "jekyll new --skip-bundle ."
+      - name: gem3
+        run: echo "gem "github-pages", "~> 3.9.2", group::jekyll_plugins"
+        
       - name: Cache gems
         uses: actions/cache@v1
         with:
