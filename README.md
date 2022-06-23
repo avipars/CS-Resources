@@ -28,3 +28,5 @@ Data Structures Deep Dive
 [![Jekyll site CI](https://github.com/avipars/CS-Resources/actions/workflows/jekyll.yml/badge.svg)](https://github.com/avipars/CS-Resources/actions/workflows/jekyll.yml)
 
 [![pages-build-deployment](https://github.com/avipars/CS-Resources/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/avipars/CS-Resources/actions/workflows/pages/pages-build-deployment)
+
+[![Jekyll Deploy](https://github.com/avipars/CS-Resources/actions/workflows/manual.yml/badge.svg)](https://github.com/avipars/CS-Resources/actions/workflows/manual.yml)
