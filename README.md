@@ -18,6 +18,9 @@ The following semester, we had a formal Workshop in C++
 Digital Systems:
 [https://avipars.github.io/CS-Resources/DigitalSystems/](https://avipars.github.io/CS-Resources/DigitalSystems/)
 
+Math:
+[https://avipars.github.io/CS-Resources/math/](https://avipars.github.io/CS-Resources/math/)
+
 Computer Architecture Deep Dive (MIPS)
 [https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
 
