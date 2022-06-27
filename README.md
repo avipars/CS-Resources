@@ -13,7 +13,7 @@ Coding problems (C/C++)... it's really C'esque but written and compiled in C++ (
 [https://avipars.github.io/CS-Resources/coding/](https://avipars.github.io/CS-Resources/coding/)
 
 The following semester, we had a formal Workshop in C++ 
-[https://avipars.github.io/CS-Resources/cppworkshop](https://avipars.github.io/CS-Resources/cppworkshop)
+[https://avipars.github.io/CS-Resources/cpp_workshop](https://avipars.github.io/CS-Resources/cpp_workshop)
 
 Digital Systems:
 [https://avipars.github.io/CS-Resources/DigitalSystems/](https://avipars.github.io/CS-Resources/DigitalSystems/)
@@ -23,6 +23,9 @@ Computer Architecture Deep Dive (MIPS)
 
 Data Structures Deep Dive 
 [https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html](https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html)
+
+
+
 
 
 [![Jekyll site CI](https://github.com/avipars/CS-Resources/actions/workflows/jekyll.yml/badge.svg)](https://github.com/avipars/CS-Resources/actions/workflows/jekyll.yml)
