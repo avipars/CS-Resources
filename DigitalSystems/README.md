@@ -21,3 +21,7 @@ Logic Gates
 My Files
 
 * [https://github.com/avipars/CS-Resources/tree/main/DigitalSystems](https://github.com/avipars/CS-Resources/tree/main/DigitalSystems)
+
+My Blog post
+
+* [https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html](https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html)
