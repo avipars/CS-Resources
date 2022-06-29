@@ -2,7 +2,7 @@ Precalculus
 
 Calculus 1
 
-Linear Algebra 1
+[Linear Algebra 1](https://github.com/avipars/CS-Resources/tree/main/math/linearalgebra)
 
 More: 
 
