@@ -1,4 +1,4 @@
-MIPS Code
+[MIPS Code](https://github.com/avipars/CS-Resources/tree/main/mips)
 
 I will be updating soem cool code samples I built in the near future!
 
