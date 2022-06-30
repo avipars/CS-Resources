@@ -1,4 +1,5 @@
 # CS-Resources
+
 Free CS resources from yours truly.
 [https://avipars.github.io/CS-Resources/](https://avipars.github.io/CS-Resources/)
 
@@ -35,7 +36,7 @@ Useful resources for Computer Science students
 [https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html](https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html)
 
 
-### Config stuff
+### Bonus stuff
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
 
