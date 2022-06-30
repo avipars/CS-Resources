@@ -2,10 +2,10 @@ theme: jekyll-theme-architect
 
 domain: avipars.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://avipars.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /CS-Resources     # place folder name if the site is served in a subfolder
+baseurl: /     # place folder name if the site is served in a subfolder
 
 title: [CS Resources]
-description: [Computer Science resources and links]
+description: [Computer Science Resources and Links]
 
 remote_theme: pages-themes/architect@v0.2.0
 
