@@ -37,4 +37,6 @@ Useful resources for Computer Science students
 
 ### Config stuff
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
+
 [![pages-build-deployment](https://github.com/avipars/CS-Resources/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/avipars/CS-Resources/actions/workflows/pages/pages-build-deployment)
