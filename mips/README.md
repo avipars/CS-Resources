@@ -13,3 +13,5 @@ Code samples:
 [Basic switch](https://github.com/avipars/CS-Resources/blob/main/mips/basic_switches.asm)
 
 [Advanced switch](https://github.com/avipars/CS-Resources/blob/main/mips/adv_switches.asm)
+
+[Bit Shifting](https://github.com/avipars/CS-Resources/blob/main/mips/shift.asm)
