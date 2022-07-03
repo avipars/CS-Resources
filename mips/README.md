@@ -6,7 +6,9 @@ In the meantime take a look here
 
 [Deep dive into MIPS](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
 
-Code: 
+[Code tips for MIPS](https://tech.aviparshan.com/2022/07/mips-and-little-endians-tips-and-faq-to.html)
+
+Code samples: 
 
 [Basic switch](https://github.com/avipars/CS-Resources/blob/main/mips/basic_switches.asm)
 
