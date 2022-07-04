@@ -1,3 +1,4 @@
+#just note that there is a lot of pseudo-code here 
 .data
 .asciiz 
 invalidNumber: "\nError: Invalid number, please try again"
@@ -12,12 +13,12 @@ li $t4 '9'
 li $t5 'F'
 slt $t3, $t8, $t4
 
-bge $t8, '0', exit #valid dig 
+bge $t8, '0', exit #valid dig - pseudo-code
 
-#bge $t8,$t6 , exit  #A
-#ble $t8, $t5, exit  #F
+#bge $t8,$t6 , exit  #A  pseudo-code
+#ble $t8, $t5, exit  #F pseudo-code
 
-sle $s1, $t8, '0' #checjk
+sle $s1, $t8, '0' #chechk  pseudo-code
 
 li  $t0, '0'
 bltu   $t1,$t0, notdig        # Jump if char < '0'
