@@ -15,3 +15,7 @@ I will be updating some cool code samples I built in the near future!
 [Advanced switch](https://github.com/avipars/CS-Resources/blob/main/mips/adv_switches.asm)
 
 [Bit Shifting](https://github.com/avipars/CS-Resources/blob/main/mips/shift.asm)
+
+# Notes:
+
+[Equations and overview - WIP](https://github.com/avipars/CS-Resources/blob/main/mips/notes.md)
