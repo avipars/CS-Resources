@@ -1,5 +1,11 @@
 # Comp Arch Notes 
 
+(from the Patterson Book)
+How the segments of memory are split up 
+
+![image](https://user-images.githubusercontent.com/5733247/177302019-1638ea3f-1aa1-44d1-9ccd-1059d0910e59.png)
+
+
 ## Cache Formulas 
 
 tag + set = logbase2(# of blocks in cache)
