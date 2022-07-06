@@ -16,10 +16,11 @@ mantissa (23 bits)
 
 sign of 1 is negative, 0 is positive 
 exponent = convert as usual from binary to decimal, then you need to subtract 127 from your result (exp -127)
-mantissa = start from the left most bit in mantissa, then the result is that number * 2^-1... and proceed to the next 2^-2 * the next number, and move on till you hit the last 1. Because 0 * anything = 0, you can essentially skip the 0s, but make sure to still increment the exponent based on the position
+mantissa = start from the left most bit in mantissa, then the result is that number * 2<sup>-1</sup>... and proceed to the next 2<sup>-2</sup> * the next number, and move on till you hit the last 1. Because 0 * anything = 0, you can essentially skip the 0s, but make sure to still increment the exponent based on the position
 
 Now that you got your mantissa, use this formula to convert it to decimal!
-(-1)^signedbit * (1+mantissa) * 2^exp = end result!
+
+(-1)<sup>signedbit</sup> * (1+mantissa) * 2<sup>exp</sup> = end result!
 
 
 ## Cache Formulas 
