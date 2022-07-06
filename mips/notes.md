@@ -1,7 +1,7 @@
 # Comp Arch Notes 
 
 (from the Patterson Book)
-How the segments of memory are split up 
+How the segments of memory are split up (note that this is generally accepted for the simulator, on actual MIPS chips the partitions could be set differently or non-existent)
 
 ![image](https://user-images.githubusercontent.com/5733247/177302019-1638ea3f-1aa1-44d1-9ccd-1059d0910e59.png)
 
@@ -26,19 +26,19 @@ Now that you got your mantissa, use this formula to convert it to decimal!
 
 tag + set = logbase2(# of blocks in cache)
 
-size of main memory/size of block = # of blocks in cache
+Size of main address – set – offset = tag
+
+(size of main memory)/(size of block) = # of blocks in cache
 
 2<sup>offset</sup> = size of block 
 
 2<sup>set</sup> = # of rows 
 
-# N is for the n in n-way set associative
+N is for the n in n-way set associative
 N*2<sup>set</sup> = # of blocks in cache
-
-
 
 Total bits in cache = (size of block * 8 + 2 + tag) * N * 2<sup>set</sup> //in writeback
 
 Total bits in cache = (size of block * 8 + 1 + tag) * N * 2<sup>set</sup> //in writethrough
 
-Size of main address – set – offset = tag
+
