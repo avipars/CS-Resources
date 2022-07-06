@@ -28,14 +28,17 @@ tag + set = logbase2(# of blocks in cache)
 
 size of main memory/size of block = # of blocks in cache
 
-N*2^set = # of blocks in cache
+2<sup>offset</sup> = size of block 
 
-2^offset = size of block 
+2<sup>set</sup> = # of rows 
 
-2^set = # of rows 
+# N is for the n in n-way set associative
+N*2<sup>set</sup> = # of blocks in cache
 
-Total bits in cache = (size of block * 8 + 2 + tag) * N * 2^set //in WB
 
-Total bits in cache = (size of block * 8 + 1 + tag) * N * 2^set //in WT
+
+Total bits in cache = (size of block * 8 + 2 + tag) * N * 2<sup>set</sup> //in writeback
+
+Total bits in cache = (size of block * 8 + 1 + tag) * N * 2<sup>set</sup> //in writethrough
 
 Size of main address – set – offset = tag
