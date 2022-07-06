@@ -26,6 +26,10 @@ Math (Calculus, LA, etc.):
 
 ## Articles: 
 
+Please refer to my [tech blog!](tech.aviparshan.com) at  in addition to my [medium blog](https://aviparshan.medium.com/)
+
+Here are some samples of articles I recently posted, but I have more in the links above! 
+
 Computer Architecture Deep Dive (MIPS)
 [https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
 
