@@ -13,3 +13,6 @@ Q6 C
 Q7 B
 
 I typed out the code for the multiple choice questions as well, and they will be in the same directory. 
+Note that the code is not necessarily one-to-one with the final exam, the changes that I may have made are very minor and easy to revert. Feel free to fork this or copy the code, run it, and make changes! 
+
+
