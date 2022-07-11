@@ -24,7 +24,7 @@ class B : public A{
         }
 };
 
-int mainddd(){
+int main(){
 
     try{
         B* pA = new B;

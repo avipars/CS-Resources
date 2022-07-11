@@ -41,7 +41,7 @@ private:
 
 int Animal::inst = 0;
 
-int maiddodon()
+int main()
 {
     Animal a1;
     Dog d1;

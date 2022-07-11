@@ -18,7 +18,7 @@ void print(int count){
     }
     
 }
-int maijjjhhjn()
+int main()
 {
     // print(30);
    // unsigned int left = 

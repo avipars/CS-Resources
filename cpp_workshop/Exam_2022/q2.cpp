@@ -33,7 +33,7 @@ public:
     }
 };
 
-int maidddn()
+int main()
 {
     const Five *sentence[2] = {new Four(), new Three()};
 

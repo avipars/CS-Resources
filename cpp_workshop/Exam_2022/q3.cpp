@@ -21,8 +21,8 @@ void B:: foo(){
     cout << a.field;
 }
 
-int maindone(){
-    cout << "dkdkd";
+int main(){
+    // cout << "dkdkd";
     B b;
     A a;
     a.field = 1; //added in after

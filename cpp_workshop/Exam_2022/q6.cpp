@@ -9,7 +9,7 @@ struct Student{
     int mark;
 };
 
-int mainfgff(){
+int main(){
     ofstream outfle("fout.bin");
     Student fSt; 
     fSt.mark = 90; 
