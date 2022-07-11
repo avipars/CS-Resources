@@ -23,4 +23,6 @@ I typed out the code for the multiple choice questions as well, and they will be
 Note that the code is not necessarily one-to-one with the final exam, the changes that I may have made are very minor and easy to revert. Feel free to fork this or copy the code, run it, and make changes! 
 
 
-[Code](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Exam_2022)
+[Code for multiple choice questions](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Exam_2022)
+
+[Code for open ended and fill in blank questions](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Exam_2022/open)
