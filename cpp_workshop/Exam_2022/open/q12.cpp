@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 //q12 all classes/fns
 class ChefsDish{
     protected: 
@@ -33,6 +36,8 @@ class DairyFood: public ChefsDish{
 DairyFood::DairyFood(int dish, float pr, float am, bool coupon): ChefsDish(dish, pr, am){
     this->coupon = coupon;
 }
+
+
 float DairyFood::discountCalcuation(float price) const{
     if(coupon){
         return price * 0.9;
@@ -52,10 +57,6 @@ MeatFood::MeatFood(int dish, float pr, float am): ChefsDish(dish, pr, am){
 
 }
 
-MeatFood::ChefsDish(int dish, float pr, float am): ChefsDish(dish, pr, am){
-
-}
-
 float MeatFood::discountCalcuation(float price) const{
     if(amount > 5){
         return price * 0.85;
@@ -71,4 +72,41 @@ float calculatePerOrder(ChefsDish** order, int size){
         total += order[i]->priceCalc();
     }
     return total;
+}
+
+int main(){ //bonus tester stuff
+    int n;
+    cout << "enter quantity of dishes: ";
+    cin >> n;
+    ChefsDish** order = new ChefsDish*[n]; //make array of pointers to ChefsDish
+    for(int i = 0; i < n; i++){
+        int dish;
+        float price, amount;
+        bool coupon, isDairy;
+       
+
+        cout << "Dish#: ";
+        cin >> dish;
+        cout << "Price: ";
+        cin >> price;
+        cout << "Amount: ";
+        cin >> amount;
+        
+        cout << "isDairy? 1 = yes, 0 = no" << endl;
+        cin >> isDairy;
+
+        if(isDairy){
+            cout << "Coupon (1 = yes, 0 = no): ";
+            cin >> coupon;
+            order[i] = new DairyFood(dish, price, amount, coupon);
+        }
+        else{
+            order[i] = new MeatFood(dish, price, amount);
+        }
+
+    }
+
+            cout << "total: "<< calculatePerOrder(order, n) << endl;
+
+    return 0;
 }
