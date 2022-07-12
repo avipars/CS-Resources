@@ -23,11 +23,11 @@ void B:: foo(){
 
 int main(){
     // cout << "dkdkd";
-    B b;
-    A a;
-    a.field = 1; //added in after
+   // B b;
+  //  A a;
+   // a.field = 1; //added in after
 
-    b.foo();
+   // b.foo();
 
     return 0;
 }
