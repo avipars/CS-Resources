@@ -115,3 +115,6 @@ EX - execute instruction
 MEM - Read memory
 
 WB - write back (only needed for LW and such commands)
+
+
+[MIPS_Green_Sheet.pdf](https://github.com/avipars/CS-Resources/files/9105425/MIPS_Green_Sheet.pdf)
