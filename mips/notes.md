@@ -1,5 +1,40 @@
 # Comp Arch Notes 
 
+| Binary Spot | Digit |
+| ----------- | ----- |
+| 1           | 0     |
+| 2           | 1     |
+| 4           | 2     |
+| 8           | 3     |
+| 16          | 4     |
+| 32          | 5     |
+| 64          | 6     |
+| 128         | 7     |
+| 256         | 8     |
+| 512         | 9     |
+| 1024        | 10    |
+| 2048        | 11    |
+| 4096        | 12    |
+| 8192        | 13    |
+| 16384       | 14    |
+| 32768       | 15    |
+| 65536       | 16    |
+| 131072      | 17    |
+| 262144      | 18    |
+| 524288      | 19    |
+| 1048576     | 20    |
+| 2097152     | 21    |
+| 4194304     | 22    |
+| 8388608     | 23    |
+| 16777216    | 24    |
+| 33554432    | 25    |
+| 67108864    | 26    |
+| 134217728   | 27    |
+| 268435456   | 28    |
+| 536870912   | 29    |
+| 1073741824  | 30    |
+| 2147483648  | 31    |
+
 (from the Patterson Book)
 How the segments of memory are split up (note that this is generally accepted for the simulator, on actual MIPS chips the partitions could be set differently or non-existent)
 
@@ -25,6 +60,8 @@ Now that you got your mantissa, use this formula to convert it to decimal!
 
 ## Cache Formulas 
 
+Block is composed of: Tag | Set | Offset 
+
 tag + set = logbase2(# of blocks in cache)
 
 Size of main address – set – offset = tag
@@ -42,4 +79,39 @@ Total bits in cache = (size of block * 8 + 2 + tag) * N * 2<sup>set</sup> //in w
 
 Total bits in cache = (size of block * 8 + 1 + tag) * N * 2<sup>set</sup> //in writethrough
 
+Stack = LIFO
 
+Queue = FIFO
+
+Miss – no load to cache
+-	Go to direct main memory 
+o	Write into memory directly 
+
+
+WB = Write Back
+
+WA = Write Allocate
+
+WT = Write Through
+
+LRU = Least Recently Used
+
+No WA = 	No-write allocate (also called write-no-allocate or write around): data at the missed-write location is not loaded to cache, and is written directly to the backing store. In this approach, data is loaded into the cache on read misses only.
+
+1 Bit = 8 Bytes
+
+4 Bytes = 1 Word = 32 Bits = 1 Instruction
+
+2<sup>20</sup> = megabyte
+
+## Stages
+
+IF - fetch instruction
+
+ID - decode instruction
+
+EX - execute instruction 
+
+MEM - Read memory
+
+WB - write back (only needed for LW and such commands)
