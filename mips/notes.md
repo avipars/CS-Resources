@@ -35,7 +35,7 @@ Size of main address – set – offset = tag
 
 2<sup>set</sup> = # of rows 
 
-N is for the n in n-way set associative
+N is for the n in n-way set associative (2-way SA -> = 2)
 N*2<sup>set</sup> = # of blocks in cache
 
 Total bits in cache = (size of block * 8 + 2 + tag) * N * 2<sup>set</sup> //in writeback

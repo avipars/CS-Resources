@@ -1,6 +1,4 @@
 //code from 2017 midterm 
-
-
 #include <iostream>
 
 using namespace std;

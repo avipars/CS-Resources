@@ -1,10 +1,12 @@
 # CS-Resources
 
 Free CS resources from yours truly.
-[https://avipars.github.io/CS-Resources/](https://avipars.github.io/CS-Resources/)
+
+[View Code](https://avipars.github.io/CS-Resources/)
 
 I will be adding new files, videos, and interesting information that will be relevant for every computer science student!
-[https://aviparshan.com/jctindex.html?utm_source=github](https://aviparshan.com/jctindex.html?utm_source=github)
+
+[https://tech.aviparshan.com/](https://tech.aviparshan.com/?utm_source=github)
 
 ## Courses 
 
@@ -33,16 +35,17 @@ Please refer to my [tech blog!](tech.aviparshan.com) at  in addition to my [medi
 
 Here are some samples of articles I recently posted, but I have more in the links above! 
 
-Computer Architecture Deep Dive (MIPS)
-[https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
+[Computer Architecture Deep Dive (MIPS)](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
 
-Data Structures Deep Dive 
-[https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html](https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html)
+[Computer Architecture Topics](https://tech.aviparshan.com/2022/07/computer-architecture-summary-topics.html)
 
-Useful resources for Computer Science students
-[https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html](https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html)
+[Fun stuff with MIPS and MARS](https://tech.aviparshan.com/2022/07/mips-and-little-endians-tips-and-faq-to.html)
 
+[Data Structures Deep Dive](https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html)
 
+[Useful resources for Computer Science students](https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html)
+
+[Math for CS](https://tech.aviparshan.com/2022/06/math-required-for-computer-science-1st.html)
 ### Bonus stuff
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
