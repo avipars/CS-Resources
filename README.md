@@ -9,7 +9,7 @@ I will be adding new files, videos, and interesting information that will be rel
 ## Courses 
 
 Coding problems (C/C++)... it's really C'esque but written and compiled in C++ (Intro to CS). 
-[https://avipars.github.io/CS-Resources/coding/](https://avipars.github.io/CS-Resources/coding/)
+[https://avipars.github.io/CS-Resources/intro_cs/](https://avipars.github.io/CS-Resources/intro_cs/)
 
 The following semester, we had a formal Workshop in C++ 
 [https://avipars.github.io/CS-Resources/cpp_workshop](https://avipars.github.io/CS-Resources/cpp_workshop)
@@ -22,6 +22,9 @@ MIPS (Computer Architecture)
 
 Math (Calculus, LA, etc.):
 [https://avipars.github.io/CS-Resources/math/](https://avipars.github.io/CS-Resources/math/)
+
+DSA 1 (Data Structures & algorithms 1)
+[https://avipars.github.io/CS-Resources/data_struct/](https://avipars.github.io/CS-Resources/data_struct/)
 
 
 ## Articles: 

@@ -11,7 +11,7 @@ Q2 D
 
 Q3 A
 
-Q4 A (some people chose E and got partial credit)
+Q4 A (some people chose E and got partial credit - due to misunderstanding of move ctor)
 
 Q5 D
 

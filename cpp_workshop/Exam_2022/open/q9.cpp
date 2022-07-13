@@ -42,7 +42,7 @@ void Order::print(){ //student fills in
     }
 }
 
-int main(){
+int main(){ //i added in after to test that the code actually works 
     Order order(1);
     Order::Food food1("pizza", 1);
     Order::Food food2("burger", 2);
