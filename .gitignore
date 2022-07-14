@@ -1,0 +1,9 @@
+# Ignore files with extension `.class` & `.exe`
+*.exe
+*.class
+# ignore any exeecutables in the whole project
+**.exe
+
+**/**/**/**/*.exe
+**/**/**/*.exe
+# for subdirectories
