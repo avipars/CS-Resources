@@ -36,7 +36,7 @@ public:
     }
 };
 int C::counter = 0;
-int maineddd()
+int main()
 {
     C c1(4);
     C c2;

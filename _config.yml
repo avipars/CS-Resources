@@ -25,3 +25,8 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+
+# Includes an icon in the footer for each user name you enter
+footer-links:
+  github: avipars
+  twitter: aviinfinity
