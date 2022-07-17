@@ -30,3 +30,5 @@ include:
 footer-links:
   github: avipars
   twitter: aviinfinity
+
+show_downloads: true
