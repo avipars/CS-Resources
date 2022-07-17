@@ -1,4 +1,4 @@
-# CS-Resources
+# CS-Resources Homepage
 
 Free CS resources from yours truly.
 
