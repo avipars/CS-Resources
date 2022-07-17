@@ -3,7 +3,7 @@
 Hebrew PDF of the original final is here (not tofes 0) : 
 [https://drive.google.com/file/d/1kHX7DgdsxDtPSAvRBESaM75_8iEwOW-x/view?usp=sharing](https://drive.google.com/file/d/1kHX7DgdsxDtPSAvRBESaM75_8iEwOW-x/view?usp=sharing)
 
-Part A: (Multiple choice, chose 6 out of 7)
+Part A: (Multiple choice, choose 6 out of 7)
 
 Q1 A
 
