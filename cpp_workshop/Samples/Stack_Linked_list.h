@@ -2,20 +2,20 @@
 #include <iostream>
 using namespace std;
 template <typename  D>
-class noder
+class noder //node template
 {
 public:
-    D data;
-    noder<D> *next;
+    D data; //holds data
+    noder<D> *next; //and pointer to next node
 };
 
 template <typename  T>
-class Stack
+class Stack 
 {
 protected:
     int size;
     int capacity = 100;
-    noder<T> *top; // head
+    noder<T> *top; // head of linked list
 
 public:
     Stack();

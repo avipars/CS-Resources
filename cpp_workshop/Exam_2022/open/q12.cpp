@@ -40,7 +40,7 @@ DairyFood::DairyFood(int dish, float pr, float am, bool coupon): ChefsDish(dish,
 
 float DairyFood::discountCalcuation(float price) const{
     if(coupon){
-        return price * 0.9;
+        return price * 0.9; //if has coupon
     }
     else{
         return price;
@@ -53,13 +53,11 @@ class MeatFood: public ChefsDish{
         float discountCalcuation(float price) const override;
 };
 
-MeatFood::MeatFood(int dish, float pr, float am): ChefsDish(dish, pr, am){
-
-}
+MeatFood::MeatFood(int dish, float pr, float am): ChefsDish(dish, pr, am){} //ctor, nothing special about it, so it doesn't need a body
 
 float MeatFood::discountCalcuation(float price) const{
-    if(amount > 5){
-        return price * 0.85;
+    if(amount > 5){ 
+        return price * 0.85; //discount for 6 or more dishes
     }
     else{
         return price;
@@ -68,13 +66,14 @@ float MeatFood::discountCalcuation(float price) const{
 
 float calculatePerOrder(ChefsDish** order, int size){
     float total = 0;
-    for(int i = 0; i < size; i++){
+    for(int i = 0; i < size; i++)
+    {
         total += order[i]->priceCalc();
     }
     return total;
 }
 
-int main(){ //bonus tester stuff
+int main(){ //bonus tester stuff, not required
     int n;
     cout << "enter quantity of dishes: ";
     cin >> n;
@@ -84,7 +83,6 @@ int main(){ //bonus tester stuff
         float price, amount;
         bool coupon, isDairy;
        
-
         cout << "Dish#: ";
         cin >> dish;
         cout << "Price: ";

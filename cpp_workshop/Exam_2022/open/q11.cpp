@@ -22,7 +22,7 @@ int List::size() const{
     return count;
 }
 
-//now write method to remove all elements in\
+//now write method to remove all elements in
 // the list that match the bool function (as paramater)
 void List::removeAll(bool (*func)(int value)){
     //remove first element 

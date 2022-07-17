@@ -34,7 +34,7 @@ int main(){
         x->show1();
         x->show2();
     }
-    // catch(...){
+    // catch(...){ //not relevant
     //     cout << "catch all" << endl;
     // }
 }

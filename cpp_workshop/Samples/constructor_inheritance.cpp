@@ -1,4 +1,4 @@
-//code from 2017 midterm 
+//code from 2017 midterm (q10_2017)
 #include <iostream>
 
 using namespace std;
@@ -34,6 +34,6 @@ class B: public A{
 int main(){
     A* x = new B(2,3); 
     //print b ctor and b dtor
-    delete x;
+    delete x; //call dtor
     return 0;
 }
