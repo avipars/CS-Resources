@@ -1,4 +1,11 @@
-# Comp Arch Notes 
+---
+layout: post
+title:  "Compupter Architecture Notes"
+---
+
+# Compupter Architecture Notes 
+
+Compilation of important things to know for your Comp Arch class
 
 | Binary Spot | Digit |
 | ----------- | ----- |

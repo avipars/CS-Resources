@@ -51,12 +51,3 @@ Here are some samples of articles I recently posted, but I have more in the link
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
 
 [![pages-build-deployment](https://github.com/avipars/CS-Resources/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/avipars/CS-Resources/actions/workflows/pages/pages-build-deployment)
-
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
