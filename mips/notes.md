@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Compupter Architecture Notes"
 permalink: /mips/notes
 ---
