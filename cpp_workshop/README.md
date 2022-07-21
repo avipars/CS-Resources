@@ -1,4 +1,4 @@
-Here is the next course called workshop in c++ files
+Here is the next course called workshop in c++ 
 
 [View Code Files/Demos](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples)
 
