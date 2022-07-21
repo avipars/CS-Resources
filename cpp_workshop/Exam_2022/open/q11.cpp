@@ -1,9 +1,9 @@
 //q11
 
-#include <algorithm>
 #include <string>
 #include <iostream>
-#include <ctime>
+
+#include "List.h" //the provided List class
 using namespace std;
 
 //with our own List/Link classes (in the back of the test)
