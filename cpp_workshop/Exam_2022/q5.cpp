@@ -5,21 +5,21 @@ using namespace std;
 class A{
     public: 
         void show1() {
-            cout << "-A1-"  << endl;
+            cout << "-A1-";
 
         }
         virtual void show2() {
-            cout << "-A2-"  << endl;
+            cout << "-A2-";
         }
 };
 
 class B : public A{
     public: 
         void show1() {
-            cout << "-B1-"  << endl;
+            cout << "-B1-";
         }
         void show2() {
-            cout << "-B2-"  << endl;
+            cout << "-B2-";
             A::show2();
         }
 };
@@ -35,6 +35,8 @@ int main(){
         x->show2();
     }
     // catch(...){ //not relevant
-    //     cout << "catch all" << endl;
+    //     cout << "catch all" ;
     // }
 }
+
+//-A1--B2--A2-
