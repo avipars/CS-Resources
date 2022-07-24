@@ -2,11 +2,11 @@
 layout: default
 title: C++ Practice Files
 permalink: /cpp_workshop/
-date: '2022-07-24 12:12:11 -0400'
-categories: c++
 sitemap:
   priority: 0.7
   changefreq: "weekly"
+date: '2022-07-24 12:12:11 -0400'
+categories: cpp
 tags:
 - C
 - Coding
@@ -23,10 +23,10 @@ Notable Examples:
 [Move Semantics with a custom string class](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples/string/)
 
 
-<!-- [Stack Template via linked list](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples/Stack_Linked_list.h)
+[Stack Template via linked list](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples/Stack_Linked_list.h)
 
 
-[File Operations](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples/book.cpp) -->
+[File Operations](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples/book.cpp)
 
 
 Exam Prep: 
