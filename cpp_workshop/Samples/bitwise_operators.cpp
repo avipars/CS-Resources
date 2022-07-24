@@ -16,7 +16,7 @@ int main(){
         cout << "x and y are equal" << endl;
     }
 
-    if ((x | y) != 0) {
+    if ((x | y) != 0) { 
         cout << "x or y are not equal" << endl;
     }
     else{
