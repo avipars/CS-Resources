@@ -21,6 +21,15 @@ layout: default
 ---
 layout: default
 ---
+
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
+
 <article class="post">
 
   <h1>{{ page.title }}</h1>
@@ -36,6 +45,8 @@ layout: default
     {{ content }}
   </div>
 
+  <a onclick="window.history.back()">Go Back</a>
+
   {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
   {% endif %}
@@ -43,5 +54,7 @@ layout: default
   <noscript>
     <img src="https://avigit.goatcounter.com/count?p=/noscript-post">
     </noscript>
+
+    <p>&copy; 2022 Avi Parshan</p>
 
 </article>
