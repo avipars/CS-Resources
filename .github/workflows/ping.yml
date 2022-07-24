@@ -1,0 +1,45 @@
+
+# YAML
+
+# You can name this whatever you want:
+name: Ping Google About Updated Sitemap
+
+# Controls when the action will run:
+on:
+  # Triggers the workflow on push events, only on the master branch, and only
+  # if sitemap.xml was updated:
+  push:
+    # If your primary ("production") branch is "main" (or anything else) instead
+    # of "master" you will need to update this line:
+    branches: [ master ]
+    # TODO: Update the filepath below to be the filepath to the live /
+    # production / rendered sitemap.xml in your GitHub repo:
+    paths:
+      - https://cs.aviparshan.com/sitemap.xml
+
+  # This allows you to run this workflow manually from the Actions tab in your
+  # GitHub repo:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in
+# parallel:
+jobs:
+  # This workflow contains a single job called "ping" (the ID for this job):
+  ping:
+    # Again this can be whatever name you like:
+    name: Ping Google
+    # The type of runner that the job will run on:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the
+    # job:
+    steps:
+      # Runs a single command using the runners shell:
+      - name: Send HTTP GET request
+        # TODO: Update the part of the below URL AFTER `?sitemap=` to be the
+        # URL of the published sitemap.xml on your site (NOT in your repo).
+        # For example, if your sitemap is at https://www.example.com/sitemap.xml
+        # the final command run would be:
+        # `curl http://www.google.com/ping?sitemap=https://www.example.com/sitemap.xml`
+        run: curl http://www.google.com/ping?sitemap=https://cs.aviparshan.com/sitemap.xml
+        
