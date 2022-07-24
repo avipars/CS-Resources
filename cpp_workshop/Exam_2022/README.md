@@ -1,11 +1,10 @@
 ---
 layout: page
 title: C++ Practice Exam 2022
-date: '2022-07-24 12:12:11 -0400'
-permalink: /cpp_workshop/Exam_2022/
+date: '2022-07-24 17:12:11 -0400'
+permalink: /cpp_workshop/
 categories: CPP
 tags:
-- C
 - Coding
 - CPP
 - OOP

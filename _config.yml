@@ -28,8 +28,12 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-  # - _pages
+  - _pages
 
+exclude :
+ - 404.md
+ - 404.html 
+ 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
