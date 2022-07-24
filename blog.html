@@ -3,6 +3,7 @@ title: Posts
 layout: default
 tab: posts
 ---
+{% assign posts = site.posts | where: "lang", page.lang %}
 
 <ul class="presentation-list list-unstyled">
 {% for post in site.post %}

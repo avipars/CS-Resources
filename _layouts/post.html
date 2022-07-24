@@ -4,15 +4,18 @@ layout: default
 
 <nav>
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-      {{ item.name }}
-    </a>
+  <a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+    {{ item.name }}
+  </a>
   {% endfor %}
 </nav>
 
-<article class="post">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <h1>{{ page.title }}</h1>
+  <noscript>
+    <img src="https://avigit.goatcounter.com/count?p=/noscript-post">
+  </noscript>
 
   <!-- <small>{{ page.date | date: "%-d %B %Y" }}</small> -->
   <div class="date">
@@ -31,10 +34,10 @@ layout: default
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
   {% endif %}
 
-  <noscript>
-    <img src="https://avigit.goatcounter.com/count?p=/noscript-post">
-    </noscript>
 
-    <p>&copy; 2022 Avi Parshan</p>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <p>&copy; 2022 Avi Parshan</p>
 
 </article>
