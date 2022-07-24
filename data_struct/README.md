@@ -2,7 +2,7 @@
 layout: default
 title: Data Structures and Algorithms
 date: '2022-07-24 12:12:11 -0400'
-permalink: /data_struct
+permalink: /data_struct/
 categories: DSA
 tags:
 - DataStruct

@@ -2,7 +2,7 @@
 layout: default
 title: Digital Systems
 date: '2022-07-24 12:12:11 -0400'
-permalink: /DigitalSystems
+permalink: /DigitalSystems/
 categories: DigitalSystems
 tags:
 - Digital
