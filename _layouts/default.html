@@ -63,7 +63,7 @@
           <!-- nav test -->
           <aside id="sidebar2">
             {% for item in site.data.navigation %}
-            <a class="button" href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+            <a class="link" href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
               {{ item.name }}
             </a>
             <br/>
