@@ -4,7 +4,7 @@ name: Generate sitemap
 on:
   push:
     branches: [ master ]
-    paths: [ '**.html', '**.pdf' ]
+    paths: [ '**.html', '**.pdf', '**.md' ]
 
 jobs:
   sitemap_job:
