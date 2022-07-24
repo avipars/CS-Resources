@@ -3,7 +3,7 @@ layout: page
 title: C++ Practice Files
 date: '2022-07-24 12:12:11 -0400'
 permalink: /cpp_workshop/
-categories: CPP
+categories: cpp_workshop
 tags:
 - C
 - Coding
