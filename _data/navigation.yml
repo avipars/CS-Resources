@@ -1,6 +1,9 @@
-- name: Home
-  link: /
-# - name: About
-#   link: /about.html
-- name: Blog
-  link: /blog.html
+# - name: Home
+#   link: /
+# # - name: About
+# #   link: /about.html
+# # - name: Blog
+# #   link: /blog.html
+
+# - name: CPP
+#   link: /cpp_workshhop

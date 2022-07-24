@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<nav>
+<!-- <nav>
   {% for item in site.data.navigation %}
   <a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
     {{ item.name }}
   </a>
   {% endfor %}
-</nav>
+</nav> -->
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -22,7 +22,7 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  <p class="view">by {{ page.author | default: site.author }}</p>
+  <p class="view">by {{ page.author.name | default: site.author.name }}</p>
 
   <div class="entry">
     {{ content }}
@@ -36,8 +36,8 @@ layout: default
 
 
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <!-- <a class="u-url" href="{{ post.url | relative_url }}" hidden></a> -->
 
-  <p>&copy; 2022 Avi Parshan</p>
+  <!-- <p>&copy; 2022 Avi Parshan</p> -->
 
 </article>
