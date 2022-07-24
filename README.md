@@ -10,23 +10,23 @@ I will be adding new files, videos, and interesting information that will be rel
 
 ## Courses 
 
-Coding problems (C/C++)... it's really C'esque but written and compiled in C++ (Intro to CS). 
-[https://avipars.github.io/CS-Resources/intro_cs/](https://avipars.github.io/CS-Resources/intro_cs/)
+Coding problems (C/C++)... it's really C'esque but written and compiled in 
+[C++ (Intro to CS)](https://avipars.github.io/CS-Resources/intro_cs/)
 
-The following semester, we had a formal Workshop in C++ 
-[https://avipars.github.io/CS-Resources/cpp_workshop](https://avipars.github.io/CS-Resources/cpp_workshop)
+The following semester, we had a formal 
+[Workshop in C++](https://avipars.github.io/CS-Resources/cpp_workshop)
 
-Digital Systems:
-[https://avipars.github.io/CS-Resources/DigitalSystems/](https://avipars.github.io/CS-Resources/DigitalSystems/)
 
-MIPS (Computer Architecture)
-[https://avipars.github.io/CS-Resources/mips/](https://avipars.github.io/CS-Resources/mips/)
+[Digital Systems](https://avipars.github.io/CS-Resources/DigitalSystems/)
 
-Math (Calculus, LA, etc.):
-[https://avipars.github.io/CS-Resources/math/](https://avipars.github.io/CS-Resources/math/)
 
-DSA 1 (Data Structures & algorithms 1)
-[https://avipars.github.io/CS-Resources/data_struct/](https://avipars.github.io/CS-Resources/data_struct/)
+[MIPS (Computer Architecture)](https://avipars.github.io/CS-Resources/mips/)
+
+
+[Math (Calculus, LA, etc.)](https://avipars.github.io/CS-Resources/math/)
+
+
+[DSA 1 (Data Structures & Algorithms 1)](https://avipars.github.io/CS-Resources/data_struct/)
 
 
 ## Articles: 
@@ -46,6 +46,8 @@ Here are some samples of articles I recently posted, but I have more in the link
 [Useful resources for Computer Science students](https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html)
 
 [Math for CS](https://tech.aviparshan.com/2022/06/math-required-for-computer-science-1st.html)
+
+
 ### Bonus stuff
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
