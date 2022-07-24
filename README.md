@@ -6,7 +6,7 @@ Free CS resources from yours truly.
 
 I will be adding new files, videos, and interesting information that will be relevant for every computer science student!
 
-[https://tech.aviparshan.com/](https://tech.aviparshan.com/?utm_source=github)
+[tech.aviparshan.com/](https://tech.aviparshan.com/?utm_source=github)
 
 ## Courses 
 

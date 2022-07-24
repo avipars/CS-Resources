@@ -4,8 +4,10 @@ domain: cs.aviparshan.com       # if you want to force HTTPS, specify the domain
 url: https://cs.aviparshan.com  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /     # place folder name if the site is served in a subfolder
 
-title: CS Resources 
-description: Computer Science Resources and Links from Avi Parshan
+title: "CS Resources "
+description: "Computer Science Resources and Links from Avi Parshan"
+subtitle: "Computer Science Resources and Links from Avi Parshan"              : # site tagline that appears below site title in masthead
+locale: "en-US"
 
 remote_theme: pages-themes/architect@v0.2.0
 
@@ -26,10 +28,29 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+  # - _pages
 
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+  
 # Includes an icon in the footer for each user name you enter
 footer-links:
   github: avipars
   twitter: aviinfinity
 
 show_downloads: false
+
+# Site Author
+author:
+  name             : "Avi Parshan"
+  avatar           : "https://github.com/avipars/aviparshan_site/blob/master/img/avi_parshan_profile_avatar.png?raw=true"
+  bio              : "I am an **amazing** person."
+  location         : "Israel"
+  email   : "cs@aviparshan.com"
