@@ -57,7 +57,7 @@ author:
   avatar           : "https://github.com/avipars/aviparshan_site/blob/master/img/avi_parshan_profile_avatar.png?raw=true"
   bio              : "I am an **amazing** person."
   location         : "Israel"
-  email   : "cs@aviparshan.com"
+  email            : "cs@aviparshan.com"
 
 defaults:
   -
@@ -73,4 +73,4 @@ defaults:
       path: _pages
     values:
       is_post: false
-      layout: default
+      layout: page

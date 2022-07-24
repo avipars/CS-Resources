@@ -1,6 +1,6 @@
 ---
-layout: default
-title: C++ Practice Files
+layout: page
+title: CPP Practice Files
 permalink: /cpp_workshop/
 sitemap:
   priority: 0.7
