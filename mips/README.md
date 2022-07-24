@@ -29,4 +29,4 @@ I will be updating some cool code samples I built in the near future!
 
 # Notes:
 
-[Equations and overview - WIP](/notes)
+[Equations and overview - WIP](https://cs.aviparshan.com/mips/notes)

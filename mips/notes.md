@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "Compupter Architecture Notes"
 permalink: /mips/notes
 date: '2022-07-24 12:12:11 -0400'
