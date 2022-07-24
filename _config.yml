@@ -6,7 +6,7 @@ baseurl: /     # place folder name if the site is served in a subfolder
 
 title: "CS Resources "
 description: "Computer Science Resources and Links from Avi Parshan"
-subtitle: "Computer Science Resources and Links from Avi Parshan"              : # site tagline that appears below site title in masthead
+subtitle: "Computer Science Resources and Links from Avi Parshan"  # site tagline that appears below site title in masthead
 locale: "en-US"
 
 remote_theme: pages-themes/architect@v0.2.0
