@@ -1,3 +1,14 @@
+---
+layout: page
+title: CS-Resources Homepage
+date: '2022-07-24 12:12:11 -0400'
+permalink: /
+categories: Homepage
+tags:
+- CS
+- Subjects
+---
+
 # CS-Resources Homepage
 
 Free CS resources from yours truly.

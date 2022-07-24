@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: C Practice Files
 permalink: /intro_cs/
 date: '2022-07-24 12:12:11 -0400'
