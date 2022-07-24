@@ -1,3 +1,15 @@
+---
+layout: default
+title: C++ Practice Files
+date: '2022-07-24 12:12:11 -0400'
+categories: CPP
+tags:
+- C
+- Coding
+- CPP
+- OOP
+---
+
 Here is the next course called workshop in c++ 
 
 [View Code Files/Demos](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples)

@@ -1,9 +1,12 @@
 ---
-layout: page
+layout: default
 title:  "Compupter Architecture Notes"
 permalink: /mips/notes
 date: '2022-07-24 12:12:11 -0400'
 categories: mips
+tags:
+- MIPS
+- Assembly
 ---
 
 # Compupter Architecture Notes 

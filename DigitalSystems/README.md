@@ -1,3 +1,13 @@
+---
+layout: default
+title: Digital Systems
+date: '2022-07-24 12:12:11 -0400'
+categories: DigitalSystems
+tags:
+- Digital
+- Systems
+---
+
 Quine-McCluskey 
 
 * [http://www.booleansolver.com/](http://www.booleansolver.com/)
