@@ -1,9 +1,12 @@
 ---
-layout: page
+layout: default
 title: C++ Practice Files
-date: '2022-07-24 12:12:11 -0400'
 permalink: /cpp_workshop/
-categories: cpp_workshop
+date: '2022-07-24 12:12:11 -0400'
+categories: c++
+sitemap:
+  priority: 0.7
+  changefreq: "weekly"
 tags:
 - C
 - Coding

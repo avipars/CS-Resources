@@ -4,6 +4,10 @@ title: MIPS Computer Architecture
 permalink: /mips/
 date: '2022-07-24 12:12:11 -0400'
 categories: mips
+sitemap:
+  priority: 0.7
+  changefreq: "weekly"
+  
 ---
 
 [MIPS Code](https://github.com/avipars/CS-Resources/tree/main/mips)
