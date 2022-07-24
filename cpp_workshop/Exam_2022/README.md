@@ -1,3 +1,16 @@
+---
+layout: default
+title: C++ Practice Exam 2022
+date: '2022-07-24 12:12:11 -0400'
+permalink: /cpp_workshop/Exam_2022
+categories: CPP
+tags:
+- C
+- Coding
+- CPP
+- OOP
+---
+
 5782 - תשפב 2022 Moed A Semester Bet Answers
 
 Hebrew PDF of the original final is here (not tofes 0 - where all answers would be A):  קובץ מקורי - שאלון (לא טופס א)
