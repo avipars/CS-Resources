@@ -6,7 +6,7 @@ sitemap:
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}
-    {% unless post.published == false or post.path contains "css" %}
+    {% unless post.published == false or post.path contains "css" or post.path contains "xml" %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.sitemap.lastmod %}
@@ -24,13 +24,13 @@ sitemap:
       {% if post.sitemap.priority %}
         <priority>{{ post.sitemap.priority }}</priority>
       {% else %}
-        <priority>0.5</priority>
+        <priority>0.6</priority>
       {% endif %}
     </url>
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" or page.name == "feed.xml" or page.path contains "css" %}
+    {% unless page.sitemap.exclude == "yes" or page.path contains "xml" or page.path contains "css" %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
@@ -48,7 +48,7 @@ sitemap:
       {% if page.sitemap.priority %}
         <priority>{{ page.sitemap.priority }}</priority>
       {% else %}
-        <priority>0.3</priority>
+        <priority>0.4</priority>
       {% endif %}
     </url>
     {% endunless %}
