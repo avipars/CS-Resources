@@ -54,3 +54,19 @@ author:
   bio              : "I am an **amazing** person."
   location         : "Israel"
   email   : "cs@aviparshan.com"
+
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
