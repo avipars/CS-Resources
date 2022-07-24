@@ -17,7 +17,11 @@ Free CS resources from yours truly.
 
 I will be adding new files, videos, and interesting information that will be relevant for every computer science student!
 
+[Blog Posts](https://cs.aviparshan.com/blog)
+
+My main tech blog 
 [tech.aviparshan.com/](https://tech.aviparshan.com/?utm_source=github)
+
 
 ## Courses 
 
