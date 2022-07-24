@@ -1,3 +1,11 @@
+---
+layout: default
+title: MIPS Computer Architecture
+permalink: /mips/
+date: '2022-07-24 12:12:11 -0400'
+categories: mips
+---
+
 [MIPS Code](https://github.com/avipars/CS-Resources/tree/main/mips)
 
 I will be updating some cool code samples I built in the near future!
