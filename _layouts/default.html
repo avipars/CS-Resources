@@ -63,8 +63,6 @@
           <!-- nav test -->
           <aside id="sidebar2">
             <ol>
-
-              
             {% for item in site.data.navigation | sort: 'title' %}
             <li><a class="link" href="{{ item.link }}" {% if page.url==item.link %}style="color: lightgray; cursor: default;" {% endif %}>
               {{ item.name }}

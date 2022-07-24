@@ -6,7 +6,7 @@ tab: posts
 {% assign posts = site.posts | where: "lang", page.lang %}
 
 <ul class="presentation-list list-unstyled">
-{% for post in site.post %}
+{% for post in site.posts %}
   <li class="presentation">
     <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
     <a href="{% if post.external %}{{ post.blog_link }}{% else %}{{ post.url }}{% endif %}">{% if post.external %}⇖ {% endif %}{{ post.title }}</a>
