@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /404.html
+Noindex:  /404.html
 
 Sitemap: https://cs.aviparshan.com/sitemap.xml
