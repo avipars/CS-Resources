@@ -107,7 +107,7 @@ bool scanBatchJob(vector<Device*> &devices, int pages){
    
     return success;
 }
-int main2(){
+int main(){
     vector<Device*> devices = {new Printer("Printer-HP", 100), new Printer("Printer-Canon", 200), new Scanner("Scanner-Epson", "laserHand@gmail.com"), new Printer("Printer-budget", 50)};
 
     int pages = 99;
