@@ -15,11 +15,29 @@ tags:
 Hebrew PDF of the original final is here (not tofes 0 - where all answers would be A):  קובץ מקורי - שאלון (לא טופס א)
 [Original Questionnaire שאלון מקורי](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Exam_2022/test_2022.pdf)
 
+
+If you want to try to take the test yourself, please do not scroll any further as the answers are listed below.
+
 Part A: (Multiple choice, choose 6 out of 7)  חלק A - שאלות אמריקאיות 
 היה דרישה לענות על 6 מתוך 7 מהם
 
-Answers Below: 
+TL;DR: 
 
+Q1 A
+
+Q2 D
+
+Q3 A
+
+Q4 A 
+
+Q5 D
+
+Q6 C
+
+Q7 B
+
+Answers with explaination: 
 
 #### Q1: 
   A 
@@ -83,9 +101,8 @@ By making the Five* const, we then are forced to only use const methods to avoid
 
   
   ```cpp
-   sizeof(Student) is equal to  sizeof(firstStudent)
+   sizeof(Student) == sizeof(firstStudent)
    ```
-
 
 The size of the instance is determined by it's fields (int and a char array in our case). How would you determine the size of a class? It turns out, that in C++, a class can be called a (user-defined) type, when we run sizeof(char), we can see that char is a type and (probably) has it's own class in C++. So the same goes for our type, Student!  
 
@@ -97,21 +114,6 @@ They are both 20 bytes, 4 for int and 16 for the char array (probably, because i
 
   We need to know some bitwise operators in this case, specifically the left shift and the AND operators. In the first line of the program, we are performing a bitmask... essentially only odd numbers have the LSB in the 0's place be a 1. Just recall the 8 4 2 1 trick... any number between 0 to 15 (unsigned) can be represented in 4 bits. An even number has no use for the #1. TL;DR, the first line of code will &AND your number with 1. Odd numbers will result in y = 1, even will be y = 0. Lastly, in the next line we shift the nummber y left by 31 places. If Y was 0, then shifting it left or right doesn't change the number... it will still be 0, which translates to false in C++'s boolean logic, but if y was equal to 1, left shifitng it will just increase it's value by a power of 2 each time... in our case 2<sup>31</sup> == 2,147,483,648 an arbitrarily large number which just boils down to true.
 
-
-<!-- Q1 A
-
-Q2 D
-
-Q3 A
-
-Q4 A (some people chose E and got partial credit - due to misunderstanding of move constructor) 
-חלק מהסטודנטים ענו הל ה וקיבלו חלק מהנקודות בגלל שלא למדו את הmove contructor כמו שצריך
-
-Q5 D
-
-Q6 C
-
-Q7 B -->
 
 I typed out the code for the multiple choice questions as well, and they will be in the same directory. 
 Note that the code is not necessarily one-to-one with the final exam, the changes that I may have made are very minor and easy to revert. Feel free to fork this or copy the code, run it, and make changes! 
