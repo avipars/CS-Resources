@@ -42,4 +42,9 @@ Exam Prep:
 
 - [Exam 2022 Part B + C](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Exam_2022/open)
 
+
+Articles:
+
+- [Template Classes and Functions in C++](https://tech.aviparshan.com/2022/07/learn-c-and-oop-easily-template.html?utm_source=csavi)
+
 <!-- ^\(\d+\) -->
