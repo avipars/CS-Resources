@@ -33,3 +33,9 @@ int main(){
 	A<double>ob3(c);
     return 0;
 }
+
+//output: 8
+
+//12.5
+
+//7.5
