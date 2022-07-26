@@ -6,15 +6,16 @@
 #include <ctime>
 using namespace std;
 
-struct Month
+struct Month //struct - public by default
 {
     string name;
     bool isHot;
     double degrees;
 };
 
+// not included on exam nor required, feel free to ignore
 void init(Month **months)
-{ // not included on exam
+{ 
     // fill the array up with random temp data
     srand(time(NULL)); // random seed
     for (int i = 0; i < 12; i++)
@@ -25,9 +26,9 @@ void init(Month **months)
         months[i]->degrees = (rand() % 90) - 10; //-10 to 80 degrees
     }
 }
-
+// also not included on exam nor required, feel free to ignore
 void printMonths(Month **months)
-{ // also not included on exam
+{ 
     for (int i = 0; i < 12; i++)
     {
         cout << months[i]->name << ": ";
@@ -63,13 +64,16 @@ int main()
         if (month->degrees > 30)
         {                        // if > 30 degrees
             countHotMonths++;    // increment count
-            month->isHot = true; // UPDATE FIELF
+            month->isHot = true; // UPDATE field
         }
         else
         {
-            month->isHot = false;
+            month->isHot = false; //otherwise set as not hot 
         }
     });
+
+
+    //int hot = count_if(months, months + 12, [](Month *month) { return month->isHot; }); //if month is hot, return true, else false
 
     cout << "number of hot months: " << countHotMonths << endl;
 
