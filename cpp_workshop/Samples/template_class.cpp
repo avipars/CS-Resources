@@ -39,3 +39,5 @@ int main(){
 //12.5
 
 //7.5
+
+//https://tech.aviparshan.com/2022/07/learn-c-and-oop-easily-template.html
