@@ -15,7 +15,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-sitemap
-  - jekyll-redirect-from # handle external posts?
+  # - jekyll-redirect-from # handle external posts?
 
 relative_links:
   enabled: true
@@ -50,7 +50,7 @@ footer-links:
   github: avipars
   twitter: aviinfinity
 
-future: true #render future posts
+# future: true #render future posts
 
 show_downloads: false
 
