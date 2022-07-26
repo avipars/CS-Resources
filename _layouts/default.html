@@ -55,8 +55,6 @@
           {{ content }}
         </section>
 
-       
-
         <aside id="sidebar">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="button">
@@ -79,10 +77,10 @@
           <!-- <p>Navigation</p> -->
           <ul>
           {% for item in site.data.navigation | sort: 'title' %}
-          <li><a class="link" href="{{ item.link }}" {% if page.url==item.link %}style="color: blue; cursor: default;" {% endif %}>
+          <li style="list-style-type:disc"><a class="link" href="{{ item.link }}" {% if page.url==item.link %}style="color: navy; cursor: default;" {% endif %}>
             {{ item.name }}
-          </a></li>
-          <br/>
+          </a>
+          </li>
           {% endfor %}
           </ul>
         </aside>
