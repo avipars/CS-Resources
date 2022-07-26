@@ -11,7 +11,7 @@ on:
   push:
     # If your primary ("production") branch is "main" (or anything else) instead
     # of "master" you will need to update this line:
-    branches: [ master ]
+    branches: [ master, main ]
     # TODO: Update the filepath below to be the filepath to the live /
     # production / rendered sitemap.xml in your GitHub repo:
     paths:
@@ -42,4 +42,7 @@ jobs:
         # the final command run would be:
         # `curl http://www.google.com/ping?sitemap=https://www.example.com/sitemap.xml`
         run: curl http://www.google.com/ping?sitemap=https://cs.aviparshan.com/sitemap.xml
+      - run: echo "Finished call"
+
+       
         
