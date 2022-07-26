@@ -5,6 +5,9 @@ tab: posts
 ---
 {% assign posts = site.posts | where: "lang", page.lang %}
 
+<h1>Latest Posts</h1>
+
+
 <ul class="presentation-list list-unstyled">
 {% for post in site.posts %}
   <li class="presentation">
@@ -15,8 +18,7 @@ tab: posts
 {% endfor %}
 </ul>
 
-<h1>Latest Posts</h1>
-
+<!-- 
 <ul>
   {% for post in site.posts %}
     <li>
@@ -24,4 +26,4 @@ tab: posts
       {{ post.excerpt }}
     </li>
   {% endfor %}
-</ul>
+</ul> -->
