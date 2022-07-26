@@ -144,7 +144,7 @@
     display: block;
     font-style: italic;
   }
-  /* Not the foot note items themselves, but any list items contained inside. */
+  /* Not the foot note items themselves, but any list items contained inside. 
   .content .footnotes ol li li {
     margin-bottom: 10px;
   }
