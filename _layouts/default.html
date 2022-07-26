@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
-    {% if page.external %}<meta name="robots" content="noindex nofollow">{% endif %}
+    {% if page.external %}
+    <meta name="robots" content="noindex nofollow">
+    <link rel="canonical" href="{{ post.blog_link }}">
+
+
+    {% endif %}
+
     <!-- <link rel="stylesheet" href="{{ 'https://cs.aviparshan/assets/css/style.css'}}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ 'https://cs.aviparshan/assets/css/print.css' }}" media="print" type="text/css"> -->
     <!--[if lt IE 9]>
