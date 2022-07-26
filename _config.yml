@@ -50,7 +50,7 @@ footer-links:
   github: avipars
   twitter: aviinfinity
 
-# future: true #render future posts
+future: true #render future posts
 
 show_downloads: false
 
