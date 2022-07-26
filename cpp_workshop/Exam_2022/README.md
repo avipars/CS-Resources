@@ -1,13 +1,14 @@
 ---
 layout: page
 title: C++ Practice Exam 2022
-date: '2022-07-24 17:12:11 -0400'
+date: '2022-07-26 17:12:11 -0400'
 permalink: /cpp_workshop/Exam_2022/
 categories: cpp
 tags:
 - Coding
 - CPP
 - OOP
+- Exam
 ---
 
 5782 - תשפב 2022 Moed A Semester Bet Answers
