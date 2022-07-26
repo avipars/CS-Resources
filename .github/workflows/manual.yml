@@ -15,8 +15,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      
-      
       - name: create gem
         run: echo "bundle gem lorem"
       - name: gem2
