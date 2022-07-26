@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
     <!-- <link rel="stylesheet" href="/static/app.css" type="text/css">  -->
+    
     <!-- added new styles on top of architect (beta) -->
     {% if page.external or post.external %}
     <meta name="robots" content="noindex nofollow">
+    {% endif %}
+
+    {% if page.external or post.external %}
     <link rel="canonical" href="{{ post.blog_link }}">
     {% endif %}
-    
+
     {% if post.blogdir }
     <meta name="follow.it-verification-code" content="DPPbGFBwLZHlrbSmTbpQ"/>
     {% endif %} 
