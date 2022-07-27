@@ -17,6 +17,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from # handle external posts
 
+# config settings for relative links 
 relative_links:
   enabled: true
   collections: true
@@ -30,7 +31,6 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
   - _pages
-
 # exclude :
 #  - 404.md
 #  - 404.html 
@@ -52,7 +52,7 @@ footer-links:
 
 future: true #render future posts
 
-show_downloads: false
+show_downloads: false # hide github ugly download button
 
 # Site Author
 author:
