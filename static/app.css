@@ -1,53 +1,65 @@
-/* :root {
-    --background-color: #fff;
-    --foreground-color: #333;
-    --link-color-hue: 151;
-    --link-color: hsl(var(--link-color-hue),44.7%,50%);
-    --link-color-hover: hsl(var(--link-color-hue),44.7%,45%);
-    --signature-color: #666;
-    --date-color: #aaa;
-    --header-background-color: #111;
-    --header-foreground-color: #eee;
-    --header-link-color: #ddd;
-    --code-background-color: #f6f6f6;
-    --code-foreground-color: #444;
-  }
+:root {
+  --background-color: #fff;
+  --foreground-color: #333;
+  --link-color-hue: 211;
+  --link-color: hsl(var(--link-color-hue),64%, 50%);
+  --link-color-hover: hsl(var(--link-color-hue),100%, 51%);
+  --signature-color: #666;
+  --date-color: #aaa;
+  --header-background-color: #111;
+  --header-foreground-color: #eee;
+  --header-link-color: #ddd;
+  --code-background-color: #f6f6f6;
+  --code-foreground-color: #444;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  /* font-family: 'Merriweather Sans', sans-serif; */
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+
+
+a, a:focus {
+  transition: color .3s ease-in-out;
+  color: var(--link-color);
+}
+a:hover, a:active {
+  color: var(--link-color-hover);
+}
+
+ul.no-bullets, ol.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+code {
+  color: var(--code-foreground-color);
+  background-color: var(--code-background-color);
+}
+pre code {
+  overflow-x: auto;
+  overflow-wrap: normal;
+  white-space: pre;
+}
+blockquote {
+  font-size: 14px;
+}
+
+/* 
   
-  html {
-    height: 100%;
-  }
-  body {
-    min-height: 100%;
-    font-family: 'Merriweather Sans', sans-serif;
-    background-color: var(--background-color);
-    color: var(--foreground-color);
-  }
-  
-  a, a:focus {
-    transition: color .3s ease-in-out;
-    color: var(--link-color);
-  }
-  a:hover, a:active {
-    color: var(--link-color-hover);
-  }
-  
+
   ul, ol {
     padding-left: 25px;
   }
   
-  code {
-    color: var(--code-foreground-color);
-    background-color: var(--code-background-color);
-  }
-  pre code {
-    overflow-x: auto;
-    overflow-wrap: normal;
-    white-space: pre;
-  }
-  blockquote {
-    font-size: 14px;
-  }
-  
+
   header {
     background-color: var(--header-background-color);
     color: var(--header-foreground-color);
@@ -235,8 +247,3 @@
     text-decoration: none;
   } */
 
-  ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-  }
