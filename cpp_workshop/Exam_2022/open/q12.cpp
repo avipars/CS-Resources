@@ -64,6 +64,7 @@ float MeatFood::discountCalcuation(float price) const{
     }
 }
 
+//pointer to a
 float calculatePerOrder(ChefsDish** order, int size){
     float total = 0;
     for(int i = 0; i < size; i++)
