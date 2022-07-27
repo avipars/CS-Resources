@@ -80,24 +80,16 @@ defaults:
       layout: page
 
   - scope:
-      path: /atom.xml
+      path: "*.xml"
     values:
-      sitemap: false  
-        exclude: "yes"   
-        
-  - scope:
-      path: /sitemap.xml
-    values:
-      sitemap: false        
-        exclude: "yes"   
+      sitemap: false   
 
   - scope:
-      path: /static/app.css
+      path: "/**/*.css"
     values:
       sitemap: false
-        exclude: "yes"     
+
   - scope:
-      path: /redirects.json
+      path: "/**/*.json"
     values:
       sitemap: false
-        exclude: "yes"         
