@@ -10,9 +10,9 @@ blogdir: true
 
 <ul class="presentation-list list-unstyled">
 {% for post in site.posts %}
-  <li class="presentation">
+  <li class="presentation no-bullets">
     <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
-    <a href="{% if post.external %}{{ post.blog_link }}{% else %}{{ post.url }}{% endif %}" target="_blank">{% if post.external %}⇖ {% endif %}{{ post.title }}</a>
+    <a href="{% if post.external %}{{ post.blog_link }}{% else %}{{ post.url }}{% endif %}" target="_blank">{{ post.title }} {% if post.external %}⇖ {% endif %}</a>
     {% if post.external %}<small>{{ post.blog }}</small>{% endif %}
   </li>
 {% endfor %}

@@ -52,6 +52,86 @@ blockquote {
   font-size: 14px;
 }
 
+@media (max-width: 767px) {
+  .content {
+    padding: 30px;
+  }
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content {
+  padding: 40px;
+  max-width: 1000px;
+  line-height: 24px;
+}
+
+.content h2 {
+  margin-top: 0;
+}
+.content h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.content h4 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.content p {
+  margin-bottom: 15px;
+}
+.content p:last-child {
+  margin-bottom: 0;
+}
+.content ul {
+  margin-bottom: 15px;
+}
+.content li {
+  margin-bottom: 15px;
+}
+
+.content .footnotes {
+  margin-top: 60px;
+  font-size: 12px;
+}
+
+p.date {
+  color: var(--date-color);
+}
+p.date a, p.date a:visited {
+  color: var(--date-color) !important;
+  text-decoration: underline;
+}
+p.date a:hover, p.date a:active {
+  color: var(--link-color) !important;
+}
+p.signature {
+  margin-top: 60px;
+  color: var(--signature-color);
+}
+
+.post h2 {
+  margin-bottom: 20px;
+}
+
+img.float-right {
+  margin: 0 1em .5em 1em;
+  float: right;
+}
+@media (max-width: 500px) {
+  img.float-right {
+    float: none;
+    display: block;
+    margin: 1em auto;
+  }
+}
+
+.anchorjs-link, .anchorjs-link:hover {
+  text-decoration: none;
+} */
+
 /* 
   
 
@@ -110,46 +190,7 @@ blockquote {
     padding-right: 2px;
   }
   
-  .content {
-    padding: 40px;
-    max-width: 1000px;
-    line-height: 24px;
-  }
-  @media (max-width: 767px) {
-    .content {
-      padding: 30px;
-    }
-  }
-  .content h2 {
-    margin-top: 0;
-  }
-  .content h3 {
-    margin-top: 25px;
-    margin-bottom: 15px;
-  }
-  .content h4 {
-    margin-top: 25px;
-    margin-bottom: 15px;
-  }
-  .content p {
-    margin-bottom: 15px;
-  }
-  .content p:last-child {
-    margin-bottom: 0;
-  }
-  .content ul {
-    margin-bottom: 15px;
-  }
-  .content li {
-    margin-bottom: 15px;
-  }
-  .content img {
-    max-width: 100%;
-  }
-  .content .footnotes {
-    margin-top: 60px;
-    font-size: 12px;
-  }
+ 
   .content .footnotes:before {
     content: "Footnotes:";
     margin-bottom: 10px;
@@ -161,24 +202,7 @@ blockquote {
     margin-bottom: 10px;
   }
   
-  p.date {
-    color: var(--date-color);
-  }
-  p.date a, p.date a:visited {
-    color: var(--date-color) !important;
-    text-decoration: underline;
-  }
-  p.date a:hover, p.date a:active {
-    color: var(--link-color) !important;
-  }
-  p.signature {
-    margin-top: 60px;
-    color: var(--signature-color);
-  }
-  
-  .post h2 {
-    margin-bottom: 20px;
-  }
+
   
   .date-header {
     font-weight: bold;
@@ -231,19 +255,4 @@ blockquote {
     height: 100%;
   }
   
-  img.float-right {
-    margin: 0 1em .5em 1em;
-    float: right;
-  }
-  @media (max-width: 500px) {
-    img.float-right {
-      float: none;
-      display: block;
-      margin: 1em auto;
-    }
-  }
-  
-  .anchorjs-link, .anchorjs-link:hover {
-    text-decoration: none;
-  } */
 
