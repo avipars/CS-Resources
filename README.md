@@ -13,14 +13,7 @@ tags:
 
 Free CS resources from yours truly.
 
-[View Code](https://avipars.github.io/CS-Resources/)
-
 I will be adding new files, videos, and interesting information that will be relevant for every computer science student!
-
-[Blog Posts](https://cs.aviparshan.com/blog)
-
-My main tech blog 
-[tech.aviparshan.com/](https://tech.aviparshan.com/?utm_source=github)
 
 
 ## Courses 
@@ -46,24 +39,12 @@ The following semester, we had a formal
 
 ## Articles: 
 
-Please refer to my [tech blog!](tech.aviparshan.com) at  in addition to my [medium blog](https://aviparshan.medium.com/)
-
-Here are some samples of articles I recently posted, but I have more in the links above! 
-
-[Computer Architecture Deep Dive (MIPS)](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
-
-[Computer Architecture Topics](https://tech.aviparshan.com/2022/07/computer-architecture-summary-topics.html)
-
-[Fun stuff with MIPS and MARS](https://tech.aviparshan.com/2022/07/mips-and-little-endians-tips-and-faq-to.html)
-
-[Data Structures Deep Dive](https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html)
-
-[Useful resources for Computer Science students](https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html)
-
-[Math for CS](https://tech.aviparshan.com/2022/06/math-required-for-computer-science-1st.html)
+[Blog Posts](https://cs.aviparshan.com/blog)
 
 
 ### Bonus stuff
+
+[My Website](https://aviparshan.com/)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
 
