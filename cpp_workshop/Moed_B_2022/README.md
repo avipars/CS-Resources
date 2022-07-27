@@ -13,4 +13,6 @@ tags:
 
 5782 - תשפב 2022 Moed B Semester Bet Answers
 
+WIP - will add more later
+
 [Static Variable](https://github.com/avipars/cpp_workshop/Moed_B_2022/static_test.cpp)
