@@ -5,7 +5,7 @@ permalink: /cpp_workshop/
 sitemap:
   priority: 0.7
   changefreq: "weekly"
-date: '2022-07-24 18:12:11 -0400'
+date: '2022-07-27 18:12:11 -0400'
 categories: cpp
 tags:
 - C

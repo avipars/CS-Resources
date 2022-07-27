@@ -62,6 +62,7 @@ author:
   location         : "Israel"
   email            : "cs@aviparshan.com"
 
+# default settings for files (latter half is for excluding from sitemap)
 defaults:
 
   -
