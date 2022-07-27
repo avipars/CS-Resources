@@ -63,6 +63,7 @@ author:
   email            : "cs@aviparshan.com"
 
 defaults:
+
   -
     scope:
       type: posts
@@ -77,3 +78,26 @@ defaults:
     values:
       is_post: false
       layout: page
+
+  - scope:
+      path: /atom.xml
+    values:
+      sitemap: false  
+        exclude: "yes"   
+        
+  - scope:
+      path: /sitemap.xml
+    values:
+      sitemap: false        
+        exclude: "yes"   
+
+  - scope:
+      path: /static/app.css
+    values:
+      sitemap: false
+        exclude: "yes"     
+  - scope:
+      path: /redirects.json
+    values:
+      sitemap: false
+        exclude: "yes"         
