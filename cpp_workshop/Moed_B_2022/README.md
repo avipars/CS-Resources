@@ -15,4 +15,4 @@ tags:
 
 WIP - will add more later
 
-[Static Variable](https://github.com/avipars/cpp_workshop/Moed_B_2022/static_test.cpp)
+[Static Variable](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/static_test.cpp)
