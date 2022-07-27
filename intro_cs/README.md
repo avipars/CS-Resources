@@ -7,6 +7,8 @@ categories: C
 tags:
 - C
 - Coding
+redirect_from:
+  - /coding/
 ---
 
 # Here are my C practice files (compiled in CPP)
