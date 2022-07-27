@@ -25,6 +25,10 @@ Boolean Algebra
 
 * [wolframalpha](https://www.wolframalpha.com/input/?i=Z++XOR+%28V*X%29)
 
+SOP = Sum of Products
+
+POS = Product of Sums
+
 Logic Gates 
 
 * [https://www.csie.ntu.edu.tw/~lyuu/complexity/2016/20161011.pdf](https://www.csie.ntu.edu.tw/~lyuu/complexity/2016/20161011.pdf)
