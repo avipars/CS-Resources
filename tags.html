@@ -34,7 +34,7 @@ description: All post and blog tags from CS Resources
   <h3 id="{{ tag }}">{{ tag }}</h3>
   <ul class="no-bullets">
   {% for post in site.tags[tag] %}
-    <li><a href="{% if post.external %}{{ post.blog_link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">{{ post.title }}</a>{{ post.date | date: '%m/%d/%Y' }}</li>
+    <li><a href="{% if post.external %}{{ post.blog_link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">{{ post.title }}</a> {{ post.date | date: '%m/%d/%Y' }}</li>
   {% endfor %}
   </ul>
 {% endfor %}
@@ -51,7 +51,8 @@ description: All post and blog tags from CS Resources
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="/tags/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+  <a href="#{{ tag }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+  <!-- scroll to tag -->
 {% endfor %}
 
 <!-- https://stackoverflow.com/questions/1408824/an-easy-way-to-support-tags-in-a-jekyll-blog/21002505#21002505 -->
