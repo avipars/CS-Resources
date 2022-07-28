@@ -51,7 +51,7 @@ description: All post and blog tags from CS Resources
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="# {{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+  <a href="#{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
   <!-- scroll to tag -->
 {% endfor %}
 
