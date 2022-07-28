@@ -1,0 +1,19 @@
+---
+title: Posts
+layout: default
+tab: posts
+description: All post and blog tags from CS Resources
+---
+{% assign posts = site.posts | where: "lang", page.lang %}
+
+{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+  {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+    <article id="{{ this_word }}">
+    <h2 class="tag-heading tag-name">{{ this_word }}</h2>
+        <ul>
+    {% for post in site.tags[this_word] %}{% if post.title != null %}
+      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" >{{ post.date | date: '%m/%d/%Y' }} ---- {{ post.title }}</a></li>
+    {% endif %}{% endfor %}
+        </ul>
+    </article>
+{% endunless %}{% endfor %}

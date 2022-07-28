@@ -2,11 +2,12 @@
 title: Posts
 layout: default
 tab: posts
+description: collection of all blog posts from CS Resources
 blogdir: true
 ---
 {% assign posts = site.posts | where: "lang", page.lang %}
 
-<h1>Latest Posts</h1>
+<h1>Latest Blog Posts from CS Resources: </h1>
 
 <ul class="presentation-list list-unstyled">
 {% for post in site.posts %}
@@ -18,6 +19,8 @@ blogdir: true
 {% endfor %}
 </ul>
 
+
+<p>You can also subscribe via your favorite RSS Reader to my feed!: </p>
 <!-- 
 <ul>
   {% for post in site.posts %}
