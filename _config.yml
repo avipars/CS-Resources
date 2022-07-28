@@ -81,7 +81,7 @@ defaults:
       layout: page
 
   - scope:
-      path: "*.xml"
+      path: "/*.xml"
     values:
       sitemap: false   
 
