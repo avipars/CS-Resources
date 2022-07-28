@@ -9,7 +9,7 @@ tags:
 - Assembly
 ---
 
-# Compupter Architecture Notes 
+## Compupter Architecture Notes 
 
 Compilation of important things to know for your Comp Arch class
 
@@ -53,7 +53,7 @@ How the segments of memory are split up (note that this is generally accepted fo
 
 ![image](https://user-images.githubusercontent.com/5733247/177302019-1638ea3f-1aa1-44d1-9ccd-1059d0910e59.png)
 
-## Floating Point
+### Floating Point
 
 usually given in hex, such as 0xBE4CCCCD 
 Then, simply convert to binary, there is a shortcut for doing this... each digit/letter cooresponds to 4 binary bits (8 4 2 1)... 
@@ -71,7 +71,7 @@ Now that you got your mantissa, use this formula to convert it to decimal!
 (-1)<sup>signedbit</sup> * (1+mantissa) * 2<sup>exp</sup> = end result!
 
 
-## Cache Formulas 
+### Cache Formulas 
 
 Block is composed of: Tag | Set | Offset 
 
@@ -117,7 +117,7 @@ No WA = 	No-write allocate (also called write-no-allocate or write around): data
 
 2<sup>20</sup> = megabyte
 
-## Stages
+### Stages
 
 IF - fetch instruction
 

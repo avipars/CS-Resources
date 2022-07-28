@@ -15,7 +15,7 @@ sitemap:
 I will be updating some cool code samples I built in the near future!
 
 
-# Blog Posts 
+## Blog Posts 
 [Computer Architecture Deep Dive (MIPS)](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
 
 [Computer Architecture Topics](https://tech.aviparshan.com/2022/07/computer-architecture-summary-topics.html)
@@ -23,7 +23,7 @@ I will be updating some cool code samples I built in the near future!
 [Fun stuff with MIPS and MARS](https://tech.aviparshan.com/2022/07/mips-and-little-endians-tips-and-faq-to.html)
 
 
-# Code samples: 
+## Assembly Code samples: 
 
 [Basic switch](https://github.com/avipars/CS-Resources/blob/main/mips/basic_switches.asm)
 
@@ -31,6 +31,6 @@ I will be updating some cool code samples I built in the near future!
 
 [Bit Shifting](https://github.com/avipars/CS-Resources/blob/main/mips/shift.asm)
 
-# Notes:
+## Notes:
 
 [Equations and overview - WIP](https://cs.aviparshan.com/mips/notes)

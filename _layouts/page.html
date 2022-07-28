@@ -10,3 +10,5 @@ layout: default
 {% if page.tags %}
 <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+
+<p>Permalink: <a href="{{relative_url}}" target="_blank">{{relative_url}}</a></p>
