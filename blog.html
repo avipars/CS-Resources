@@ -9,9 +9,9 @@ blogdir: true
 
 <h1>Latest Blog Posts from CS Resources: </h1>
 
-<ul class="presentation-list list-unstyled">
+<ul class="presentation-list list-unstyled no-bullets">
 {% for post in site.posts %}
-  <li class="presentation no-bullets">
+  <li class="presentation">
     <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
     <a href="{% if post.external %}{{ post.blog_link }}{% else %}{{ post.url }}{% endif %}" target="_blank">{{ post.title }} {% if post.external %}⇖ {% endif %}</a>
     {% if post.external %}<small>{{ post.blog }}</small>{% endif %}
