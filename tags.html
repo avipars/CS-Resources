@@ -4,16 +4,34 @@ layout: default
 tab: posts
 description: All post and blog tags from CS Resources
 ---
-{% assign posts = site.posts | where: "lang", page.lang %}
+<!-- {% assign posts = site.posts | where: "lang", page.lang %}
 
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
     <article id="{{ this_word }}">
     <h2 class="tag-heading tag-name">{{ this_word }}</h2>
-        <ul>
+    <ul>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
-      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" >{{ post.date | date: '%m/%d/%Y' }} ---- {{ post.title }}</a></li>
+      <li>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" >{{ post.date | date: '%m/%d/%Y' }} ---- {{ post.title }}</a>
+    </li>
     {% endif %}{% endfor %}
-        </ul>
+    </ul>
     </article>
-{% endunless %}{% endfor %}
+{% endunless %}{% endfor %} -->
+
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+
+{% for tag in sortedtags %}
+  <h3 id="{{ tag }}">{{ tag }}</h3>
+  <ul>
+  {% for post in site.tags[tag] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endfor %}
