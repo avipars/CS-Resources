@@ -17,10 +17,14 @@ layout: default
     {{ content }}
   </div>
 
-
   {% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+  {% for tag in page.tags %}
+  <a href="https://cs.aviparshan.com/tags#{{ tag }}"><code class="highligher-rouge"><nobr>{{ tag }}</nobr></code></a>
+  {% endfor %}
   {% endif %}
+  <!-- {% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+  {% endif %} -->
 
   <br/>
 

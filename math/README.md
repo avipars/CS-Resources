@@ -11,6 +11,7 @@ tags:
 ---
 
 <!-- Precalculus -->
+[Precalculus](https://cs.aviparshan.com/math/precalculus/)
 
 <!-- Calculus 1 -->
 [Calculus 1](https://cs.aviparshan.com/math/calculus/)
