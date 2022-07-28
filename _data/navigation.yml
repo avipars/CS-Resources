@@ -5,6 +5,9 @@
 - name: Blog
   link: /blog.html
 
+- name: Tags
+  link: /tags.html
+
 - name: C++
   link: /cpp_workshop/
 
