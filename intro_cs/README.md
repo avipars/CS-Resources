@@ -1,6 +1,7 @@
 ---
 layout: page
 title: C Practice Files
+description: Here are my C practice files (compiled in CPP)
 permalink: /intro_cs/
 date: '2022-07-24 12:12:11 -0400'
 categories: C

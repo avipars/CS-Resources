@@ -6,14 +6,16 @@ date: '2022-07-24 12:12:11 -0400'
 categories: Math
 tags:
 - Calculus
+- Linear Algebra
 - Math
 ---
 
-Precalculus
+<!-- Precalculus -->
 
-Calculus 1
+<!-- Calculus 1 -->
+[Calculus 1](https://cs.aviparshan.com/math/calculus/)
 
-[Linear Algebra 1](https://github.com/avipars/CS-Resources/tree/main/math/linearalgebra)
+[Linear Algebra 1](hhttps://cs.aviparshan.com/math/linearalgebra/)
 
 More: 
 

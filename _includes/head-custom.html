@@ -10,23 +10,29 @@
 <meta name="robots" content="index, follow">
 <meta name="keywords" content="Avi Parshan, Avraham Parshan, Aviinfinity, AmCan Tech, CS Resources, Computer Science" />
 <meta name="description" content="Computer Science Resources and Links from Avi Parshan">
-<meta property="og:title" property="og:title" content="CS Resources">
-<meta property="og:url" content="https://cs.aviparshan.com/index.html" />
-<meta property="og:image" content="https://cs.aviparshan.com/static/cs_source.png" />
+<!-- <meta property="og:title" property="og:title" content="CS Resources"> -->
+<!-- <meta property="og:url" content="https://cs.aviparshan.com/index.html" /> -->
+<!-- <meta property="og:image" content="https://cs.aviparshan.com/static/cs_source.png" /> -->
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:description"
-    content="Computer Science Resources and Links from Avi Parshan">
+<!-- <meta property="og:description"
+    content="Computer Science Resources and Links from Avi Parshan"> -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@aviinfinity" />
 <meta name="twitter:creator" content="@aviinfinity" />
 <meta name="twitter:domain" content="cs.aviparshan.com">
 <meta name="twitter:title" content="cs.aviparshan.com">
-<meta name="twitter:image" content="https://cs.aviparshan.com/static/cs_source.png">
-<meta name="twitter:url" content="https://cs.aviparshan.com/index.html">
+
+{% if page.image %}
+<meta name="twitter:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
+{% else %}
+<meta name="twitter:image" content="{{ site.url }}/static/images/cs_source.png">
+{% endif %}
+
+<meta name="twitter:url" content="{{ page.url | absolute_url }}">
 <meta property="og:locale:alternative" content="en_GB" />
 
-<meta property="og:site_name" content="Avi Parshan">
+<meta property="og:site_name" content="CS Resources">
 <meta name="twitter:description" content="Computer Science Resources and Links from Avi Parshan">
 
 <!-- <link rel="shortcut icon" type="image/ico" href="https://www.aviparshan.com/favicon.ico"> -->
@@ -63,7 +69,7 @@
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
 {% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+  <meta content="{{ site.url }}{{ page.url | absolute_url }}" property="og:url">
 {% endif %}
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">

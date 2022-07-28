@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Compupter Architecture Notes"
+description: "Compilation of important things to know for your Comp Arch class"
 permalink: /mips/notes
 date: '2022-07-24 12:12:11 -0400'
 categories: mips

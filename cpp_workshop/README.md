@@ -2,6 +2,7 @@
 layout: page
 title: CPP Practice Files
 permalink: /cpp_workshop/
+description: Here is the next course called Workshop in c++ 
 sitemap:
   priority: 0.7
   changefreq: "weekly"
@@ -14,7 +15,7 @@ tags:
 - OOP
 ---
 
-Here is the next course called workshop in c++ 
+Here is the next course called Workshop in c++ 
 
 [View Code Files/Demos](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples)
 

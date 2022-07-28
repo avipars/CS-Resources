@@ -1,14 +1,26 @@
-These sets are functionally complete 
+---
+layout: page
+title: Functionally Complete Sets in Digital Systems
+date: '2022-07-24 12:12:11 -0400'
+permalink: /DigitalSystems/FunctionalCompleteSets
+deescription: "These sets of logic gates can come together to create any other logic gate"
+categories: DigitalSystems
+tags:
+- Digital
+- Systems
+---
 
-And, Or, Not
+These sets are functionally complete (These sets of logic gates can come together to create any other logic gate)
 
-And, Not
+* And, Or, Not
 
-Or, Not
+* And, Not
 
-NAND 
+* Or, Not
 
-NOR
+* Nand 
+
+* Nor
 
 And then you can addany additional gates to them and they'll still be complete sets. 
 
