@@ -8,14 +8,11 @@
 - name: Tags
   link: /tags.html
 
-- name: C++
-  link: /cpp_workshop/
-
 - name: C
   link: /intro_cs/
 
-- name: MIPS
-  link: /mips/
+- name: C++
+  link: /cpp_workshop/
 
 - name: Digital Systems
   link: /DigitalSystems/
@@ -25,3 +22,6 @@
 
 - name: Math
   link: /math/
+
+- name: MIPS
+  link: /mips/

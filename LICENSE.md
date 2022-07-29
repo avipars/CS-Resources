@@ -1,3 +1,9 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+
 MIT License
 
 Copyright (c) [2022] [Avraham Parshan]

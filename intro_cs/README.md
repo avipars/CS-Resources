@@ -3,7 +3,7 @@ layout: page
 title: C Practice Files
 description: Here are my C practice files (compiled in CPP)
 permalink: /intro_cs/
-date: '2022-07-24 12:12:11 -0400'
+date: '2022-07-29 12:12:11 -0400'
 categories: C
 tags:
 - C
@@ -14,11 +14,17 @@ redirect_from:
 
 # Here are my C practice files (compiled in CPP)
 
-[View Code](https://github.com/avipars/CS-Resources/tree/main/intro_cs)
 
-* Samples: 
+* Notable Samples: 
 
-    - [Dynamic Arrays](https://github.dev/avipars/CS-Resources/blob/6c8d0f2f28d6c4b32753f4c1c6138cdb006be2df/intro_cs/DynamicArrays)
+    - [Dynamic Arrays](https://github.com/avipars/CS-Resources/tree/main/intro_cs/DynamicArrays)
 
 
-    
+    - [Latin Square](https://github.com/avipars/CS-Resources/blob/main/intro_cs/Samples/latin.cpp)
+
+
+    -  [More Code](https://github.com/avipars/CS-Resources/tree/main/intro_cs)
+
+* Posts:
+
+[C LeetCode Problem and Solution — Check if an array contains duplicate elements](https://aviparshan.medium.com/c-leetcode-problem-and-solution-check-if-an-array-contains-duplicate-elements-d7b4936c3130)

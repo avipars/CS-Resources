@@ -12,11 +12,6 @@ sitemap:
   
 ---
 
-[MIPS Code](https://github.com/avipars/CS-Resources/tree/main/mips)
-
-I will be updating some cool code samples I built in the near future!
-
-
 ## Blog Posts 
 [Computer Architecture Deep Dive (MIPS)](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
 
@@ -32,6 +27,11 @@ I will be updating some cool code samples I built in the near future!
 [Advanced switch](https://github.com/avipars/CS-Resources/blob/main/mips/adv_switches.asm)
 
 [Bit Shifting](https://github.com/avipars/CS-Resources/blob/main/mips/shift.asm)
+
+and more: 
+
+[MIPS Code](https://github.com/avipars/CS-Resources/tree/main/mips)
+
 
 ## Notes:
 
