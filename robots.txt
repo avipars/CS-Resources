@@ -2,7 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 Disallow: /redirects.json
-Noindex:  /404.html
-Noindex: /redirects.json
 
 Sitemap: https://cs.aviparshan.com/sitemap.xml

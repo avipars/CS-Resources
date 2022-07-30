@@ -2,7 +2,7 @@
 layout: page
 title: Calculus 1 
 permalink: /calculus/
-date: '2022-07-29 12:12:11 -0400'
+date: '2022-07-30 12:12:11 -0400'
 categories: Calculus
 tags:
 - Calculus
@@ -16,3 +16,17 @@ Calculus 1
 You will be learning about limits, derivatives, and integrals. This course is strongly based on proofs (induction, contradiction, etc.) . 
 
 This also expands upon trigonometry in some ways and introduces new trigonometric terms such as sinh. 
+
+
+3rd Party Resources:
+
+* [Epsilon-Delta Definition of a Limit](https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/)
+
+
+* [Calculus/Proofs of Some Basic Limit Rules](https://en.wikibooks.org/wiki/Calculus/Proofs_of_Some_Basic_Limit_Rules)
+
+
+* [Paul's Notes](https://tutorial.math.lamar.edu/Problems/CalcI/CalcI.aspx)
+
+
+* [General Limit Laws](https://www.milefoot.com/math/calculus/limits/GenericLimitLawProofs04.htm)

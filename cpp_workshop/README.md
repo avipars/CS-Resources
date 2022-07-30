@@ -55,4 +55,17 @@ Articles:
 
 - [Template Classes and Functions in C++](https://tech.aviparshan.com/2022/07/learn-c-and-oop-easily-template.html?utm_source=csavi)
 
+
+3rd Party Resources:
+
+- [Google's Guide to c++](https://developers.google.com/edu/c++/getting-started)
+
+
+- [C++ For Programmers Course (free to audit)](https://learn.udacity.com/courses/ud210)
+
+
+- [C++ Cheatsheet](https://www.codewithharry.com/blogpost/cpp-cheatsheet/)
+
+
+- [Learn C++](https://www.learncpp.com/)
 <!-- ^\(\d+\) -->
