@@ -30,9 +30,7 @@ Matrix manipulations, lots of higher dimensional thinking, not proof based. I fo
 
 #### Let A denote a matrix: 
 
-"|" A "|"  or det(A) = The determinant of Matrix A (ignore the quotes)
-
-"| A |" 
+"| A |"   or det(A) = The determinant of Matrix A (ignore the quotes)
 
 *I* = The identity matrix 
 
@@ -54,7 +52,7 @@ rank(A) = The rank of A (dimension of row space)
 
 ##### Let A,B denote 2 vectors
 
-"|" "|"  A "|" "|"  = The norm of A (ignore the quotes)
+"|| A ||"   = The norm of A (ignore the quotes)
 
 A X B  = The cross product of A and B (only defined in the 3rd Dimension)
 
