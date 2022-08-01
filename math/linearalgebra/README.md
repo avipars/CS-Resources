@@ -21,16 +21,16 @@ Matrix manipulations, lots of higher dimensional thinking, not proof based. I fo
 
 ℝ = All real numbers (integers, rational, irrational)
 
-ℝ<sub>n</sub> = n denotes the dimension we are in. 
+ℝ<sup>n</sup> = n denotes the dimension we are in. 
 
-ℝ<sub>2</sub> is the cartesian plane (x,y). 
+ℝ<sup>2</sup> is the cartesian plane (x,y). 
 
-ℝ<sub>3</sub> is in 3 dimensional space (x,y,z). 
+ℝ<sup>3</sup> is in 3 dimensional space (x,y,z). 
 
 
 #### Let A denote a matrix: 
 
-|A| or det(A) = The determinant of Matrix A 
+\vert A \vert or det(A) = The determinant of Matrix A 
 
 *I* = The identity matrix 
 
@@ -44,18 +44,18 @@ A<sup>-1</sup> = The inverse matrix of A
 
 A<sup>T</sup> = The transpose matrix of A
 
-sp(A) = The span of A
+sp(A) = The span of A (set of all linear combinations of the vectors/matrices)
 
 dim(A) = The dimension of A
 
-rank(A) = The rank of A
+rank(A) = The rank of A (dimension of row space)
 
 ##### Let A,B denote 2 vectors
 
-|| A || = The norm of A
+\vert \vert A \vert \vert = The norm of A
 
 A X B  = The cross product of A and B (only defined in the 3rd Dimension)
 
-A * B or A . B = The dot product of A and B (scalar)
+A * B or A . B = The dot product (inner product) of A and B (scalar)
 
 A ⊂ B  = A is a subset of B 
