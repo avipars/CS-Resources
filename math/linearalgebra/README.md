@@ -2,14 +2,14 @@
 layout: page
 title: Math 
 permalink: /math/linearalgebra/
-date: '2022-07-31 12:12:11 -0400'
+date: '2022-08-01 12:12:11 -0400'
 categories: "Linear Algebra"
 tags:
 - Linear Algebra
 - Math
 ---
 
-Linear Algebra 
+Linear Algebra:
 
 Matrix manipulations, lots of higher dimensional thinking, not proof based. I found this course more intuitive than Calculus. Linear dependence, vectors, matrices, determinants, etc. 
 
@@ -21,16 +21,16 @@ Matrix manipulations, lots of higher dimensional thinking, not proof based. I fo
 
 ℝ = All real numbers (integers, rational, irrational)
 
-ℝ<sup>n</sup> = n denotes the dimension we are in. 
+ℝ<sup>n</sup> = n denotes the dimension we are in
 
-ℝ<sup>2</sup> is the cartesian plane (x,y). 
+ℝ<sup>2</sup> is the cartesian plane (x,y) aka 2D space 
 
-ℝ<sup>3</sup> is in 3 dimensional space (x,y,z). 
+ℝ<sup>3</sup> is in 3 dimensional space (x,y,z) 
 
 
 #### Let A denote a matrix: 
 
-"| A |"   or det(A) = The determinant of Matrix A (ignore the quotes)
+"|" A "|"   or det(A) = The determinant of Matrix A (ignore the quotes - it should be the absolute value signs)
 
 *I* = The identity matrix 
 
@@ -44,15 +44,24 @@ A<sup>-1</sup> = The inverse matrix of A
 
 A<sup>T</sup> = The transpose matrix of A
 
-sp(A) = The span of A (set of all linear combinations of the vectors/matrices)
+sp(A) or span(A) = The span of A (set of all linear combinations of the vectors/matrices)
 
 dim(A) = The dimension of A
 
+col(A) = Column space of A (span of its column vectors)
+
+row(A) = Row space of A (span of its column vectors)
+
 rank(A) = The rank of A (dimension of row space)
+
+adj(A) = Adjugate matrix (transpose of cofactor matrix)
 
 ##### Let A,B denote 2 vectors
 
-"|| A ||"   = The norm of A (ignore the quotes)
+→
+A =  A is a vector
+
+"|| A ||"   = The norm of A (ignore the quotes, should be 2x the absolute value sign)
 
 A X B  = The cross product of A and B (only defined in the 3rd Dimension)
 
