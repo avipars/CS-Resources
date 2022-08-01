@@ -5,7 +5,7 @@ permalink: /math/linearalgebra/
 date: '2022-08-01 12:12:11 -0400'
 categories: "Linear Algebra"
 tags:
-- Linear Algebra
+- LinearAlgebra
 - Math
 ---
 
