@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Calculus 1 
-permalink: /precalculus/
-date: '2022-07-28 20:12:11 -0400'
+title: Precalculus
+permalink: /math/precalculus/
+date: '2022-07-30 20:12:11 -0400'
 categories: Precalculus
 tags:
 - Precalculus

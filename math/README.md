@@ -11,14 +11,15 @@ tags:
 - Precalculus
 ---
 
+### Courses: 
 <!-- Precalculus -->
 [Precalculus](https://cs.aviparshan.com/math/precalculus/)
 
 <!-- Calculus 1 -->
 [Calculus 1](https://cs.aviparshan.com/math/calculus/)
 
-[Linear Algebra 1](hhttps://cs.aviparshan.com/math/linearalgebra/)
+[Linear Algebra 1](https://cs.aviparshan.com/math/linearalgebra/)
 
-More: 
+#### More: 
 
 [Article for 1st year students](https://tech.aviparshan.com/2022/06/math-required-for-computer-science-1st.html)

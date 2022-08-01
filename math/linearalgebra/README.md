@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Math 
-permalink: /linearalgebra/
-date: '2022-07-24 12:12:11 -0400'
+permalink: /math/linearalgebra/
+date: '2022-07-31 12:12:11 -0400'
 categories: "Linear Algebra"
 tags:
 - Linear Algebra

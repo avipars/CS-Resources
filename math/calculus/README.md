@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calculus 1 
-permalink: /calculus/
+permalink: /math//calculus/
 date: '2022-07-30 12:12:11 -0400'
 categories: Calculus
 tags:
