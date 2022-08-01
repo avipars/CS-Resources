@@ -21,7 +21,7 @@ Make sure to focus on logarithm, polynomial, and exponential functions.  In addi
 ### Stuff to remember:
 
 
-### Trig: 
+#### Trig: 
 
 pi = 180 degrees
 
@@ -31,15 +31,15 @@ Sin = Opposite/Hypotenuse
 
 Cos = Adjacent/Hypotenuse
 
-Tan = Opposite/Adjacent (sin/cos)
+Tan = Opposite/Adjacent (= sin/cos)
 
-#### Reciprocals
+##### Reciprocals 
 
-Csc = Hypotenuse/Opposite
+Csc = Hypotenuse/Opposite or 1/Sin
 
-Sec = Hypotenuse/Adjacent
+Sec = Hypotenuse/Adjacent or 1/Cos
 
-Cot = Adjacent/Opposite (cos/sin)
+Cot = Adjacent/Opposite (= cos/sin) or 1/Tan
 
 
 ![image](https://user-images.githubusercontent.com/5733247/182157678-4e2193b0-4258-482a-8315-47da4ed897f6.png)

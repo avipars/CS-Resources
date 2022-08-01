@@ -30,3 +30,6 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
 
 
 * [General Limit Laws](https://www.milefoot.com/math/calculus/limits/GenericLimitLawProofs04.htm)
+
+
+* [Tangent, Cotangent, Secant, and Cosecant with derivitives](https://math.dartmouth.edu/opencalc2/cole/lecture17.pdf)
