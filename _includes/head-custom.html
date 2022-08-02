@@ -24,7 +24,8 @@
 <meta name="twitter:title" content="cs.aviparshan.com">
 
 {% if page.image %}
-<meta name="twitter:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
+
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
 {% else %}
 <meta name="twitter:image" content="{{ site.url }}/static/images/cs_source.png">
 {% endif %}
@@ -76,7 +77,7 @@
   <!-- <meta content="{{ site.url }}/about/" property="article:author"> -->
 {% endif %}
 {% if page.image %}
-  <meta content="{{ site.url }}/assets/img/posts/{{ page.image }}" property="og:image">
+  <meta content="{{ site.url }}{{ page.image }}" property="og:image">
 {% else %}
   <meta content="{{ site.url }}/static/images/cs_source.png" property="og:image">
 {% endif %}
