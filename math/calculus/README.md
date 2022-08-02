@@ -2,7 +2,7 @@
 layout: page
 title: Calculus 1 
 permalink: /math/calculus/
-date: '2022-07-30 12:12:11 -0400'
+date: '2022-08-02 16:12:11 -0400'
 categories: Calculus
 tags:
 - Calculus
@@ -31,6 +31,11 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
 
 *	If f’(x) is + or – on both sides of c, then it doesn’t mean anything
 
+*	F’(x) > 0 for all x in (a,b), then F is increasing on [a,b]
+
+*	F’(x) < 0 for all x in (a,b), then F is decreasing on [a,b]
+
+*	F’(x) = 0 for all x in (a,b), then F is constant on [a,b]
 
 
 3rd Party Resources:

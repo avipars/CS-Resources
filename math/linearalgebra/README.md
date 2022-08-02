@@ -30,7 +30,7 @@ Matrix manipulations, lots of higher dimensional thinking, not proof based. I fo
 
 #### Let A denote a matrix: 
 
-"|" A "|"   or det(A) = The determinant of Matrix A (ignore the quotes - it should be the absolute value signs)
+\| A \|   or det(A) = The determinant of Matrix A (ignore the quotes - it should be the absolute value signs)
 
 *I* = The identity matrix 
 
@@ -61,7 +61,7 @@ adj(A) = Adjugate matrix (transpose of cofactor matrix)
 →
 A =  A is a vector
 
-"|| A ||"   = The norm of A (ignore the quotes, should be 2x the absolute value sign)
+\|\| A |\|\   = The norm of A (ignore the quotes, should be 2x the absolute value sign)
 
 A X B  = The cross product of A and B (only defined in the 3rd Dimension)
 
@@ -73,3 +73,5 @@ A ⊂ B  = A is a subset of B
 ###### 3rd party resources:
 
 [Cartesian vs parametric](https://www.mathwizurd.com/calc/2016/8/22/define-a-line-using-vectors)
+
+[Defining a Plane using a Normal Vector and a Point](https://www.mathwizurd.com/calc/2016/8/23/defining-planes)
