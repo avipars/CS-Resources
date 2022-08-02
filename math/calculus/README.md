@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calculus 1 
-permalink: /math//calculus/
+permalink: /math/calculus/
 date: '2022-07-30 12:12:11 -0400'
 categories: Calculus
 tags:
@@ -16,6 +16,21 @@ Calculus 1
 You will be learning about limits, derivatives, and integrals. This course is strongly based on proofs (induction, contradiction, etc.).
 
 This also expands upon trigonometry in some ways and introduces new trigonometric terms such as sinh. 
+
+
+### Quick Notes:
+
+
+#### Graph sketching: 
+
+##### 1st derivative test – given a critical point (derivative is 0 or undefined)
+
+*	If f’(x) changes from – to + at c then F is relative minima at (c,f(c)) 
+
+*  	If f’(x) changes from + to –  is relative maxima at (c,f(c)) 
+
+*	If f’(x) is + or – on both sides of c, then it doesn’t mean anything
+
 
 
 3rd Party Resources:

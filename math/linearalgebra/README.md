@@ -68,3 +68,8 @@ A X B  = The cross product of A and B (only defined in the 3rd Dimension)
 A * B or A . B = The dot product (inner product) of A and B (scalar)
 
 A ⊂ B  = A is a subset of B 
+
+
+###### 3rd party resources:
+
+[Cartesian vs parametric](https://www.mathwizurd.com/calc/2016/8/22/define-a-line-using-vectors)
