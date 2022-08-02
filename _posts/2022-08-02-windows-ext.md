@@ -2,7 +2,7 @@
 title: 'How to get Windows 10/11 HEVC and HEIF (High Efficiency Video/Image) extensions for free'
 layout: post
 deescription: "If you edit videos and images on your Windows Machine, these two extensions will come in handy (especially if you import from your phone)."
-image: /static/post-image/hevc.png
+image: https://github.com/avipars/CS-Resources/blob/main/static/post-image/hevc.png
 categories: post
 tags:
 - Windows
