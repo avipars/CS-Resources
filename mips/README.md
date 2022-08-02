@@ -12,7 +12,8 @@ sitemap:
   
 ---
 
-## Blog Posts 
+## Blog Posts:
+
 [Computer Architecture Deep Dive (MIPS)](https://tech.aviparshan.com/2022/06/my-dive-into-computer-architecture.html)
 
 [Computer Architecture Topics](https://tech.aviparshan.com/2022/07/computer-architecture-summary-topics.html)

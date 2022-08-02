@@ -13,7 +13,7 @@ Calculus 1
 
 [Formula Sheet](https://github.com/avipars/CS-Resources/files/8994323/formula_sheet_calc_1.pdf)
 
-You will be learning about limits, derivatives, and integrals. This course is strongly based on proofs (induction, contradiction, etc.) . 
+You will be learning about limits, derivatives, and integrals. This course is strongly based on proofs (induction, contradiction, etc.).
 
 This also expands upon trigonometry in some ways and introduces new trigonometric terms such as sinh. 
 

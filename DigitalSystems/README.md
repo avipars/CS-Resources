@@ -8,9 +8,11 @@ categories: DigitalSystems
 tags:
 - Digital
 - Systems
+- Architecture 
+- Boolean
 ---
 
-Quine-McCluskey 
+Quine-McCluskey:
 
 * [booleansolver.com/](http://www.booleansolver.com/)
 
@@ -20,7 +22,7 @@ Quine-McCluskey
 
 * [quinemccluskey.com/](http://quinemccluskey.com/)
 
-Boolean Algebra
+Boolean Algebra:
 
 * [boolean-algebra.com/](https://www.boolean-algebra.com/)  - also does kmaps 
 
@@ -30,7 +32,7 @@ SOP = Sum of Products
 
 POS = Product of Sums
 
-Logic Gates 
+Logic Gates:
 
 * [https://www.csie.ntu.edu.tw/~lyuu/complexity/2016/20161011.pdf](https://www.csie.ntu.edu.tw/~lyuu/complexity/2016/20161011.pdf)
 
@@ -39,10 +41,10 @@ Functional Sets from logic Gates:
 * [https://cs.aviparshan.com/DigitalSystems/FunctionalCompleteSets](https://cs.aviparshan.com/DigitalSystems/FunctionalCompleteSets)
 
 
-My Files
+My Files:
 
 * [https://github.com/avipars/CS-Resources/tree/main/DigitalSystems](https://github.com/avipars/CS-Resources/tree/main/DigitalSystems)
 
-My Blog post
+My blog post:
 
 * [https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html](https://tech.aviparshan.com/2021/11/resources-for-computer-science-students.html)
