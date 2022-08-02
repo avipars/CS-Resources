@@ -2,7 +2,8 @@
 layout: page
 title: Math 
 permalink: /math/linearalgebra/
-date: '2022-08-01 12:12:11 -0400'
+date: '2022-08-02 17:00:00 -0400'
+description: Matrix manipulations, lots of higher dimensional thinking, not proof based. I found this course more intuitive than Calculus. Linear dependence, vectors, matrices, determinants, etc. 
 categories: "Linear Algebra"
 tags:
 - LinearAlgebra
@@ -30,13 +31,13 @@ Matrix manipulations, lots of higher dimensional thinking, not proof based. I fo
 
 #### Let A denote a matrix: 
 
-\| A \|   or det(A) = The determinant of Matrix A (ignore the quotes - it should be the absolute value signs)
+\| A \|   or det(A) = The determinant of Matrix A 
 
 I = The identity matrix 
 
 E = The elementary matrix
 
-E<sub>ij</sub> = i denotes the # of rows in the matrix, and j denotes the # of columns/
+E<sub>ij</sub> = i denotes the # of rows in the matrix, and j denotes the # of columns
 
 M<sub>mxn</sub> = All matricies with m rows and n columns
 
@@ -61,7 +62,7 @@ adj(A) = Adjugate matrix (transpose of cofactor matrix)
 →
 A =  A is a vector
 
-\|\| A \|\|  = The norm of A (ignore the quotes, should be 2x the absolute value sign)
+\|\| A \|\|  = The norm of A 
 
 A X B  = The cross product of A and B (only defined in the 3rd Dimension)
 

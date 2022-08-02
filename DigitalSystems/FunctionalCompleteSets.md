@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Functionally Complete Sets in Digital Systems
-date: '2022-07-24 12:12:11 -0400'
-permalink: /DigitalSystems/FunctionalCompleteSets
+date: '2022-08-02 12:12:11 -0400'
+permalink: /DigitalSystems/FunctionalCompleteSets/
 deescription: "These sets of logic gates can come together to create any other logic gate"
 categories: DigitalSystems
 tags:
@@ -16,13 +16,14 @@ These sets are functionally complete (These sets of logic gates can come togethe
 
 * And, Not
 
-* Or, Not
+* Or, Not 
 
 * Nand 
 
 * Nor
 
-And then you can addany additional gates to them and they'll still be complete sets. 
+And then you can add any additional gates to them and they'll still be complete sets. 
+NAND gates tend to be used and referenced frequently (and more so than the other gates) when dealing with computer architecture and memory. This is because they are versitile and cheap!  
 
 
 For reference, here are the other gates (credit to XKCD) - only the first 6 are legit 

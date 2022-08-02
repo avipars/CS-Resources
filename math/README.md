@@ -2,6 +2,7 @@
 layout: page
 title: Math 
 permalink: /math/
+description: CS Resources page on mathematics for computer science
 date: '2022-08-02 12:12:11 -0400'
 categories: Math
 tags:
@@ -11,7 +12,10 @@ tags:
 - Precalculus
 ---
 
-### Courses: 
+Math for computer science. I will be updating these pages and adding mroe as I go along, I hope it can help you as well! 
+
+
+### Courses in 1st Year: 
 <!-- Precalculus -->
 [Precalculus](https://cs.aviparshan.com/math/precalculus/)
 
