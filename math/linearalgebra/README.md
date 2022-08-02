@@ -32,7 +32,7 @@ Matrix manipulations, lots of higher dimensional thinking, not proof based. I fo
 
 \| A \|   or det(A) = The determinant of Matrix A (ignore the quotes - it should be the absolute value signs)
 
-*I* = The identity matrix 
+I = The identity matrix 
 
 E = The elementary matrix
 
@@ -61,7 +61,7 @@ adj(A) = Adjugate matrix (transpose of cofactor matrix)
 →
 A =  A is a vector
 
-\|\| A |\|\   = The norm of A (ignore the quotes, should be 2x the absolute value sign)
+\|\| A \|\|  = The norm of A (ignore the quotes, should be 2x the absolute value sign)
 
 A X B  = The cross product of A and B (only defined in the 3rd Dimension)
 
