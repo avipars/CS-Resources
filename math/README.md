@@ -2,7 +2,7 @@
 layout: page
 title: Math 
 permalink: /math/
-date: '2022-07-24 12:12:11 -0400'
+date: '2022-08-02 12:12:11 -0400'
 categories: Math
 tags:
 - Calculus
@@ -24,3 +24,22 @@ tags:
 #### More: 
 
 [Article for 1st year students](https://tech.aviparshan.com/2022/06/math-required-for-computer-science-1st.html)
+
+
+#### 3rd party resources:
+
+##### Websites: 
+
+[Wolfree - get wolframapha solutions for free](https://www.wolframalpha.com/input?i=1%2F2)
+
+
+[Desmos - Grapher](https://www.desmos.com/calculator)
+
+
+##### Apps:
+
+[Socratic - 100% free](https://socratic.org/)
+
+
+[Photomath - some stuff under paywall](https://photomath.com/en)
+

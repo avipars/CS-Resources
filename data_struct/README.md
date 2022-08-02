@@ -2,8 +2,9 @@
 layout: page
 title: Data Structures and Algorithms
 description: Linked Lists, Trees, Queues, Heaps, Stacks, etc. 
-date: '2022-07-24 12:12:11 -0400'
+date: '2022-08-02 12:24:11 -0400'
 permalink: /data_struct/
+image: /static/post-image/bigo.png
 categories: DSA
 tags:
 - DataStruct
@@ -20,3 +21,10 @@ The course used pseudo-code, but I made some of my own programs to test my under
 
 
 [Data Structures Deep Dive](https://tech.aviparshan.com/2022/06/data-and-programming-structures-guide.html)
+
+Big Oh Notation 
+
+![Big Oh Notation]({{ site.url }}{{ page.image }})
+
+
+[View Graph](https://www.desmos.com/calculator/dshzbdn2w3)
