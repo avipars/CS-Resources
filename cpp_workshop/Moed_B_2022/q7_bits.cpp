@@ -3,9 +3,9 @@ using namespace std;
 
 int f(int x)
 {
-unsigned int y = x 0x00000001
-y >>= 31;
-return y;
+    unsigned int y = x 0x00000001
+    y >>= 31;
+    return y;
 }
 
 int main(){
