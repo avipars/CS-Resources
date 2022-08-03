@@ -17,3 +17,18 @@ tags:
 WIP - will add more later
 
 [Static Variable](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/static_test.cpp)
+
+
+תשובות לחלק מהם:
+1 - ב
+2 - א
+4 - ה
+5 -ב
+6-ג
+7-ה
+9- ידפיס:
+exception in day
+---we finish
+יעוף
+
+הערך של months[0]->days לא יהיה מאותחל
