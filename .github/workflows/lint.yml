@@ -18,9 +18,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           style: file
+	    repo-root: "https://github.com/avipars/CS-Resources/tree/main/cpp_workshop"
+	    thread-comments: true 
+	    
 
       - name: Fail fast?!
         if: steps.linter.outputs.checks-failed > 0
         run: |
           echo "Some files failed the linting checks!"
-        # for actual de
+        # for actual deployment
+        # run: exit 1

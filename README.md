@@ -53,3 +53,5 @@ The following semester, we had a formal
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
 
 [![pages-build-deployment](https://github.com/avipars/CS-Resources/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/avipars/CS-Resources/actions/workflows/pages/pages-build-deployment)
+
+[![cpp-linter](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml/badge.svg)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)
