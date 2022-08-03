@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
-      - name: Clanger
       - uses: cpp-linter/cpp-linter-action@v1
         id: linter
         env:
@@ -21,7 +19,7 @@ jobs:
         with:
           style: file
           thread-comments: true
-          
+
       - name: Fail fast
         if: steps.linter.outputs.checks-failed > 0
         run: |
