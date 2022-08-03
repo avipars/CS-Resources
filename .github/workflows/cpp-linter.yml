@@ -17,8 +17,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          style: file,
-          thread-comments: true 
+          style: file
+	  thread-comments: true
 	      
       - name: Fail fast?!
         if: steps.linter.outputs.checks-failed > 0
