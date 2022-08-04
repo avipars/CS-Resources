@@ -42,9 +42,25 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
 
 * Chain Rule: 
 
-h'(x)=f'(g(x))g'(x)
-or
-h'=(f * g)'=(f' * g) * g'
+    h'(x)=f'(g(x))g'(x)
+    or
+    h'=(f * g)'=(f' * g) * g'
+
+* Product Rule:
+
+    (f(x)g(x))'=f'(x)g(x)+f(x)g'(x)
+
+* Power Rule:
+    
+    f(x) = x<sup>r</sup>
+    
+    f'(x) = r(x)<sup>r-1</sup>
+
+* Quotient Rule:
+
+    (g(x)f'(x) - f(x)g'(x))/g(x)<sup>2</sup>
+    
+    and g(x) != 0
 
 3rd Party Resources:
 
@@ -64,3 +80,6 @@ h'=(f * g)'=(f' * g) * g'
 
 
 * [Derivitive calculator](https://www.derivative-calculator.net/)
+
+
+* [Integration calculator](https://www.integral-calculator.com/)
