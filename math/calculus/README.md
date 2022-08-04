@@ -38,6 +38,13 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
 
 *	F’(x) = 0 for all x in (a,b), then F is constant on [a,b]
 
+#### Derivitive Rules:
+
+* Chain Rule: 
+
+h'(x)=f'(g(x))g'(x)
+or
+h'=(f * g)'=(f' * g) * g'
 
 3rd Party Resources:
 
@@ -54,3 +61,6 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
 
 
 * [Tangent, Cotangent, Secant, and Cosecant with derivitives](https://math.dartmouth.edu/opencalc2/cole/lecture17.pdf)
+
+
+* [Derivitive calculator](https://www.derivative-calculator.net/)
