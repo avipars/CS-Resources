@@ -22,16 +22,22 @@ WIP - will add more later
 Part A: 
 
 Q1 B
+
 Q2 A
+
 Q3 D
+
 Q4 E
-Q5 B (need to verify)
+
+Q5 B 
+
 Q6 C (need to verify)
+
 Q7 A 
 
 [View Code for Part A](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/A)
 
-
+Part B and C will be uploaded in the upcoming days (feel free to reach out with feedback, ideas, etc. either by openign a github issue or tweeting me)
 <!-- Part B: 
 
 [View Code for Part B](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)

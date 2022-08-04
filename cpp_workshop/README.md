@@ -48,7 +48,7 @@ Exam Prep:
 
 * Moed B Exam 2022(WIP): 
 
-    - [Part A](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/README.md)
+    - [A,B, and C](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/README.md)
 
 
 Articles:
