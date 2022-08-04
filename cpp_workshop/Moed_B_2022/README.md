@@ -16,10 +16,32 @@ tags:
 
 WIP - will add more later
 
-[Static Variable](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/static_test.cpp)
+
+[View Test (not tofes 0)](cpp_workshop/Moed_B_2022/moed_b_2022.pdf)
+
+Part A: 
+
+Q1 B
+Q2 A
+Q3 D
+Q4 E
+Q5 B (need to verify)
+Q6 C (need to verify)
+Q7 A 
+
+[View Code for Part A](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/A)
 
 
-תשובות לחלק מהם:
+<!-- Part B: 
+
+[View Code for Part B](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)
+
+
+Part C:
+
+[View Code for Part C](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/C) -->
+
+<!-- תשובות לחלק מהם:
 1 - ב
 2 - א
 4 - ה
@@ -31,4 +53,4 @@ exception in day
 ---we finish
 יעוף
 
-הערך של months[0]->days לא יהיה מאותחל
+הערך של months[0]->days לא יהיה מאותחל -->
