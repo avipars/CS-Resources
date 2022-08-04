@@ -40,6 +40,9 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
 
 #### Derivitive Rules:
 
+![image](https://user-images.githubusercontent.com/5733247/182828730-2b2bb7bf-f288-4a56-94a4-853011993c09.png)
+from khan academy 
+
 * Chain Rule: 
 
     h'(x)=f'(g(x))g'(x)
@@ -61,6 +64,8 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
     (g(x)f'(x) - f(x)g'(x))/g(x)<sup>2</sup>
     
     and g(x) != 0
+
+
 
 3rd Party Resources:
 
