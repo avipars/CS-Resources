@@ -2,7 +2,7 @@
 layout: page
 title: C++ Practice Exam 2022 Moed B
 description: 5782 - תשפב 2022 Moed B Semester Bet Answers
-date: '2022-07-27 17:12:11 -0400'
+date: '2022-08-04 16:05:11 -0400'
 permalink: /cpp_workshop/Moed_B_2022/
 categories: cpp
 tags:
@@ -12,12 +12,10 @@ tags:
 - Exam
 ---
 
-5782 - תשפב 2022 Moed B Semester Bet Answers
-
-WIP - will add more later
+5782 - תשפב 2022 Moed B Semester Bet Answers:
 
 
-[View Test (not tofes 0)](cpp_workshop/Moed_B_2022/moed_b_2022.pdf)
+[View Test (not tofes 0)](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/test.pdf)
 
 Part A: 
 
@@ -35,9 +33,10 @@ Q6 C (need to verify)
 
 Q7 A 
 
-[View Code for Part A](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/A)
+[View Code for Part A](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/A)
 
-Part B and C will be uploaded in the upcoming days (feel free to reach out with feedback, ideas, etc. either by openign a github issue or tweeting me)
+Part B and C will be uploaded here in the upcoming days (feel free to reach out with feedback, ideas, etc. either by openign a github issue or tweeting me).
+
 <!-- Part B: 
 
 [View Code for Part B](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)

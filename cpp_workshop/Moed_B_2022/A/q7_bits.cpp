@@ -3,7 +3,7 @@ using namespace std;
 
 int f(int x)
 {
-    unsigned int y = x 0x00000001
+    unsigned int y = x | 0x00000001; //or operation
     y >>= 31;
     return y;
 }
@@ -17,3 +17,5 @@ int main(){
 
     return 0;
 }
+
+//output is same all the time 

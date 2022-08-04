@@ -6,12 +6,14 @@ class Flower {
   Flower(const Flower& other) { cout << "CC Flower" << endl; }
   Flower(Flower&& other) { cout << "Move Flower" << endl; }
   virtual ~Flower() { cout << "Dest Flower" << endl; };
+};
   class Petal_Flower : public Flower {
    public:
     Petal_Flower() { cout << "Empty Petal " << endl; }
     Petal_Flower(const Petal_Flower& other) { cout << "CC Petal" << endl; }
     Petal_Flower(Petal_Flower&& other) {
       cout << "Move Petal" << endl;
+    }
       virtual ~Petal_Flower() { cout << "Dest Petal" << endl; }
     };
     Flower func(Flower a) {
@@ -24,3 +26,14 @@ class Flower {
       cout << "main n";
       return 0;
     }
+
+    /*
+Empty Flower 
+Empty Petal 
+CC Flower
+func nMove Flower
+Dest Flower
+Dest Flower
+main nDest Petal
+Dest Flower
+    */
