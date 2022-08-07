@@ -48,13 +48,13 @@ Exam Prep:
 
 * Moed B Exam 2022: 
 
-    - [Part A](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/)
+    - [View All Answers](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/)
     
 
-    - [Part B (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/B)
+    <!-- - [Part B (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/B)
 
 
-    - [Part C (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/C)
+    - [Part C (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/C) -->
 
 
 Articles:

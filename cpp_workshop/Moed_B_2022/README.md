@@ -81,11 +81,24 @@ Q8:
 
 Q9: 
 
+* A: 
+
   ```cpp
   Enter day: 0
   Enter season: 0
-  exception in day:
+  exception in day
   ```
+
+* B:
+
+    Cannot access member field 
+
+    הערך של months[0]->days לא יהיה מאותחל 
+
+    ```cpp
+    member "Month::days" (declared at line 13) is inaccessibleC/C++(265)
+    ```
+
 
 Q10:
 
@@ -140,7 +153,6 @@ Q11:
 
 All is live except for Q11 Part B (is in progress, feel free to submit a pull request). 
 
-
 [View Code for Part B](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)
 
 
@@ -149,17 +161,3 @@ All is live except for Q11 Part B (is in progress, feel free to submit a pull re
 Q12 is in the link below! 
 
 [View Code for Part C](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/C) 
-
-<!-- תשובות לחלק מהם:
-1 - ב
-2 - א
-4 - ה
-5 -ב
-6-ג
-7-ה
-9- ידפיס:
-exception in day
----we finish
-יעוף
-
-הערך של months[0]->days לא יהיה מאותחל -->
