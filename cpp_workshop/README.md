@@ -46,9 +46,15 @@ Exam Prep:
     - [Part B + C](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Exam_2022/open)
 
 
-* Moed B Exam 2022 (WIP): 
+* Moed B Exam 2022: 
 
-    - [A, B (WIP), and C (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/)
+    - [Part A](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/)
+    
+
+    - [Part B (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/B)
+
+
+    - [Part C (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/C)
 
 
 Articles:

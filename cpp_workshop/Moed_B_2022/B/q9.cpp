@@ -42,7 +42,7 @@ void initMonth(Month **months)
         month = new Month(day, type);
      });
     cout << " ok \n";
-    cout << months[0]->days << endl;
+    cout << months[0]->days << endl; // הערך של months[0]->days לא יהיה מאותחל 
 
 }
 

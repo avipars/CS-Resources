@@ -50,4 +50,29 @@ void SearchTree::add(Node *current, int val, int level)
 }
 
 
-//part B - WIP 
+
+//part B WIP (needs work)
+//- traverse the tree and connect all same level nodes to be linked list (updates next ptr)
+//implement like brerth first search (level order)
+void SearchTree::Connect(){
+    queue<Node *> q = new queue<Node *>(); //create queue
+    Node *current = root;
+    root->next = nullptr;
+    q.push(current);
+    if(curr == nullptr) return;
+    while(!q.empty()){
+        current = q.front();
+        q.pop();
+        if(current->left != nullptr){
+            current->left->next = current->right;
+            q.push(current->left);
+        }
+        if(current->right != nullptr){
+            current->right->next = current->next->left;
+            q.push(current->right);
+        }
+    }
+    //finish the last node
+    current->next->left = nullptr;
+    
+}

@@ -60,21 +60,20 @@ Q7 A
 
 [View Code for Part A](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/A)
 
-### Part B and C
-Part B and C will be uploaded here in the upcoming days (feel free to reach out with feedback, ideas, etc. either by openign a github issue or tweeting me).
 
-Part B: 
+
+### Part B: 
 
 [View Code for Part B](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)
 
 All is live except for Q11 Part B (is in progress, feel free to submit a pull request). 
 
 
-Part C:
+### Part C:
 
-<!-- [View Code for Part C](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/C) --> -->
 
-Q12 is in progress, feel free to submit a pull request
+[View Code for Part C](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/C) 
+
 <!-- תשובות לחלק מהם:
 1 - ב
 2 - א
