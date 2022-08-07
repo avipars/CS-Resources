@@ -56,20 +56,20 @@ int main()
     }
     catch (Month)
     {
-        cout << "exception in month n";
+        cout << "exception in month \n";
     }
     catch (Month::seasonException)
     {
-        cout << " exception in season n";
+        cout << " exception in season \n";
     }
     catch (Month::dayException)
     {
-        cout << "exception in day n";
+        cout << "exception in day \n";
     }
     catch (...)
     {
-        cout << "you have a problem n";
-        cout << " we finish n";
+        cout << "you have a problem \n";
+        cout << " we finish \n";
     }
     return 0;
 }

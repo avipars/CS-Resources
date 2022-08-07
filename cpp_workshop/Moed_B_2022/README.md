@@ -64,13 +64,89 @@ Q7 A
 
 ### Part B: 
 
-[View Code for Part B](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)
+
+Q8: 
+
+
+  ```cpp
+    // if at least 1 student has perfect gpa (avg of 100)
+    if (any_of(students.begin(), students.end(), [](Student s)
+               { return s.getAvg() >= 100; }))
+    {
+        cout << count_if(students.begin(), students.end(), [](Student s)
+                         { return s.getAvg() >= 90; })
+             << endl;
+    }
+  ```
+
+Q9: 
+
+  ```cpp
+  Enter day: 0
+  Enter season: 0
+  exception in day:
+  ```
+
+Q10:
+
+    
+  ```cpp
+    #pragma once
+    template <class T>
+    class Calc {
+        protected:
+            T a=0, b=0;
+        public: 
+            T add();
+            T sub();
+            T mul();
+            T div();
+            Calculator(T a, T b);
+    }
+
+    template <class T>
+    T Calculator<T>::add() {
+        return a+b;
+    }
+  ```
+
+Q11: 
+
+* A:
+
+  ```cpp
+    void SearchTree::add(Node *current, int val, int level)
+    {
+        if (current->value < val)
+        {
+            jf(!current->right)
+            {
+                current->right = new Node(nullptr, nullptr,nullptr,level);
+                return;
+            }
+            else add(current->right, val, level + 1);
+        }
+        else{
+            if (!current->left)
+            {
+                current->left = new Node(nullptr, nullptr,nullptr,level);
+                return;
+            }
+            else add(current->left, val, level + 1);
+        }
+    }
+  ```
+
 
 All is live except for Q11 Part B (is in progress, feel free to submit a pull request). 
 
 
+[View Code for Part B](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)
+
+
 ### Part C:
 
+Q12 is in the link below! 
 
 [View Code for Part C](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/C) 
 
