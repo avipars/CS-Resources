@@ -1,9 +1,8 @@
 ---
 title: "How to get Windows 10/11 HEVC and HEIF (High Efficiency Video/Image) extensions for free"
 layout: post
-deescription: 'If you edit videos and images on your Windows Machine, these two extensions will come in handy (especially if you import from your phone).'
+deescription: "If you edit videos and images on your Windows Machine, these two extensions will come in handy (especially if you import from your phone)."
 image: /static/post-image/hevc.png
-external: false
 categories: post
 tags:
 - Windows
@@ -20,10 +19,6 @@ Alternatively, VLC should be able to play a video of this type without any addit
 
 <img src="{{ site.url }}{{ page.image }}" alt="hevc windows codec in the microsoft store" width="500" />
 
-<!-- class="pull-right" -->
-
-
 HEIF, on the other hand, is completely free and can be installed [here](https://apps.microsoft.com/store/detail/heif-image-extensions/9PMMSR1CGPWG).
 
 Now you can enable these formats on your Android or iPhone and send them to your PC to check! 
-
