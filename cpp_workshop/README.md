@@ -6,7 +6,7 @@ description: Here is the next course called Workshop in c++
 sitemap:
   priority: 0.7
   changefreq: "weekly"
-date: '2022-07-27 18:12:11 -0400'
+date: '2022-08-07 14:12:11 -0400'
 categories: cpp
 tags:
 - C

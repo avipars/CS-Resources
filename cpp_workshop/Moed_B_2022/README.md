@@ -2,7 +2,7 @@
 layout: page
 title: C++ Practice Exam 2022 Moed B
 description: 5782 - תשפב 2022 Moed B Semester Bet Answers
-date: '2022-08-04 16:05:11 -0400'
+date: '2022-08-07 16:05:11 -0400'
 permalink: /cpp_workshop/Moed_B_2022/
 categories: cpp
 tags:
@@ -139,7 +139,7 @@ Q11:
             }
             else add(current->right, val, level + 1);
         }
-        else{
+        else {
             if (!current->left)
             {
                 current->left = new Node(nullptr, nullptr,nullptr,level);
