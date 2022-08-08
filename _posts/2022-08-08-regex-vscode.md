@@ -6,7 +6,7 @@ deescription: 'I built a site for a client who has several store branches. The w
 
 external: true
 blog: Medium
-blog_link: 
+blog_link: https://aviparshan.medium.com/40463daa19dd
 categories: post
 tags:
 - REGEX
