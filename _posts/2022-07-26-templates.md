@@ -1,5 +1,5 @@
 ---
-title: 'What are Template Functions and Classes in C++ and how can I use them?'
+title: "What are Template Functions and Classes in C++ and how can I use them?"
 layout: post
 
 external: true

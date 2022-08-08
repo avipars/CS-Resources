@@ -1,9 +1,6 @@
 ---
-title: 'VSCode Tip: How to convert phone numbers to "tel:" links with one go!'
+title: "VSCode Tip: How to convert phone numbers to tel: links with one go!"
 layout: post
-deescription: 'I built a site for a client who has several store branches. The way they provided the information was lacking, and I didn't want to go through each branch to correct the information.'
-# image: /static/post-image/hevc.png
-
 external: true
 blog: Medium
 blog_link: https://aviparshan.medium.com/40463daa19dd
