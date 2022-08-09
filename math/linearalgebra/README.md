@@ -2,7 +2,7 @@
 layout: page
 title: Math 
 permalink: /math/linearalgebra/
-date: '2022-08-02 17:00:00 -0400'
+date: '2022-08-09 11:00:00 -0400'
 description: Matrix manipulations, lots of higher dimensional thinking, not proof based. I found this course more intuitive than Calculus. Linear dependence, vectors, matrices, determinants, etc. 
 categories: "Linear Algebra"
 tags:

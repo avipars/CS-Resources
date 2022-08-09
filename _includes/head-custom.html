@@ -6,10 +6,9 @@
 <!-- You can set your favicon here -->
 <meta name="author" content="Avi Parshan">
 <meta name="robots" content="index, follow">
-<meta name="author" content="Avi Parshan">
-<meta name="robots" content="index, follow">
 <meta name="keywords" content="Avi Parshan, Avraham Parshan, Aviinfinity, AmCan Tech, CS Resources, Computer Science" />
-<meta name="description" content="Computer Science Resources and Links from Avi Parshan">
+
+
 <!-- <meta property="og:title" property="og:title" content="CS Resources"> -->
 <!-- <meta property="og:url" content="https://cs.aviparshan.com/index.html" /> -->
 <!-- <meta property="og:image" content="https://cs.aviparshan.com/static/cs_source.png" /> -->
@@ -24,7 +23,6 @@
 <meta name="twitter:title" content="cs.aviparshan.com">
 
 {% if page.image %}
-
 <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
 {% else %}
 <meta name="twitter:image" content="{{ site.url }}/static/images/cs_source.png">
@@ -64,28 +62,38 @@
 {% else %}
   <meta content="website" property="og:type">
 {% endif %}
+
+
 {% if page.description %}
   <meta content="{{ page.description }}" property="og:description">
+  <meta name="description" content="{{ page.description }}">
+
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
+  <meta name="description" content="{{ site.description }}">
 {% endif %}
+
 {% if page.url %}
   <meta content="{{ site.url }}{{ page.url | absolute_url }}" property="og:url">
 {% endif %}
+
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <!-- <meta content="{{ site.url }}/about/" property="article:author"> -->
 {% endif %}
+
 {% if page.image %}
   <meta content="{{ site.url }}{{ page.image }}" property="og:image">
 {% else %}
   <meta content="{{ site.url }}/static/images/cs_source.png" property="og:image">
 {% endif %}
+
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
   <meta content="{{ category }}" property="article:section">
   {% endfor %}
 {% endif %}
+
 {% if page.tags %}
   {% for tag in page.tags %}
   <meta content="{{ tag }}" property="article:tag">
@@ -94,6 +102,8 @@
 
 <link rel="alternative" type="application/atom+xml" title="Subscribe to CS Resources" href="{{ site.url }}/atom.xml" />
 
-{% if page.external %}<meta name="robots" content="noindex nofollow"><link rel="canonical" href="{{ post.blog_link }}">
+{% if page.external %}
+<meta name="robots" content="noindex nofollow"><link rel="canonical" href="{{ post.blog_link }}">
+<meta http-equiv="refresh" content="3; url={{ post.blog_link }}">
 {% endif %}
 <!-- end custom head snippets -->

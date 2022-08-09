@@ -3,7 +3,7 @@ layout: page
 title: Math 
 permalink: /math/
 description: CS Resources page on mathematics for computer science
-date: '2022-08-02 12:12:11 -0400'
+date: '2022-08-09 11:12:11 -0400'
 categories: Math
 tags:
 - Calculus
