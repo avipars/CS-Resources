@@ -24,18 +24,16 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <!-- <h1>{{ site.title | default: site.github.repository_name }}</h1> -->
-          {{ site.title | default: site.github.repository_name }}
+          <h2>{{ site.title | default: site.github.repository_name }}</h2>
+          
         </a>
-        {{ site.description | default: site.github.project_tagline }}
-
+        <h3>{{ site.description | default: site.github.project_tagline }}</h3>
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button" target="_blank"><small>View project on</small> GitHub</a>
         {% endif %}
         {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" class="button" target="_blank"><small>Follow me on</small> GitHub</a>
         {% endif %}
-        
       </div>
 
       <noscript>

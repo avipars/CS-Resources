@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
+<h1>{{ page.title }}</h1> 
 
 {{ content }}
 
-
+{% if page.date %}
+<div class="date">
+    Updated on {{ page.date | date: "%B %e, %Y" }}
+</div>
+{% endif %}
 <!-- <a onclick="window.history.back()">Go Back</a> -->
 
 <!-- {% if page.tags %}
