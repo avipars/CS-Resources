@@ -7,38 +7,16 @@
 <meta name="author" content="Avi Parshan">
 <meta name="robots" content="index, follow">
 <meta name="keywords" content="Avi Parshan, Avraham Parshan, Aviinfinity, AmCan Tech, CS Resources, Computer Science" />
-
-
-<!-- <meta property="og:title" property="og:title" content="CS Resources"> -->
-<!-- <meta property="og:url" content="https://cs.aviparshan.com/index.html" /> -->
-<!-- <meta property="og:image" content="https://cs.aviparshan.com/static/cs_source.png" /> -->
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<!-- <meta property="og:description"
-    content="Computer Science Resources and Links from Avi Parshan"> -->
+
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@aviinfinity" />
 <meta name="twitter:creator" content="@aviinfinity" />
 <meta name="twitter:domain" content="cs.aviparshan.com">
-<meta name="twitter:title" content="cs.aviparshan.com">
-
-{% if page.image %}
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-{% else %}
-<meta name="twitter:image" content="{{ site.url }}/static/images/cs_source.png">
-{% endif %}
 
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
 <meta property="og:locale:alternative" content="en_GB" />
-
-<meta property="og:site_name" content="CS Resources">
-<meta name="twitter:description" content="Computer Science Resources and Links from Avi Parshan">
-
-<!-- <link rel="shortcut icon" type="image/ico" href="https://www.aviparshan.com/favicon.ico"> -->
-<meta name="yandex-verification" content="94b0b6e1735194dd" />
-
-<script data-goatcounter="https://avigit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
 <meta name="theme-color" content="#2e7bcf">
 
 <link rel="icon" type="image/ico" href="https://cs.aviparshan.com/static/images/favicon.ico">
@@ -52,14 +30,14 @@
 <link rel="icon" type="image/png" sizes="192x192"  href="https://cs.aviparshan.com/static/images/android-icon-192x192.png">
 
 <meta content="{{ site.title }}" property="og:site_name">
+
 {% if page.title %}
   <meta content="{{ page.title }}" property="og:title">
-{% else %}
-  <meta content="{{ site.title }}" property="og:title">
-{% endif %}
-{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
   <meta content="article" property="og:type">
 {% else %}
+  <meta content="{{ site.title }}" property="og:title">
+  <meta name="twitter:title" content="{{ site.title }}">
   <meta content="website" property="og:type">
 {% endif %}
 
@@ -67,10 +45,11 @@
 {% if page.description %}
   <meta content="{{ page.description }}" property="og:description">
   <meta name="description" content="{{ page.description }}">
-
+  <meta name="twitter:description" content="{{ page.description }}">
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
   <meta name="description" content="{{ site.description }}">
+  <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 
 {% if page.url %}
@@ -84,9 +63,13 @@
 
 {% if page.image %}
   <meta content="{{ site.url }}{{ page.image }}" property="og:image">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+
 {% else %}
   <meta content="{{ site.url }}/static/images/cs_source.png" property="og:image">
+  <meta name="twitter:image" content="{{ site.url }}/static/images/cs_source.png">
 {% endif %}
+
 
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
@@ -106,4 +89,8 @@
 <meta name="robots" content="noindex nofollow"><link rel="canonical" href="{{ post.blog_link }}">
 <meta http-equiv="refresh" content="3; url={{ post.blog_link }}">
 {% endif %}
+
+<meta name="yandex-verification" content="94b0b6e1735194dd" />
+<script data-goatcounter="https://avigit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
 <!-- end custom head snippets -->

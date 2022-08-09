@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
     <link rel="stylesheet" href="https://cs.aviparshan.com/static/app.css?v=0.0.1" media="screen" type="text/css">
-    <!-- when I want the css to get the latest version/update -->
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -25,15 +24,18 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <!-- <h1>{{ site.title | default: site.github.repository_name }}</h1> -->
+          {{ site.title | default: site.github.repository_name }}
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        {{ site.description | default: site.github.project_tagline }}
+
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button" target="_blank"><small>View project on</small> GitHub</a>
         {% endif %}
         {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" class="button" target="_blank"><small>Follow me on</small> GitHub</a>
         {% endif %}
+        
       </div>
 
       <noscript>

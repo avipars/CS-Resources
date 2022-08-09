@@ -9,16 +9,16 @@ tags:
 - Subjects
 ---
 
-## CS-Resources Homepage
+### CS-Resources Homepage
 
 Free CS resources from yours truly.
 
 I will be adding new files, videos, and interesting information that will be relevant for every computer science student!
 
 
-### Courses: 
+#### Courses: 
 
-#### Programming
+##### Programming
 
 Coding problems (C/C++)... it's really C'esque but written and compiled in 
 [C++ (Intro to CS)](https://avipars.github.io/CS-Resources/intro_cs/)
@@ -29,24 +29,25 @@ The following semester, we had a formal
 [DSA 1 (Data Structures & Algorithms 1)](https://avipars.github.io/CS-Resources/data_struct/)
 
 
-#### Architecture
+##### Architecture
 
 [Digital Systems](https://avipars.github.io/CS-Resources/DigitalSystems/)
 
 
 [MIPS (Computer Architecture)](https://avipars.github.io/CS-Resources/mips/)
 
-#### Maths
+##### Maths
 
 [Math (Calculus, LA, etc.)](https://avipars.github.io/CS-Resources/math/)
 
 
-### Articles: 
+#### Articles: 
 
-[Blog Posts](https://cs.aviparshan.com/blog)
+[List of Blog Posts](https://cs.aviparshan.com/blog)
 
+[View By Tag](https://cs.aviparshan.com/tags)
 
-#### Bonus stuff
+##### Bonus stuff
 
 [My Website](https://aviparshan.com/)
 

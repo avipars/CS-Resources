@@ -48,15 +48,8 @@ Exam Prep:
 
 * Moed B Exam 2022: 
 
-    - [View All Answers](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/)
+    - [View All Answers (A,B,C)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/)
     
-
-    <!-- - [Part B (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/B)
-
-
-    - [Part C (WIP)](https://cs.aviparshan.com/cpp_workshop/Moed_B_2022/C) -->
-
-
 Articles:
 
 - [Template Classes and Functions in C++](https://tech.aviparshan.com/2022/07/learn-c-and-oop-easily-template.html?utm_source=csavi)
@@ -74,4 +67,5 @@ Articles:
 
 
 - [Learn C++](https://www.learncpp.com/)
+
 <!-- ^\(\d+\) -->

@@ -12,7 +12,7 @@ tags:
 ---
 
 
----
+
 
 For the phone number example, the original table looks like this:
 <tr class="loc">
@@ -25,7 +25,7 @@ And I want to change the phone number to look like this:
 <td><a href="tel:01–2345678>01–2345678</a></td>
 In HTML, this allows the user to call a phone number by just clicking the link!
 
----
+
 
 Turns out, with visual studio code, there is a regex find and replace command which is super helpful!
 Hit Ctrl + F on windows -> Now click on the box with* icon
