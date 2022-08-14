@@ -12,8 +12,6 @@ tags:
 ---
 
 
-
-
 For the phone number example, the original table looks like this:
 <tr class="loc">
 <td>Branch Name</td>
