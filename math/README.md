@@ -46,4 +46,3 @@ Math for computer science. I will be updating these pages and adding mroe as I g
 
 
 [Photomath - some stuff under paywall](https://photomath.com/en)
-
