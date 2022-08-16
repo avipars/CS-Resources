@@ -12,7 +12,7 @@ tags:
 
 Chrome bookmarklets allow you to type javascript instead of a standard website url. 
 
-We can use this to do some fun and useful things. Either make a new bookmark and in the URL field, type this in, or you should be able to copy and drag the text into the bookmark tab as well (you'll see a plus sign).
+We can use this to do some fun and useful things. Either make a new bookmark and in the URL field, type this in, or you should be able to copy and drag the text into the bookmark tab as well (you'll see a plus sign). You can run many (vanilla) JS functions and code within your bookmarklets, but there are some issues with escape characters and formatting. 
 
 <img src="{{ site.url }}{{ page.image }}" alt="Dalle JS Image" width="500" />
 
@@ -22,7 +22,8 @@ We can use this to do some fun and useful things. Either make a new bookmark and
 * Find old version of page:
 
  ```js
-javascript:void(location.href='https://web.archive.org/web/*/'+escape(location.href.replace(/^https?:\/\//, %27%27).replace(/\/$/, %27%27)));
+javascript: 
+void(location.href='https://web.archive.org/web/*/'+escape(location.href.replace(/^https?:\/\//, %27%27).replace(/\/$/, %27%27)));
  ```
 
 
@@ -60,5 +61,9 @@ javascript: var p=r(); function r(){var g=0;var x=false;var x=z(document.forms);
 ## Webpage auto scroll down with random seed (to pretend we aren't a bot):
 
  ```js
-javascript: var rndInt = Math.floor(Math.random() * 9) + 1;for(var i = 0; i<10000; i++) {window.scrollBy(0, 600 + rndInt); console.log(i); }
+javascript: var rndInt = Math.floor(Math.random() * 9) + 1;
+for(var i = 0; i<10000; i++) 
+{
+  window.scrollBy(0, 600 + rndInt); console.log(i);
+}
   ```
