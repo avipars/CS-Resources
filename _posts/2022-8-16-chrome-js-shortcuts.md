@@ -14,8 +14,11 @@ Chrome bookmarklets allow you to type javascript instead of a standard website u
 
 We can use this to do some fun and useful things. Either make a new bookmark and in the URL field, type this in, or you should be able to copy and drag the text into the bookmark tab as well (you'll see a plus sign). You can run many (vanilla) JS functions and code within your bookmarklets, but there are some issues with escape characters and formatting. 
 
-<img src="{{ site.url }}{{ page.image }}" alt="Dalle JS Image" width="500" />
+You can do most of these commands via chrome extensions or AutoHotKeys, but I prefer bookmarklets because they don't use nearly as much processing power as extensions, are only active once clicked, and are more privacy friendly. This means that you can run a script on a page with a single click, know what code is running and also can see what it logs via the console!
 
+
+<img src="{{ site.url }}{{ page.image }}" alt="Dall-e javascript interpretation Image" width="500" />
+Picture is from searching "JavaScript" in Dall-E
 
 ## Wayback Machine and site archive: 
 
@@ -66,4 +69,18 @@ for(var i = 0; i<10000; i++)
 {
   window.scrollBy(0, 600 + rndInt); console.log(i);
 }
-  ```
+ ```
+
+
+## Remove cookies for a specific website
+
+I wanted to add another useful bookmarklet to erase cache and cookies for any specific website, but unfortunately due to security policies it won't work... 
+
+What you could do alternatively, is to either have it copy the url into your cliboard and then manually open the page... or potentially make your own chrome extension with it.
+
+
+'''js
+ javascript: document.location="chrome://settings/siteData?searchSubpage="+document.location.hostname
+'''
+
+I hope you found these as useful as I do! Please  [tweet me](https://www.twitter.com/aviinfinity) if you have any ideas, comments or feedback!
