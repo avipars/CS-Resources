@@ -19,6 +19,7 @@
 <meta property="og:locale:alternative" content="en_GB" />
 <meta name="theme-color" content="#2e7bcf">
 
+<!-- favicons -->
 <link rel="icon" type="image/ico" href="https://cs.aviparshan.com/static/images/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180"
     href="https://cs.aviparshan.com/static/images/apple-touch-icon.png">
@@ -35,10 +36,12 @@
   <meta content="{{ page.title }}" property="og:title">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta content="article" property="og:type">
+  <title>{{ page.title }}</title>
 {% else %}
   <meta content="{{ site.title }}" property="og:title">
   <meta name="twitter:title" content="{{ site.title }}">
   <meta content="website" property="og:type">
+  <title>{{ site.title }}</title>
 {% endif %}
 
 
@@ -58,7 +61,7 @@
 
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <!-- <meta content="{{ site.url }}/about/" property="article:author"> -->
+  <meta content="https://www.aviparshan.com/resume" property="article:author">
 {% endif %}
 
 {% if page.image %}

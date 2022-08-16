@@ -8,6 +8,7 @@ title: "CS Resources"
 description: "Computer Science Resources and Links from Avi Parshan"
 subtitle: "Useful Computer Science Resources and Links"  # site tagline that appears below site title in masthead
 locale: "en-US"
+author: "Avi Parshan"
 
 remote_theme: pages-themes/architect@v0.2.0
 
@@ -60,7 +61,7 @@ show_downloads: false # hide github ugly download button
 author:
   name             : "Avi Parshan"
   avatar           : "https://github.com/avipars/aviparshan_site/blob/master/img/avi_parshan_profile_avatar.png?raw=true"
-  bio              : "I am an **amazing** person."
+  bio              : "I am a student and software developer"
   location         : "Israel"
   email            : "cs@aviparshan.com"
 
