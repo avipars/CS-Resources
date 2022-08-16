@@ -21,7 +21,6 @@ We can use this to do some fun and useful things. Either make a new bookmark and
 
 * Find old version of page:
 
-
  ```js
 javascript:void(location.href='https://web.archive.org/web/*/'+escape(location.href.replace(/^https?:\/\//, %27%27).replace(/\/$/, %27%27)));
  ```
@@ -39,7 +38,6 @@ window.location.href="https://web.archive.org/save/" + url;
 
  ```js
 javascript:var url = window.location.href;
-
 window.location.href="https://archive.ph/" + url; 
   ```
 
@@ -55,9 +53,7 @@ javascript: var p=r(); function r(){var g=0;var x=false;var x=z(document.forms);
 ## See deleted reddit content:
 
  ```js
-
-    javascript: document.location = document.URL.replace('reddit.com','removeddit.com');
-
+  javascript: document.location = document.URL.replace('reddit.com','removeddit.com');
   ```
 
 
@@ -65,9 +61,7 @@ javascript: var p=r(); function r(){var g=0;var x=false;var x=z(document.forms);
 ## Webpage auto scroll down with random seed (to pretend we aren't a bot):
 
  ```js
-
 javascript: var rndInt = Math.floor(Math.random() * 9) + 1;for(var i = 0; i<10000; i++) {window.scrollBy(0, 600 + rndInt); console.log(i); }
-
   ```
 
 <!-- ## Delete cookies for a specific website in chrome: ```js ``` -->
