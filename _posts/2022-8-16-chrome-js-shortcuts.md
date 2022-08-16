@@ -57,11 +57,8 @@ javascript: var p=r(); function r(){var g=0;var x=false;var x=z(document.forms);
   ```
 
 
-
 ## Webpage auto scroll down with random seed (to pretend we aren't a bot):
 
  ```js
 javascript: var rndInt = Math.floor(Math.random() * 9) + 1;for(var i = 0; i<10000; i++) {window.scrollBy(0, 600 + rndInt); console.log(i); }
   ```
-
-<!-- ## Delete cookies for a specific website in chrome: ```js ``` -->
