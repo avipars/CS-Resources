@@ -9,15 +9,14 @@
 <meta name="keywords" content="Avi Parshan, Avraham Parshan, Aviinfinity, AmCan Tech, CS Resources, Computer Science" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternative" content="en_GB" />
+<meta name="theme-color" content="#2e7bcf">
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@aviinfinity" />
 <meta name="twitter:creator" content="@aviinfinity" />
 <meta name="twitter:domain" content="cs.aviparshan.com">
-
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
-<meta property="og:locale:alternative" content="en_GB" />
-<meta name="theme-color" content="#2e7bcf">
 
 <!-- favicons -->
 <link rel="icon" type="image/ico" href="https://cs.aviparshan.com/static/images/favicon.ico">
@@ -67,7 +66,6 @@
 {% if page.image %}
   <meta content="{{ site.url }}{{ page.image }}" property="og:image">
   <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-
 {% else %}
   <meta content="{{ site.url }}/static/images/cs_source.png" property="og:image">
   <meta name="twitter:image" content="{{ site.url }}/static/images/cs_source.png">
@@ -86,14 +84,14 @@
   {% endfor %}
 {% endif %}
 
-<link rel="alternative" type="application/atom+xml" title="Subscribe to CS Resources" href="{{ site.url }}/atom.xml" />
 
 {% if page.external %}
-<meta name="robots" content="noindex nofollow"><link rel="canonical" href="{{ post.blog_link }}">
-<meta http-equiv="refresh" content="3; url={{ post.blog_link }}">
+  <meta name="robots" content="noindex nofollow">
+  <link rel="canonical" href="{{ post.blog_link }}">
+  <meta http-equiv="refresh" content="3; url={{ post.blog_link }}">
+{% else %}
+  <meta name="yandex-verification" content="94b0b6e1735194dd" />
+  <script data-goatcounter="https://avigit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <link rel="alternative" type="application/atom+xml" title="Subscribe to CS Resources" href="{{ site.url }}/atom.xml" />
 {% endif %}
-
-<meta name="yandex-verification" content="94b0b6e1735194dd" />
-<script data-goatcounter="https://avigit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
 <!-- end custom head snippets -->
