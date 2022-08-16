@@ -20,32 +20,43 @@ I will be adding new files, videos, and interesting information that will be rel
 
 ##### Programming
 
-Coding problems (C/C++)... it's really C'esque but written and compiled in 
-[C++ (Intro to CS)](https://avipars.github.io/CS-Resources/intro_cs/)
+* Coding problems (C/C++)... it's really C'esque but written and compiled in  [C++ (Intro to CS)](https://avipars.github.io/CS-Resources/intro_cs/)
 
-The following semester, we had a formal 
-[Workshop in C++](https://avipars.github.io/CS-Resources/cpp_workshop)
 
-[DSA 1 (Data Structures & Algorithms 1)](https://avipars.github.io/CS-Resources/data_struct/)
+* The following semester, we had a formal [Workshop in C++](https://avipars.github.io/CS-Resources/cpp_workshop)
+
+
+* [DSA 1 (Data Structures & Algorithms 1)](https://avipars.github.io/CS-Resources/data_struct/)
 
 
 ##### Architecture
 
-[Digital Systems](https://avipars.github.io/CS-Resources/DigitalSystems/)
+* [Digital Systems](https://avipars.github.io/CS-Resources/DigitalSystems/)
 
 
-[MIPS (Computer Architecture)](https://avipars.github.io/CS-Resources/mips/)
+* [MIPS (Computer Architecture)](https://avipars.github.io/CS-Resources/mips/)
 
-##### Maths
 
-[Math (Calculus, LA, etc.)](https://avipars.github.io/CS-Resources/math/)
+##### [Math](https://avipars.github.io/CS-Resources/math/)
+
+
+* [Precalculus](https://avipars.github.io/CS-Resources/math/precalculus)
+
+
+* [Linear Algebra](https://avipars.github.io/CS-Resources/math/linearalgebra)
+
+
+* [Calculus](https://avipars.github.io/CS-Resources/math/calculus)
+
 
 
 #### Articles: 
 
-[List of Blog Posts](https://cs.aviparshan.com/blog)
+* [View by List (sorted by recent)](https://cs.aviparshan.com/blog)
 
-[View By Tag](https://cs.aviparshan.com/tags)
+
+* [View By Tag (sorted lexicographically)](https://cs.aviparshan.com/tags)
+
 
 ##### Bonus stuff
 

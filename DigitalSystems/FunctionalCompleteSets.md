@@ -10,6 +10,10 @@ tags:
 - Systems
 ---
 
+Watch my video on the subject 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IzvSlziDhCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 These sets are functionally complete (These sets of logic gates can come together to create any other logic gate)
 
 * And, Or, Not
