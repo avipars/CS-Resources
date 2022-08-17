@@ -18,6 +18,7 @@ You can do most of these commands via chrome extensions or AutoHotKeys, but I pr
 
 
 <img src="{{ site.url }}{{ page.image }}" alt="Dall-e javascript interpretation Image" width="500" />
+
 Picture is from searching "JavaScript" in Dall-E
 
 ## Wayback Machine and site archive: 
@@ -79,8 +80,8 @@ I wanted to add another useful bookmarklet to erase cache and cookies for any sp
 What you could do alternatively, is to either have it copy the url into your cliboard and then manually open the page... or potentially make your own chrome extension with it.
 
 
-'''js
+```js
  javascript: document.location="chrome://settings/siteData?searchSubpage="+document.location.hostname
-'''
+```
 
 I hope you found these as useful as I do! Please  [tweet me](https://www.twitter.com/aviinfinity) if you have any ideas, comments or feedback!
