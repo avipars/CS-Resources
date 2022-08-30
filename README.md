@@ -16,7 +16,7 @@ Free CS resources from yours truly.
 I will be adding new files, videos, and interesting information that will be relevant for every computer science student!
 
 
-#### Courses: 
+#### Courses (Year 1): 
 
 ##### Programming
 
@@ -48,7 +48,11 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Calculus](https://avipars.github.io/CS-Resources/math/calculus)
 
+#### Courses (Year 2): 
 
+[Intro to Data Security](https://avipars.github.io/CS-Resources/intro_sec)
+
+[Math Logic](https://avipars.github.io/CS-Resources/logic)
 
 #### Articles: 
 
