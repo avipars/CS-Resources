@@ -17,6 +17,8 @@ sitemap:
   
 ---
 
+Some digital systems content, sentinal logic, prediate logic, graph theory 
+
 [Syllabus](/static/post-image/logic_syllabus.pdf)
 
 

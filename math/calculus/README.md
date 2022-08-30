@@ -77,6 +77,8 @@ from khan academy
 
 * [Paul's Notes](https://tutorial.math.lamar.edu/Problems/CalcI/CalcI.aspx)
 
+* [Functions, Graphs, and Limits](https://courseware.cemc.uwaterloo.ca/11)
+
 
 * [General Limit Laws](https://www.milefoot.com/math/calculus/limits/GenericLimitLawProofs04.htm)
 
