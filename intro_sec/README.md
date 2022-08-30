@@ -4,8 +4,13 @@ title: Intro to Data Security
 description: "intro to data security, hacking, cyber warfare stuff!"
 
 permalink: /intro_sec/
-date: '2022-08-30 9:12:11 -0400'
-categories: math
+date: '2022-08-30 11:12:11 -0400'
+categories: Security
+tags:
+- Security
+- CS
+- Cyber
+- Data
 sitemap:
   priority: 0.7
   changefreq: "weekly"

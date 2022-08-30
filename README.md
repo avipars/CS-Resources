@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CS-Resources Homepage
-date: '2022-07-29 12:12:11 -0400'
+date: '2022-08-30 11:12:11 -0400'
 permalink: /
 categories: Homepage
 tags:
@@ -18,7 +18,7 @@ I will be adding new files, videos, and interesting information that will be rel
 
 #### Courses (Year 1): 
 
-##### Programming
+###### Programming
 
 * Coding problems (C/C++)... it's really C'esque but written and compiled in  [C++ (Intro to CS)](https://avipars.github.io/CS-Resources/intro_cs/)
 
@@ -29,7 +29,7 @@ I will be adding new files, videos, and interesting information that will be rel
 * [DSA 1 (Data Structures & Algorithms 1)](https://avipars.github.io/CS-Resources/data_struct/)
 
 
-##### Architecture
+###### Architecture
 
 * [Digital Systems](https://avipars.github.io/CS-Resources/DigitalSystems/)
 
@@ -37,7 +37,7 @@ I will be adding new files, videos, and interesting information that will be rel
 * [MIPS (Computer Architecture)](https://avipars.github.io/CS-Resources/mips/)
 
 
-##### [Math](https://avipars.github.io/CS-Resources/math/)
+###### [Math](https://avipars.github.io/CS-Resources/math/)
 
 
 * [Precalculus](https://avipars.github.io/CS-Resources/math/precalculus)
