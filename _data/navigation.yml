@@ -25,3 +25,6 @@
 
 - name: MIPS
   link: /mips/
+
+- name: Data Security
+  link: /intro_sec

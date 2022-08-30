@@ -52,7 +52,7 @@ I will be adding new files, videos, and interesting information that will be rel
 
 [Intro to Data Security](https://avipars.github.io/CS-Resources/intro_sec)
 
-[Math Logic](https://avipars.github.io/CS-Resources/logic)
+[Math Logic](https://avipars.github.io/CS-Resources/math/logic)
 
 #### Articles: 
 
