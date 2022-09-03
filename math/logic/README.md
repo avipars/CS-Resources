@@ -42,3 +42,5 @@ Some digital systems content, sentinal logic, prediate logic, graph theory
 
 [Tree Proof Generator](https://www.umsu.de/trees/)
 
+
+[Math Logic Course](https://www3.cs.stonybrook.edu/~cse541/)

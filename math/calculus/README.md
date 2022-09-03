@@ -77,6 +77,7 @@ from khan academy
 
 * [Paul's Notes](https://tutorial.math.lamar.edu/Problems/CalcI/CalcI.aspx)
 
+
 * [Functions, Graphs, and Limits](https://courseware.cemc.uwaterloo.ca/11)
 
 
@@ -90,3 +91,6 @@ from khan academy
 
 
 * [Integration calculator](https://www.integral-calculator.com/)
+
+
+* [Chain Rule Video](https://www.youtube.com/watch?v=44wmaWq12hA)
