@@ -2,7 +2,7 @@
 layout: page
 title: Math 
 permalink: /math/linearalgebra/
-date: '2022-08-09 11:00:00 -0400'
+date: '2022-09-03 11:12:11 -0400'
 description: Matrix manipulations, lots of higher dimensional thinking, not proof based. I found this course more intuitive than Calculus. Linear dependence, vectors, matrices, determinants, etc. 
 categories: "Linear Algebra"
 tags:
@@ -73,6 +73,10 @@ A ⊂ B  = A is a subset of B
 
 ###### 3rd party resources:
 
+[Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgL31JLTa6LvUJlwYtQ_093V)
+
+
 [Cartesian vs parametric](https://www.mathwizurd.com/calc/2016/8/22/define-a-line-using-vectors)
+
 
 [Defining a Plane using a Normal Vector and a Point](https://www.mathwizurd.com/calc/2016/8/23/defining-planes)

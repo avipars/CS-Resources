@@ -3,9 +3,8 @@ layout: page
 title: Mathematical Logic
 description: "intro to mathformalization, deduction, formal
 proof, and concepts of mathematical logic"
-
 permalink: /math/logic/
-date: '2022-08-30 11:12:11 -0400'
+date: '2022-09-03 11:12:11 -0400'
 categories: math
 tags:
 - Logic

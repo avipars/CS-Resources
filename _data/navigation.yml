@@ -1,12 +1,8 @@
 - name: Home
   link: /
-# - name: About
-#   link: /about.html
+
 - name: Blog
   link: /blog.html
-
-- name: Tags
-  link: /tags.html
 
 - name: C
   link: /intro_cs/
@@ -14,11 +10,14 @@
 - name: C++
   link: /cpp_workshop/
 
+- name: Data Security
+  link: /intro_sec
+
+- name: Data Structures
+  link: /data_struct/
+  
 - name: Digital Systems
   link: /DigitalSystems/
-
-- name: DSA
-  link: /data_struct/
 
 - name: Math
   link: /math/
@@ -26,5 +25,5 @@
 - name: MIPS
   link: /mips/
 
-- name: Data Security
-  link: /intro_sec
+- name: Tags
+  link: /tags.html

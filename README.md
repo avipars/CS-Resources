@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CS-Resources Homepage
-date: '2022-08-30 11:12:11 -0400'
+date: '2022-09-03 11:12:11 -0400'
 permalink: /
 categories: Homepage
 tags:
@@ -50,9 +50,10 @@ I will be adding new files, videos, and interesting information that will be rel
 
 #### Courses (Year 2): 
 
-[Intro to Data Security](https://avipars.github.io/CS-Resources/intro_sec)
+* [Intro to Data Security](https://avipars.github.io/CS-Resources/intro_sec)
 
-[Math Logic](https://avipars.github.io/CS-Resources/math/logic)
+
+* [Math Logic](https://avipars.github.io/CS-Resources/math/logic)
 
 #### Articles: 
 

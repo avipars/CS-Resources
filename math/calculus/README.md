@@ -2,7 +2,7 @@
 layout: page
 title: Calculus 1 
 permalink: /math/calculus/
-date: '2022-08-02 16:12:11 -0400'
+date: '2022-09-03 11:12:11 -0400'
 description: You will be learning about limits, derivatives, and integrals. This course is strongly based on proofs (induction, contradiction, etc.).
 categories: Calculus
 tags:
