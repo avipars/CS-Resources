@@ -20,6 +20,7 @@ Prereq: Workshop in C/C++ and Computer Architecture
 
 [Lecture 1 Notes](/static/post-image/Lesson1_Data.pdf)
 
+// i will be adding more notes throughout the semester!
 
 ### Useful Links
 
@@ -30,3 +31,6 @@ Prereq: Workshop in C/C++ and Computer Architecture
 
 
 [Frequency Analysis](https://inventwithpython.com/hacking/chapter20.html)
+
+
+[PGP Intro](https://users.ece.cmu.edu/~adrian/630-f04/PGP-intro.html)
