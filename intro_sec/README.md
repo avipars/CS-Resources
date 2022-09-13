@@ -18,7 +18,15 @@ sitemap:
 
 Prereq: Workshop in C/C++ and Computer Architecture
 
-[Lecture 1 Notes](/static/post-image/Lesson1_Data.pdf)
+[Lecture 1 Notes](/static/security-notes/Lesson1_Data.pdf)
+
+[Lecture 2 Notes](/static/security-notes/Lesson2_Data.pdf)
+
+[Lecture 3 Notes](/static/security-notes/Lesson3_Data.pdf)
+
+[Lecture 4 Notes](/static/security-notes/Lesson4_Data.pdf)
+
+[Lecture 5 Notes](/static/security-notes/Lesson5_Data.pdf)
 
 // i will be adding more notes throughout the semester!
 
