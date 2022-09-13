@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to mathformalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
-date: '2022-09-03 11:12:11 -0400'
+date: '2022-09-13 11:12:11 -0400'
 categories: math
 tags:
 - Logic
@@ -18,6 +18,8 @@ sitemap:
 
 Some digital systems content, sentinal logic, prediate logic, graph theory 
 
+Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen 
+
 [Syllabus](/static/post-image/logic_syllabus.pdf)
 
 
@@ -29,9 +31,13 @@ Some digital systems content, sentinal logic, prediate logic, graph theory
 
 ### Useful Links
 
-
 [A Brief Overview of Logic](http://www.math.hawaii.edu/~ramsey/Logic.html)
 
+
+[Math Logic Course](https://www3.cs.stonybrook.edu/~cse541/)
+
+
+### Calculators and tools
 
 [Truth Table Generator](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
 
@@ -42,4 +48,7 @@ Some digital systems content, sentinal logic, prediate logic, graph theory
 [Tree Proof Generator](https://www.umsu.de/trees/)
 
 
-[Math Logic Course](https://www3.cs.stonybrook.edu/~cse541/)
+[SymPy - python library for logic](https://www.sympy.org/en/index.html)
+
+Python and programming aren't required for the course but its a good way to check your work!
+and view my sample program for testing logic [here](/math/logic/program.py)

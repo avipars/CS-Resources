@@ -3,7 +3,7 @@ layout: page
 title: Intro to Data Security
 description: "intro to data security, hacking, cyber warfare stuff!"
 permalink: /intro_sec/
-date: '2022-09-03 11:12:11 -0400'
+date: '2022-09-13 11:12:11 -0400'
 categories: Security
 tags:
 - Security
@@ -16,7 +16,18 @@ sitemap:
   
 ---
 
-Prereq: Workshop in C/C++ and Computer Architecture
+### Tips
+
+Basic understanding of Python, and Linux will help a lot...
+Install a virtual machine manager such as virtual box for windows, download ISO files for an OS you want to use such as windows, ubuntu, or kali... and get that set up! 
+
+Prerequesites for the cousre: 
+
+1. [Workshop in C/C++](https://cs.aviparshan.com/cpp_workshop/)
+
+2. [Computer Architecture](https://cs.aviparshan.com/mips/)
+
+### Notes 
 
 [Lecture 1 Notes](/static/security-notes/Lesson1_Data.pdf)
 
@@ -30,15 +41,19 @@ Prereq: Workshop in C/C++ and Computer Architecture
 
 // i will be adding more notes throughout the semester!
 
-### Useful Links
+### Videos
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgIRJSfMHG0GOHC4iM70pTQ1)
 
 
 [Cryptography Video](https://www.youtube.com/watch?v=rfqOBzh-6j4)
 
+### Useful Links
 
 [Frequency Analysis](https://inventwithpython.com/hacking/chapter20.html)
 
 
 [PGP Intro](https://users.ece.cmu.edu/~adrian/630-f04/PGP-intro.html)
+
+
+and read "William Stallings, Lawrie Brown - Computer Security  Principles and Practice-Pearson (2014)"
