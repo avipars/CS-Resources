@@ -27,6 +27,21 @@ Prerequesites for the cousre:
 
 2. [Computer Architecture](https://cs.aviparshan.com/mips/)
 
+### Scripts and fun
+
+I will be adding some python and linux tips and tricks, for starters... we are using john the ripper to crack passcodes, here is my modified config file which can be downloaded with wget on Linux (WSL too)!
+
+The rules are kept in /etc/john/john.conf. First copy it over to the local directory with cp /etc/john/john.conf .
+Edit and copy back using sudo cp ./john.conf /etc/john/john.conf
+
+wget https://cs.aviparshan.com//static/security-notes/jonh.conf
+
+or download manually: 
+
+[John Ripper Rules](/static/security-notes/jonh.conf)
+
+
+Edit as you see fit, then with sudo cp it to john's directory!
 ### Notes 
 
 [Lecture 1 Notes](/static/security-notes/Lesson1_Data.pdf)
