@@ -3,7 +3,7 @@ layout: page
 title: Intro to Data Security
 description: "intro to data security, hacking, cyber warfare stuff!"
 permalink: /intro_sec/
-date: '2022-09-13 11:12:11 -0400'
+date: '2022-09-15 11:12:11 -0400'
 categories: Security
 tags:
 - Security
