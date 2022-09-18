@@ -2,7 +2,7 @@
 title: "Cracking linux user passwords with john the ripper"
 layout: post
 deescription: "For an assignment in our data security course, we had to make users and crack their passwords. I took it one step further by adding a custom rule and the RockYou database"
-image: /static/post-image/dalle_script.png
+image: /static/post-image/cyber.png
 categories: post
 tags:
 - JohnTheRipper
@@ -12,6 +12,9 @@ tags:
 ---
 
 For starters... we are using john the ripper to crack passcodes, here is my modified config file which can be downloaded with wget on Linux (WSL too)!
+
+<img src="{{ site.url }}{{ page.image }}" alt="Dall-e Cyber Logo" width="500" />
+
 
 The rules are kept in /etc/john/john.conf. First copy it over to the local directory with cp /etc/john/john.conf .
 Edit and copy back using sudo cp ./john.conf /etc/john/john.conf
