@@ -3,7 +3,7 @@ layout: page
 title: Intro to Data Security
 description: "intro to data security, hacking, cyber warfare stuff!"
 permalink: /intro_sec/
-date: '2022-09-15 11:12:11 -0400'
+date: '2022-09-18 11:12:11 -0400'
 categories: Security
 tags:
 - Security
@@ -40,6 +40,8 @@ Prerequesites for the cousre:
 
 [Lecture 5 Notes](/static/security-notes/Lesson5_Data.pdf)
 
+[Lecture 6 Notes](/static/security-notes/Lesson6_Data.pdf)
+
 // i will be adding more notes throughout the semester!
 
 ### Videos
@@ -62,50 +64,6 @@ and read "William Stallings, Lawrie Brown - Computer Security  Principles and Pr
 
 ### Scripts and fun
 
-I will be adding some python and linux tips and tricks, for starters... we are using john the ripper to crack passcodes, here is my modified config file which can be downloaded with wget on Linux (WSL too)!
+I will be adding some python and linux tips and tricks:
 
-The rules are kept in /etc/john/john.conf. First copy it over to the local directory with cp /etc/john/john.conf .
-Edit and copy back using sudo cp ./john.conf /etc/john/john.conf
-
-wget https://cs.aviparshan.com//static/security-notes/jonh.conf
-
-or download manually: 
-
-[John Ripper Rules](/static/security-notes/jonh.conf)
-
-Edit as you see fit, then with sudo cp it to john's directory!
-
-Add the popular rockyou password database [rockyou.txt](https://github.com/praetorian-inc/Hob0Rules/blob/master/wordlists/rockyou.txt.gz) as well!
-
-or here: 
-
-wget  https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.txt.gz
-
-
-unzip it:
-
-sudo gunzip rockyou.txt.gz 
-
-check word count:
-
- wc -l rockyou.txt  
-
-and then in JtR use: john --stdout --wordlist=./rockyou.txt
-
-and send it to a dictionary
-
-john --stdout --wordlist=./rockyou.txt --rules > dict.txt
-
-Now crack it:
-
-john ./passwordComplex
-
-and show the result 
-
-john ./passwordComplex --show
-
-Once you crack it, you can optionally remove the file via this command:
-
-rm ~/.john/john.pot
-
-which will force it to crack from scratch if you enter the same hash again
+[John the Ripper Password Cracking Post](https://cs.aviparshan.com/post/2022/09/18/john-ripper-hash.html)
