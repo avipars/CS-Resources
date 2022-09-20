@@ -56,8 +56,24 @@ Another useful trick is to use the object dump:
 
 If you want to find the address of your function "functionName" which will come in handy for some of the challenges. 
 
-Another useful source is to just find n old VM to run the attack in... this one is quite common, we used the protostar one 
+Another useful source is to just find an old VM to run the attack in... this one is quite common, we used the [protostar one](https://exploit-exercises.com/download/). I set it up 1024 mb of ram, 2 cores, and 32 bits with ubuntu in virtualbox... once set up, the username is user and password is also user... then you can use ssh to communicate and do the challenges or run code... 
 
-https://exploit-exercises.com/download/
+To start, move to the right directory, then list all the files/folders below: 
 
-Then you don't need to run gcc with the special flags...
+```console
+
+cd /opt/protostar/bin && ls
+
+```
+
+And you don't need to run gcc with the special flags... (or even whatsoever because it's already compiled all the code)
+
+### Additional Resources
+
+[0xRick's blog post](https://0xrick.github.io/binary-exploitation/bof3/)
+
+[Hacksland's post](https://hacksland.net/protostar-stack0-tutorial/)
+
+[Live Overflow's video on stack3](https://www.youtube.com/watch?v=8QzOC8HfOqU)
+
+[Protostar page](http://exploit.education/protostar/)
