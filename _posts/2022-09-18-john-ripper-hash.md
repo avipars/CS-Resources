@@ -17,9 +17,17 @@ For starters... we are using john the ripper to crack passcodes, here is my modi
 
 
 The rules are kept in /etc/john/john.conf. First copy it over to the local directory with cp /etc/john/john.conf .
-Edit and copy back using sudo cp ./john.conf /etc/john/john.conf
+Edit and copy back using 
+
+```console
+
+sudo cp ./john.conf /etc/john/john.conf
 
 wget https://cs.aviparshan.com//static/security-notes/jonh.conf
+
+
+```
+
 
 or download manually: 
 
@@ -31,34 +39,67 @@ Add the popular rockyou password database [rockyou.txt](https://github.com/praet
 
 or here: 
 
+```console
+
 wget  https://github.com/praetorian-inc/Hob0Rules/raw/master/wordlists/rockyou.txt.gz
 
+```
 
 unzip it:
 
+```console
+
 sudo gunzip rockyou.txt.gz 
+
+```
 
 check word count:
 
+```console
+
  wc -l rockyou.txt  
 
-and then in JtR use: john --stdout --wordlist=./rockyou.txt
+```
+
+and then in JtR use: 
+
+```console
+
+john --stdout --wordlist=./rockyou.txt
+
+```
 
 and send it to a dictionary
 
+```console
+
 john --stdout --wordlist=./rockyou.txt --rules > dict.txt
+
+```
 
 Now crack it:
 
+```console
+
 john ./passwordComplex
+
+```
 
 and show the result 
 
+```console
+
 john ./passwordComplex --show
+
+```
 
 Once you crack it, you can optionally remove the file via this command:
 
+```console
+
 rm ~/.john/john.pot
+
+```
 
 which will force it to crack from scratch if you enter the same hash again
 

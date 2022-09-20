@@ -42,7 +42,13 @@ Prerequesites for the cousre:
 
 [Lecture 6 Notes](/static/security-notes/Lesson6_Data.pdf)
 
-// i will be adding more notes throughout the semester!
+// I will be adding more notes throughout the semester!
+
+### Scripts and fun
+
+I will be adding some python and linux tips and tricks:
+
+[John the Ripper Password Cracking Post](https://cs.aviparshan.com/post/2022/09/18/john-ripper-hash.html)
 
 ### Videos
 
@@ -60,10 +66,3 @@ Prerequesites for the cousre:
 
 
 and read "William Stallings, Lawrie Brown - Computer Security  Principles and Practice-Pearson (2014)"
-
-
-### Scripts and fun
-
-I will be adding some python and linux tips and tricks:
-
-[John the Ripper Password Cracking Post](https://cs.aviparshan.com/post/2022/09/18/john-ripper-hash.html)
