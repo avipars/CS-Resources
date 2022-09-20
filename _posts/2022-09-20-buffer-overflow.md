@@ -117,10 +117,12 @@ And you don't need to run gcc with the special flags... (or even whatsoever beca
 
 ### Additional Resources
 
+[Collection of posts on the subject](https://www.vulnhub.com/entry/exploit-exercises-protostar-v2,32/#:~:text=Getting%20started,opt%2Fprotostar%2Fbin%20directory.)
+
 [0xRick's blog post](https://0xrick.github.io/binary-exploitation/bof3/)
 
 [Hacksland's post](https://hacksland.net/protostar-stack0-tutorial/)
 
-[Live Overflow's video on stack3](https://www.youtube.com/watch?v=8QzOC8HfOqU)
+[Live Overflow's video on stack3/4](https://www.youtube.com/watch?v=8QzOC8HfOqU)
 
 [Protostar page](http://exploit.education/protostar/)
