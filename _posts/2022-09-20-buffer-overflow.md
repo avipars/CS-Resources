@@ -14,6 +14,53 @@ tags:
 
 For another assignment, we are given some vulnerable C and C++ programs which the user or a hacker can exploit with a buffer overflow attack (stack smashing). Thankfully, most modern compilers have built in protections (such as canaries) to avoid stack smashing attacks. 
 
+```cpp
+#include <stdlib.h>
+
+#include <unistd.h>
+
+#include <stdio.h>
+
+#include <string.h>
+
+void win()
+
+{
+
+  printf("code flow successfully changed\n");
+
+}
+
+
+
+int main(int argc, char **argv)
+
+{
+
+  volatile int (*fp)();
+
+  char buffer[64];
+
+  fp = 0;
+
+  gets(buffer);
+  
+
+  if(fp) {
+
+      printf("calling function pointer, jumping to 0x%08x\n", fp);
+
+      fp();
+
+  }
+
+  return 0;
+
+}
+
+
+```
+
 <img src="{{ site.url }}{{ page.image }}" alt="Dall-e Stack Smashing" width="500" />
 
 
