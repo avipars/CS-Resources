@@ -42,6 +42,8 @@ Prerequesites for the cousre:
 
 [Lecture 6 Notes](/static/security-notes/Lesson6_Data.pdf)
 
+[Lecture 7 Notes](/static/security-notes/Lesson7_Data.pdf)
+
 // I will be adding more notes throughout the semester!
 
 ### Scripts and fun
