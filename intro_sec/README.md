@@ -3,7 +3,7 @@ layout: page
 title: Intro to Data Security
 description: "intro to data security, hacking, cyber warfare stuff!"
 permalink: /intro_sec/
-date: '2022-09-18 11:12:11 -0400'
+date: '2022-09-21 11:12:11 -0400'
 categories: Security
 tags:
 - Security
@@ -43,6 +43,8 @@ Prerequesites for the cousre:
 [Lecture 6 Notes](/static/security-notes/Lesson6_Data.pdf)
 
 [Lecture 7 Notes](/static/security-notes/Lesson7_Data.pdf)
+
+[Lecture 8 Notes](/static/security-notes/Lesson8_Data.pdf)
 
 // I will be adding more notes throughout the semester!
 
