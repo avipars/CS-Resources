@@ -36,6 +36,9 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 
 [Math Logic Course - Stonybrook](https://www3.cs.stonybrook.edu/~cse541/)
 
+
+[Hebrew Discrete Math Book](https://www.cs.mta.ac.il/staff/Michal_Parnas/publications.html)
+
 <!-- [Discrete Math Course - Tel Aviv U](http://courses.cs.tau.ac.il/bdida/06b/bdida06b.html) -->
 
 [Truth Tables, Tautologies, and Logical Equivalences](https://sites.millersville.edu/bikenaga/math-proof/truth-tables/truth-tables.html)
