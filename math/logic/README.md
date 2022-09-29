@@ -52,3 +52,7 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 
 Python and programming aren't required for the course but its a good way to check your work!
 and view my sample program for testing logic [here](/math/logic/program.py)
+using the SymPy library
+
+
+we also studied graph theory in the end of the course... I will add some more info on that as well!

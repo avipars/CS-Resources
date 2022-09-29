@@ -3,7 +3,7 @@ layout: page
 title: Intro to Data Security
 description: "intro to data security, hacking, cyber warfare stuff!"
 permalink: /intro_sec/
-date: '2022-09-21 11:12:11 -0400'
+date: '2022-09-29 11:12:11 -0400'
 categories: Security
 tags:
 - Security
@@ -50,14 +50,16 @@ Prerequesites for the cousre:
 
 ### Scripts and fun
 
-I will be adding some python and linux tips and tricks:
+I will be adding some python and linux tips and tricks (at the end of the semester):
 
 [John the Ripper Password Cracking Post](https://cs.aviparshan.com/post/2022/09/18/john-ripper-hash.html)
+
+<!-- will add this after homework is graded -->
+<!-- [Brute force password script for the zixem sqli challenge](https://cs.aviparshan.com/intro_sec/bruteforce.py) -->
 
 ### Videos
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgIRJSfMHG0GOHC4iM70pTQ1)
-
 
 [Cryptography Video](https://www.youtube.com/watch?v=rfqOBzh-6j4)
 
@@ -65,8 +67,6 @@ I will be adding some python and linux tips and tricks:
 
 [Frequency Analysis](https://inventwithpython.com/hacking/chapter20.html)
 
-
 [PGP Intro](https://users.ece.cmu.edu/~adrian/630-f04/PGP-intro.html)
-
 
 and read "William Stallings, Lawrie Brown - Computer Security  Principles and Practice-Pearson (2014)"
