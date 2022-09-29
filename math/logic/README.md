@@ -34,8 +34,11 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 [A Brief Overview of Logic](http://www.math.hawaii.edu/~ramsey/Logic.html)
 
 
-[Math Logic Course](https://www3.cs.stonybrook.edu/~cse541/)
+[Math Logic Course - Stonybrook](https://www3.cs.stonybrook.edu/~cse541/)
 
+<!-- [Discrete Math Course - Tel Aviv U](http://courses.cs.tau.ac.il/bdida/06b/bdida06b.html) -->
+
+[Truth Tables, Tautologies, and Logical Equivalences](https://sites.millersville.edu/bikenaga/math-proof/truth-tables/truth-tables.html)
 
 ### Calculators and tools
 

@@ -69,4 +69,8 @@ I will be adding some python and linux tips and tricks (at the end of the semest
 
 [PGP Intro](https://users.ece.cmu.edu/~adrian/630-f04/PGP-intro.html)
 
+[Content Security Policy Issues](https://web.archive.org/web/20150128141954/http:/www.novogeek.com/post/A-few-things-beyond-the-scope-of-Content-Security-Policy.aspx)
+
+[XSS Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
+
 and read "William Stallings, Lawrie Brown - Computer Security  Principles and Practice-Pearson (2014)"
