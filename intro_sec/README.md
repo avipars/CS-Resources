@@ -70,6 +70,6 @@ I will be adding some python and linux tips and tricks (at the end of the semest
 
 [Content Security Policy Issues](https://web.archive.org/web/20150128141954/http:/www.novogeek.com/post/A-few-things-beyond-the-scope-of-Content-Security-Policy.aspx)
 
-[XSS Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
+[Data security cheatsheet](https://cheatsheetseries.owasp.org/index.html)
 
 and read "William Stallings, Lawrie Brown - Computer Security  Principles and Practice-Pearson (2014)"
