@@ -28,7 +28,7 @@ Prerequesites for the cousre:
 2. [Computer Architecture](https://cs.aviparshan.com/mips/)
 
 
-### Notes 
+### Notes (in PDF Form)
 
 [Lecture 1 Notes](/static/security-notes/Lesson1_Data.pdf)
 
@@ -53,9 +53,8 @@ I will be adding some python and linux tips and tricks (at the end of the semest
 
 [John the Ripper Password Cracking Post](https://cs.aviparshan.com/post/2022/09/18/john-ripper-hash.html)
 
-<!-- will add this after homework is graded -->
-<!-- github.com/yangfan9702/alert-1-to-win#a002 -->
-[Brute force password script for the zixem sqli challenge](https://cs.aviparshan.com/intro_sec/bruteforce.py)
+
+[Brute force password script for the zixem  challenge](https://github.com/avipars/CS-Resources/blob/main/intro_sec/bruteforce.py)
 
 ### Videos
 
