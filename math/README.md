@@ -51,7 +51,7 @@ Math for computer science. I will be updating these pages and adding mroe as I g
 [Turk's Math Stuff](https://www.turksmathstuff.com/)
 
 
-[Wolfree - get wolframapha solutions for free](https://www.wolframalpha.com/input?i=1%2F2)
+[Wolfree - get wolframapha solutions for free](https://wolfreealpha.gitlab.io/input/index.html)
 
 
 [Desmos - Grapher](https://www.desmos.com/calculator)

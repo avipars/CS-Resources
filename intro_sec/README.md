@@ -46,7 +46,7 @@ Prerequesites for the cousre:
 
 [Lecture 8 Notes](/static/security-notes/Lesson8_Data.pdf)
 
-// I will be adding more notes throughout the semester!
+
 
 ### Scripts and fun
 
