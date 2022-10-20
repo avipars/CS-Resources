@@ -55,6 +55,16 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Math Logic](https://avipars.github.io/CS-Resources/math/logic)
 
+
+##### On the way:
+
+* Calculus 2
+
+* Linear Algebra 2
+
+* Discrete Mathematics
+
+
 #### Articles: 
 
 * [View by List (sorted by recent)](https://cs.aviparshan.com/blog)

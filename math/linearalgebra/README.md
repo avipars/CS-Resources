@@ -10,7 +10,7 @@ tags:
 - Math
 ---
 
-Linear Algebra:
+Linear Algebra 1:
 
 Matrix manipulations, lots of higher dimensional thinking, not proof based. I found this course more intuitive than Calculus. Linear dependence, vectors, matrices, determinants, etc. 
 

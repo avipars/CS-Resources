@@ -66,7 +66,6 @@ from khan academy
     and g(x) != 0
 
 
-
 3rd Party Resources:
 
 * [Epsilon-Delta Definition of a Limit](https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/)

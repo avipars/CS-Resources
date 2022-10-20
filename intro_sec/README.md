@@ -3,7 +3,7 @@ layout: page
 title: Intro to Data Security
 description: "intro to data security, hacking, cyber warfare stuff!"
 permalink: /intro_sec/
-date: '2022-09-29 11:12:11 -0400'
+date: '2022-10-20 11:12:11 -0400'
 categories: Security
 tags:
 - Security
@@ -47,7 +47,6 @@ Prerequesites for the cousre:
 [Lecture 8 Notes](/static/security-notes/Lesson8_Data.pdf)
 
 
-
 ### Scripts and fun
 
 I will be adding some python and linux tips and tricks (at the end of the semester):
@@ -56,7 +55,7 @@ I will be adding some python and linux tips and tricks (at the end of the semest
 
 <!-- will add this after homework is graded -->
 <!-- github.com/yangfan9702/alert-1-to-win#a002 -->
-<!-- [Brute force password script for the zixem sqli challenge](https://cs.aviparshan.com/intro_sec/bruteforce.py) -->
+[Brute force password script for the zixem sqli challenge](https://cs.aviparshan.com/intro_sec/bruteforce.py)
 
 ### Videos
 
