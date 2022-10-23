@@ -20,44 +20,44 @@ Some digital systems content, sentinal logic, prediate logic, graph theory
 
 Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen 
 
-[Syllabus](/static/post-image/logic_syllabus.pdf)
+* [Syllabus](/static/post-image/logic_syllabus.pdf)
 
 
-[Formula Sheet](/static/post-image/logic_formula_sheet.pdf)
+* [Formula Sheet](/static/post-image/logic_formula_sheet.pdf)
 
 
-[YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgKbu9DeqWJTbETQ8ZOIR2wO)
+* [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgKbu9DeqWJTbETQ8ZOIR2wO)
 
 
 ### Useful Links
 
-[A Brief Overview of Logic](http://www.math.hawaii.edu/~ramsey/Logic.html)
+* [A Brief Overview of Logic](http://www.math.hawaii.edu/~ramsey/Logic.html)
 
 
-[Math Logic Course - Stonybrook](https://www3.cs.stonybrook.edu/~cse541/)
+* [Math Logic Course - Stonybrook](https://www3.cs.stonybrook.edu/~cse541/)
 
 
-[Hebrew Discrete Math Book](https://www.cs.mta.ac.il/staff/Michal_Parnas/publications.html)
+* [Hebrew Discrete Math Book](https://www.cs.mta.ac.il/staff/Michal_Parnas/publications.html)
 
-<!-- [Discrete Math Course - Tel Aviv U](http://courses.cs.tau.ac.il/bdida/06b/bdida06b.html) -->
+<!-- * [Discrete Math Course - Tel Aviv U](http://courses.cs.tau.ac.il/bdida/06b/bdida06b.html) -->
 
-[Truth Tables, Tautologies, and Logical Equivalences](https://sites.millersville.edu/bikenaga/math-proof/truth-tables/truth-tables.html)
+* [Truth Tables, Tautologies, and Logical Equivalences](https://sites.millersville.edu/bikenaga/math-proof/truth-tables/truth-tables.html)
 
 ### Calculators and tools
 
-[Truth Table Generator](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
+* [Truth Table Generator](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
 
 
-[Logic Calculator: Truth Tables](https://www.erpelstolz.at/gateway/TruthTable.html)
+* [Logic Calculator: Truth Tables](https://www.erpelstolz.at/gateway/TruthTable.html)
 
 
-[Tree Proof Generator](https://www.umsu.de/trees/)
+* [Tree Proof Generator](https://www.umsu.de/trees/)
 
 
-[SymPy - python library for logic](https://www.sympy.org/en/index.html)
+* [SymPy - python library for logic](https://www.sympy.org/en/index.html)
 
 Python and programming aren't required for the course but its a good way to check your work!
-and view my sample program for testing logic [here](/math/logic/program.py)
+and view my sample program for testing logic * [here](/math/logic/program.py)
 using the SymPy library
 
 
