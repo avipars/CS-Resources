@@ -40,4 +40,4 @@ and more:
 [Equations and overview](https://cs.aviparshan.com/mips/notes)
 
 
-[Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgKBXxziTdBT9aXPY0cSXF3g)
+[YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgKBXxziTdBT9aXPY0cSXF3g)

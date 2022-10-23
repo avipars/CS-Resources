@@ -14,6 +14,7 @@ redirect_from:
 
 # Here are my C practice files (compiled in CPP)
 
+Most of the course was focused on being familiar with C/C++ data types, using loops, functions, pointers, arrays, and converting some math formulas to code. 
 
 * Notable Samples: 
 
@@ -23,8 +24,9 @@ redirect_from:
     - [Latin Square](https://github.com/avipars/CS-Resources/blob/main/intro_cs/Samples/latin.cpp)
 
 
-    -  [More Code](https://github.com/avipars/CS-Resources/tree/main/intro_cs)
+    - [More Code](https://github.com/avipars/CS-Resources/tree/main/intro_cs)
 
 * Posts:
 
 [C LeetCode Problem and Solution — Check if an array contains duplicate elements](https://aviparshan.medium.com/c-leetcode-problem-and-solution-check-if-an-array-contains-duplicate-elements-d7b4936c3130)
+

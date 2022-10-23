@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CS-Resources Homepage
-date: '2022-09-03 11:12:11 -0400'
+date: '2022-10-20 11:12:11 -0400'
 permalink: /
 categories: Homepage
 tags:
@@ -56,13 +56,23 @@ I will be adding new files, videos, and interesting information that will be rel
 * [Math Logic](https://avipars.github.io/CS-Resources/math/logic)
 
 
-##### On the way:
+##### On the way (Year 2):
+
+##### Math:
 
 * Calculus 2
 
 * Linear Algebra 2
 
 * Discrete Mathematics
+
+##### Other: 
+
+* Operating Systems
+
+* Intro to Software Engineering
+
+* Data Structures 2 
 
 
 #### Articles: 
@@ -75,7 +85,7 @@ I will be adding new files, videos, and interesting information that will be rel
 
 ##### Bonus stuff
 
-[My Website](https://aviparshan.com/)
+[My Website](https://www.aviparshan.com/)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
 

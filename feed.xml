@@ -12,10 +12,10 @@ layout: null
  <author>
    <name>Avi Parshan</name>
  </author>
-<!-- only run these for internal blog posts -->
 
  {% for post in site.posts %}
     {% unless post.external %}
+    <!-- only run these for internal blog posts -->
         <entry>
             <title>{{ post.title }}</title>
             <link href="{{ site.url }}{{ post.url }}"/>

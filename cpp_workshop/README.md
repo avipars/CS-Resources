@@ -19,7 +19,7 @@ Here is the next course called Workshop in c++
 
 [View Code Files/Demos](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples)
 
-* Notable Examples: 
+* Notable Examples/Sample Code: 
 
     - [Transit Demo - Classes and Virtual keyword](https://github.com/avipars/CS-Resources/tree/main/cpp_workshop/Samples/transit/)
 

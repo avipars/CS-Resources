@@ -73,7 +73,7 @@ A ⊂ B  = A is a subset of B
 
 ###### 3rd party resources:
 
-[Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgL31JLTa6LvUJlwYtQ_093V)
+[YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgL31JLTa6LvUJlwYtQ_093V)
 
 
 [Cartesian vs parametric](https://www.mathwizurd.com/calc/2016/8/22/define-a-line-using-vectors)

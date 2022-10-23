@@ -30,6 +30,8 @@ Math for computer science. I will be updating these pages and adding mroe as I g
 
 [Math Logic](https://cs.aviparshan.com/math/logic/)
 
+#### On the way (2nd year):
+
 Linear Algebra 2
 
 Calculus 2
@@ -72,4 +74,4 @@ Discrete Mathematics
 
 ##### Books:
 
-[The book of proof](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf)
+[The Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf)

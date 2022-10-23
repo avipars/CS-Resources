@@ -16,6 +16,8 @@ Precalculus
 [Formula Sheet](https://github.com/avipars/CS-Resources/files/8949180/Precalculus.Formula.Sheet.pdf)
 
 
+[YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgLyPgbOqfu8xk2QaIPOBYvZ)
+
 Make sure to focus on logarithm, polynomial, and exponential functions.  In addition, work on synthetic division and analytical geometry. Lastly, learn about sigma notation,  sequences/sums, and proof by induction. 
 
 

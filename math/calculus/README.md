@@ -68,6 +68,9 @@ from khan academy
 
 3rd Party Resources:
 
+* [YouTube PLaylist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI82E3c7HmSV0pq88D6YKf0)
+
+
 * [Epsilon-Delta Definition of a Limit](https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/)
 
 

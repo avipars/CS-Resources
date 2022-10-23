@@ -28,3 +28,6 @@ Big Oh Notation
 
 
 [View Graph](https://www.desmos.com/calculator/dshzbdn2w3)
+
+
+[YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgLEUwB7RnTLNQ-N9x0fn-0a)
