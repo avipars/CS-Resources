@@ -68,7 +68,7 @@ I will be adding new files, videos, and interesting information that will be rel
 
 ##### Other: 
 
-* Operating Systems
+* [Operating Systems](https://cs.aviparshan.com/os)
 
 * Intro to Software Engineering
 

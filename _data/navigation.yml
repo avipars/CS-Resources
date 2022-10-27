@@ -25,5 +25,8 @@
 - name: MIPS
   link: /mips/
 
+- name: Operating Systems
+  link: /os/
+
 - name: Tags
   link: /tags.html
