@@ -43,6 +43,8 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 
 * [Truth Tables, Tautologies, and Logical Equivalences](https://sites.millersville.edu/bikenaga/math-proof/truth-tables/truth-tables.html)
 
+* [Explaining Quantifiers](https://www.whitman.edu/mathematics/higher_math_online/section01.02.html)
+
 ### Calculators and tools
 
 * [Truth Table Generator](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
