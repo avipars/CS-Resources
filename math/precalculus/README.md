@@ -50,3 +50,5 @@ Cot = Adjacent/Opposite (= cos/sin) or 1/Tan
 ##### Resources
 
 [Exponent Rules](https://www.rapidtables.com/math/number/exponent.html)
+
+[Polynomial Inequalities](https://math.libretexts.org/Courses/Monroe_Community_College/MTH_165_College_Algebra_MTH_175_Precalculus/03%3A_Polynomial_and_Rational_Functions/3.08%3A_Polynomial_and_Rational_Inequalities)
