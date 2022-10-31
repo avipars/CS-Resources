@@ -53,6 +53,9 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 * [Logic Calculator: Truth Tables](https://www.erpelstolz.at/gateway/TruthTable.html)
 
 
+* [Another logic calculator - quite good](https://sheabunge.github.io/boolcalc/)
+
+
 * [Tree Proof Generator](https://www.umsu.de/trees/)
 
 

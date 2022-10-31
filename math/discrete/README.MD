@@ -19,3 +19,11 @@ Discrete Math
 [Union in Set Theory](https://en.wikipedia.org/wiki/Union_(set_theory))
 
 [Discrete Math](https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_sets.htm)
+
+#### Programs
+
+* [Another logic calculator - quite good](https://sheabunge.github.io/boolcalc/)
+
+
+* [SymPy - python library for logic](https://www.sympy.org/en/index.html)
+
