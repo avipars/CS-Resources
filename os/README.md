@@ -13,6 +13,12 @@ sitemap:
 
 I wil be adding my notes in the coming days
 
+### Notes (in PDF Form)
+
+* [Lecture 1 Notes](/static/os-notes/Course1.pdf)
+
+* [Lab 1 Notes](/static/os-notes/Lab1.pdf)
+
 ### Useful Links
 
 * [Open Source Debate](https://www.oreilly.com/openbook/opensources/book/appa.html)

@@ -8,7 +8,6 @@ title: "CS Resources"
 description: "Computer Science Resources and Links from Avi Parshan"
 subtitle: "Useful Computer Science Resources and Links"  # site tagline that appears below site title in masthead
 locale: "en-US"
-author: "Avi Parshan"
 
 remote_theme: pages-themes/architect@v0.2.0
 
@@ -38,7 +37,7 @@ include:
 #  - 404.md
 #  - 404.html 
 
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 category_archive:
