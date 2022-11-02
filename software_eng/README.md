@@ -10,6 +10,8 @@ sitemap:
   changefreq: "weekly"
   
 ---
+Intro to software engineering course
+
 
 I wil be adding my notes in the coming days
 

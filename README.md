@@ -58,6 +58,12 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [DIscrete Mathematics](https://cs.aviparshan.com/math/discrete/)
 
+
+* [Operating Systems](https://cs.aviparshan.com/os)
+
+
+* [Intro to Software Engineering](https://cs.aviparshan.com/software_eng)
+
 ##### On the way (Year 2):
 
 ##### Math:
@@ -70,9 +76,6 @@ I will be adding new files, videos, and interesting information that will be rel
 
 ##### Other: 
 
-* [Operating Systems](https://cs.aviparshan.com/os)
-
-* Intro to Software Engineering
 
 * Data Structures 2 
 

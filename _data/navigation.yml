@@ -28,5 +28,9 @@
 - name: Operating Systems
   link: /os/
 
+- name: Software Engineering
+  link: /software_eng/
+
+
 - name: Tags
   link: /tags.html
