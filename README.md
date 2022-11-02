@@ -56,6 +56,8 @@ I will be adding new files, videos, and interesting information that will be rel
 * [Math Logic](https://avipars.github.io/CS-Resources/math/logic)
 
 
+* [DIscrete Mathematics](https://cs.aviparshan.com/math/discrete/)
+
 ##### On the way (Year 2):
 
 ##### Math:

@@ -30,13 +30,14 @@ Math for computer science. I will be updating these pages and adding mroe as I g
 
 [Math Logic](https://cs.aviparshan.com/math/logic/)
 
+[DIscrete Mathematics](https://cs.aviparshan.com/math/discrete/)
+
 #### On the way (2nd year):
 
 Linear Algebra 2
 
 Calculus 2
 
-Discrete Mathematics
 
 #### More: 
 

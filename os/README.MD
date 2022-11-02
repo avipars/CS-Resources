@@ -11,6 +11,7 @@ sitemap:
   
 ---
 
+I wil be adding my notes in the coming days
 
 ### Useful Links
 
