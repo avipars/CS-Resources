@@ -19,5 +19,8 @@ I wil be adding my notes in the coming days
 
 * [Lecture 1 Notes](/static/software-notes/Lesson1.pdf)
 
-<!-- ### Useful Links -->
+### Useful Links 
 
+* [Vectors](https://www.khanacademy.org/math/algebra-home/alg-vectors)
+
+* [Vector dot product and vector length](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)

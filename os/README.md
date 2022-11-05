@@ -3,7 +3,7 @@ layout: page
 title: Operating Systems
 description: "Course page for Operating Systems"
 permalink: /os/
-date: '2022-10-27 11:12:11 -0400'
+date: '2022-11-05 11:12:11 -0400'
 categories: OS
 sitemap:
   priority: 0.7
@@ -11,7 +11,6 @@ sitemap:
   
 ---
 
-I wil be adding my notes in the coming days
 
 ### Notes (in PDF Form)
 
@@ -19,7 +18,11 @@ I wil be adding my notes in the coming days
 
 * [Lab 1 Notes](/static/os-notes/Lab1.pdf)
 
+* [Lecture 2 Notes](/static/os-notes/Course2.pdf)
+
 ### Useful Links
+
+* [OS Security](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/15_Security.html)
 
 * [Open Source Debate](https://www.oreilly.com/openbook/opensources/book/appa.html)
 

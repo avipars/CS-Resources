@@ -50,31 +50,35 @@ I will be adding new files, videos, and interesting information that will be rel
 
 #### Courses (Year 2): 
 
-* [Intro to Data Security](https://avipars.github.io/CS-Resources/intro_sec)
+
+###### [Math](https://avipars.github.io/CS-Resources/math/)
 
 
 * [Math Logic](https://avipars.github.io/CS-Resources/math/logic)
 
 
-* [DIscrete Mathematics](https://cs.aviparshan.com/math/discrete/)
+* [Discrete Mathematics](https://cs.aviparshan.com/math/discrete/)
 
-
-* [Operating Systems](https://cs.aviparshan.com/os)
-
-
-* [Intro to Software Engineering](https://cs.aviparshan.com/software_eng)
-
-##### On the way (Year 2):
-
-##### Math:
+###### On the way:
 
 * Calculus 2
 
 * Linear Algebra 2
 
-* Discrete Mathematics
 
-##### Other: 
+###### Architecture
+
+* [Operating Systems](https://cs.aviparshan.com/os)
+
+
+##### Miscellaneous:
+
+* [Intro to Software Engineering](https://cs.aviparshan.com/software_eng)
+
+
+* [Intro to Data Security](https://avipars.github.io/CS-Resources/intro_sec)
+
+##### On the way: 
 
 
 * Data Structures 2 
