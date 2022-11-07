@@ -27,3 +27,7 @@ sitemap:
 * [Open Source Debate](https://www.oreilly.com/openbook/opensources/book/appa.html)
 
 * [Animations](http://williamstallings.com/OS-Animation/Animations.html)
+
+* [OS Notes](https://www.massey.ac.nz/~mjjohnso/notes/59305/)
+
+* [OS Study Guide](http://www.cs.kent.edu/~durand/CS0S07/StudyGuide/)
