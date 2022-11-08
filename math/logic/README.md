@@ -45,6 +45,9 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 
 * [Explaining Quantifiers](https://www.whitman.edu/mathematics/higher_math_online/section01.02.html)
 
+
+* [Deductions](https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec15-logic-contd/lec15.html)
+
 ### Calculators and tools
 
 * [Truth Table Generator](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)

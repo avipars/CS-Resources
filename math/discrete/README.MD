@@ -22,6 +22,9 @@ Discrete Math
 
 * [Discrete Math](https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_sets.htm)
 
+
+* [Logic and Sets](https://www.whitman.edu/mathematics/higher_math_online/section01.05.html)
+
 #### Programs/Calculators
 
 * [Another logic calculator - quite good](https://sheabunge.github.io/boolcalc/)

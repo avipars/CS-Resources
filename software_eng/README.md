@@ -24,3 +24,7 @@ I wil be adding my notes in the coming days
 * [Vectors](https://www.khanacademy.org/math/algebra-home/alg-vectors)
 
 * [Vector dot product and vector length](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
+
+* [Software Engineering Notes](https://cs.ccsu.edu/~stan/classes/CS410/Notes16/01-WhatIsSE.html)
+
+* [Essential Complexity](https://www.infoq.com/presentations/complexity-distributed-behavior/)
