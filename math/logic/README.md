@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to mathformalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
-date: '2022-09-13 11:12:11 -0400'
+date: '2022-11-10 11:12:11 -0400'
 categories: math
 tags:
 - Logic
@@ -28,8 +28,18 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 
 * [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgKbu9DeqWJTbETQ8ZOIR2wO)
 
+### Notes: 
+
+- We studied sentential logic as part of the course, but it is often referred to as Propositional logic/calculus
+
+- We also used a system called L arrow which exists in sentential logic (sometimes called language PC) 
+
+- I advise reading the Rosen Discrete Math Book, in the first few hundred pages... it covers most of what the course does.
 
 ### Useful Links
+
+* [Propositional Logic](https://iep.utm.edu/prop-log/)
+
 
 * [A Brief Overview of Logic](http://www.math.hawaii.edu/~ramsey/Logic.html)
 
@@ -47,6 +57,18 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 
 
 * [Deductions](https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec15-logic-contd/lec15.html)
+
+#### Wikipedia Articles relevant to subject 
+
+https://en.wikipedia.org/wiki/Propositional_calculus (Sentential Logic, L-> and L2)
+
+https://en.wikipedia.org/wiki/Hilbert_system
+
+https://en.wikipedia.org/wiki/Formal_system#Logical_system
+
+https://en.wikipedia.org/wiki/First-order_logic (For all, There exists)
+
+
 
 ### Calculators and tools
 
