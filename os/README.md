@@ -30,4 +30,6 @@ sitemap:
 
 * [OS Notes](https://www.massey.ac.nz/~mjjohnso/notes/59305/)
 
+* [CPU Scheduling Notes](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/5_CPU_Scheduling.html)
+
 * [OS Study Guide](http://www.cs.kent.edu/~durand/CS0S07/StudyGuide/)
