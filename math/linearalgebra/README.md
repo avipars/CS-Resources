@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Math 
+title: Linear Algebra 
 permalink: /math/linearalgebra/
-date: '2022-09-03 11:12:11 -0400'
+date: '2022-11-21 11:12:11 -0400'
 description: Matrix manipulations, lots of higher dimensional thinking, not proof based. I found this course more intuitive than Calculus. Linear dependence, vectors, matrices, determinants, etc. 
 categories: "Linear Algebra"
 tags:
@@ -80,3 +80,6 @@ A ⊂ B  = A is a subset of B
 
 
 [Defining a Plane using a Normal Vector and a Point](https://www.mathwizurd.com/calc/2016/8/23/defining-planes)
+
+
+[Linear Algebra 2 Course](https://cs.aviparshan.com/math/linearalgebra2/)

@@ -59,11 +59,13 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Discrete Mathematics](https://cs.aviparshan.com/math/discrete/)
 
+
+* [Linear Algebra 2](https://cs.aviparshan.com/math/linearalgebra2/)
+
+
 ###### On the way:
 
 * Calculus 2
-
-* Linear Algebra 2
 
 
 ###### Architecture
