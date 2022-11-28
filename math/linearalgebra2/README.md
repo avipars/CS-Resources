@@ -25,3 +25,6 @@ First, make sure to study [Linear Algebra 1](https://cs.aviparshan.com/math/line
 
 
 * [n-th root of unity explainer](https://www.nagwa.com/en/explainers/257142752623/)
+
+
+* [Mighty roots of unity](https://www.quantamagazine.org/the-simple-math-behind-the-mighty-roots-of-unity-20210923/)
