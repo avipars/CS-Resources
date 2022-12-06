@@ -59,11 +59,16 @@ Calculus 2
 [Turk's Math Stuff](https://www.turksmathstuff.com/)
 
 
-[Wolfree - get wolframapha solutions for free](https://wolfreealpha.gitlab.io/input/index.html)
+[Math Skills Overview](https://davenport.libguides.com/math-skills-overview)
 
 
 [Desmos - Grapher](https://www.desmos.com/calculator)
 
+
+[SymPy Gamma - math problem solver](https://gamma.sympy.org/)
+
+
+[Wolfree - get wolframapha math solutions for free](https://wolfreealpha.gitlab.io/input/index.html)
 
 ##### Apps:
 
