@@ -20,6 +20,12 @@ sitemap:
 
 * [Lecture 2 Notes](/static/os-notes/Course2.pdf)
 
+* [12/13/2022 Notes](/static/12_13_lecture_notes.pdf)
+
+### Playlist
+
+* [View on YouTube](https://www.youtube.com/watch?v=ih-GWGv4nbU&list=PL9DdgseuDZgLp7WDWRZXloeCrIouDQaCt)
+
 ### Useful Links
 
 * [OS Security](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/15_Security.html)
