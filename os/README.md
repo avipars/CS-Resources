@@ -20,7 +20,7 @@ sitemap:
 
 * [Lecture 2 Notes](/static/os-notes/Course2.pdf)
 
-* [12/13/2022 Notes](/static/12_13_lecture_notes.pdf)
+* [12/13/2022 Notes](/static/os-notes/12_13_lecture_notes.pdf)
 
 ### Playlist
 
