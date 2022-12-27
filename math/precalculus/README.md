@@ -3,7 +3,7 @@ layout: page
 title: Precalculus
 permalink: /math/precalculus/
 description: Make sure to focus on logarithm, polynomial, and exponential functions.  In addition, work on synthetic division and analytical geometry. Lastly, learn about sigma notation,  sequences/sums, and proof by induction. 
-date: '2022-07-30 20:12:11 -0400'
+date: '2022-12-27 20:12:11 -0400'
 categories: Precalculus
 tags:
 - Precalculus
@@ -52,3 +52,7 @@ Cot = Adjacent/Opposite (= cos/sin) or 1/Tan
 [Exponent Rules](https://www.rapidtables.com/math/number/exponent.html)
 
 [Polynomial Inequalities](https://math.libretexts.org/Courses/Monroe_Community_College/MTH_165_College_Algebra_MTH_175_Precalculus/03%3A_Polynomial_and_Rational_Functions/3.08%3A_Polynomial_and_Rational_Inequalities)
+
+[Polynomial Division](https://www.wtamu.edu/academic/anns/mps/math/mathlab/col_algebra/col_alg_tut36_longdiv.htm)
+
+[Domain, Range, and Signs of Trigonometric Functions](https://flexbooks.ck12.org/cbook/ck-12-trigonometry-concepts/section/1.22/primary/lesson/domain-range-and-signs-of-trigonometric-functions-trig/)
