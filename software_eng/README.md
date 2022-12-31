@@ -3,7 +3,7 @@ layout: page
 title: Intro to software engineering
 description: "Course page for intor to software engineering"
 permalink: /software_eng/
-date: '2022-11-02 11:12:11 -0400'
+date: '2022-12-31 11:12:11 -0400'
 categories: Software
 sitemap:
   priority: 0.7
@@ -25,6 +25,13 @@ I wil be adding my notes in the coming days
 
 * [Vector dot product and vector length](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
 
+* [3D Lighting](https://docs.unity3d.com/540/Documentation/Manual/Lighting.html)
+
 * [Software Engineering Notes](https://cs.ccsu.edu/~stan/classes/CS410/Notes16/01-WhatIsSE.html)
 
 * [Essential Complexity](https://www.infoq.com/presentations/complexity-distributed-behavior/)
+
+* [Template Methods](https://refactoring.guru/design-patterns/template-method)
+
+* [Code Smell](https://www.alpharithms.com/code-smell-492316/)
+
