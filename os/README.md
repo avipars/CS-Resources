@@ -26,6 +26,7 @@ sitemap:
 
 * [View on YouTube](https://www.youtube.com/watch?v=ih-GWGv4nbU&list=PL9DdgseuDZgLp7WDWRZXloeCrIouDQaCt)
 
+
 ### Useful Links
 
 * [OS Security](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/15_Security.html)
@@ -39,3 +40,5 @@ sitemap:
 * [CPU Scheduling Notes](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/5_CPU_Scheduling.html)
 
 * [OS Study Guide](http://www.cs.kent.edu/~durand/CS0S07/StudyGuide/)
+
+* [OS in 3 Steps](https://pages.cs.wisc.edu/~remzi/OSTEP/)
