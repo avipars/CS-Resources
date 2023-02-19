@@ -42,3 +42,5 @@ sitemap:
 * [OS Study Guide](http://www.cs.kent.edu/~durand/CS0S07/StudyGuide/)
 
 * [OS in 3 Steps](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+* [Disk Scheduling Calculator](https://khushalip.github.io/OS-lab/diskAlgo/disk.html)
