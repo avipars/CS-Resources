@@ -26,6 +26,12 @@ sitemap:
 
 * [View on YouTube](https://www.youtube.com/watch?v=ih-GWGv4nbU&list=PL9DdgseuDZgLp7WDWRZXloeCrIouDQaCt)
 
+### Calculators
+
+* [Disk Scheduling Calculator](https://khushalip.github.io/OS-lab/diskAlgo/disk.html)
+
+* [Page Replacement Calculator](https://nicomedes.assistedcoding.eu/#/app/os/page_replacement)
+
 
 ### Useful Links
 
@@ -43,4 +49,3 @@ sitemap:
 
 * [OS in 3 Steps](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-* [Disk Scheduling Calculator](https://khushalip.github.io/OS-lab/diskAlgo/disk.html)
