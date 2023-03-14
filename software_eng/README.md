@@ -3,7 +3,7 @@ layout: page
 title: Intro to software engineering
 description: "Course page for intor to software engineering"
 permalink: /software_eng/
-date: '2022-12-31 11:12:11 -0400'
+date: '2023-03-14 11:12:11 -0400'
 categories: Software
 sitemap:
   priority: 0.7
@@ -12,12 +12,17 @@ sitemap:
 ---
 Intro to software engineering course
 
-
-I wil be adding my notes in the coming days
+- Part of the course is a project that makes a scene with ray tracing (in java)
 
 ### Notes (in PDF Form)
 
 * [Lecture 1 Notes](/static/software-notes/Lesson1.pdf)
+
+### Resources
+
+* [Quizzer for ISE on Android](https://play.google.com/store/apps/details?id=com.aviparshan.isequiz)
+
+* [Quizzer for ISE on Windows](https://github.com/edenpro2/ISE-Quizzer)
 
 ### Useful Links 
 

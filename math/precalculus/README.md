@@ -11,7 +11,7 @@ tags:
 ---
 
 
-Precalculus
+# Precalculus
 
 [Formula Sheet](https://github.com/avipars/CS-Resources/files/8949180/Precalculus.Formula.Sheet.pdf)
 
@@ -56,3 +56,11 @@ Cot = Adjacent/Opposite (= cos/sin) or 1/Tan
 [Polynomial Division](https://www.wtamu.edu/academic/anns/mps/math/mathlab/col_algebra/col_alg_tut36_longdiv.htm)
 
 [Domain, Range, and Signs of Trigonometric Functions](https://flexbooks.ck12.org/cbook/ck-12-trigonometry-concepts/section/1.22/primary/lesson/domain-range-and-signs-of-trigonometric-functions-trig/)
+
+#### Useful Links - Calculators
+
+* [ChatGPT](https://chat.openai.com/chat)
+
+* [WolfreeAlpha](https://wolfreealpha.gitlab.io/input/index.html)
+
+* [Polynomial Long Division Calculator](https://www.emathhelp.net/calculators/algebra-1/polynomial-long-division-calculator/)
