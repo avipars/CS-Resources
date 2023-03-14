@@ -64,3 +64,5 @@ Cot = Adjacent/Opposite (= cos/sin) or 1/Tan
 * [WolfreeAlpha](https://wolfreealpha.gitlab.io/input/index.html)
 
 * [Polynomial Long Division Calculator](https://www.emathhelp.net/calculators/algebra-1/polynomial-long-division-calculator/)
+
+* [Parabola Stuff](https://www.emathhelp.net/calculators/algebra-2/parabola-calculator/?type=f&f=-2x%5E2+%2B6x-3&dir=x)
