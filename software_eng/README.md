@@ -20,7 +20,7 @@ Intro to software engineering course
 
 ### Resources
 
-* [Quizzer for ISE on Android](https://play.google.com/store/apps/details?id=com.aviparshan.isequiz)
+<!-- * [Quizzer for ISE on Android](https://play.google.com/store/apps/details?id=com.aviparshan.isequiz) -->
 
 * [Quizzer for ISE on Windows](https://github.com/edenpro2/ISE-Quizzer)
 

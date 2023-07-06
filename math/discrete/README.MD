@@ -25,6 +25,7 @@ Discrete Math
 
 * [Logic and Sets](https://www.whitman.edu/mathematics/higher_math_online/section01.05.html)
 
+
 * [Defining relations on sets](https://math.libretexts.org/Courses/Monroe_Community_College/MTH_220_Discrete_Math/6%3A_Relations/6.1%3A_Relations_on_Sets)
 
 
