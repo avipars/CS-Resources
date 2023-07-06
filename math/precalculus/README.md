@@ -3,7 +3,7 @@ layout: page
 title: Precalculus
 permalink: /math/precalculus/
 description: Make sure to focus on logarithm, polynomial, and exponential functions.  In addition, work on synthetic division and analytical geometry. Lastly, learn about sigma notation,  sequences/sums, and proof by induction. 
-date: '2022-12-27 20:12:11 -0400'
+date: '2023-7-6 14:12:11 -0400'
 categories: Precalculus
 tags:
 - Precalculus
@@ -44,6 +44,35 @@ Sec = Hypotenuse/Adjacent or 1/Cos
 
 Cot = Adjacent/Opposite (= cos/sin) or 1/Tan
 
+##### Inverse Trigonometric Functions
+
+Note that using the power of -1 here is not actually raising it to the -1 power, but rather a notation often used for inverse functions that may appear on your calculator. 
+
+tan^-1 aka (arctan) is the inverse function for tangent
+
+cos^-1 aka (arccos) is the inverse function for cosine
+
+sin^-1 aka (arcsin) is the inverse function for sine
+
+Application: As sin(pi/2) = 1, arcsin(1) = pi/2
+
+These come in handy for calculus
+
+##### Functions
+
+One to One = Injective 
+
+Onto = Surjective 
+
+Both = Bijective
+
+###### Vertical line test: 
+
+For a graph to represent a function, it would need to have 1 inout for each output, IE any vertical line would need to hit the graph at most once. Using this test, we know the equation of a circle isn't considered to be a function.
+
+###### Horizontal line test: 
+
+Use the horizontal line test to see if it is surjective, injective, bijective, or none. For a function to be one to one, the graph of the function crosses any horizontal line on the graph at least once. Whereas, for onto it would need to cross at most once. For it to be both onto and one to one, the graph would need to cross any horizontal line at most one time. 
 
 ![image](https://user-images.githubusercontent.com/5733247/182157678-4e2193b0-4258-482a-8315-47da4ed897f6.png)
 
