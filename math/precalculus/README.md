@@ -78,6 +78,8 @@ Use the horizontal line test to see if it is surjective, injective, bijective, o
 
 ##### Resources
 
+[My formula sheet](/static/post-image/formulas.pdf)
+
 [Exponent Rules](https://www.rapidtables.com/math/number/exponent.html)
 
 [Polynomial Inequalities](https://math.libretexts.org/Courses/Monroe_Community_College/MTH_165_College_Algebra_MTH_175_Precalculus/03%3A_Polynomial_and_Rational_Functions/3.08%3A_Polynomial_and_Rational_Inequalities)
