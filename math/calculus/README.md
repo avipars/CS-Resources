@@ -2,7 +2,7 @@
 layout: page
 title: Calculus 1 
 permalink: /math/calculus/
-date: '2022-09-03 11:12:11 -0400'
+date: '2023-07-06 11:12:11 -0400'
 description: You will be learning about limits, derivatives, and integrals. This course is strongly based on proofs (induction, contradiction, etc.).
 categories: Calculus
 tags:
@@ -21,6 +21,19 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
 
 ### Quick Notes:
 
+Mean Value Theorem is also known as Lagrange's Theorem
+
+Sandwich Theorem is sometimes referred to as the Squeeze Theorem
+
+Types of Discontinuities (makes a function not continuous): 
+
+* Type 1 Discontinuity = Jump Discontinuity (Usually setup via a piecewise defined function)
+
+* Type 2 Discontinuity = Improper/Infinite Discontinuity (Graph usually goes to +-infinity)
+
+Example: f(x) = 1/x, then look at both one sided limits as x->0
+
+* Removable Discontinuity (A little hole in the graph at that point, the function is not defined there)
 
 #### Graph sketching: 
 
@@ -68,7 +81,7 @@ from khan academy
 
 3rd Party Resources:
 
-* [YouTube PLaylist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI82E3c7HmSV0pq88D6YKf0)
+* [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI82E3c7HmSV0pq88D6YKf0)
 
 
 * [Epsilon-Delta Definition of a Limit](https://brilliant.org/wiki/epsilon-delta-definition-of-a-limit/)
