@@ -31,7 +31,7 @@ Types of Discontinuities (makes a function not continuous):
 
 * Type 2 Discontinuity = Improper/Infinite Discontinuity (Graph usually goes to +-infinity)
 
-Example: f(x) = 1/x, then look at both one sided limits as x->0
+        Example: f(x) = 1/x, then look at both one sided limits as x->0
 
 * Removable Discontinuity (A little hole in the graph at that point, the function is not defined there)
 
@@ -51,9 +51,12 @@ Example: f(x) = 1/x, then look at both one sided limits as x->0
 
 *	F’(x) = 0 for all x in (a,b), then F is constant on [a,b]
 
+2nd derivitive test is for concavity 
+
 #### Derivitive Rules:
 
 ![image](https://user-images.githubusercontent.com/5733247/182828730-2b2bb7bf-f288-4a56-94a4-853011993c09.png)
+
 from khan academy 
 
 * Chain Rule: 
