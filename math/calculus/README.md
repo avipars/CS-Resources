@@ -21,9 +21,14 @@ This also expands upon trigonometry in some ways and introduces new trigonometri
 
 ### Quick Notes:
 
-Mean Value Theorem is also known as Lagrange's Theorem
+These tend to differ based on course, textbook, or teacher... it is useful to know how other people refer to the same theorems especially if you use external resources to help you learn:
 
-Sandwich Theorem is sometimes referred to as the Squeeze Theorem
+* Mean Value Theorem is also known as Lagrange's Theorem
+
+* Sandwich Theorem is sometimes referred to as the Squeeze Theorem
+
+* Weierstrass's Theorem is also known as the Extreme Value Theorem
+
 
 Types of Discontinuities (makes a function not continuous): 
 
@@ -51,7 +56,7 @@ Types of Discontinuities (makes a function not continuous):
 
 *	F’(x) = 0 for all x in (a,b), then F is constant on [a,b]
 
-2nd derivitive test is for concavity 
+2nd derivitive test is for concave up/down 
 
 #### Derivitive Rules:
 
