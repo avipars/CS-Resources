@@ -153,11 +153,11 @@ Q11:
 
 All is live except for Q11 Part B (is in progress, feel free to submit a pull request). 
 
-[View Code for Part B](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)
+[View Code for Part B](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)
 
 
 ### Part C:
 
 Q12 is in the link below! 
 
-[View Code for Part C](https://github.dev/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/C) 
+[View Code for Part C](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/C/q12.cpp) 
