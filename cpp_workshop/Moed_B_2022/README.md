@@ -125,6 +125,7 @@ Q10:
 
 Q11: 
 
+
 * A:
 
   ```cpp
@@ -150,8 +151,49 @@ Q11:
     }
   ```
 
+* B: 
+  
+ (connect method) may be incorrect and/or incomplete
+ To implement the connect method in the binary search tree to connect all nodes at the same level to a linked list, we can use a breadth-first traversal approach using the STL queue. Each level of the tree will be traversed, and we will connect the nodes at the same level through their next pointers.
 
-All is live except for Q11 Part B (is in progress, feel free to submit a pull request). 
+  ```cpp
+  void SearchTree::connect(){
+
+
+     if (root == nullptr) {  //base case
+            return;
+        }
+
+        queue<node*> *nodeQueue = new queue<node*>();
+        nodeQueue.push(root);
+
+        while (!nodeQueue.empty()) {
+            int levelSize = nodeQueue.size();
+            node* prev = nullptr;
+
+            for (int i = 0; i < levelSize; i++) {
+                node* current = nodeQueue.front();
+                nodeQueue.pop();
+
+                if (prev != nullptr) {
+                    prev->next = current;
+                }
+
+                prev = current;
+
+                if (current->left) {
+                    nodeQueue.push(current->left);
+                }
+
+                if (current->right) {
+                    nodeQueue.push(current->right);
+                }
+            }
+        }
+  }
+  ```
+
+
 
 [View Code for Part B](https://github.com/avipars/CS-Resources/blob/main/cpp_workshop/Moed_B_2022/B)
 

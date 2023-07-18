@@ -76,3 +76,41 @@ void SearchTree::Connect(){
     current->next->left = nullptr;
     
 }
+
+
+//alternative part B (again may not be complete)
+
+  void SearchTree::Connect(){
+
+
+     if (root == nullptr) {  //base case
+            return;
+        }
+
+        queue<node*> *nodeQueue = new queue<node*>();
+        nodeQueue.push(root);
+
+        while (!nodeQueue.empty()) {
+            int levelSize = nodeQueue.size();
+            node* prev = nullptr;
+
+            for (int i = 0; i < levelSize; i++) {
+                node* current = nodeQueue.front();
+                nodeQueue.pop();
+
+                if (prev != nullptr) {
+                    prev->next = current;
+                }
+
+                prev = current;
+
+                if (current->left) {
+                    nodeQueue.push(current->left);
+                }
+
+                if (current->right) {
+                    nodeQueue.push(current->right);
+                }
+            }
+        }
+  }
