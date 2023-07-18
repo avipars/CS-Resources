@@ -1,3 +1,7 @@
+#include <iostream>
+#include <queue>
+using namespace std; 
+
 class Node
 {
 public:
@@ -51,51 +55,24 @@ void SearchTree::add(Node *current, int val, int level)
 
 
 
-//part B WIP (needs work)
-//- traverse the tree and connect all same level nodes to be linked list (updates next ptr)
-//implement like brerth first search (level order)
-void SearchTree::Connect(){
-    queue<Node *> q = new queue<Node *>(); //create queue
-    Node *current = root;
-    root->next = nullptr;
-    q.push(current);
-    if(curr == nullptr) return;
-    while(!q.empty()){
-        current = q.front();
-        q.pop();
-        if(current->left != nullptr){
-            current->left->next = current->right;
-            q.push(current->left);
-        }
-        if(current->right != nullptr){
-            current->right->next = current->next->left;
-            q.push(current->right);
-        }
-    }
-    //finish the last node
-    current->next->left = nullptr;
-    
-}
+//part B  (needs work)
 
-
-//alternative part B (again may not be complete)
-
-  void SearchTree::Connect(){
-
-
-     if (root == nullptr) {  //base case
+ // Function to connect nodes at the same level
+ // (connect method) may be incorrect and/or incomplete
+//  To implement the connect method in the binary search tree to connect all nodes at the same level to a linked list, we can use a breadth-first traversal approach using the STL queue. Each level of the tree will be traversed, and we will connect the nodes at the same level through their next pointers.
+    void connect() {
+        if (root == nullptr) {
             return;
         }
 
-        queue<node*> *nodeQueue = new queue<node*>();
         nodeQueue.push(root);
 
         while (!nodeQueue.empty()) {
             int levelSize = nodeQueue.size();
-            node* prev = nullptr;
-
+            Node* prev = nullptr;
+            
             for (int i = 0; i < levelSize; i++) {
-                node* current = nodeQueue.front();
+                Node* current = nodeQueue.front();
                 nodeQueue.pop();
 
                 if (prev != nullptr) {
@@ -113,4 +90,4 @@ void SearchTree::Connect(){
                 }
             }
         }
-  }
+    }
