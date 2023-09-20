@@ -65,8 +65,11 @@ I will be adding new files, videos, and interesting information that will be rel
 
 ###### On the way:
 
+* Probability
+
 * Calculus 2
 
+*  and more!
 
 ###### Architecture
 
