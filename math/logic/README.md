@@ -12,7 +12,7 @@ tags:
 image: 
 sitemap:
   priority: 0.7
-  changefreq: "weekly"
+  changefreq: "monthly"
   
 ---
 
@@ -35,6 +35,11 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 - We also used a system called L arrow which exists in sentential logic (sometimes called language PC) 
 
 - I advise reading the Rosen Discrete Math Book, in the first few hundred pages... it covers most of what the course does.
+
+- Functionally complete sets that are good to know for exams and homeworks
+
+![Functionally complete sets](fc_sets.png)
+
 
 ### Useful Links
 
