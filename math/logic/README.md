@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to mathformalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
-date: '2022-11-10 11:12:11 -0400'
+date: '2024-14-03 11:12:11 -0400'
 categories: math
 tags:
 - Logic
@@ -36,10 +36,31 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 
 - I advise reading the Rosen Discrete Math Book, in the first few hundred pages... it covers most of what the course does.
 
-- Functionally complete sets that are good to know for exams and homeworks
+- Functionally complete sets that are good to know for exams and homeworks, here is a non exhaustive list of some basic ones
 
 ![Functionally complete sets](fc_sets.png)
 
+##### Graphs: 
+
+- In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges
+
+- Graph is bipartite iff it only has cycles of even length 
+
+- Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: homeomorph of K5 or K3,3
+
+- Any complete graph has a hamilton cycle 
+
+- Graph with m >= n-1 edges, n >= 3 vertices will have a cycle
+
+- Non-Planar Graphs:
+
+K5 - Graph with 5 vertices all realized (complete)
+
+![K5 graph](k5.png)
+
+K3,3 - Graph that has 3 vertices on left, 3 on right that is bipartite and complete 
+
+![K3,3 graph](k3.png)
 
 ### Useful Links
 
@@ -71,7 +92,7 @@ https://en.wikipedia.org/wiki/Hilbert_system
 
 https://en.wikipedia.org/wiki/Formal_system#Logical_system
 
-https://en.wikipedia.org/wiki/First-order_logic (For all, There exists)
+https://en.wikipedia.org/wiki/First-order_logic (For all, There exists, predicate logic)
 
 
 
@@ -94,6 +115,3 @@ https://en.wikipedia.org/wiki/First-order_logic (For all, There exists)
 Python and programming aren't required for the course but its a good way to check your work!
 and view my sample program for testing logic * [here](/math/logic/program.py)
 using the SymPy library
-
-
-we also studied graph theory in the end of the course... I will add some more info on that as well!
