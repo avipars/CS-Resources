@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CS-Resources Homepage
-date: '2022-10-20 11:12:11 -0400'
+date: '2024-3-17'
 permalink: /
 categories: Homepage
 tags:
@@ -16,17 +16,20 @@ Free computer science resources from yours truly.
 I will be adding new files, videos, and interesting information that will be relevant for every computer science student!
 
 
-#### Courses (Year 1): 
+#### Courses: 
 
 ###### Programming
 
 * Coding problems (C/C++)... it's really C'esque but written and compiled in  [C++ (Intro to CS)](https://avipars.github.io/CS-Resources/intro_cs/)
 
 
-* The following semester, we had a formal [Workshop in C++](https://avipars.github.io/CS-Resources/cpp_workshop)
+* [Workshop in C++](https://avipars.github.io/CS-Resources/cpp_workshop)
 
 
 * [DSA 1 (Data Structures & Algorithms 1)](https://avipars.github.io/CS-Resources/data_struct/)
+
+
+* [DSA 2 (Advanced Data Structures & Algorithms 1)](https://avipars.github.io/CS-Resources/data_struct2/)
 
 
 ###### Architecture
@@ -35,6 +38,9 @@ I will be adding new files, videos, and interesting information that will be rel
 
 
 * [MIPS (Computer Architecture)](https://avipars.github.io/CS-Resources/mips/)
+
+
+* [Operating Systems](https://cs.aviparshan.com/os)
 
 
 ###### [Math](https://avipars.github.io/CS-Resources/math/)
@@ -48,11 +54,6 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Calculus](https://avipars.github.io/CS-Resources/math/calculus)
 
-#### Courses (Year 2): 
-
-
-###### [Math](https://avipars.github.io/CS-Resources/math/)
-
 
 * [Math Logic](https://avipars.github.io/CS-Resources/math/logic)
 
@@ -62,19 +63,7 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Linear Algebra 2](https://cs.aviparshan.com/math/linearalgebra2/)
 
-
-###### On the way:
-
-* Probability
-
-* Calculus 2
-
-*  and more!
-
-###### Architecture
-
-* [Operating Systems](https://cs.aviparshan.com/os)
-
+#### Courses (Year 2): 
 
 ##### Miscellaneous:
 
@@ -83,10 +72,17 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Intro to Data Security](https://avipars.github.io/CS-Resources/intro_sec)
 
-##### On the way: 
 
+###### On the way:
 
-* Data Structures 2 
+* Probability
+
+* Statistics
+
+* Calculus 2
+
+*  and more!
+
 
 
 #### Articles: 
