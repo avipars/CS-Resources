@@ -117,11 +117,12 @@ Forest
 - its a graph and not a set of trees 
 - a subgraph of a forest = always a forest
 
-B-tree
-- Number of keys in each node from \( \lceil \frac{m}{2} \rceil - 1 \) to \( m - 1 \) 
+B tree:
+- Number of keys in each node from ceil(m/2) – 1 to m-1 
 - Number of children = number of keys + 1
-- Minimal number of children = \( \frac{{\lceil \frac{m}{2} \rceil - 1 \cdot (h+1)}}{{\lceil \frac{m}{2} \rceil - 1}} \)
-- Maximal number of children = \( \frac{{m(h+1)}}{{m-1}} \)
+- Minimal # of children = (ceil(m/2) – 1 (h+1)) / (ceil(m/2) -1)
+- Maximal # of children (m(h+1)) / (m-1)
+
 
 
 
