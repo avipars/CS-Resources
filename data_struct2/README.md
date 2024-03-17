@@ -94,10 +94,10 @@ Topological Sort in DAG
 - Order relation
 
 Sparse Graph
-- \( |E| = O(|V|) \)
+- \( `|E| = O(|V|)` \)
 
 Dense Graph
-- \( |E| = \Θ(|V|^2) \)
+- \( `|E| = \Θ(|V|^2)` \)
 - more vertices than edges (by an order of magnitude)
 
 Complete Graph
