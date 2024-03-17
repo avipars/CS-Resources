@@ -16,10 +16,10 @@ tags:
 
 Adjacency representation (for graphs)
 
-| Representation | Find Edge | Insert Edge | Delete Edge | Memory         |
-|----------------|-----------|-------------|-------------|----------------|
-| List           | O(|V|)    | O(1)        | O(|V|)      | Θ(|V|+|E|)    |
-| Matrix         | O(1)      | O(1)        | O(1)        | Θ(|V|^2)      |
+| Representation | Find Edge | Insert Edge | Delete Edge | Memory     |
+| -------------- | --------- | ----------- | ----------- | ---------- |
+| List           | `O(|V|)`    | `O(1)`        | `O(|V|)`      | `Θ(|V|+|E|)` |
+| Matrix         | `O(1)`      | `O(1)`        | `O(1)`        | `Θ(|V|^2)`   |
 
 ### Vertex colors
 
