@@ -111,11 +111,21 @@ Tree
 - Acyclic and connected graph
 - Connected components of a forest = a tree
 
-Forect
+Forest
 - Acyclic graph
 - a tree is a forest, but a forest isn't always a tree 
 - its a graph and not a set of trees 
 - a subgraph of a forest = always a forest
 
+B-tree
+- Number of keys in each node from ceil(m/2) – 1 to m-1 
+- Number of children = number of keys + 1
+- Minimal number of children = \( \frac{{\lceil \frac{m}{2} \rceil - 1 \cdot (h+1)}}{{\lceil \frac{m}{2} \rceil - 1}} \)
+- Maximal number of children = \( \frac{{m(h+1)}}{{m-1}} \)
+
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI4iVxPbjXJy4bMG-8DILVq)
+
+[Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+[AlgoVis](https://visualgo.net/en)

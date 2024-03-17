@@ -2,7 +2,7 @@
 layout: page
 title: Data Structures and Algorithms
 description: Linked Lists, Trees, Queues, Heaps, Stacks, etc. 
-date: '2022-08-02 12:24:11 -0400'
+date: '2024-03-17'
 permalink: /data_struct/
 image: /static/post-image/bigo.png
 categories: DSA
@@ -31,3 +31,7 @@ Big Oh Notation
 
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgLEUwB7RnTLNQ-N9x0fn-0a)
+
+[Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+[AlgoVis](https://visualgo.net/en)
