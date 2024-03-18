@@ -4,7 +4,7 @@ title: Advanced Data Structures and Algorithms (DSA2)
 description: DSA2 course dealing with hash tables, b trees, topological sort using dfs, etc.  
 date: '2024-03-18'
 permalink: /data_struct2/
-image: /static/post-image/bigo.png
+image: /static/post-image/master.png
 categories: DSA
 tags:
 - DataStruct
@@ -23,7 +23,8 @@ Differential equation
 - Only positive coefficients (b…bk)
 - A*T(n-1) + B*T(n-2)
 
-Master theorem:
+![Master theorem]({{ site.url }}{{ page.image }})
+
 - Constants: a >= 1, b > 1
 - F(n) > 0 
 - Check n^log(b,a) _ f(n)
