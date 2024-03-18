@@ -2,7 +2,7 @@
 layout: page
 title: Data Structures and Algorithms
 description: Linked Lists, Trees, Queues, Heaps, Stacks, etc. 
-date: '2024-03-17'
+date: '2024-03-18'
 permalink: /data_struct/
 image: /static/post-image/bigo.png
 categories: DSA
@@ -26,10 +26,19 @@ Big Oh Notation
 
 ![Big Oh Notation]({{ site.url }}{{ page.image }})
 
+| Notation            | Definition                                                      | Relationship  |
+|---------------------|-----------------------------------------------------------------|---------------|
+| \( f(n) = o(g(n)) \) | \( f(n) \) grows slower than \( g(n) \) as \( n \) approaches infinity | \( f(n) < g(n) \) |
+| \( f(n) = \omega(g(n)) \) | \( f(n) \) grows faster than \( g(n) \) as \( n \) approaches infinity | \( f(n) > g(n) \) |
+| \( f(n) = O(g(n)) \) | \( f(n) \) grows at most as fast as \( g(n) \) as \( n \) approaches infinity | \( f(n) \leq g(n) \) |
+| \( f(n) = \Omega(g(n)) \) | \( f(n) \) grows at least as fast as \( g(n) \) as \( n \) approaches infinity | \( f(n) \geq g(n) \) |
+| \( f(n) = \Theta(g(n)) \) | \( f(n) \) grows at the same rate as \( g(n) \) as \( n \) approaches infinity | \( f(n) = g(n) \) |
+
+
 
 [View Graph](https://www.desmos.com/calculator/dshzbdn2w3)
 
-#### more resources
+#### More resources
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgLEUwB7RnTLNQ-N9x0fn-0a)
 

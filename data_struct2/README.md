@@ -159,10 +159,12 @@ B tree:
 - Number of leaves = from 2(ceil(m/2))^h to m^(h+1) -1 
 
 
-#### more resources
+#### More resources
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI4iVxPbjXJy4bMG-8DILVq)
 
 [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 [AlgoVis](https://visualgo.net/en)
+
+[DSA Code Challenge in JS](https://github.com/bradtraversy/traversy-js-challenges/)
