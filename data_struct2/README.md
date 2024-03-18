@@ -81,6 +81,8 @@ Master theorem
   - Acyclic and connected graph
   - Connected components of a forest = a tree
   - Graph G = (V,E) is a tree iff G is acyclic and  `|E|` =  `|V| - 1 `
+  - Height of any complete tree is log(n) - base depends on # of children allowed
+
 - Forest
   - Acyclic graph
   - a tree is a forest, but a forest isn't always a tree 
@@ -152,12 +154,19 @@ Topological Sort in DAG
 - Uses depth first search
 
 B tree:
-- Number of keys in each node = from ceil(m/2) – 1 to m-1 
-- Number of children = number of keys + 1
-- Minimal # of children = (ceil(m/2) – 1 (h+1)) / (ceil(m/2) -1)
-- Maximal # of children = (m(h+1)) / (m-1)
-- Number of leaves = from 2(ceil(m/2))^h to m^(h+1) -1 
 
+- Rules:
+  - Root node can have a minimum of 2 children (1 key is fine)
+  - Every node must fill at least half of their children ceil(m/2), node with degree 10 needs to have 5 children
+  - All leaf nodes must be at the same level
+  - Creation of nodes is bottom up (insertion) and grows upwards
+
+- Stats:
+  - Number of keys in each node = from ceil(m/2) – 1 to m-1 
+  - Number of children = number of keys + 1
+  - Minimal # of children = (ceil(m/2) – 1 (h+1)) / (ceil(m/2) -1)
+  - Maximal # of children = (m(h+1)) / (m-1)
+  - Number of leaves = from 2(ceil(m/2))^h to m^(h+1) -1 
 
 #### More resources
 
