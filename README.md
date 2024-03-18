@@ -63,7 +63,6 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Linear Algebra 2](https://cs.aviparshan.com/math/linearalgebra2/)
 
-#### Courses (Year 2): 
 
 ##### Miscellaneous:
 
