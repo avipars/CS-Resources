@@ -28,11 +28,11 @@ Big Oh Notation
 
 | Notation                        | Definition                                                                 | Relationship             |
 | ------------------------------- | -------------------------------------------------------------------------- | ------------------------ |
-| 𝑓(𝑛)\=𝑜(𝑔(𝑛))f(n)\=o(g(n)) | 𝑓(𝑛)f(n) grows slower than 𝑔(𝑛)g(n) as 𝑛n approaches infinity         | 𝑓(𝑛)<𝑔(𝑛)f(n)<g(n)   |
-| 𝑓(𝑛)\=𝜔(𝑔(𝑛))f(n)\=ω(g(n)) | 𝑓(𝑛)f(n) grows faster than 𝑔(𝑛)g(n) as 𝑛n approaches infinity         | 𝑓(𝑛)\>𝑔(𝑛)f(n)\>g(n) |
-| 𝑓(𝑛)\=𝑂(𝑔(𝑛))f(n)\=O(g(n)) | 𝑓(𝑛)f(n) grows at most as fast as 𝑔(𝑛)g(n) as 𝑛n approaches infinity  | 𝑓(𝑛)≤𝑔(𝑛)f(n)≤g(n)   |
-| 𝑓(𝑛)\=Ω(𝑔(𝑛))f(n)\=Ω(g(n))  | 𝑓(𝑛)f(n) grows at least as fast as 𝑔(𝑛)g(n) as 𝑛n approaches infinity | 𝑓(𝑛)≥𝑔(𝑛)f(n)≥g(n)   |
-| 𝑓(𝑛)\=Θ(𝑔(𝑛))f(n)\=Θ(g(n))  | 𝑓(𝑛)f(n) grows at the same rate as 𝑔(𝑛)g(n) as 𝑛n approaches infinity | 𝑓(𝑛)\=𝑔(𝑛)f(n)\=g(n) |
+| f(n)\=o(g(n)) | f(n) grows slower than g(n) as 𝑛n approaches infinity         | f(n)<g(n)   |
+| f(n)\=ω(g(n)) | f(n) grows faster than g(n) as 𝑛n approaches infinity         | f(n)\>g(n) |
+| f(n)\=O(g(n)) | f(n) grows at most as fast as g(n) as 𝑛n approaches infinity  | f(n)≤g(n)   |
+| f(n)\=Ω(g(n)) | f(n) grows at least as fast as g(n) as 𝑛n approaches infinity | f(n)≥g(n)   |
+| f(n)\=Θ(g(n)) | f(n) grows at the same rate as g(n) as 𝑛n approaches infinity | f(n)\=g(n) |
 
 
 [View Graph](https://www.desmos.com/calculator/dshzbdn2w3)
