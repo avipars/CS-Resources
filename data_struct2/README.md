@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Advanced Data Structures and Algorithms (DSA2)
-description: Linked Lists, Trees, Queues, Heaps, Stacks, etc. 
-date: '2024-03-17'
+description: DSA2 course dealing with hash tables, b trees, topological sort using dfs, etc.  
+date: '2024-03-18'
 permalink: /data_struct2/
 image: /static/post-image/bigo.png
 categories: DSA
@@ -97,7 +97,7 @@ Sparse Graph
 - \( `|E| = O(|V|)` \)
 
 Dense Graph
-- \( `|E| = \Θ(|V|^2)` \)
+- \( `|E| = Θ(|V|^2)` \)
 - more vertices than edges (by an order of magnitude)
 
 Complete Graph
@@ -118,13 +118,14 @@ Forest
 - a subgraph of a forest = always a forest
 
 B tree:
-- Number of keys in each node from ceil(m/2) – 1 to m-1 
+- Number of keys in each node = from ceil(m/2) – 1 to m-1 
 - Number of children = number of keys + 1
 - Minimal # of children = (ceil(m/2) – 1 (h+1)) / (ceil(m/2) -1)
-- Maximal # of children (m(h+1)) / (m-1)
+- Maximal # of children = (m(h+1)) / (m-1)
+- Number of leaves = from 2(ceil(m/2))^h to m^(h+1) -1 
 
 
-
+#### more resources
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI4iVxPbjXJy4bMG-8DILVq)
 
