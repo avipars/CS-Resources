@@ -2,7 +2,7 @@
 layout: page
 title: Advanced Data Structures and Algorithms (DSA2)
 description: DSA2 course dealing with hash tables, b trees, topological sort using dfs, etc.  
-date: '2024-03-18'
+date: '2024-03-19'
 permalink: /data_struct2/
 image: /static/post-image/master.png
 categories: DSA
@@ -10,6 +10,9 @@ tags:
 - DataStruct
 - Algos
 - DataStructures2
+- BTree
+- Mastertheorem
+- Hashtable
 ---
 
 ## Advanced Data Structures and Algorithms (DSA2)
@@ -168,7 +171,35 @@ B tree:
   - Maximal # of children = (m(h+1)) / (m-1)
   - Number of leaves = from 2(ceil(m/2))^h to m^(h+1) -1 
 
+### Hash Table & Functions:
+- 
+- m = size of table 
+- h1(key) is the function that returns the index in the array for given item
+- Table is indexed from 0 to m-1
+- There are a lot of hashing functions, but the simplest used is usually h(key) = key % m 
+    - the % m part assures that you cannot exceed the bounds of the table... given your key you will end up within the range of 0 to m-1
+- Load factor of a hash table = total number of items stored / size of array = α
+- Normally, each spot in the table can only hold a single element (and it's key) - this is called direct addressing 
+    - additionally, your key cannot end up in other slots  
+
+- With chaining specifically (part of open addressing):
+  - each spot has a linked list (empty by default), upon insertion, element becomes the new head of the list
+  - upon collision, the newer item gets put at the head of the list for the respestive spot and the previous item in the list becomes the node after the head. 
+- Open addressing allows your key to go to almost (if not all) of the slots by using a probe/step function
+  - i.e. for linear/quadratic probing we have a step function in addition to the original hash function, with a coefficient i/i^2 respective to the type of probe. Initially it will be 0, but after every collision we will increment by 1
+
+- Double hashing:
+    - given two hash functions, h1, h2, and i which starts at 0
+    - h = (h1(key) + i*h2(key)) % m
+    - this is how you would usually map a item to a spot in the hash table
+    - if there is a collision, i gets incremented by 1 and compute the index via h again 
+    - keep on doing this till you find an empty spot.
+    - if h2 is chosen/created in a poor manner (or h1, or table is small, or not sparse) etc... you can end up in an infinite loop looking for an open slot
+
+
 #### More resources
+
+[My DSA2 calculator (WIP)](https://avi.is-a.dev/dsa/)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI4iVxPbjXJy4bMG-8DILVq)
 
