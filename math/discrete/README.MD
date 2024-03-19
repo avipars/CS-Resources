@@ -12,7 +12,6 @@ tags:
 - Combinatorics
 ---
 
-Discrete Math
 
 #### Set theory
 
@@ -26,14 +25,22 @@ Discrete Math
 
     * A - B = A ∩ Bᶜ = {x ∈ A and x ∉ B}
 
-    * A ∪ (B ∪ C) = (A ∪ B) ∪ C = A ∪ B ∪ C
-        - Associativity 
- 
     - Demorgan's laws:
 
         * (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ
 
         * (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
+
+    - Associativity: 
+
+        * A ∪ (B ∪ C) = (A ∪ B) ∪ C = A ∪ B ∪ C
+
+    - Distributivity;
+
+        * A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+
+        * A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+
 
 - Subsets: 
 
@@ -51,7 +58,7 @@ Discrete Math
 
     for any finite set A
 
-    * U = { x ∈ U | x ∉ A }
+    * `U = { x ∈ U | x ∉ A }`
 
     * Aᶜ = U - A
 
@@ -64,6 +71,21 @@ Discrete Math
  - Bidirectional inclusion:
 
     * To prove A = B, need to prove both B ⊆ A and A ⊆ B
+
+- Power-set:
+
+ * The power set of A is denoted as P(A) or 2^A
+
+ * A ∈ P(A), ∅ ∈ P(A)
+
+ * `If |A| = n, then |P(A)| = 2^n`
+
+ * `|P(A)|` = 2<sup>|A|</sup>
+
+ * If A = ∅, then P(A) = {∅}
+
+ * If A = {1,2}, then P(A) = {∅, {1}, {2}, {1, 2}}
+
 
 #### Links
 
