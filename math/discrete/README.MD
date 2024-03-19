@@ -3,14 +3,67 @@ layout: page
 title: Discrete Math
 permalink: /math/discrete/
 description: Discrete Math course and tips
-date: '2022-11-2 20:12:11 -0400'
+date: '2024-19-3'
 categories: Discrete
 tags:
 - Discrete
 - Math
+- Sets
+- Combinatorics
 ---
 
 Discrete Math
+
+#### Set theory
+
+- A, B are both sets such that:
+
+    * A ∪ B = {x ∈ A or x ∈ B or both}
+
+    * A ∩ B = {x ∈ A and x ∈ B}
+
+    * A ⊕ B = (A - B) ∪ (B - A) = (A ∪ B) - (A ∩ B)
+
+    * A - B = A ∩ Bᶜ = {x ∈ A and x ∉ B}
+
+    * A ∪ (B ∪ C) = (A ∪ B) ∪ C = A ∪ B ∪ C
+        - Associativity 
+ 
+    - Demorgan's laws:
+
+        * (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ
+
+        * (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
+
+- Subsets: 
+
+    * A ⊆ A ∪ B = B ∪ A
+
+    * B ⊆ A ∪ B
+
+    * If A ⊆ B, then A ∪ B = B
+
+    * A ∩ B ⊆ A ⊆ A ∪ B
+
+    * B ∩ A ⊆ B ⊆ A ∪ B
+
+- Universal Set = U:
+
+    for any finite set A
+
+    * U = { x ∈ U | x ∉ A }
+
+    * Aᶜ = U - A
+
+    * (Aᶜ)ᶜ = A
+
+    * Uᶜ = ∅
+
+    * ∅ᶜ = U
+ 
+ - Bidirectional inclusion:
+
+    * To prove A = B, need to prove both B ⊆ A and A ⊆ B
 
 #### Links
 
