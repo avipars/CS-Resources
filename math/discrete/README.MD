@@ -3,7 +3,7 @@ layout: page
 title: Discrete Math
 permalink: /math/discrete/
 description: Discrete Math course and tips
-date: '2024-19-3'
+date: '2024-3-19'
 categories: Discrete
 tags:
 - Discrete
