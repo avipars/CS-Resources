@@ -130,8 +130,12 @@ img.float-right {
 
 .anchorjs-link, .anchorjs-link:hover {
   text-decoration: none;
-} */
+} 
 
+.active{
+  color: blue;
+  cursor: default;
+}
 /* 
   
 
