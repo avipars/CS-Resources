@@ -11,7 +11,6 @@ tags:
 - Algos
 ---
 
-## DSA 1 (Data Structures and Algorithms)
 
 Linked Lists, Trees, Queues, Heaps, Stacks, etc. 
 

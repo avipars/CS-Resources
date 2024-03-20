@@ -61,9 +61,10 @@
           <!-- nav  -->
           <aside id="sidebar2">
             <ul class="no-bullets">
-              {% for item in site.data.navigation | sort: 'name' %}
-              <li><a class="link {% if page.url == item.link or (page.url contains '/math' and item.link == '/math') %}active{% endif %}" href="{{ item.link }}">
-                {{ item.name }}
+            {% assign sorted_navigation = site.data.navigation | sort: 'name' %}
+            {% for item in sorted_navigation %}
+            <li><a class="link" href="{{ item.link }}" {% if page.url==item.link %}style="color: blue; cursor: default;" {% endif %}>
+              {{ item.name }}
             </a></li>
             <br/>
             {% endfor %}

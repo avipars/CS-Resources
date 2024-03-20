@@ -15,7 +15,6 @@ tags:
 - Hashtable
 ---
 
-## Advanced Data Structures and Algorithms (DSA2)
 
 #### My (incomplete) notes for DSA2 
 
