@@ -81,7 +81,6 @@ I will be adding new files, videos, and interesting information that will be rel
 *  and more!
 
 
-
 #### Articles: 
 
 * [View by List (sorted by recent)](https://cs.aviparshan.com/blog)

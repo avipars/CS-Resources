@@ -85,6 +85,8 @@ tags:
 
  * If A = {1,2}, then P(A) = {∅, {1}, {2}, {1, 2}}
 
+ * '|A| < |P(A)|'
+ 
 - Cartesian product:
 
  * `A × B = { (a, b) | a ∈ A and b ∈ B }`
