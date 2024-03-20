@@ -88,13 +88,13 @@ tags:
 
 - Cartesian product:
 
- * A × B = { (a, b) | a ∈ A and b ∈ B }
+ * `A × B = { (a, b) | a ∈ A and b ∈ B }`
 
  * A × B ≠ B × A (unless A = B)
 
  * A ∩ (A × B) = ∅
 
- * |A × B| = |A| × |B|
+ * `|A × B| = |A| × |B|`
 
  - Distribution:
 
@@ -116,13 +116,13 @@ tags:
 
     * implies that the relation R contains all possible pairs that can be formed by taking one element from set A and one element from set B. It's a relation where every element of A is related to every element of B.
 
-- Inverse relation is R⁻¹ = { (b, a) | (a, b) ∈ R }
+- Inverse relation is R⁻¹ = `{ (b, a) | (a, b) ∈ R }`
 
     * R consists of all pairs in R but with their elements reversed. If (a,b) is in R, then (b,a) is in R⁻¹
 
 - Composition of relations:
 
-    * R ∘ S = { (a, c) | ∃ b : (a, b) ∈ R and (b, c) ∈ S }
+    * R ∘ S = `{ (a, c) | ∃ b : (a, b) ∈ R and (b, c) ∈ S }`
 
     * Set of pairs (a,c) such that exists an element b for which both (a,b) is in R and (b,c) is in S
 
