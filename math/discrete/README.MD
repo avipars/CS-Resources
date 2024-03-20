@@ -90,6 +90,10 @@ tags:
 
  * `A × B = { (a, b) | a ∈ A and b ∈ B }`
 
+    - an unordered set of sets of ordered pairs where a is in A, b is in B
+    
+    - if A = {1,2}, B = {2,3}, then A × B = {(1,2), (1,3), (2,2), (2,3)}
+
  * A × B ≠ B × A (unless A = B)
 
  * A ∩ (A × B) = ∅
@@ -103,6 +107,12 @@ tags:
     * A × (B ∩ C) = (A × B) ∩ (A × C)
 
 #### Relations
+
+- ARB = (a,b) ∈ R
+
+- Identity: Ia = (a,a) 
+
+    * Ex: {(1,1),(2,2),(3,3), ... } 
 
 - Relation on set itself: R ⊆ A × A
 
@@ -129,6 +139,29 @@ tags:
     * R ∘ R = R<sup>2</sup> is a relation composed with itself
     
     * (R ∘ S) ∘ T = R ∘ (S ∘ T) i.e it is associative (but not communitive)
+
+- Important relations:
+
+    1. **Reflexive:**
+    - Shorthand: \( R \subseteq \{(a, a) \mid a \in A\} \)
+    - Meaning: Every element is related to itself. Ia ⊆ R
+
+    2. **Transitive:**
+    - Shorthand: \( R \circ R \subseteq R \)
+    - Meaning: If \( (a, b) \in R \) and \( (b, c) \in R \), then \( (a, c) \in R \).
+
+    3. **Symmetric:**
+    - Shorthand: \( R = R^{-1} \)
+    - Meaning: If \( (a, b) \in R \), then \( (b, a) \in R \).
+
+    4. **Antisymmetric:**
+    - Shorthand: \( R \cap R^{-1} \subseteq \{(a, a) \mid a \in A\} \)
+    - Meaning: If \( (a, b) \in R \) and \( (b, a) \in R \), then \( a = b \).
+    - This does not mean not-symmetric 
+
+ - Equivalence relation is one where 1,2,3 all hold
+
+ - Order relation is one where 1,2,4 all hold 
 
 #### Links
 
