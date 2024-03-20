@@ -190,15 +190,14 @@ tags:
 
 #### Functions
 
-| Let f,g be two functions, (f:A -> B) , (g:B -> A) |                         |               |                  |                        |                                                                                 |                                                                                                        |
-| ------------------------------------------------- | ----------------------- | ------------- | ---------------- | ---------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Function f                                        | Horizontal line test    | Clasification | Invertibility    | G is \ \_ inverse of f | Definition                                                                      |                                                                                                        |
-| Onto                                              | Hits at least 1 point   | Surjective    | Right invertible | f ∘ g = Ib             | {f(a) | a ∈ A} = B every element in range (B) has a source                      | A function that maps one or more elements of A to the same element of B                                |
-| One to One                                        | Hits at most 1 point    | Injective     | Left Invertible  | g ∘ f = Ia             | if a1 != a2 then f(a1) != f(a2) or contrapositive if f(a1) = f(a2) then a1 = a2 | A function that always maps the distinct element of its domain to the distinct element of its codomain |
-| Onto and One to One                               | Hits exactly at 1 point | Bijective     | Invertible       | g ∘ f = Ia, f ∘ g = Ib | f⁻¹ = g                                                                         | A function that is both injective and surjective                                                       |
-| Identity Ia                                       | Hits exactly at 1 point | Bijective     | Invertible       | f ∘ Ia = f = Ib ∘ f    | f(a) = a                                                                        |
+Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
-
+| Function f          | Horizontal line test    | Clasification | Invertibility    | G is \ \_ inverse of f | Definition                                                                      |                                                                                                        |
+| ------------------- | ----------------------- | ------------- | ---------------- | ---------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Onto                | Hits at least 1 point   | Surjective    | Right invertible | f ∘ g = Ib             | {f(a) | a ∈ A} = B every element in range (B) has a source                      | A function that maps one or more elements of A to the same element of B                                |
+| One to One          | Hits at most 1 point    | Injective     | Left Invertible  | g ∘ f = Ia             | if a1 != a2 then f(a1) != f(a2) or contrapositive if f(a1) = f(a2) then a1 = a2 | A function that always maps the distinct element of its domain to the distinct element of its codomain |
+| Onto and One to One | Hits exactly at 1 point | Bijective     | Invertible       | g ∘ f = Ia, f ∘ g = Ib | f⁻¹ = g                                                                         | A function that is both injective and surjective                                                       |
+| Identity Ia         | Hits exactly at 1 point | Bijective     | Invertible       | f ∘ Ia = f = Ib ∘ f    | f(a) = a                                                                        |                                                                 
 
 #### Links
 
