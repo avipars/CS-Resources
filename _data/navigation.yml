@@ -1,38 +1,51 @@
 - name: Home
   link: /
+  sorted: false
 
 - name: Blog
   link: /blog.html
-
-- name: C
-  link: /intro_cs/
-
-- name: C++
-  link: /cpp_workshop/
-
-- name: Data Security
-  link: /intro_sec
-
-- name: Data Structures
-  link: /data_struct/
-  
-- name: Data Structures2
-  link: /data_struct2/
-  
-- name: Digital Systems
-  link: /DigitalSystems/
-
-- name: Math
-  link: /math/
-
-- name: MIPS
-  link: /mips/
-
-- name: Operating Systems
-  link: /os/
-
-- name: Software Engineering
-  link: /software_eng/
+  sorted: false
 
 - name: Tags
   link: /tags.html
+  sorted: false
+
+- name: C
+  link: /intro_cs/
+  sorted: true
+
+- name: C++
+  link: /cpp_workshop/
+  sorted: true
+
+- name: Data Security
+  link: /intro_sec
+  sorted: true
+
+- name: Data Structures
+  link: /data_struct/
+  sorted: true
+
+- name: Data Structures2
+  link: /data_struct2/
+  sorted: true
+
+- name: Digital Systems
+  link: /DigitalSystems/
+  sorted: true
+
+- name: Math
+  link: /math/
+  sorted: true
+
+- name: MIPS
+  link: /mips/
+  sorted: true
+
+- name: Operating Systems
+  link: /os/
+  sorted: true
+
+- name: Software Engineering
+  link: /software_eng/
+  sorted: true
