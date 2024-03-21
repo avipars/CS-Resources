@@ -3,7 +3,7 @@ layout: page
 title: Discrete Math
 permalink: /math/discrete/
 description: Discrete Math course and tips
-date: '2024-3-20'
+date: '2024-3-21'
 categories: Discrete
 tags:
 - Discrete
@@ -87,6 +87,26 @@ tags:
 
  * '|A| < |P(A)|'
  
+ * P(A) ∩ P(B) = P(A ∩ B)
+
+    - Proof
+        * Forward Inclusion:
+            Let 𝑋 be an arbitrary element in 𝑃(𝐴) ∩ 𝑃(𝐵). By definition of intersection, 𝑋 belongs to both 𝑃(𝐴) and 𝑃(𝐵). This implies 𝑋 is a subset of both 𝐴 and 𝐵. Consequently, 𝑋 is also a subset of their intersection, 𝐴 ∩ 𝐵. Thus, 𝑋 is an element of 𝑃(𝐴 ∩ 𝐵). Therefore, 𝑃(𝐴) ∩ 𝑃(𝐵) ⊆ 𝑃(𝐴 ∩ 𝐵).
+
+        * Reverse Inclusion:
+            Let 𝑌 be an arbitrary element in 𝑃(𝐴 ∩ 𝐵). By definition, 𝑌 is a subset of 𝐴 ∩ 𝐵, hence a subset of both 𝐴 and 𝐵. Consequently, 𝑌 belongs to both 𝑃(𝐴) and 𝑃(𝐵). Thus, 𝑌 is an element of 𝑃(𝐴) ∩ 𝑃(𝐵). Therefore, 𝑃(𝐴 ∩ 𝐵) ⊆ 𝑃(𝐴) ∩ 𝑃(𝐵).
+
+        * Conclusion:
+            Combining both directions of inclusion, we've demonstrated that 𝑃(𝐴) ∩ 𝑃(𝐵) ⊆ 𝑃(𝐴 ∩ 𝐵) and 𝑃(𝐴 ∩ 𝐵) ⊆ 𝑃(𝐴) ∩ 𝑃(𝐵), implying 𝑃(𝐴) ∩ 𝑃(𝐵) = 𝑃(𝐴 ∩ 𝐵). Thus, the equality holds.
+
+    
+ * P(A) ∪ P(B) ≠ P(A ∪ B)
+
+    - Example of why these aren't equal: 
+        * A = {1}, B = {2}, A ∪ B = {1,2} => P(A ∪ B) = {∅, {1}, {2}, {1,2}}
+
+        * P(A) = {∅, {1}}, P(B) = {∅, {2}} => P(A) ∪ P(B) = {∅, {1}, {2}}
+
 - Cartesian product:
 
  * `A × B = { (a, b) | a ∈ A and b ∈ B }`
