@@ -3,7 +3,7 @@ layout: page
 title: Discrete Math
 permalink: /math/discrete/
 description: Discrete Math course and tips
-date: '2024-3-21'
+date: '2024-3-25'
 categories: Discrete
 tags:
 - Discrete
@@ -85,7 +85,7 @@ tags:
 
  * If A = {1,2}, then P(A) = {∅, {1}, {2}, {1, 2}}
 
- * '|A| < |P(A)|'
+ * `|A| < |P(A)|`
  
  * P(A) ∩ P(B) = P(A ∩ B)
 
@@ -161,15 +161,18 @@ tags:
     
     * (R ∘ S) ∘ T = R ∘ (S ∘ T) i.e it is associative (but not communitive)
 
+    * Ia ∘ R = R 
+    
 - Important relations:
 
     1. **Reflexive:**
-    - Shorthand: \( R ⊆ \{(a, a) \| a ∈ A\} \)
-    - Meaning: Every element is related to itself. Ia ⊆ R
+    - Shorthand: Ia ⊆ R
+    - Meaning: Every element is related to itself. 
         - for all a ∈ A, aRa holds
+        -  \( R ⊆ \{(a, a) \| a ∈ A\} \)
 
     2. **Transitive:**
-    - Shorthand: \( R ∘ R ⊆ R \)
+    - Shorthand: \( R ∘ R = R<sup>2</sup   ⊆ R \)
     - Meaning: If \( (a, b) ∈ R \) and \( (b, c) ∈ R \), then \( (a, c) ∈ R \).
         - (aRb and bRc) -> aRc
 
@@ -223,7 +226,16 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 | Definition           | {f(a) | a ∈ A} = B every element in range (B) has a source            | if a1 != a2 then f(a1) != f(a2) or contrapositive if f(a1) = f(a2) then a1 = a2                      | f⁻¹ = g                                        | f(a) = a                                                                        |
 | English              | function that maps one or more elements of A to the same element of B | function that always maps the distinct element of its domain to the distinct element of its codomain | function that is both injective and surjective | function that always returns the value that was used as its argument, unchanged |
 
-#### Links
+- Notation
+
+    * (g ∘ f)(a) = g(f(a))
+
+
+
+#### Combinatorics
+
+
+##### Links
 
 * [Unions and Intersections](https://proofwiki.org/wiki/Union_Distributes_over_Intersection)
 
@@ -240,7 +252,7 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 * [Defining relations on sets](https://math.libretexts.org/Courses/Monroe_Community_College/MTH_220_Discrete_Math/6%3A_Relations/6.1%3A_Relations_on_Sets)
 
 
-#### Programs/Calculators
+##### Programs/Calculators
 
 * [Another logic calculator - quite good](https://sheabunge.github.io/boolcalc/)
 
