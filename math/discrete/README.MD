@@ -252,7 +252,7 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
     * Case 1:
         - K times out of n objects 
         - Number of functions from A to B
-            - |A| = K, |B| = n
+            - `|A| = K, |B| = n`
             - if A has 3 elements, and B has 5... we would get 5^3 total functions that can be defined 
 
     * Case 2:
