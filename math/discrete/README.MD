@@ -5,6 +5,7 @@ permalink: /math/discrete/
 description: Discrete Math course and tips
 date: '2024-3-25'
 categories: Discrete
+image: /static/post-image/combinatorics.jpg
 tags:
 - Discrete
 - Math
@@ -230,10 +231,41 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
     * (g ∘ f)(a) = g(f(a))
 
-
-
 #### Combinatorics
 
+
+![Combinatorics]({{ site.url }}{{ page.image }})
+
+- Order matters
+    * sequence of choices 
+
+- Order doesn't matter
+    * if we picked ball 1 then ball 2... it would be equivalent to picking ball 2 then ball 1
+
+- With replacement
+    * same item can be picked several times
+
+- Without replacement
+    * each item is chosen at most, 1 time 
+
+- Cases:
+    * Case 1:
+        - K times out of n objects 
+        - Number of functions from A to B
+            - |A| = K, |B| = n
+            - if A has 3 elements, and B has 5... we would get 5^3 total functions that can be defined 
+
+    * Case 2:
+        - K unique balls in n small boxes (can only fit 1 item in each box)
+        - number of one to one functions from A to B 
+    
+    * Case 3: 
+        - K identical balls in n small boxes 
+        - Binomial coefficients
+
+    * Case 4:
+        - Bars and stars 
+        - K identical balls in n numbered boxes (but each box can hold >= 0 balls)
 
 ##### Links
 
