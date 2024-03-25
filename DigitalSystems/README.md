@@ -28,6 +28,8 @@ Boolean Algebra:
 
 * [wolframalpha](https://www.wolframalpha.com/input/?i=Z++XOR+%28V*X%29)
 
+* [one's, two's complement calculator](https://manderc.com/apps/umrechner/index_eng.php)
+
 SOP = Sum of Products
 
 POS = Product of Sums
