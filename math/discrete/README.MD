@@ -74,7 +74,7 @@ tags:
 
 - Power-set:
 
- * The power set of A is denoted as P(A) or 2^A
+ * The power set of A is denoted as P(A) or 2<sup>A</sup>
 
  * A ∈ P(A), ∅ ∈ P(A)
 
@@ -231,6 +231,15 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
     * (g ∘ f)(a) = g(f(a))
 
+
+#### Cardinality
+
+| Aleph-0 | ℕ                   | ℕ x ℕ                         | ℕ x ℕ x ℕ | ℤ | ℚ     | ℚ x ℚ |
+| ------- | ------------------- | ----------------------------- | --------- | - | ----- | ----- |
+| Aleph   | (0,1)               | {0,1}^ℕ                       | P(ℕ)      | ℝ | ℝ x ℝ | ℂ     |
+|         | or any interval     | Cantor's diagonalization arg. |           |   |       |       |
+| Finite  | if A = {1}, `|A|` = 1 |                               |           |   |       |
+
 #### Combinatorics
 
 
@@ -267,6 +276,9 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
         - Bars and stars 
         - K identical balls in n numbered boxes (but each box can hold >= 0 balls)
 
+ - Binomial expansion
+    * ![binomial expansion](binomial.png)
+
 ##### Links
 
 * [Unions and Intersections](https://proofwiki.org/wiki/Union_Distributes_over_Intersection)
@@ -293,3 +305,6 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
 
 * [Power Set Calculator](https://www.wolframalpha.com/input?i=power+set+%7B%7B1%2C2%7D%2C%7B3%2C4%7D%2C+%285%2C6%29%7D)
+
+
+* [Binomial expansion calculator](https://anson2251.github.io/binomial-expansion-calculator/) 
