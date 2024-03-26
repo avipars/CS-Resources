@@ -234,11 +234,11 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
 #### Cardinality
 
-| Aleph-0 | ℕ                   | ℕ x ℕ                         | ℕ x ℕ x ℕ | ℤ | ℚ     | ℚ x ℚ |
-| ------- | ------------------- | ----------------------------- | --------- | - | ----- | ----- |
-| Aleph   | (0,1)               | {0,1}^ℕ                       | P(ℕ)      | ℝ | ℝ x ℝ | ℂ     |
-|         | or any interval     | Cantor's diagonalization arg. |           |   |       |       |
-| Finite  | if A = {1}, `|A|` = 1 |                               |           |   |       |
+| Aleph-0 | Countably infinite   | ℕ                   | ℕ x ℕ                         | ℕ x ℕ x ℕ | ℤ | ℚ     | ℚ x ℚ |
+| ------- | -------------------- | ------------------- | ----------------------------- | --------- | - | ----- | ----- |
+| Aleph   | Uncountably infinite | (0,1)               | {0,1}^ℕ                       | P(ℕ)      | ℝ | ℝ x ℝ | ℂ     |
+|         |                      | or any interval     | Cantor's diagonalization arg. |           |   |       |       |
+| Finite  | Countably finite     | if A = {1}, `|A|` = 1 |                               |           |   |       |
 
 #### Combinatorics
 
