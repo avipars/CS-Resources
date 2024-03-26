@@ -298,6 +298,9 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
 ##### Programs/Calculators
 
+* [My multinomial calculator (WIP)](https://avi.is-a.dev/web_calculator/discrete/multi.html)
+
+
 * [Another logic calculator - quite good](https://sheabunge.github.io/boolcalc/)
 
 

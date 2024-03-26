@@ -198,7 +198,7 @@ B tree:
 
 #### More resources
 
-[My DSA2 calculator (WIP)](https://avi.is-a.dev/dsa/)
+[My DSA2 calculator (WIP)](https://avi.is-a.dev/web_calculator/dsa/master.html)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI4iVxPbjXJy4bMG-8DILVq)
 
