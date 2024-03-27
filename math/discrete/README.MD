@@ -2,10 +2,10 @@
 layout: page
 title: Discrete Math
 permalink: /math/discrete/
-description: Discrete Math course notes and tips
+description: Discrete Math course notes, formulas, and tips (combinatorics, sets theory, relations, cardinality, and more)
 date: '2024-3-27'
 categories: Discrete
-image: /static/post-image/combinatorics.jpg
+image: /static/post-image/combinatorics2.jpg
 tags:
 - Discrete
 - Math
@@ -246,6 +246,11 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
 ![Combinatorics]({{ site.url }}{{ page.image }})
 
+![handwritten table](/static/post-image/combinatorics.jpg)
+
+
+n = Boxes, k = Balls
+
 - Order matters
     * sequence of choices 
 
@@ -259,21 +264,21 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
     * each item is chosen at most, 1 time 
 
 - Cases:
-    * Case 1:
+    * Case 1: n<sup>k</sup>
         - K times out of n objects 
         - Number of functions from A to B
             - `|A| = K, |B| = n`
             - if A has 3 elements, and B has 5... we would get 5^3 total functions that can be defined 
 
-    * Case 2:
+    * Case 2: nPk
         - K unique balls in n small boxes (can only fit 1 item in each box)
         - number of one to one functions from A to B 
     
-    * Case 3: 
+    * Case 3: nCk
         - K identical balls in n small boxes 
         - Binomial coefficients
 
-    * Case 4:
+    * Case 4: (k+n-1)C(k)
         - Bars and stars 
         - K identical balls in n numbered boxes (but each box can hold >= 0 balls)
 
