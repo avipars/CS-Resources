@@ -11,10 +11,9 @@ tags:
 ---
 
 
-
 ### Notes:
 
-* the documnet below has most of my notes!
+The documnet below has most of my notes!
 
 [My Formula Sheet](/static/post-image/prob.pdf)
 
@@ -26,3 +25,5 @@ tags:
 * [Kimberly Brehm Probability Videos](https://www.youtube.com/@SawFinMath/search?query=probability)
 
 * [Additional probability videos](https://www.youtube.com/playlist?list=PL9DdgseuDZgIyKasaFIgJiQZdNvTUp2jA)
+
+* [Guide on probability](https://chrispiech.github.io/probabilityForComputerScientists/en/part1/combinatorics/)

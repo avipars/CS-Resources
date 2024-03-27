@@ -307,13 +307,16 @@ n = Boxes, k = Balls
 * [My multinomial calculator (WIP)](https://avi.is-a.dev/web_calculator/discrete/multi.html)
 
 
-* [Another logic calculator - quite good](https://sheabunge.github.io/boolcalc/)
+* [Binomial expansion calculator](https://www.analyzemath.com/Calculators/binomial_theorem_expansion_calculator.html)
 
 
-* [SymPy - python library for logic](https://www.sympy.org/en/index.html)
+* [Combinatorics calculator](https://home.ubalt.edu/ntsbarsh/business-stat/otherapplets/comcount.htm)
+
+
+* [Logic calculator - quite good](https://sheabunge.github.io/boolcalc/)
 
 
 * [Power Set Calculator](https://www.wolframalpha.com/input?i=power+set+%7B%7B1%2C2%7D%2C%7B3%2C4%7D%2C+%285%2C6%29%7D)
 
 
-* [Binomial expansion calculator](https://anson2251.github.io/binomial-expansion-calculator/) 
+* [SymPy - python library for logic](https://www.sympy.org/en/index.html)
