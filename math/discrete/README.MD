@@ -173,7 +173,7 @@ tags:
         -  \( R ⊆ \{(a, a) \| a ∈ A\} \)
 
     2. **Transitive:**
-    - Shorthand: \( R ∘ R = R<sup>2</sup   ⊆ R \)
+    - Shorthand: \( R ∘ R = R<sup>2</sup>   ⊆ R \)
     - Meaning: If \( (a, b) ∈ R \) and \( (b, c) ∈ R \), then \( (a, c) ∈ R \).
         - (aRb and bRc) -> aRc
 
