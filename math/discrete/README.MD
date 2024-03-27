@@ -239,7 +239,7 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 | ------- | -------------------- | ------------------- | ----------------------------- | --------- | - | ----- | ----- |
 | Aleph   | Uncountably infinite | (0,1)               | {0,1}^ℕ                       | P(ℕ)      | ℝ | ℝ x ℝ | ℂ     |
 |         |                      | or any interval     | Cantor's diagonalization arg. |           |   |       |       |
-| Finite  | Countably finite     | if A = {1}, `|A|` = 1 |                               |           |   |       |
+| Finite  | Countably finite     | if A = {1}, `|A|` = 1 | {3,4,5}  | {1,2,....1­000}  |   |       |
 
 #### Combinatorics
 
