@@ -2,8 +2,8 @@
 layout: page
 title: Discrete Math
 permalink: /math/discrete/
-description: Discrete Math course and tips
-date: '2024-3-25'
+description: Discrete Math course notes and tips
+date: '2024-3-27'
 categories: Discrete
 image: /static/post-image/combinatorics.jpg
 tags:
@@ -206,7 +206,7 @@ tags:
 
     - Terms:
         * Minimal: An element a is minimal if there is no b such that b precedes a.
-            -  Elements with nothing less than them (no predacessors)
+            -  Elements with nothing less than them (no predecessors)
         * Minimum: An element a is a minimum if for all b, a precedes b.
             -  Element that is less than everything else (either a set has 1 minimum or no minimum element)
         * Maximal: An element a is maximal if there is no b such that a precedes b.
@@ -227,9 +227,10 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 | Definition           | {f(a) | a ∈ A} = B every element in range (B) has a source            | if a1 != a2 then f(a1) != f(a2) or contrapositive if f(a1) = f(a2) then a1 = a2                      | f⁻¹ = g                                        | f(a) = a                                                                        |
 | English              | function that maps one or more elements of A to the same element of B | function that always maps the distinct element of its domain to the distinct element of its codomain | function that is both injective and surjective | function that always returns the value that was used as its argument, unchanged |
 
-- Notation
+- Notation for function composition 
 
     * (g ∘ f)(a) = g(f(a))
+        - g composed with f
 
 
 #### Cardinality

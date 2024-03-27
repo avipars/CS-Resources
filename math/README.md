@@ -32,13 +32,15 @@ Math for computer science. I will be updating these pages and adding mroe as I g
  
 [DIscrete Mathematics](https://cs.aviparshan.com/math/discrete/)
 
+[Probability](https://cs.aviparshan.com/math/probability/)
+ 
 #### On the way:
 
 Linear Algebra 2
 
 Calculus 2
 
-Probability
+Differential Equations
 
 #### More: 
 
