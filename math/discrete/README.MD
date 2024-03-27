@@ -5,7 +5,7 @@ permalink: /math/discrete/
 description: Discrete Math course notes, formulas, and tips (combinatorics, sets theory, relations, cardinality, and more)
 date: '2024-3-27'
 categories: Discrete
-image: /static/post-image/combinatorics2.jpg
+image: /static/post-image/combinatorics2.png
 tags:
 - Discrete
 - Math
@@ -246,7 +246,7 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
 ![Combinatorics]({{ site.url }}{{ page.image }})
 
-![handwritten table](combinatorics.jpg)
+![handwritten table](/static/post-image/combinatorics.jpg)
 
 
 n = Boxes, k = Balls
