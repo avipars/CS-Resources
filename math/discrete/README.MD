@@ -246,7 +246,7 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 
 ![Combinatorics]({{ site.url }}{{ page.image }})
 
-![handwritten table](/static/post-image/combinatorics.jpg)
+![handwritten table](combinatorics.jpg)
 
 
 n = Boxes, k = Balls
