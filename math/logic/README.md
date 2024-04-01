@@ -42,6 +42,8 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 ##### Graphs: 
 
+##### Definitions:
+
 - In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges
 
 - Graph is bipartite iff it only has cycles of even length 
@@ -56,11 +58,21 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - Qn - graph of n-domensional hypercube 
 
-  * Q3 is a cube, higher dimensions are harder to visualize
+  * is bipartite
 
-  * always has 2<sup>n</sup> vertices, n*2<sup>n-1</sup>
+  * Always has 2<sup>n</sup> vertices, n*2<sup>n-1</sup>
 
     - it is a regular graph, each vertex has degree of n
+
+  * for even n, it will have a euler cycle 
+
+  * for graph with n > 1
+  
+    - has hamiltonian cycle 
+
+    - is planar (iff 1 < n <= 3)
+  
+  * Q3 is a cube, higher dimensions are harder to visualize
 
 K5 - Graph with 5 vertices all realized (complete)
 
@@ -69,6 +81,62 @@ K5 - Graph with 5 vertices all realized (complete)
 K3,3 - Graph that has 3 vertices on left, 3 on right that is bipartite and complete 
 
 ![K3,3 graph](k3.png)
+
+* A Hamiltonian path that starts and ends at adjacent vertices can be completed by adding one more edge to form a Hamiltonian cycle, and removing any edge from a Hamiltonian cycle produces a Hamiltonian path.
+
+| Word                        | Defintion                                                                                                                                                                                                                                                                                                           | Notation                    |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| Graph                       | Set of vertices and set of edges                                                                                                                                                                                                                                                                                    | G=(V,E)                     |
+| Vertex                      | Unique node                                                                                                                                                                                                                                                                                                         | v ∈ V                       |
+| Edge                        | Pair of 2 vertices (linked)                                                                                                                                                                                                                                                                                         | e ∈ E                       |
+| Adjacent vertices/Neighbors | f there is an edge from one vertex to the other ie v-u or v<->u, so v and u are adjacent to each other ... but v->u v is adjacent to u but u isn't adjacent to v                                                                                                                                                    |                             |
+| Degree                      | Number of edges touching that vertex (in undirected graph)                                                                                                                                                                                                                                                          | d(v)                        |
+| in-degree                   | number of edges coming into vertex vx... ie v3->vx->v2 , vx has in-degree of 1 (from v3 coming in) (directed graph)                                                                                                                                                                                                 | Din(v)                      |
+| out-degree                  | number of edges leaving vertex vx (directed graph)                                                                                                                                                                                                                                                                  | Dout(v)                     |
+| Connected vertices          | In an undirected graph, an unordered pair of vertices {x, y} is called connected if a path leads from x to y. Otherwise, the unordered pair is called disconnected. (path exists between them)                                                                                                                      |                             |
+| Path                        | sequence of vertices connected by edges.                                                                                                                                                                                                                                                                            | {v1,....,v4}                |
+| Cycle                       | A cycle is a path that starts and ends at the same vertex.                                                                                                                                                                                                                                                          | {v1,v2,...v1........vn, v1} |
+| Simple path                 | path that doesn't repeat any vertices                                                                                                                                                                                                                                                                               |                             |
+| Simple Cycle                | A simple cycle is a cycle that repeats no vertices except that the first vertex is also the last (in undirected graphs, no edge can be repeated)                                                                                                                                                                    |                             |
+| Euler path                  | Path that uses every edge of graph exactly once                                                                                                                                                                                                                                                                     |                             |
+| Euler cycle                 | a cycle that uses each edge exactly once (undirected graph)                                                                                                                                                                                                                                                         |                             |
+| Hamilton path               | path that visits each vertex exactly once - tracable                                                                                                                                                                                                                                                                |                             |
+| Hamilton cycle              | cycle that visits each vertex exactly once                                                                                                                                                                                                                                                                          |                             |
+| Depth                       | \# of edges in path from root to that node                                                                                                                                                                                                                                                                          |                             |
+| Distance                    | length of shortest path having vertices v,u at the endpoints                                                                                                                                                                                                                                                        |                             |
+| Diamater                    | in connected graph it is maximum length of shortest path - max of distances between pairs of vertices in graph                                                                                                                                                                                                      |                             |
+| Path length                 | \# of edges in a path                                                                                                                                                                                                                                                                                               |                             |
+| Component                   | subset ov vertices Vi ⊆ V                                                                                                                                                                                                                                                                                           |                             |
+| Connected component         | subset ov vertices Vi ⊆ V tat is connected                                                                                                                                                                                                                                                                          |                             |
+|                             |                                                                                                                                                                                                                                                                                                                     |                             |
+| Graph Atttrbutes            |                                                                                                                                                                                                                                                                                                                     |                             |
+| Undirected Graph            | {v1,v2} = {v2,v1} ... if v1 shares an edge with v2 (we draw a line for the edge)<br>                                                                                                                                                                                                                                |                             |
+| Directed Graph              | (v1,v2) means v1 -> v2 ... but we cannot go from v2 -> v1 unless another edge exists (v2,v1)                                                                                                                                                                                                                        |                             |
+| Subgraph                    | A subgraph of a graph G is a graph whose vertices and edges are subsets of the vertices and edges of G, respectively                                                                                                                                                                                                | H ⊆ G                       |
+| Induced Subgraph            | An induced subgraph of a graph G is a subset of vertices V' and all edges whose endpoints are both in V'                                                                                                                                                                                                            | G[V'].                      |
+| Simple                      | a graph that does not contain more than one edge between the pair of vertice                                                                                                                                                                                                                                        |                             |
+| Complete                    | each pair of vertices is joined by an edge. A complete graph contains all possible edges.                                                                                                                                                                                                                           |                             |
+| Regular                     | each vvertex has same degree                                                                                                                                                                                                                                                                                        |                             |
+| K-regular                   | regular graph where each vertex has degree K                                                                                                                                                                                                                                                                        |                             |
+| Bipartite                   | a graph where the vertices can be divided into two disjoint sets such that all edges connect a vertex in one set to a vertex in another set. There are no edges between vertices in the disjoint sets.                                                                                                              |                             |
+| Planar                      | A planar graph is a graph that can be drawn in the plane without any edges crossing.                                                                                                                                                                                                                                |                             |
+| Complete bipartite          | a special bipartite graph where every vertex on one side of the bipartition is connected to every vertex on the other side                                                                                                                                                                                          |                             |
+| Clique                      | a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. an induced subgraph of G that is complete.                                                                                                                                                            |                             |
+| Peterson graph              | nonplanar, hamiltonian path, no hamiltonian cycle                                                                                                                                                                                                                                                                   |                             |
+| Connected                   | if, for each pair of vertices, there exists at least one single path which joins them                                                                                                                                                                                                                               |                             |
+| Acyclic                     | a graph with no cycles                                                                                                                                                                                                                                                                                              |                             |
+| Hamiltonian-connected       | if for every pair of vertices there is a Hamiltonian path between the two vertices.                                                                                                                                                                                                                                 |                             |
+| DAG                         | Directed graph wihtout any directed cycles                                                                                                                                                                                                                                                                          |                             |
+| Tree                        | Connected and acyclic or add edge = makes a cycle, or remove edge disconnects graph                                                                                                                                                                                                                                 |                             |
+| K_n                         | Complete graph on n vertices                                                                                                                                                                                                                                                                                        |                             |
+| Cycle graph                 | a graph that consists of a single cycle, or in other words, some number of vertices (at least 3, if the graph is simple) connected in a closed chain.                                                                                                                                                               |                             |
+| C_n                         | Cycle graph on n vertices (|n| = # ov vertices = # edges in this case)                                                                                                                                                                                                                                              |                             |
+| Ka,b                        | is a bipartite graph that consists of two disjoint sets of n vertices each, with every vertex in the first set connected to every vertex in the second set. In other words, if we have two sets of vertices U and V, each with n vertices, then K_{n,n} has an edge between every pair of vertices u ∈ U and v ∈ V. |                             |
+| G^c                         | a graph G' (complement) on the same set of vertices as of G such that there will be an edge between two vertices (v, e) in G', if and only if there is no edge in between (v, e) in G                                                                                                                               | G'(v, e')                   |
+| G^T                         | a graph G^T (transpose) where V is the same set of vertices as in G, but E^T is the set of edges E but with directions reversed (directed graph), if e = (v,u), e^T = (u,v)                                                                                                                                         | G^T = (V, E^T)              |
+
+
+
 
 #### Good to know 
 
@@ -96,6 +164,9 @@ Meta-implication: A ⊨ B
 
     - In every model, it is not the case that A is true and B is false
 
+
+###### Some terms you may see in textbooks or outside of the course: 
+
 First order logic = Predicate logic (For all, There exists)
 
 * If A ⊢ B then A ⊨ B (soundness theorem)
@@ -104,6 +175,11 @@ First order logic = Predicate logic (For all, There exists)
 
 Propositional logic = sentential logic (L arrow and L2)
 
+Cycle = Circuit = Tour
+
+Path = Trail 
+
+Edge = Arc
 
 ### Useful Links
 
