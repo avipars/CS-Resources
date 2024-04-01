@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mathematical Logic
-description: "intro to mathformalization, deduction, formal
+description: "intro to math formalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
 date: '2024-04-01'
@@ -16,7 +16,7 @@ sitemap:
   
 ---
 
-Some digital systems content, sentinal logic, prediate logic, graph theory 
+Some digital systems content, sentential logic, predicate logic, graph theory 
 
 Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not required by the course)
 
@@ -42,49 +42,9 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 ##### Graphs: 
 
-##### Definitions:
 
-- In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges
 
-- Graph is bipartite iff it only has cycles of even length 
-
-- Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: homeomorph of K5 or K3,3
-
-- Any complete graph has a hamilton cycle 
-
-- Graph with m >= n-1 edges, n >= 3 vertices will have a cycle
-
-- Regular graph = each vertex has the same degree (same number of edges touching it)
-
-- Qn - graph of n-domensional hypercube 
-
-  * is bipartite
-
-  * Always has 2<sup>n</sup> vertices, n*2<sup>n-1</sup>
-
-    - it is a regular graph, each vertex has degree of n
-
-  * for even n, it will have a euler cycle 
-
-  * for graph with n > 1
-  
-    - has hamiltonian cycle 
-
-    - is planar (iff 1 < n <= 3)
-  
-  * Q3 is a cube, higher dimensions are harder to visualize
-
-K5 - Graph with 5 vertices all realized (complete)
-
-![K5 graph](k5.png)
-
-K3,3 - Graph that has 3 vertices on left, 3 on right that is bipartite and complete 
-
-![K3,3 graph](k3.png)
-
-* A Hamiltonian path that starts and ends at adjacent vertices can be completed by adding one more edge to form a Hamiltonian cycle, and removing any edge from a Hamiltonian cycle produces a Hamiltonian path.
-
-| Word                        | Defintion                                                                                                                                                                                                                                                                                                           | Notation                    |
+| Word                        | Definition                                                                                                                                                                                                                                                                                                           | Notation                    |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | Graph                       | Set of vertices and set of edges                                                                                                                                                                                                                                                                                    | G=(V,E)                     |
 | Vertex                      | Unique node                                                                                                                                                                                                                                                                                                         | v ∈ V                       |
@@ -136,7 +96,47 @@ K3,3 - Graph that has 3 vertices on left, 3 on right that is bipartite and compl
 | G^T                         | a graph G^T (transpose) where V is the same set of vertices as in G, but E^T is the set of edges E but with directions reversed (directed graph), if e = (v,u), e^T = (u,v)                                                                                                                                         | G^T = (V, E^T)              |
 
 
+###### More graph properties:
 
+- In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges
+
+- Graph is bipartite iff it only has cycles of even length 
+
+- Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: homeomorph of K5 or K3,3
+
+- Any complete graph has a Hamilton cycle 
+
+- Graph with m >= n-1 edges, n >= 3 vertices will have a cycle
+
+- Regular graph = each vertex has the same degree (same number of edges touching it)
+
+- Qn - graph of n-dimensional hypercube 
+
+  * is bipartite
+
+  * Always has 2<sup>n</sup> vertices, n*2<sup>n-1</sup> edges
+
+    - it is a regular graph, each vertex has degree of n
+
+  * for even n, it will have a Euler cycle 
+
+  * for graph with n > 1
+  
+    - has Hamiltonian cycle 
+
+    - is planar (iff 1 < n <= 3)
+  
+  * Q3 is a cube, higher dimensions are harder to visualize
+
+K5 - Graph with 5 vertices all realized (complete)
+
+![K5 graph](k5.png)
+
+K3,3 - Graph that has 3 vertices on left, 3 on right that is bipartite and complete 
+
+![K3,3 graph](k3.png)
+
+* A Hamiltonian path that starts and ends at adjacent vertices can be completed by adding one more edge to form a Hamiltonian cycle, and removing any edge from a Hamiltonian cycle produces a Hamiltonian path.
 
 #### Good to know 
 
