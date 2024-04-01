@@ -36,12 +36,38 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - I advise reading the Rosen Discrete Math Book, in the first few hundred pages... it covers most of what the course does.
 
+# Functional completeness
+
+- Any functionally complete set of logical symbols (gates) can be used to create any other gate
+
 - Functionally complete sets that are good to know for exams and homeworks, here is a non exhaustive list of some basic ones
 
-![Functionally complete sets](fc_sets.png)
+- AND, OR, NOT : {∧, ∨, ¬}
+
+- NAND : {↑}
+
+  * a ↑ b = ¬(a ∧ b)
+
+- NOR : {↓}
+
+  * a ↓ b = ¬(a ∨ b)
+
+- AND, NOT : {∧, ¬}
+
+- OR, NOT : {∨, ¬}
+
+- and here are some additional ones
+
+- IMP, NOT : {⇒, ¬}
+
+- OR, IMP : {⊕, ⇒}
+
+- AND, BIDIRECTIONAL, FALSE : {∧, ↔, F }
+
+- OR, BIDIRECTIONAL, FALSE : {∨, ↔, F }
+
 
 ##### Graphs: 
-
 
 
 | Word                        | Definition                                                                                                                                                                                                                                                                                                           | Notation                    |
