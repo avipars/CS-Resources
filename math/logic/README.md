@@ -88,21 +88,29 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 | Hamiltonian-connected       | if for every pair of vertices there is a Hamiltonian path between the two vertices.                                                                                                                                                                                                                                 |                             |
 | DAG                         | Directed graph wihtout any directed cycles                                                                                                                                                                                                                                                                          |                             |
 | Tree                        | Connected and acyclic or add edge = makes a cycle, or remove edge disconnects graph                                                                                                                                                                                                                                 |                             |
-| K_n                         | Complete graph on n vertices                                                                                                                                                                                                                                                                                        |                             |
+| K<sub>n</sub>                          | Complete graph on n vertices                                                                                                                                                                                                                                                                                        |                             |
 | Cycle graph                 | a graph that consists of a single cycle, or in other words, some number of vertices (at least 3, if the graph is simple) connected in a closed chain.                                                                                                                                                               |                             |
-| C_n                         | Cycle graph on n vertices (|n| = # ov vertices = # edges in this case)                                                                                                                                                                                                                                              |                             |
-| Ka,b                        | is a bipartite graph that consists of two disjoint sets of n vertices each, with every vertex in the first set connected to every vertex in the second set. In other words, if we have two sets of vertices U and V, each with n vertices, then K_{n,n} has an edge between every pair of vertices u ∈ U and v ∈ V. |                             |
-| G^c                         | a graph G' (complement) on the same set of vertices as of G such that there will be an edge between two vertices (v, e) in G', if and only if there is no edge in between (v, e) in G                                                                                                                               | G'(v, e')                   |
-| G^T                         | a graph G^T (transpose) where V is the same set of vertices as in G, but E^T is the set of edges E but with directions reversed (directed graph), if e = (v,u), e^T = (u,v)                                                                                                                                         | G^T = (V, E^T)              |
+| C<sub>n</sub>                         | Cycle graph on n vertices (|n| = # ov vertices = # edges in this case)                                                                                                                                                                                                                                              |                             |
+| K<sub>a,b</sub>                        | is a bipartite graph that consists of two disjoint sets of n vertices each, with every vertex in the first set connected to every vertex in the second set. In other words, if we have two sets of vertices U and V, each with n vertices, then <sub>a,b</sub> has an edge between every pair of vertices u ∈ U and v ∈ V. |                             |
+| G<sup>c</sup>                         | a graph G' (complement) on the same set of vertices as of G such that there will be an edge between two vertices (v, e) in G', if and only if there is no edge in between (v, e) in G                                                                                                                               | G'(v, e')                   |
+| G<sup>T</sup>                         | a graph G<sup>T</sup> (transpose) where V is the same set of vertices as in G, but E<sup>T</sup>  is the set of edges E but with directions reversed (directed graph), if e = (v,u), e<sup>T</sup> = (u,v)                                                                                                                                         | G<sup>T</sup>  = (V, E<sup>T</sup> )              |
 
 
 ###### More graph properties:
 
-- In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges
+- In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges (important for formula sheet)
 
 - Graph is bipartite iff it only has cycles of even length 
 
-- Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: homeomorph of K5 or K3,3
+- K<sub>5</sub> - Graph with 5 vertices all realized (complete)
+
+![K5 graph](k5.png)
+
+- K<sub>3,3</sub> - Graph that has 3 vertices on left, 3 on right that is bipartite and complete 
+
+![K3,3 graph](k3.png)
+
+- Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: homeomorph of K<sub>5</sub> or K<sub>3,3</sub>
 
 - Any complete graph has a Hamilton cycle 
 
@@ -110,11 +118,13 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - Regular graph = each vertex has the same degree (same number of edges touching it)
 
-- Qn - graph of n-dimensional hypercube 
+- A Hamiltonian path that starts and ends at adjacent vertices can be completed by adding one more edge to form a Hamiltonian cycle, and removing any edge from a Hamiltonian cycle produces a Hamiltonian path.
+
+- Q<sub>n</sub> - graph of n-dimensional hypercube 
 
   * is bipartite
 
-  * Always has 2<sup>n</sup> vertices, n*2<sup>n-1</sup> edges
+  * Always has 2<sup>n</sup> vertices, n2<sup>n-1</sup> edges
 
     - it is a regular graph, each vertex has degree of n
 
@@ -123,20 +133,12 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
   * for graph with n > 1
   
     - has Hamiltonian cycle 
-
+ 
     - is planar (iff 1 < n <= 3)
   
   * Q3 is a cube, higher dimensions are harder to visualize
 
-K5 - Graph with 5 vertices all realized (complete)
 
-![K5 graph](k5.png)
-
-K3,3 - Graph that has 3 vertices on left, 3 on right that is bipartite and complete 
-
-![K3,3 graph](k3.png)
-
-* A Hamiltonian path that starts and ends at adjacent vertices can be completed by adding one more edge to form a Hamiltonian cycle, and removing any edge from a Hamiltonian cycle produces a Hamiltonian path.
 
 #### Good to know 
 
@@ -165,7 +167,7 @@ Meta-implication: A ⊨ B
     - In every model, it is not the case that A is true and B is false
 
 
-###### Some terms you may see in textbooks or outside of the course: 
+###### Terms you may see elsewhere
 
 First order logic = Predicate logic (For all, There exists)
 
