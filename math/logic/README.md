@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to mathformalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
-date: '2024-03-14'
+date: '2024-04-01'
 categories: math
 tags:
 - Logic
@@ -18,7 +18,7 @@ sitemap:
 
 Some digital systems content, sentinal logic, prediate logic, graph theory 
 
-Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen 
+Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not required by the course)
 
 * [Syllabus](/static/post-image/logic_syllabus.pdf)
 
@@ -52,7 +52,15 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen
 
 - Graph with m >= n-1 edges, n >= 3 vertices will have a cycle
 
-- Non-Planar Graphs:
+- Regular graph = each vertex has the same degree (same number of edges touching it)
+
+- Qn - graph of n-domensional hypercube 
+
+  * Q3 is a cube, higher dimensions are harder to visualize
+
+  * always has 2<sup>n</sup> vertices, n*2<sup>n-1</sup>
+
+    - it is a regular graph, each vertex has degree of n
 
 K5 - Graph with 5 vertices all realized (complete)
 
@@ -61,6 +69,41 @@ K5 - Graph with 5 vertices all realized (complete)
 K3,3 - Graph that has 3 vertices on left, 3 on right that is bipartite and complete 
 
 ![K3,3 graph](k3.png)
+
+#### Good to know 
+
+Implication: A ⇒ B
+
+  * A implies B (If A then B)
+
+    - A ⇒ B is false when A is true and B is false, but otherwise it's true
+
+Meta-Deduction: A ⊢ B
+
+  * A proves B
+
+    - B can be proved using A as premise
+
+  * ⊢ A
+
+    - A is a tautology (every premise can deduce A)
+
+Meta-implication: A ⊨ B
+
+  * A entails B
+
+    - B is true in every structure where A is true
+
+    - In every model, it is not the case that A is true and B is false
+
+First order logic = Predicate logic (For all, There exists)
+
+* If A ⊢ B then A ⊨ B (soundness theorem)
+
+* If A ⊨ B then A ⊢ B (completeness theorem)
+
+Propositional logic = sentential logic (L arrow and L2)
+
 
 ### Useful Links
 
@@ -81,19 +124,7 @@ K3,3 - Graph that has 3 vertices on left, 3 on right that is bipartite and compl
 
 * [Explaining Quantifiers](https://www.whitman.edu/mathematics/higher_math_online/section01.02.html)
 
-
 * [Deductions](https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec15-logic-contd/lec15.html)
-
-#### Wikipedia Articles relevant to subject 
-
-https://en.wikipedia.org/wiki/Propositional_calculus (Sentential Logic, L-> and L2)
-
-https://en.wikipedia.org/wiki/Hilbert_system
-
-https://en.wikipedia.org/wiki/Formal_system#Logical_system
-
-https://en.wikipedia.org/wiki/First-order_logic (For all, There exists, predicate logic)
-
 
 
 ### Calculators and tools
