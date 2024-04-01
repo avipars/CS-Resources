@@ -20,15 +20,9 @@ Some digital systems content, sentential logic, predicate logic, graph theory
 
 Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not required by the course)
 
-* [Syllabus](/static/post-image/logic_syllabus.pdf)
 
 
-* [Formula Sheet](/static/post-image/logic_formula_sheet.pdf)
-
-
-* [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgKbu9DeqWJTbETQ8ZOIR2wO)
-
-### Notes: 
+# Notes: 
 
 - We studied sentential logic as part of the course, but it is often referred to as Propositional logic/calculus
 
@@ -36,7 +30,9 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - I advise reading the Rosen Discrete Math Book, in the first few hundred pages... it covers most of what the course does.
 
-# Functional completeness
+- This is not my exhaustive list of notes (& proofs), there are topics not covered in the course on this page, so do not use this as your main source of notes
+
+### Functional completeness
 
 - Any functionally complete set of logical symbols (gates) can be used to create any other gate
 
@@ -67,7 +63,7 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 - OR, BIDIRECTIONAL, FALSE : {∨, ↔, F }
 
 
-##### Graphs: 
+## Graphs: 
 
 
 | Word                        | Definition                                                                                                                                                                                                                                                                                                           | Notation                    |
@@ -122,7 +118,7 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 | G<sup>T</sup>                         | a graph G<sup>T</sup> (transpose) where V is the same set of vertices as in G, but E<sup>T</sup>  is the set of edges E but with directions reversed (directed graph), if e = (v,u), e<sup>T</sup> = (u,v)                                                                                                                                         | G<sup>T</sup>  = (V, E<sup>T</sup> )              |
 
 
-###### More graph properties:
+### More graph properties:
 
 - In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges (important for formula sheet)
 
@@ -165,7 +161,6 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
   * Q3 is a cube, higher dimensions are harder to visualize
 
 
-
 #### Good to know 
 
 Implication: A ⇒ B
@@ -193,7 +188,7 @@ Meta-implication: A ⊨ B
     - In every model, it is not the case that A is true and B is false
 
 
-###### Terms you may see elsewhere
+##### Terms you may see elsewhere
 
 First order logic = Predicate logic (For all, There exists)
 
@@ -209,7 +204,19 @@ Path = Trail
 
 Edge = Arc
 
-### Useful Links
+
+##### Course Links
+
+* [Syllabus](/static/post-image/logic_syllabus.pdf)
+
+
+* [Formula Sheet](/static/post-image/logic_formula_sheet.pdf)
+
+
+##### Useful Links
+
+* [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgKbu9DeqWJTbETQ8ZOIR2wO)
+
 
 * [Propositional Logic](https://iep.utm.edu/prop-log/)
 
@@ -228,10 +235,11 @@ Edge = Arc
 
 * [Explaining Quantifiers](https://www.whitman.edu/mathematics/higher_math_online/section01.02.html)
 
+
 * [Deductions](https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec15-logic-contd/lec15.html)
 
 
-### Calculators and tools
+#### Calculators and tools
 
 * [Truth Table Generator](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
 
