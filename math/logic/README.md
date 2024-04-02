@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to math formalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
-date: '2024-04-01'
+date: '2024-04-02'
 categories: math
 tags:
 - Logic
@@ -32,7 +32,23 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - This is not my exhaustive list of notes (& proofs), there are topics not covered in the course on this page, so do not use this as your main source of notes
 
-### Functional completeness
+### Logic symbols
+
+  * ↔ = ⊙ (if and only if = xnor)
+
+  * a ↑ b = ¬(a ∧ b) = nand
+
+  * a ↓ b = ¬(a ∨ b) = nor
+
+  * F = constant false
+
+  * T = constant true 
+
+  * A ⇒ B
+
+    - When A is true and B is false, the sentence gets the False truth value, otherwise it will always get the True truth value
+
+####  Functional completeness
 
 - Any functionally complete set of logical symbols (gates) can be used to create any other gate
 
@@ -42,11 +58,7 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - NAND : {↑}
 
-  * a ↑ b = ¬(a ∧ b)
-
 - NOR : {↓}
-
-  * a ↓ b = ¬(a ∨ b)
 
 - AND, NOT : {∧, ¬}
 
@@ -56,11 +68,11 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - IMP, NOT : {⇒, ¬}
 
-- OR, IMP : {⊕, ⇒}
+- XOR, IMP : {⊕, ⇒}
 
-- AND, BIDIRECTIONAL, FALSE : {∧, ↔, F }
+- AND, BIDIRECTIONAL, FALSE : {∧, ↔, F}
 
-- OR, BIDIRECTIONAL, FALSE : {∨, ↔, F }
+- OR, BIDIRECTIONAL, FALSE : {∨, ↔, F}
 
 
 ## Graphs: 
@@ -128,11 +140,11 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 ![K5 graph](k5.png)
 
-- K<sub>3,3</sub> - Graph that has 3 vertices on left, 3 on right that is bipartite and complete 
+- K<sub>3,3</sub> - Graph that has 3 vertices on top, 3 on bottom that is bipartite and complete (sometimes split left and right)
 
 ![K3,3 graph](k3.png)
 
-- Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: homeomorph of K<sub>5</sub> or K<sub>3,3</sub>
+- Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: it is homeomorphic of K<sub>5</sub> or K<sub>3,3</sub>
 
 - Any complete graph has a Hamilton cycle 
 
@@ -187,7 +199,6 @@ Meta-implication: A ⊨ B
 
     - In every model, it is not the case that A is true and B is false
 
-
 ##### Terms you may see elsewhere
 
 First order logic = Predicate logic (For all, There exists)
@@ -203,7 +214,6 @@ Cycle = Circuit = Tour
 Path = Trail 
 
 Edge = Arc
-
 
 ##### Course Links
 
