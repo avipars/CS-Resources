@@ -134,7 +134,7 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges (important for formula sheet)
 
-- Graph is bipartite iff it only has cycles of even length 
+- Graph is bipartite if and only if all cycles have even length 
 
 - K<sub>5</sub> - Graph with 5 vertices all realized (complete)
 
