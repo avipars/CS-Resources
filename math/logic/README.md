@@ -35,9 +35,10 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 ## Logic 
 
 
-### Logic symbols
+### Logic symbols (refresher)
 
-  * ↔ = ⊙ (if and only if = xnor)
+Here are some stuff worth knowing (on top of the basic gates/symbols)
+
 
   * a ↑ b = ¬(a ∧ b) = nand
 
@@ -51,35 +52,45 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
     - When A is true and B is false, the sentence gets the False truth value, otherwise it will always get the True truth value
 
+    - Called If then, implies, or conditional
+
+  * A ↔ B = A ⊙ B 
+
+  - if and only if = xnor
+
+  - (A ⇒ B) ∧ (B ⇒ A)
+
 ###  English to Logic
 
-| Sentential Logic Sentence | A ↔ B                     | A → B                  | ~B → A           | ~(A → B) = A ∧ ~B               | A ∧ B         | A ∨ B                | A ↑ B                          | A ↓ B           | (A → B) & (~A → C)                 | (~B → A) & (B → C)                |
-| ------------------------- | ------------------------- | ---------------------- | ---------------- | ------------------------------- | ------------- | -------------------- | ------------------------------ | --------------- | ---------------------------------- | --------------------------------- |
-|                           |                           |                        |                  |                                 |               |                      |                                |                 |                                    |                                   |
-| English                   | A if and only if B        | A only if B            | A unless B       | A is not sufficient for B       | A but B       | A or (else) B        | not the case that both A and B | Neither a nor b | if A, then B, and if not A, then C | if not B, then A, and if B then C |
-|                           | A just when B             | If A then B            | A if not B       | it is not true that if A then B | A who B       | Bring A or B or both |                                |                 | if A, then B; otherwise C          | A unless B, in which case C       |
-|                           | If A then B and vis-versa | B if A                 | unless B,A       |                                 | A and B       | Either A or (else) B |                                |                 |                                    |                                   |
-|                           | A is equivelent to B      | B because A            | if not B, then A |                                 | Both A and B  |                      |                                |                 |                                    |                                   |
-|                           |                           | A hence B              |                  |                                 | Although A, B |                      |                                |                 |                                    |                                   |
-|                           |                           | A implies B            |                  |                                 |               |                      |                                |                 |                                    |                                   |
-|                           |                           | B in case A            |                  |                                 |               |                      |                                |                 |                                    |                                   |
-|                           |                           | in case A,B            |                  |                                 |               |                      |                                |                 |                                    |                                   |
-|                           |                           | If A,B                 |                  |                                 |               |                      |                                |                 |                                    |                                   |
-|                           |                           | on condition that A, B |                  |                                 |               |                      |                                |                 |                                    |                                   |
-|                           |                           | B on condition that A  |                  |                                 |               |                      |                                |                 |                                    |                                   |
-|                           |                           | not A if not B         |                  |                                 |               |                      |                                |                 |                                    |                                   |
-|                           |                           | B is necessary for A   |                  |                                 |               |                      |                                |                 |                                    |                                   |
-|                           |                           |                        |                  |                                 |               |                      |                                |                 |                                    |
+|Sentential Logic Sentence|A ↔ B                    |A → B                 |~B → A          |~(A → B) = A ∧ ~B              |A ∧ B        |A ∨ B               |A ↑ B                         |A ↓ B          |(A → B) & (~A → C)                |(~B → A) & (B → C)               |
+|-------------------------|-------------------------|----------------------|----------------|-------------------------------|-------------|--------------------|------------------------------|---------------|----------------------------------|---------------------------------|
+|                         |                         |                      |                |                               |             |                    |                              |               |                                  |                                 |
+|English                  |A if and only if B       |A only if B           |A unless B      |A is not sufficient for B      |A but B      |A or (else) B       |not the case that both A and B|Neither a nor b|if A, then B, and if not A, then C|if not B, then A, and if B then C|
+|                         |A just when B            |If A then B           |A if not B      |it is not true that if A then B|A who B      |Bring A or B or both|                              |               |if A, then B; otherwise C         |A unless B, in which case C      |
+|                         |If A then B and vis-versa|B if A                |unless B,A      |                               |A and B      |Either A or (else) B|                              |               |                                  |                                 |
+|                         |A is equivelent to B     |B because A           |if not B, then A|                               |Both A and B |A unless B          |                              |               |                                  |                                 |
+|                         |                         |A hence B             |                |                               |Although A, B|                    |                              |               |                                  |                                 |
+|                         |                         |A implies B           |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |B in case A           |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |in case A,B           |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |If A,B                |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |on condition that A, B|                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |B on condition that A |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |not A if not B        |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |B is necessary for A  |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |Only if A are/then B  |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |B provided that A     |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |B when A              |                |                               |             |                    |                              |               |                                  |
 
-| Predicate Logic Sentence | ∀x        | ∃x                 | ¬(∃x...) | ¬(∀𝑥 … )   | ∀𝑥 𝑃 (𝑥) → 𝑄(𝑥)         | ∃𝑥 𝑃 (𝑥) ∧ 𝑄(𝑥)        | (∃x (∃y ((B(x) ∧ B(y)) ∧ x ≠ y))) | (∀x (∀y ((B(x) ∧ B(y)) → (x = y))))    | ((∃x B(x)) ∧ (∀x (∀y ((B(x) ∧ B(y)) → (x = y))))) |
-| ------------------------ | --------- | ------------------ | -------- | ----------- | ---------------------------- | --------------------------- | --------------------------------- | -------------------------------------- | ------------------------------------------------- |
-|                          |           |                    |          |             |                              |                             |                                   | (¬(∃x (∃y ((B(x) ∧ B(y)) ∧ (x ≠ y))))) | (∃x (B(x) ∧ (∀y (B(y) → (x = y)))))               |
-| English                  | Every x   | Exists x           | None     | Not every x | Every P-ish x has property Q | Some P-ish x has property Q | There are at least two X's        |                                        | There are exactly one x                           |
-|                          | For all x | At least one x     | No x     | Not all     |                              |                             |                                   | There are at most one x                |                                                   |
-|                          | Each x    | Some x             |          |             |                              |                             |                                   |                                        |                                                   |
-|                          | Any x     | There is a x       |          |             |                              |                             |                                   |                                        |                                                   |
-|                          |           | Thesere exists a x |          |             |                              |                             |                                   |                                        |                                                   |
-|                          |           | One or more        |          |             |                              |                             |                                   |                                        |
+|Predicate Logic Sentence|∀x       |∃x                |¬(∃x...)|¬(∀𝑥 … )  |∀𝑥 𝑃 (𝑥) → 𝑄(𝑥)        |∃𝑥 𝑃 (𝑥) ∧ 𝑄(𝑥)       |(∃x (∃y ((B(x) ∧ B(y)) ∧ x ≠ y)))|(∀x (∀y ((B(x) ∧ B(y)) → (x = y))))   |((∃x B(x)) ∧ (∀x (∀y ((B(x) ∧ B(y)) → (x = y)))))|
+|------------------------|---------|------------------|--------|-----------|----------------------------|---------------------------|---------------------------------|--------------------------------------|-------------------------------------------------|
+|                        |         |                  |        |           |                            |                           |                                 |(¬(∃x (∃y ((B(x) ∧ B(y)) ∧ (x ≠ y)))))|(∃x (B(x) ∧ (∀y (B(y) → (x = y)))))              |
+|English                 |Every x  |Exists x          |None    |Not every x|Every P-ish x has property Q|Some P-ish x has property Q|There are at least two X's       |                                      |There are exactly one x                          |
+|                        |For all x|At least one x    |No x    |Not all    |                            |                           |                                 |There are at most one x               |                                                 |
+|                        |Each x   |Some x            |        |           |                            |                           |                                 |                                      |                                                 |
+|                        |Any x    |There is a x      |        |           |                            |                           |                                 |                                      |                                                 |
+|                        |         |Thesere exists a x|        |           |                            |                           |                                 |                                      |                                                 |
+|                        |         |One or more       |        |           |                            |                           |                                 |                                      |
 
 ###  Functional completeness
 
@@ -240,7 +251,7 @@ First order logic = Predicate logic (For all, There exists)
 
 * If A ⊨ B then A ⊢ B (completeness theorem)
 
-Propositional logic = sentential logic (L arrow and L2)
+Propositional logic = Sentential Logic (L arrow and L2)
 
 Cycle = Circuit = Tour
 
