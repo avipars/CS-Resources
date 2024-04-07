@@ -2,7 +2,7 @@
 layout: page
 title: Advanced Data Structures and Algorithms (DSA2)
 description: DSA2 course dealing with hash tables, b trees, topological sort using dfs, etc.  
-date: '2024-03-19'
+date: '2024-04-07'
 permalink: /data_struct2/
 image: /static/post-image/master.png
 categories: DSA
@@ -17,6 +17,9 @@ tags:
 
 
 #### My (incomplete) notes for DSA2 
+
+Queue = FIFO
+Stack = LIFO
 
 ### Recurrences 
 
@@ -79,6 +82,7 @@ Master theorem
 - Connected Components
   - Maximal, connected subgraph
   - Maximal means no more vertices can be added to the subgraph to still be connected 
+
 - Tree
   - Acyclic and connected graph
   - Connected components of a forest = a tree
@@ -149,11 +153,21 @@ White Path Lemma
 - \( V \) descends \( U \) iff at time \( d[u] \) there exists a path from \( u \) to \( v \) composed completely of white vertices.
 
 DAG (Directed Acyclic Graph)
-- Directed graph G is acyclic iff DFS produces no back edges
+- Directed graph G is acyclic if and only if the DFS produces no back edges
 
 Topological Sort in DAG
 - Order relation
-- Uses depth first search
+- Uses depth first search (DFS)
+
+|                 | BFS                                                                     | DFS                                              |
+| --------------- | ----------------------------------------------------------------------- | ------------------------------------------------ |
+| Approach        | Explores level by level                                                 | Explores branch by branch                        |
+| Data Structure  | Uses a queue                                                            | Uses a stack or recursion                        |
+| Memory Usage    | Requires more memory                                                    | Requires less memory                             |
+| Time Complexity | O(V+E)                                                                  | Θ(V+E)                                           |
+| Use Cases       | Shortest path in unweighted graph, reachable nodes from a starting node | Detecting cycles, exploring all nodes in a graph |
+
+
 
 B tree:
 
@@ -171,13 +185,13 @@ B tree:
   - Number of leaves = from 2(ceil(m/2))^h to m^(h+1) -1 
 
 ### Hash Table & Functions:
-- 
+
 - m = size of table 
 - h1(key) is the function that returns the index in the array for given item
 - Table is indexed from 0 to m-1
 - There are a lot of hashing functions, but the simplest used is usually h(key) = key % m 
     - the % m part assures that you cannot exceed the bounds of the table... given your key you will end up within the range of 0 to m-1
-- Load factor of a hash table = total number of items stored / size of array = α
+- Load factor of a hash table = total number of items stored in table / size of table = n/m = α
 - Normally, each spot in the table can only hold a single element (and it's key) - this is called direct addressing 
     - additionally, your key cannot end up in other slots  
 
@@ -187,13 +201,27 @@ B tree:
 - Open addressing allows your key to go to almost (if not all) of the slots by using a probe/step function
   - i.e. for linear/quadratic probing we have a step function in addition to the original hash function, with a coefficient i/i^2 respective to the type of probe. Initially it will be 0, but after every collision we will increment by 1
 
+- Linear probing:
+    - h(k,i) = (h<sub>1</sub>(k) + i) mod m
+    - f(i) = i
+    - Insert: first try, i = 0... if collision, set i = 1 and try to hash and insert again (can wrap around if necessary)
+    - Search: in for loop, i = 0 to m-1 hash the key with i then see if result in table = key
+        - if it does, return item. If entry is empty in table, return null... if slot was full but key didn't match, then let i=i+1 and try again. If got to m-1 then return null as well 
+    - Delete:
+        - run Search, if key found then mark as deleted, otherwise do nothing
+        - Mark as deleted but don't delete as it would make it harder to find other elements that got same collision and were placed after it
+  
+  - Quadratic probing:
+      -  h(k,i) = (h<sub>1</sub>(k) + c<sub>1</sub>i + c<sub>2</sub>i<sup>2</sup>) mod m
+      -  h<sub>1</sub> is ordinary hash function, c<sub>1</sub>, c<sub>2</sub> are constants
+    
 - Double hashing:
-    - given two hash functions, h1, h2, and i which starts at 0
-    - h = (h1(key) + i*h2(key)) % m
+    - given two hash functions, h<sub>1</sub>, h<sub>2</sub>, and i which starts at 0
+    - h = (h<sub>1</sub>(k) + ih<sub>2</sub>) mod m
     - this is how you would usually map a item to a spot in the hash table
     - if there is a collision, i gets incremented by 1 and compute the index via h again 
     - keep on doing this till you find an empty spot.
-    - if h2 is chosen/created in a poor manner (or h1, or table is small, or not sparse) etc... you can end up in an infinite loop looking for an open slot
+    - if h<sub>2</sub> is chosen/created in a poor manner (or h<sub>1</sub>, or table is small, or not sparse) etc... you can end up in an infinite loop looking for an open slot
 
 
 #### More resources
@@ -205,5 +233,7 @@ B tree:
 [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 [AlgoVis](https://visualgo.net/en)
+
+[Hash Table Visualizer](https://iswsa.acm.org/mphf/openDSAPerfectHashAnimation/perfectHashAV.html)
 
 [DSA Code Challenge in JS](https://github.com/bradtraversy/traversy-js-challenges/)
