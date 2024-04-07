@@ -57,6 +57,7 @@ Master theorem
 -  π[v] denotes an array containing the predecessors of vertex v.
 
 - Path = set of vertices (if undirected graph, the set will be unordered), where every edge between 2 vertices is a pair. 
+- Reachability = If there is a path from vertex U to vertex V (U⇝V), then V is reachable from U (in directed graph, U isn't necessarily reachable from V) 
 - Simple Path = path where every vertex in path appears only once
 - Cycle = path where V0 = Vn (first vertex is the same as the last vertex)
   - smallest path that can make a cycle will have 3 vertices (if we don't allow self loops)
@@ -69,6 +70,10 @@ Master theorem
   - is a subgraph of G where V' = V
   - Graph G can be it's own spanning subgraph
   - may have fewer edges than G, but it has to cover all of the vertices of G 
+- Connected Vertices
+  - Two vertices are connected if there exists a path between them (undirected graph)
+- Stringly Connected Vertices
+  - Two vertices are connected if there exists a path between them (directed graph)
 - Connected Graph
   - In an undirected graph where there exists a path between every 2 vertices (ie E - B)
 - Strongly Connected Graph
@@ -79,9 +84,13 @@ Master theorem
   - More vertices than edges (by an order of magnitude)
 - Complete Graph = 
   - Edge between every 2 vertices (in undirected graph)
-- Connected Components
+- Connected Component
+  - For undirected graphs
   - Maximal, connected subgraph
   - Maximal means no more vertices can be added to the subgraph to still be connected 
+- Strongly Connected Component (SCC)
+  - For directed graphs
+  - A strongly connected component is a maximal set of vertices C ⊆ V such that for every pair of vertices u and v in C, u and v are mutully reachable (both u⇝v and v⇝u)
 
 - Tree
   - Acyclic and connected graph
@@ -152,14 +161,9 @@ Master theorem
 White Path Lemma
 - \( V \) descends \( U \) iff at time \( d[u] \) there exists a path from \( u \) to \( v \) composed completely of white vertices.
 
-DAG (Directed Acyclic Graph)
-- Directed graph G is acyclic if and only if the DFS produces no back edges
 
-Topological Sort in DAG
-- Order relation
-- Uses depth first search (DFS)
 
-|                 | BFS                                                                     | DFS                                              |
+|                 | BFS (Breadth First Search)                                                                  | DFS (Depth First Search)                                             |
 | --------------- | ----------------------------------------------------------------------- | ------------------------------------------------ |
 | Approach        | Explores level by level                                                 | Explores branch by branch                        |
 | Data Structure  | Uses a queue                                                            | Uses a stack or recursion                        |
@@ -167,6 +171,31 @@ Topological Sort in DAG
 | Time Complexity | O(V+E)                                                                  | Θ(V+E)                                           |
 | Use Cases       | Shortest path in unweighted graph, reachable nodes from a starting node | Detecting cycles, exploring all nodes in a graph |
 
+
+BFS 
+  - Discover all vertices reachable from a starting source vertex
+  - Works for directed, undirected graphs
+  - Each iteration, go one level deeper in all possible directions 
+  - Stop after reaching 
+
+DFS 
+  - Dicover all vertices from a starting source vertex by going deeper in graph
+  - If we decide to go from left to right, go to S's first neighbor from left... then go to it's first left neighbor till you cant go further
+  - Then backtrack to the next possible path and continue
+  - Graph G is acyclic (has no cycles) if and only if the DFS produces no back edges
+      * if it's directed, we call it a DAG (directed, acyclic graph)
+      * Undirected - complexity is O(V) 
+
+Topological Sort in DAG
+  - Order relation
+      * Puts all vertices in a sequence such that for every edge (U,V) in G, vertex U appears before V
+        - if graph has cycle (not a DAG) but also no linear/total order is possible
+  - Uses depth first search (DFS)
+    * DFS on G and get finishing times of all vertices
+    * as each vertex finishes, add to front of linked list
+    * return linked list of vertices
+  - Insertion is O(1), |V| vertices to add
+  - Usually we would want to reverse the linked list to get our prefered order
 
 
 B tree:
@@ -211,9 +240,9 @@ B tree:
         - run Search, if key found then mark as deleted, otherwise do nothing
         - Mark as deleted but don't delete as it would make it harder to find other elements that got same collision and were placed after it
   
-  - Quadratic probing:
-      -  h(k,i) = (h<sub>1</sub>(k) + c<sub>1</sub>i + c<sub>2</sub>i<sup>2</sup>) mod m
-      -  h<sub>1</sub> is ordinary hash function, c<sub>1</sub>, c<sub>2</sub> are constants
+- Quadratic probing:
+    -  h(k,i) = (h<sub>1</sub>(k) + c<sub>1</sub>i + c<sub>2</sub>i<sup>2</sup>) mod m
+    -  h<sub>1</sub> is ordinary hash function, c<sub>1</sub>, c<sub>2</sub> are constants
     
 - Double hashing:
     - given two hash functions, h<sub>1</sub>, h<sub>2</sub>, and i which starts at 0
