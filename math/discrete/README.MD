@@ -304,7 +304,10 @@ n = Boxes, k = Balls
 
 ##### Programs/Calculators
 
-* [My multinomial calculator (WIP)](https://avi.is-a.dev/web_calculator/discrete/multi.html)
+* [My multinomial calculator ](https://avi.is-a.dev/web_calculator/discrete/multi.html)
+
+
+* [My Combinatorics calculator](https://avi.is-a.dev/web_calculator/discrete/choice.html)
 
 
 * [Binomial expansion calculator](https://www.analyzemath.com/Calculators/binomial_theorem_expansion_calculator.html)
