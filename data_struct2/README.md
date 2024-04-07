@@ -255,6 +255,8 @@ B tree:
 
 #### More resources
 
+[Master theorem solver](https://www.nayuki.io/page/master-theorem-solver-javascript)
+
 [My DSA2 calculator (WIP)](https://avi.is-a.dev/web_calculator/dsa/master.html)
 
 [YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI4iVxPbjXJy4bMG-8DILVq)
