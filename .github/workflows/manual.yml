@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: create gem
         run: echo "bundle gem lorem"
       - name: gem2
@@ -23,7 +23,7 @@ jobs:
         run: echo "gem "github-pages", "~> 3.9.2", group::jekyll_plugins"
         
       - name: Cache gems
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: vendor/gems
           key: ${{ runner.os }}-build-${{ hashFiles('**/Gemfile.lock') }}
