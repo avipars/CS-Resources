@@ -206,7 +206,7 @@ B tree:
   - All keys in node are sorted (i.e. left = smaller)
   - Root node can have a minimum of 2 children (1 key is fine)
   - Every node must fill at least half of their children ceil(m/2), node with degree 10 needs to have 5 children
-  - All leaf nodes must be at the same level (depth), this tree is completely balanced
+  - All leaf nodes must be at the same level (depth), thus tree is completely balanced
     * no dangling nodes, leaves don't have children
   - Creation of nodes is bottom up (insertion) and grows upwards
 
@@ -218,10 +218,14 @@ B tree:
   - Maximal # of children = (m(h+1)) / (m-1)
   - Number of leaves = from 2(ceil(m/2))^h to m^(h+1) -1 
 
+  Easier way to understand: 
   - bounds from B to 2B-1
   - B <= # of children < 2B
   - B = branching factor (bound of number of children), for 2-3 tree B = 2
     * either 2 children or 3 children
+  - non-leaf node with k children contains k-1 keys
+  - root has at least 2 children if not a leaf
+  - non-leaf node (besides root) has at least ceil(m/2) children
 
 ### Hash Table & Functions:
 
