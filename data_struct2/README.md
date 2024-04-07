@@ -194,24 +194,34 @@ Topological Sort in DAG
     * DFS on G and get finishing times of all vertices
     * as each vertex finishes, add to front of linked list
     * return linked list of vertices
-  - Insertion is O(1), |V| vertices to add
+  - Insertion is O(1), `|V|` vertices to add
   - Usually we would want to reverse the linked list to get our prefered order
 
 
 B tree:
 
+- 2-3 Tree: Can have at most 2 keys, at most 3 children
+
 - Rules:
+  - All keys in node are sorted (i.e. left = smaller)
   - Root node can have a minimum of 2 children (1 key is fine)
   - Every node must fill at least half of their children ceil(m/2), node with degree 10 needs to have 5 children
-  - All leaf nodes must be at the same level
+  - All leaf nodes must be at the same level (depth), this tree is completely balanced
+    * no dangling nodes, leaves don't have children
   - Creation of nodes is bottom up (insertion) and grows upwards
 
 - Stats:
+  - Depth of tree is order of log(n), operations (search, insert, etc.) are similar 
   - Number of keys in each node = from ceil(m/2) – 1 to m-1 
   - Number of children = number of keys + 1
   - Minimal # of children = (ceil(m/2) – 1 (h+1)) / (ceil(m/2) -1)
   - Maximal # of children = (m(h+1)) / (m-1)
   - Number of leaves = from 2(ceil(m/2))^h to m^(h+1) -1 
+
+  - bounds from B to 2B-1
+  - B <= # of children < 2B
+  - B = branching factor (bound of number of children), for 2-3 tree B = 2
+    * either 2 children or 3 children
 
 ### Hash Table & Functions:
 
