@@ -18,8 +18,6 @@ tags:
 
 #### My (incomplete) notes for DSA2 
 
-Queue = FIFO
-Stack = LIFO
 
 ### Recurrences 
 
@@ -54,7 +52,7 @@ Master theorem
 - `|E|` denotes the number of edges in a graph
 - d[u] denotes the detection/discovery time of vertex u
 - f[u] denotes the finishing time of vertex u 
--  π[v] denotes an array containing the predecessors of vertex v.
+- π[v] denotes an array containing the predecessors of vertex v.
 
 - Path = set of vertices (if undirected graph, the set will be unordered), where every edge between 2 vertices is a pair. 
 - Reachability = If there is a path from vertex U to vertex V (U⇝V), then V is reachable from U (in directed graph, U isn't necessarily reachable from V) 
@@ -158,10 +156,11 @@ Master theorem
   - V finishes before U
   - U is grey and V is black
 
-White Path Lemma
-- \( V \) descends \( U \) iff at time \( d[u] \) there exists a path from \( u \) to \( v \) composed completely of white vertices.
+White Path Lemma\Theorem
+- \( V \) descends \( U \) iff at time \( d[u] \) there exists a path from \( u \) to \( v \) composed completely of white (undiscovered) vertices.
 
-
+Parenthesis Theorem 
+-  If \( V \) is a descendant of \( U \), then  time \( d[v] \) is later than the  time \( d[u] \). However, \( f[v] \) is earlier than \( f[u] \)
 
 |                 | BFS (Breadth First Search)                                                                  | DFS (Depth First Search)                                             |
 | --------------- | ----------------------------------------------------------------------- | ------------------------------------------------ |
@@ -177,6 +176,7 @@ BFS
   - Works for directed, undirected graphs
   - Each iteration, go one level deeper in all possible directions 
   - Stop after reaching 
+  - Queue = FIFO
 
 DFS 
   - Dicover all vertices from a starting source vertex by going deeper in graph
@@ -185,6 +185,7 @@ DFS
   - Graph G is acyclic (has no cycles) if and only if the DFS produces no back edges
       * if it's directed, we call it a DAG (directed, acyclic graph)
       * Undirected - complexity is O(V) 
+  - Stack = LIFO
 
 Topological Sort in DAG
   - Order relation
@@ -200,7 +201,7 @@ Topological Sort in DAG
 
 B tree:
 
-- 2-3 Tree: Can have at most 2 keys, at most 3 children
+- 2-3 Tree: Can have at most 2 keys, at most 3 children. They are a type of B tree
 
 - Rules:
   - All keys in node are sorted (i.e. left = smaller)
@@ -273,8 +274,6 @@ B tree:
 
 [My DSA2 calculator (WIP)](https://avi.is-a.dev/web_calculator/dsa/master.html)
 
-[YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI4iVxPbjXJy4bMG-8DILVq)
-
 [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 [AlgoVis](https://visualgo.net/en)
@@ -282,3 +281,7 @@ B tree:
 [Hash Table Visualizer](https://iswsa.acm.org/mphf/openDSAPerfectHashAnimation/perfectHashAV.html)
 
 [DSA Code Challenge in JS](https://github.com/bradtraversy/traversy-js-challenges/)
+
+[Intro To Algorithms Solution Site - 3rd party](https://walkccc.me/CLRS/)
+
+[YouTube Playlist](https://www.youtube.com/playlist?list=PL9DdgseuDZgI4iVxPbjXJy4bMG-8DILVq)
