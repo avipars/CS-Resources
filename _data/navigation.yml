@@ -18,6 +18,11 @@
   link: /cpp_workshop/
   sorted: true
 
+
+- name: Intro to Communcations
+  link: /comms/
+  sorted: true
+
 - name: Data Security
   link: /intro_sec
   sorted: true
