@@ -23,6 +23,10 @@
   link: /comms/
   sorted: true
 
+- name: Databases
+  link: /databases
+  sorted: true
+
 - name: Data Security
   link: /intro_sec
   sorted: true
