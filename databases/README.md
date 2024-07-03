@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Intro to Databases
-description: DSA2 course dealing with hash tables, b trees, topological sort using dfs, etc.  
-date: '2024-07-02'
+title: Intro to Database Systems
+description: Introduction to databases, learning relational algebra, entity diagrams and relations, SQL, etc. 
+date: '2024-07-03'
 permalink: /databases/
 categories: DB
 tags:
@@ -10,36 +10,57 @@ tags:
 - SQL
 ---
 
-### ACID
+### ACID Transactions 
 
-Atomicity - each statement in a transaction (to read, write, update or delete data) is treated as a single unit. Either the entire statement is executed, or none of it is executed. This property prevents data loss and corruption from occurring if, for example, if your streaming data source fails mid-stream.
-Consistency - ensures that transactions only make changes to tables in predefined, predictable ways. Transactional consistency ensures that corruption or errors in your data do not create unintended consequences for the integrity of your table.
-Isolation - when multiple users are reading and writing from the same table all at once, isolation of their transactions ensures that the concurrent transactions don't interfere with or affect one another. Each request can occur as though they were occurring one by one, even though they're actually occurring simultaneously.
-Durability - ensures that changes to your data made by successfully executed transactions will be saved, even in the event of system failure.
+Atomicity: All-or-nothing transactions. Ensures data integrity by completing everything or reverting all changes.
 
-Data Independence
-### CRUD
-Create
-Read
-Update
-Delete
+Consistency: Predictable data changes. Transactions maintain valid table states and prevent corruption.
 
-### Weak Entity
+Isolation: Concurrent access without conflicts. Transactions appear to happen one at a time, even when happening simultaneously.
 
-A foreign key is a column or columns in a database that (e.g. table_1.column_a) that are linked to a column in a different table (table_2.column_b).
+Durability: Permanent data changes. Committed transactions survive system failures.
 
-In a relational database, a weak entity is an entity that cannot be uniquely identified by its attributes alone; therefore, it must use a foreign key in conjunction with its attributes to create a primary key. The foreign key is typically a primary key of an entity it is related to.
+### CRUD - Actions that the database should support
 
+Create - add entry
 
-Closed Arrow - Limiting factor 
+Read - get entry 
 
-| Relational algebra                               | SQL                                        |
-| ------------------------------------------------ | ------------------------------------------ |
-| set of tuples                                    | multiset of tupils                         |
-| no null - no unknown values                      | Can have null values                       |
-|                                                  |                                            |
-| 2 valued logic for conditions true/false (logic) | unknown, true, falae                       |
-| not turing complete - limited                    | turing complete (many additional features) |
+Update - modify entry
+
+Delete - remove entry
+
+### Keys and entities 
+
+Weak Entities: Entities needing a foreign key (often a primary key from another table) to be uniquely identified.
+
+Foreign Keys: Link columns between tables (e.g., table1.colA -> table2.colB).
+
+Primary Key - The actual key for the data in the database, Non null and unique (minimal set of identifying information to still be unique)
+
+Composite key
+
+* Key based on 2 (or more) items, and make up the primary key
+
+* Example: street name and address or name and address 
+
+* Each independently are not unique 
+
+* Not really a foreign key as not composite
+
+* Not a weak entity either as uses parent key
+
+### Arrows and quantity 
+
+* —- n 
+
+* —> 0 or 1
+
+    * Filled in arrow
+
+    * —----) exactly once
+
+    * Closed Arrow - Limiting factor 
 
 Cardinalities
 
@@ -49,7 +70,8 @@ Cardinalities
 
 * Many to many
 
-Data models
+
+Data models (levels)
 
 * Logic
 
@@ -63,27 +85,28 @@ Schema
 
 * How it is structured and represented
 
-Composite key
+### Relational Algebra Symbols
 
-* Key based on 2 (or more) items , and are the primary key
+| Type             | Operator          | Symbol                              | Min rows                         | Max rows (R first has n Tuples)                       | Duplications                                                                                                          | Notes                                                                                                        | Returns                                                                    |  |
+| ---------------- | ----------------- | ----------------------------------- | -------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |  |
+| Unary            | Project           | π pi                                | 1, can be 0 if relation is empty | n                                                     | When done projection won't give duplicate of same information                                                         | Subscript of projection are some of attributes in relation's schema,                                         | results in relation containing only the columns specified (1 field/column) |  |
+| Select           | σ sigma           | 0                                   | n                                |                                                       | Give me this , when                                                                                                   | Returns tuples from Relation that match the Condition, schema of output is same as schema of input           |                                                                            |
+| Auxillary        | Rename            | ρ roe                               |                                  |                                                       |                                                                                                                       | break up long expressions, resolve conflicts in attribute names, same arg name order as title header         | returns relation with new schema but same tuples                           |  |
+| Binary           | Cartesian product | X                                   |                                  | m\*n (rxt)                                            |                                                                                                                       | tuple for each pair of tuples from two input relations, # of tuples is product of # of tuples in R and in S. |                                                                            |
+| Union            | U                 | max(m,n)                            | n+m                              | no duplicated values in end result                    | Combine 2 tables, only works for comptible relations (with same schema), # of rows doesn't matter                     | Contains all tuples that are in at least one of the relations                                                |                                                                            |
+| Difference       | \-                | n-m, unless m > n then = 0          | n (ie if 2nd set is empty)       |                                                       | Only for compatible relations (same schema)                                                                           | Result contains all tuples in R that are not in S                                                            |                                                                            |
+| Intersection     | ∩                 | 0 (disjoint)                        | min(n,m)                         |                                                       | Needs to be forcompatible relations R - (R-S) = R ∩ S                                                                 | returns all touples in both R and S                                                                          |                                                                            |
+| Conditional Join | ⋈c                |                                     |                                  |                                                       | Boolean condition over pairs of attributes from R and S - cartesian product with condition…. Selection of … join - CJ |                                                                                                              |
+| Natural Join     | ⋈ bowtime         | 0 - nothing matches                 | n\*m                             |                                                       | condition is there automatically - if one col = same it looks at it .same schema , same columns                       |                                                                                                              |
+| Division         | ÷                 | 0 - can be empty table (no results) |                                  | Scema of 2nd relation must be subset of the first R/S | Result contains tuples (a1,….,an) st for all (b1,…bm) in S, (a1,..an,b1,..,bm) is in R                                |                                                                                                              |
+|                  |                   |                                     |                                  |                                                       |                                                                                                                       |                                                                                                              |                                                                            |  |
+|                  | Equivelence       | ≡                                   |                                  |                                                       |                                                                                                                       | For all instances of the relations in E1and E2, they return the same result                                  |                                                                            |
 
-* EX: street name and address or Name and address 
+| Relational algebra                               | SQL                                        |
+| ------------------------------------------------ | ------------------------------------------ |
+| set of tuples                                    | multiset of tupils                         |
+| no null - no unknown values                      | Can have null values                       |
+|                                                  |                                            |
+| 2 valued logic for conditions true/false (logic) | unknown, true, falae                       |
+| not turing complete - limited                    | turing complete (many additional features) |
 
-* Each independently are not unique 
-
-* Not really a foreign key as not composite
-
-* Not a weak entity either as uses parent key
-
-Arrows and quantity 
-
-* —- n 
-
-* —> 0 or 1
-
-    * Filled in arrow
-    * —----) exactly once
-
-* Primary key  
-
-    * The actual key for the data in the database, Non null and unique
