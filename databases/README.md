@@ -114,11 +114,16 @@ Schema
 #### Nulls and Unknowns
 
 
+
+Truth table for unknowns
+
+
 | A       | Not A   |
 | ------- | ------- |
 | TRUE    | FALSE   |
 | Unknown | Unknown |
 
+More conclusive - I skipped entries ie where B is true and A is false etc (it's repetitive)
 
 | A       | B       | A and B | A or B  |
 | ------- | ------- | ------- | ------- |
@@ -130,6 +135,7 @@ Schema
 | Unknown | Unknown | Unknown | Unknown |
 
 
+Actions with or about Nulls and return values
 
 | Action       | Return        | Example                              |
 | ----------- | ------------- | ------------------------------------ |
