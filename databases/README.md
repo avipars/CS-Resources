@@ -137,3 +137,18 @@ Schema
 | Comparing with Null  | Unknown       | Null > 10, Null <> Null, Null = Null |
 | Is Null     | True if Null  | x IS NULL                            |
 | Is Not Null | False if Null | X IS NOT NULL                        |
+
+  ```sql
+
+        -- INIT database
+        CREATE TABLE Parents (
+        
+        Child VARCHAR(20),
+        Parent VARCHAR(20)
+        );
+
+        INSERT INTO Parents VALUES ('avraham', 'yitz');
+        -- QUERY database
+        SELECT * FROM Parents;
+
+  ```
