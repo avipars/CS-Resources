@@ -110,3 +110,26 @@ Schema
 | 2 valued logic for conditions true/false (logic) | unknown, true, falae                       |
 | not turing complete - limited                    | turing complete (many additional features) |
 
+
+#### Nulls and Unknowns
+
+| A       | B       | A and B | A or B  |
+| ------- | ------- | ------- | ------- |
+| TRUE    | TRUE    | TRUE    | TRUE    |
+| TRUE    | FALSE   | FALSE   | TRUE    |
+| FALSE   | FALSE   | FALSE   | FALSE   |
+| TRUE    | Unknown | Unknown | TRUE    |
+| FALSE   | Unknown | FALSE   | Unknown |
+| Unknown | Unknown | Unknown | Unknown |
+
+| A       | Not A   |
+| ------- | ------- |
+| TRUE    | FALSE   |
+| Unknown | Unknown |
+
+| Action       | Return        | Example                              |
+| ----------- | ------------- | ------------------------------------ |
+| Operating on Null  | Null          | Null+1, Null\*7                      |
+| Comparing with Null  | Unknown       | Null > 10, Null <> Null, Null = Null |
+| Is Null     | True if Null  | x IS NULL                            |
+| Is Not Null | False if Null | X IS NOT NULL                        |
