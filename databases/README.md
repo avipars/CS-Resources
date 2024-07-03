@@ -113,6 +113,13 @@ Schema
 
 #### Nulls and Unknowns
 
+
+| A       | Not A   |
+| ------- | ------- |
+| TRUE    | FALSE   |
+| Unknown | Unknown |
+
+
 | A       | B       | A and B | A or B  |
 | ------- | ------- | ------- | ------- |
 | TRUE    | TRUE    | TRUE    | TRUE    |
@@ -122,10 +129,7 @@ Schema
 | FALSE   | Unknown | FALSE   | Unknown |
 | Unknown | Unknown | Unknown | Unknown |
 
-| A       | Not A   |
-| ------- | ------- |
-| TRUE    | FALSE   |
-| Unknown | Unknown |
+
 
 | Action       | Return        | Example                              |
 | ----------- | ------------- | ------------------------------------ |
