@@ -54,11 +54,11 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
     - Called If then, implies, or conditional
 
-  * A ↔ B = A ⊙ B 
+  * A ↔ B = A ⊙ B ≡ (A ⇒ B) ∧ (B ⇒ A)
 
   - if and only if = xnor
 
-  - (A ⇒ B) ∧ (B ⇒ A)
+  * A ⊕ B ≡ (A ∧ ¬B) ∨ (¬A ∧ B)
 
 ###  English to Logic
 
