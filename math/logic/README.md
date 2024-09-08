@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to math formalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
-date: '2024-04-02'
+date: '2024-09-08'
 categories: math
 tags:
 - Logic
@@ -56,7 +56,7 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
   * A ↔ B = A ⊙ B ≡ (A ⇒ B) ∧ (B ⇒ A)
 
-  - if and only if = xnor
+      - if and only if = xnor
 
   * A ⊕ B ≡ (A ∧ ¬B) ∨ (¬A ∧ B)
 
@@ -242,6 +242,8 @@ Meta-implication: A ⊨ B
     - B is true in every structure where A is true
 
     - In every model, it is not the case that A is true and B is false
+   
+    - AKA Logical implication
 
 ##### Terms you may see elsewhere
 
