@@ -26,7 +26,7 @@ Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not require
 
 - We studied sentential logic as part of the course, but it is often referred to as Propositional logic/calculus
 
-- We also used a system called L arrow which exists in sentential logic (sometimes called language PC) 
+- We also used a system called L arrow which exists in sentential logic
 
 - I advise reading the Rosen Discrete Math Book, in the first few hundred pages... it covers most of what the course does.
 
@@ -52,13 +52,17 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
     - When A is true and B is false, the sentence gets the False truth value, otherwise it will always get the True truth value
 
-    - Called If then, implies, or conditional
+    - Called If then, Implies, or Conditional
 
   * A ↔ B = A ⊙ B ≡ (A ⇒ B) ∧ (B ⇒ A)
 
-      - if and only if = xnor
+      - if and only if = x-nor
 
   * A ⊕ B ≡ (A ∧ ¬B) ∨ (¬A ∧ B)
+
+  * ∀y - Universal quantifier - For all y
+
+  * ∃x - Existential quantifier - There exists x
 
 ###  English to Logic
 
@@ -108,15 +112,15 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
 - OR, NOT : {∨, ¬}
 
-- and here are some additional ones
+- Additional ones:
 
-- IMP, NOT : {⇒, ¬}
+  - IMP, NOT : {⇒, ¬}
 
-- XOR, IMP : {⊕, ⇒}
+  - XOR, IMP : {⊕, ⇒}
 
-- AND, BIDIRECTIONAL, FALSE : {∧, ↔, F}
+  - AND, BIDIRECTIONAL, FALSE : {∧, ↔, F}
 
-- OR, BIDIRECTIONAL, FALSE : {∨, ↔, F}
+  - OR, BIDIRECTIONAL, FALSE : {∨, ↔, F}
 
 
 ## Graphs: 
@@ -247,7 +251,7 @@ Meta-implication: A ⊨ B
 
 ##### Terms you may see elsewhere
 
-First order logic = Predicate logic (For all, There exists)
+First order logic = Predicate logic/calculus (For all, There exists)
 
 * If A ⊢ B then A ⊨ B (soundness theorem)
 
