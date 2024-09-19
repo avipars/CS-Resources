@@ -106,10 +106,10 @@ from khan academy
 * [General Limit Laws](https://www.milefoot.com/math/calculus/limits/GenericLimitLawProofs04.htm)
 
 
-* [Tangent, Cotangent, Secant, and Cosecant with derivitives](https://math.dartmouth.edu/opencalc2/cole/lecture17.pdf)
+* [Tangent, Cotangent, Secant, and Cosecant with derivatives](https://math.dartmouth.edu/opencalc2/cole/lecture17.pdf)
 
 
-* [Derivitive calculator](https://www.derivative-calculator.net/)
+* [Derivatives calculator](https://www.derivative-calculator.net/)
 
 
 * [Integration calculator](https://www.integral-calculator.com/)

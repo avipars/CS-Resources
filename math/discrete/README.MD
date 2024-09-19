@@ -160,7 +160,7 @@ tags:
 
     * R ∘ R = R<sup>2</sup> is a relation composed with itself
     
-    * (R ∘ S) ∘ T = R ∘ (S ∘ T) i.e it is associative (but not communitive)
+    * (R ∘ S) ∘ T = R ∘ (S ∘ T) i.e it is associative (but not commutative)
 
     * Ia ∘ R = R 
     
@@ -225,7 +225,7 @@ Let f,g be two functions, (f:A -> B) , (g:B -> A)
 | Invertibility        | Right invertible                                                      | Left Invertible                                                                                      | Invertible                                     | Invertible                                                                      |
 | G is - inverse of f  | f ∘ g = Ib                                                            | g ∘ f = Ia                                                                                           | g ∘ f = Ia, f ∘ g = Ib                         | f ∘ Ia = f = Ib ∘ f                                                             |
 | Definition           |  `{f(a) | a ∈ A} ` = B every element in range (B) has a source            | if a1 != a2 then f(a1) != f(a2) or contrapositive if f(a1) = f(a2) then a1 = a2                      | f⁻¹ = g                                        | f(a) = a                                                                        |
-| English              | function that maps one or more elements of A to the same element of B | function that always maps the distinct element of its domain to the distinct element of its codomain | function that is both injective and surjective | function that always returns the value that was used as its argument, unchanged |
+| English              | function that maps one or more elements of A to the same element of B | function that always maps the distinct element of its domain to the distinct element of its co-domain | function that is both injective and surjective | function that always returns the value that was used as its argument, unchanged |
 
 - Notation for function composition 
 

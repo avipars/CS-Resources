@@ -21,7 +21,7 @@ sitemap:
 Basic understanding of Python, and Linux will help a lot...
 Install a virtual machine manager such as virtual box for windows, download ISO files for an OS you want to use such as windows, ubuntu, or kali... and get that set up! 
 
-Prerequesites for the cousre: 
+Prerequisites for the course: 
 
 1. [Workshop in C/C++](https://cs.aviparshan.com/cpp_workshop/)
 

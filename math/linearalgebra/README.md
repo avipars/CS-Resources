@@ -55,7 +55,7 @@ row(A) = Row space of A (span of its column vectors)
 
 rank(A) = The rank of A (dimension of row space)
 
-adj(A) = Adjugate matrix (transpose of cofactor matrix)
+adj(A) = Adjugate matrix (transpose of co-factor matrix)
 
 ##### Let A,B denote 2 vectors
 

@@ -196,7 +196,7 @@ Topological Sort in DAG
     * as each vertex finishes, add to front of linked list
     * return linked list of vertices
   - Insertion is O(1), `|V|` vertices to add
-  - Usually we would want to reverse the linked list to get our prefered order
+  - Usually we would want to reverse the linked list to get our preferred order
 
 
 B tree:
@@ -241,7 +241,7 @@ B tree:
 
 - With chaining specifically (part of open addressing):
   - each spot has a linked list (empty by default), upon insertion, element becomes the new head of the list
-  - upon collision, the newer item gets put at the head of the list for the respestive spot and the previous item in the list becomes the node after the head. 
+  - upon collision, the newer item gets put at the head of the list for the respective spot and the previous item in the list becomes the node after the head. 
 - Open addressing allows your key to go to almost (if not all) of the slots by using a probe/step function
   - i.e. for linear/quadratic probing we have a step function in addition to the original hash function, with a coefficient i/i^2 respective to the type of probe. Initially it will be 0, but after every collision we will increment by 1
 

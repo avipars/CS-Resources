@@ -24,7 +24,7 @@ Quine-McCluskey:
 
 Boolean Algebra:
 
-* [boolean-algebra.com/](https://www.boolean-algebra.com/)  - also does kmaps 
+* [boolean-algebra.com/](https://www.boolean-algebra.com/)  - also does k-maps 
 
 * [wolframalpha](https://www.wolframalpha.com/input/?i=Z++XOR+%28V*X%29)
 
