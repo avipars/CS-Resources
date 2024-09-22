@@ -18,7 +18,7 @@ sitemap:
 
 Some digital systems content, sentential logic, predicate logic, graph theory 
 
-Read: Discrete Mathematics and Its Applications by Kenneth H. Rosen (not required by the course)
+Read: "Discrete Mathematics and Its Applications" by Kenneth H. Rosen (not required by the course)
 
 
 
@@ -82,7 +82,7 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 |                         |                         |B on condition that A |                |                               |             |                    |                              |               |                                  |                                 |
 |                         |                         |not A if not B        |                |                               |             |                    |                              |               |                                  |                                 |
 |                         |                         |B is necessary for A  |                |                               |             |                    |                              |               |                                  |                                 |
-|                         |                         |Only if A are/then B  |                |                               |             |                    |                              |               |                                  |                                 |
+|                         |                         |Only if B are/then A  |                |                               |             |                    |                              |               |                                  |                                 |
 |                         |                         |B provided that A     |                |                               |             |                    |                              |               |                                  |                                 |
 |                         |                         |B when A              |                |                               |             |                    |                              |               |                                  |
 
