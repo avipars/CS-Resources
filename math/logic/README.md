@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to math formalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
-date: '2024-09-08'
+date: '2024-10-08'
 categories: math
 tags:
 - Logic
@@ -35,7 +35,7 @@ Read: "Discrete Mathematics and Its Applications" by Kenneth H. Rosen (not requi
 ## Logic 
 
 
-### Logic symbols (refresher)
+### Sentential Logic Refresher
 
 Here are some stuff worth knowing (on top of the basic gates/symbols)
 
@@ -86,6 +86,8 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 |                         |                         |B provided that A     |                |                               |             |                    |                              |               |                                  |                                 |
 |                         |                         |B when A              |                |                               |             |                    |                              |               |                                  |
 
+
+
 |Predicate Logic Sentence|∀x       |∃x                |¬(∃x...)|¬(∀𝑥 … )  |∀𝑥 𝑃 (𝑥) → 𝑄(𝑥)        |∃𝑥 𝑃 (𝑥) ∧ 𝑄(𝑥)       |(∃x (∃y ((B(x) ∧ B(y)) ∧ x ≠ y)))|(∀x (∀y ((B(x) ∧ B(y)) → (x = y))))   |((∃x B(x)) ∧ (∀x (∀y ((B(x) ∧ B(y)) → (x = y)))))|
 |------------------------|---------|------------------|--------|-----------|----------------------------|---------------------------|---------------------------------|--------------------------------------|-------------------------------------------------|
 |                        |         |                  |        |           |                            |                           |                                 |(¬(∃x (∃y ((B(x) ∧ B(y)) ∧ (x ≠ y)))))|(∃x (B(x) ∧ (∀y (B(y) → (x = y)))))              |
@@ -121,6 +123,17 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
   - AND, BIDIRECTIONAL, FALSE : {∧, ↔, F}
 
   - OR, BIDIRECTIONAL, FALSE : {∨, ↔, F}
+
+IMP = Implication 
+
+A formula is satisfiable if it is true under some assignment of values to its variables
+
+A formula is valid if every assignment of values to variables make the formula true.
+
+A sentence is a formula without free variables (AKA with only bound variables).
+
+A set of sentences is consistent if and only if it's possible for all sentences in the set to be true at the same time (together). 
+
 
 
 ## Graphs: 
@@ -168,8 +181,8 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 | Connected                   | if, for each pair of vertices, there exists at least one single path which joins them                                                                                                                                                                                                                               |                             |
 | Acyclic                     | a graph with no cycles                                                                                                                                                                                                                                                                                              |                             |
 | Hamiltonian-connected       | if for every pair of vertices there is a Hamiltonian path between the two vertices.                                                                                                                                                                                                                                 |                             |
-| DAG                         | Directed graph without any directed cycles                                                                                                                                                                                                                                                                          |                             |
-| Tree                        | Connected and acyclic or add edge = makes a cycle, or remove edge disconnects graph                                                                                                                                                                                                                                 |                             |
+| DAG                         | Directed graph without any cycles                                                                                                                                                                                                                                                                          |                             |
+| Tree                        | Connected, Undirected, and acyclic Graph with n vertices, and n-1 edges (or add edge = makes a cycle, or remove edge disconnects graph)                                                                                                                                                                                                                                  |                             |
 | K<sub>n</sub>                          | Complete graph on n vertices                                                                                                                                                                                                                                                                                        |                             |
 | Cycle graph                 | a graph that consists of a single cycle, or in other words, some number of vertices (at least 3, if the graph is simple) connected in a closed chain.                                                                                                                                                               |                             |
 | C<sub>n</sub>                         | Cycle graph on n vertices (|n| = # ov vertices = # edges in this case)                                                                                                                                                                                                                                              |                             |
@@ -184,11 +197,11 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
 - Graph is bipartite if and only if all cycles have even length 
 
-- K<sub>5</sub> - Graph with 5 vertices all realized (complete)
+- K<sub>5</sub> - Complete graph with 5 vertices, not bipartite and not planar
 
 ![K5 graph](k5.png)
 
-- K<sub>3,3</sub> - Graph that has 3 vertices on top, 3 on bottom that is bipartite and complete (sometimes split left and right)
+- K<sub>3,3</sub> - Non-planar graph that has 3 vertices on top, 3 on bottom that is bipartite and complete (sometimes split left and right)
 
 ![K3,3 graph](k3.png)
 
@@ -196,7 +209,7 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
 - Any complete graph has a Hamilton cycle 
 
-- Graph with m >= n-1 edges, n >= 3 vertices will have a cycle
+- A graph with m >= n-1 edges, n >= 3 vertices will have a cycle
 
 - Regular graph = each vertex has the same degree (same number of edges touching it)
 
@@ -218,7 +231,7 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
  
     - is planar (iff 1 < n <= 3)
   
-  * Q3 is a cube, higher dimensions are harder to visualize
+  * Q1 is a line, Q2 is a square Q3 is a cube, higher dimensions are harder to visualize
 
 
 #### Good to know 
