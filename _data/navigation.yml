@@ -18,8 +18,7 @@
   link: /cpp_workshop/
   sorted: true
 
-
-- name: Intro to Communcations
+- name: Intro to Communications
   link: /comms/
   sorted: true
 
@@ -35,7 +34,7 @@
   link: /data_struct/
   sorted: true
 
-- name: Data Structures2
+- name: Data Structures 2
   link: /data_struct2/
   sorted: true
 
@@ -57,4 +56,8 @@
 
 - name: Software Engineering
   link: /software_eng/
+  sorted: true
+
+- name: Unix
+  link: /unix/
   sorted: true

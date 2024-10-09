@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CS-Resources Homepage
-date: '2024-3-17'
+date: '2024-10-09'
 permalink: /
 categories: Homepage
 tags:
@@ -40,13 +40,14 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Operating Systems](https://cs.aviparshan.com/os)
 
+* [Unix](https://cs.aviparshan.com/unix/)
 
-* [Intro to Dabase Systems](https://cs.aviparshan.com/databases/)
+* [Intro to Database Systems](https://cs.aviparshan.com/databases/)
 
 ###### [Math](https://avipars.github.io/CS-Resources/math/)
 
 
-* [Precalculus](https://avipars.github.io/CS-Resources/math/precalculus)
+* [Pre-calculus](https://avipars.github.io/CS-Resources/math/precalculus)
 
 
 * [Linear Algebra](https://avipars.github.io/CS-Resources/math/linearalgebra)

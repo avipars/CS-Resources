@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to math formalization, deduction, formal
 proof, and concepts of mathematical logic"
 permalink: /math/logic/
-date: '2024-09-08'
+date: '2024-10-09'
 categories: math
 tags:
 - Logic
