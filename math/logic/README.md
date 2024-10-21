@@ -2,13 +2,14 @@
 layout: page
 title: Mathematical Logic
 description: "intro to math formalization, deduction, formal
-proof, and concepts of mathematical logic"
+proof, and concepts of mathematical logic. There is a little graph theory at the end of the course as well"
 permalink: /math/logic/
 date: '2024-10-09'
 categories: math
 tags:
 - Logic
 - Math
+- Graphs
 image: 
 sitemap:
   priority: 0.7
@@ -35,30 +36,39 @@ Read: "Discrete Mathematics and Its Applications" by Kenneth H. Rosen (not requi
 ## Logic 
 
 
-### Sentential Logic Refresher
+### Logic Symbol Refresher
 
 Here are some stuff worth knowing (on top of the basic gates/symbols)
 
+  * A ∨ B = OR
 
-  * a ↑ b = ¬(a ∧ b) = nand
+  * A ∧ B = AND 
 
-  * a ↓ b = ¬(a ∨ b) = nor
+  * ¬A = Not A = Negation 
 
-  * F = constant false
+  * F = Cconstant false = ⊥
 
-  * T = constant true 
+  * T = Constant true 
 
   * A ⇒ B
 
     - When A is true and B is false, the sentence gets the False truth value, otherwise it will always get the True truth value
 
-    - Called If then, Implies, or Conditional
+    - Called If then, Implies (IMP), or Conditional
+
+  * A ↑ B = ¬(A ∧ B) = NAND
+
+  * A ↓ B = ¬(A ∨ B) = NOR
 
   * A ↔ B = A ⊙ B ≡ (A ⇒ B) ∧ (B ⇒ A)
 
-      - if and only if = x-nor
+      - Bidirectional = If and only if = XNOR ⊙
 
   * A ⊕ B ≡ (A ∧ ¬B) ∨ (¬A ∧ B)
+
+      - XOR ⊕ = Exclusive Or = Either A or B (but not both)
+
+#### Quantifiers
 
   * ∀y - Universal quantifier - For all y
 
@@ -102,7 +112,7 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
 - Any functionally complete set of logical symbols (gates) can be used to create any other gate
 
-- Functionally complete sets that are good to know for exams and homeworks, here is a non exhaustive list of some basic ones
+- Functionally complete sets that are good to know for exams and homework, here is a non exhaustive list of some basic ones
 
 - AND, OR, NOT : {∧, ∨, ¬}
 
@@ -144,10 +154,10 @@ A set of sentences is consistent if and only if it's possible for all sentences 
 | Graph                       | Set of vertices and set of edges                                                                                                                                                                                                                                                                                    | G=(V,E)                     |
 | Vertex                      | Unique node                                                                                                                                                                                                                                                                                                         | v ∈ V                       |
 | Edge                        | Pair of 2 vertices (linked)                                                                                                                                                                                                                                                                                         | e ∈ E                       |
-| Adjacent vertices/Neighbors | f there is an edge from one vertex to the other ie v-u or v<->u, so v and u are adjacent to each other ... but v->u v is adjacent to u but u isn't adjacent to v                                                                                                                                                    |                             |
+| Adjacent vertices/Neighbors | f there is an edge from one vertex to the other i.e. v-u or v<->u, so v and u are adjacent to each other ... but v->u v is adjacent to u but u isn't adjacent to v                                                                                                                                                    |                             |
 | Degree                      | Number of edges touching that vertex (in undirected graph)                                                                                                                                                                                                                                                          | d(v)                        |
-| in-degree                   | number of edges coming into vertex vx... ie v3->vx->v2 , vx has in-degree of 1 (from v3 coming in) (directed graph)                                                                                                                                                                                                 | Din(v)                      |
-| out-degree                  | number of edges leaving vertex vx (directed graph)                                                                                                                                                                                                                                                                  | Dout(v)                     |
+| in-degree                   | number of edges coming into vertex v<sub>x</sub>... i.e. v<sub>3</sub>->v<sub>x</sub>->v<sub>2</sub> ,v<sub>x</sub> has in-degree of 1 (from v<sub>3</sub coming in) (directed graph)                                                                                                                                                                                                 | Din(v) AKA D<sup>-</sup>                     |
+| out-degree                  | number of edges leaving vertex v<sub>x</sub> (directed graph)                                                                                                                                                                                                                                                                  | Dout(v) AKA D<sup>+</sup>                    |
 | Connected vertices          | In an undirected graph, an unordered pair of vertices {x, y} is called connected if a path leads from x to y. Otherwise, the unordered pair is called disconnected. (path exists between them)                                                                                                                      |                             |
 | Path                        | sequence of vertices connected by edges.                                                                                                                                                                                                                                                                            | {v1,....,v4}                |
 | Cycle                       | A cycle is a path that starts and ends at the same vertex.                                                                                                                                                                                                                                                          | {v1,v2,...v1........vn, v1} |
@@ -161,8 +171,8 @@ A set of sentences is consistent if and only if it's possible for all sentences 
 | Distance                    | length of shortest path having vertices v,u at the endpoints                                                                                                                                                                                                                                                        |                             |
 | Diameter                    | in connected graph it is maximum length of shortest path - max of distances between pairs of vertices in graph                                                                                                                                                                                                      |                             |
 | Path length                 | \# of edges in a path                                                                                                                                                                                                                                                                                               |                             |
-| Component                   | subset ov vertices Vi ⊆ V                                                                                                                                                                                                                                                                                           |                             |
-| Connected component         | subset ov vertices Vi ⊆ V tat is connected                                                                                                                                                                                                                                                                          |                             |
+| Component                   | subset of vertices Vi ⊆ V                                                                                                                                                                                                                                                                                           |                             |
+| Connected component         | subset of vertices Vi ⊆ V that is connected                                                                                                                                                                                                                                                                          |                             |
 |                             |                                                                                                                                                                                                                                                                                                                     |                             |
 | Graph Attributes            |                                                                                                                                                                                                                                                                                                                     |                             |
 | Undirected Graph            | {v1,v2} = {v2,v1} ... if v1 shares an edge with v2 (we draw a line for the edge)<br>                                                                                                                                                                                                                                |                             |
@@ -177,23 +187,29 @@ A set of sentences is consistent if and only if it's possible for all sentences 
 | Planar                      | A planar graph is a graph that can be drawn in the plane without any edges crossing.                                                                                                                                                                                                                                |                             |
 | Complete bipartite          | a special bipartite graph where every vertex on one side of the bipartition is connected to every vertex on the other side                                                                                                                                                                                          |                             |
 | Clique                      | a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. an induced subgraph of G that is complete.                                                                                                                                                            |                             |
-| Peterson graph              | non-planar, hamiltonian path, no hamiltonian cycle                                                                                                                                                                                                                                                                   |                             |
+| Peterson graph              | non-planar, Hamilton path, no Hamilton cycle                                                                                                                                                                                                                                                                   |                             |
 | Connected                   | if, for each pair of vertices, there exists at least one single path which joins them                                                                                                                                                                                                                               |                             |
 | Acyclic                     | a graph with no cycles                                                                                                                                                                                                                                                                                              |                             |
-| Hamiltonian-connected       | if for every pair of vertices there is a Hamiltonian path between the two vertices.                                                                                                                                                                                                                                 |                             |
+| Hamiltonian-connected       | if for every pair of vertices there is a Hamilton path between the two vertices.                                                                                                                                                                                                                                 |                             |
 | DAG                         | Directed graph without any cycles                                                                                                                                                                                                                                                                          |                             |
 | Tree                        | Connected, Undirected, and acyclic Graph with n vertices, and n-1 edges (or add edge = makes a cycle, or remove edge disconnects graph)                                                                                                                                                                                                                                  |                             |
-| K<sub>n</sub>                          | Complete graph on n vertices                                                                                                                                                                                                                                                                                        |                             |
+| K<sub>n</sub>                          | Complete graph on n vertices, has $$ \binom{n}{2}$$ edges                                                                                                                                                                                                                                                                                       |                             |
 | Cycle graph                 | a graph that consists of a single cycle, or in other words, some number of vertices (at least 3, if the graph is simple) connected in a closed chain.                                                                                                                                                               |                             |
-| C<sub>n</sub>                         | Cycle graph on n vertices (|n| = # ov vertices = # edges in this case)                                                                                                                                                                                                                                              |                             |
-| K<sub>a,b</sub>                        | is a bipartite graph that consists of two disjoint sets of n vertices each, with every vertex in the first set connected to every vertex in the second set. In other words, if we have two sets of vertices U and V, each with n vertices, then <sub>a,b</sub> has an edge between every pair of vertices u ∈ U and v ∈ V. |                             |
+| C<sub>n</sub>                         | Cycle graph on n vertices (\|n\| = # of vertices = # edges in this case)                                                                                                                                                                                                                                              |                             |
+| K<sub>a,b</sub>                        | is a complete bipartite graph that consists of two disjoint sets of n vertices each, with every vertex in the first set connected to every vertex in the second set. In other words, if we have two sets of vertices U and V, each with n vertices, then <sub>a,b</sub> has an edge between every pair of vertices u ∈ U and v ∈ V. Has a*b edges, a+b vertices |                             |
 | G<sup>c</sup>                         | a graph G' (complement) on the same set of vertices as of G such that there will be an edge between two vertices (v, e) in G', if and only if there is no edge in between (v, e) in G                                                                                                                               | G'(v, e')                   |
 | G<sup>T</sup>                         | a graph G<sup>T</sup> (transpose) where V is the same set of vertices as in G, but E<sup>T</sup>  is the set of edges E but with directions reversed (directed graph), if e = (v,u), e<sup>T</sup> = (u,v)                                                                                                                                         | G<sup>T</sup>  = (V, E<sup>T</sup> )              |
 
 
 ### More graph properties:
 
-- In the course, we usually substitute F = number of faces,  n = number of vertices, m = number of edges (important for formula sheet)
+- In the course, we usually substitute f = number of faces,  n = number of vertices, m = number of edges (important for formula sheet)
+
+- Euler's formula: n+f-m = 2
+
+- If a graph is planar and connected: m <= 3n-6
+
+- If a Graph is planar, bipartite, and connected: m <= 2n-4
 
 - Graph is bipartite if and only if all cycles have even length 
 
