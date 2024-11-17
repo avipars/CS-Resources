@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to math formalization, deduction, formal
 proof, and concepts of mathematical logic. There is a little graph theory at the end of the course as well"
 permalink: /math/logic/
-date: '2024-10-09'
+date: '2024-11-17'
 categories: math
 tags:
 - Logic
@@ -67,9 +67,60 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
 #### Quantifiers
 
-- ∀y - Universal quantifier - For all y
+- ∀x - Universal quantifier - For all x
+
+  * ∀x(S(x) ⇒ P(x)) translates to All S are P
 
 - ∃x - Existential quantifier - There exists x
+
+  * ∃x(S(x) ∧ P(x)) translates to Exists S that are P
+
+- There exists a planar graph that isn't connected ≡ Not all planar graphs are connected
+
+  * ∃x¬C(X) ≡ ¬∀xC(x)
+
+- There doesn't exist a blue swan ≡ All swans aren't blue
+
+  * ¬∃xS(x) ≡ ∀x¬S(x)
+
+#### Meta-Logic
+
+Implication: A ⇒ B
+
+- A implies B (If A then B)
+
+  - A ⇒ B is false when A is true and B is false, but otherwise it's true
+
+  - We get B from A
+
+Meta-Deduction: A ⊢ B
+
+- A proves B
+
+  - B can be proved using A as premise
+
+- ⊢ A
+
+  - A is a tautology (every premise can deduce A)
+
+Meta-implication: A ⊨ B
+
+- A entails B
+
+  - B is true in every structure where A is true
+
+  - In every model, it is not the case that A is true and B is false
+
+  - AKA Logical implication
+
+- If A ⊢ B then A ⊨ B (soundness theorem)
+
+    - All theorems are true
+
+- If A ⊨ B then A ⊢ B (completeness theorem)
+
+    - Prove all true statements
+
 
 ### English to Logic
 
@@ -131,13 +182,53 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
 IMP = Implication
 
-A formula is satisfiable if it is true under some assignment of values to its variables
+A formula is satisfiable if it is true under some assignment of values to its variables (not always a tautology)
 
 A formula is valid if every assignment of values to variables make the formula true.
 
 A sentence is a formula without free variables (AKA with only bound variables).
 
 A set of sentences is consistent if and only if it's possible for all sentences in the set to be true at the same time (together).
+
+Set of premises Γ is inconistent only if Γ implies some contradiction
+
+Contradiction = False under any truth assignment 
+
+
+### Normal Forms:
+
+- CNF (Conjunctive Normal Form) 
+
+    - Goal is to get into a form like this: (A ∨ ¬B ∨ C) ∧ (A ∨ B ∨ ¬C) ∧ (¬A ∨ B ∨ ¬C)
+
+    - Get rid of arrows (⇒,↔) using equivalences (E20,E22)
+
+    - Move negations in = Push all negations down to the atomic propositions via De-Morgan's laws (E16, E17) and double negations  (E9) 
+
+    - Use distributive law (E14) to push ORs in and ANDs out
+
+    - Remove any contradictory clauses (E8)
+
+    - Or via truth table, look at all rows that end in F, negate values...
+
+- DNF (Disjunctive Normal Form)
+
+  - Goal is to get into form like this:  (A ∧ B ∧ ¬C) ∨ (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ C) 
+
+  - Similar to CNF but use distributive law (E15) to push ANDs in and ORs out
+
+  - Or via truth table, look at all rows that end in T, take the values as is
+
+- PNF (Prenex Normal Form)
+
+  - Get rid of arrows (⇒,↔) using equivalences (E20,E22)
+
+  - Put negation ¬ close to predicates via De-Morgan's laws
+
+  - Change name of free variables to bounded variables
+
+  - Use equivalences to extract quantifiers 
+
 
 ## Graphs:
 
@@ -162,7 +253,7 @@ A set of sentences is consistent if and only if it's possible for all sentences 
 | Euler path                  | Path that uses every edge of graph exactly once                                                                                                                                                |                             |
 | Euler cycle                 | a cycle that uses each edge exactly once (undirected graph)                                                                                                                                    |                             |
 | Hamilton path               | path that visits each vertex exactly once - traceable                                                                                                                                          |                             |
-| Hamilton cycle              | cycle that visits each vertex exactly once                                                                                                                                                     |                             |
+| Hamilton cycle              | cycle that visits each vertex exactly once (besides for the first vertex = last vertex)                                                                                                                                                     |                             |
 | Depth                       | \# of edges in path from root to that node                                                                                                                                                     |                             |
 | Distance                    | length of shortest path having vertices v,u at the endpoints                                                                                                                                   |                             |
 | Diameter                    | in connected graph it is maximum length of shortest path - max of distances between pairs of vertices in graph                                                                                 |                             |
@@ -178,10 +269,10 @@ A set of sentences is consistent if and only if it's possible for all sentences 
 | Undirected Graph      | {v1,v2} = {v2,v1} ... if v1 shares an edge with v2 (we draw a line for the edge)<br>                                                                                                                                                                                                                                                                             |                                     |
 | Directed Graph        | (v1,v2) means v1 -> v2 ... but we cannot go from v2 -> v1 unless another edge exists (v2,v1)                                                                                                                                                                                                                                                                     |                                     |
 | Subgraph              | A subgraph of a graph G is a graph whose vertices and edges are subsets of the vertices and edges of G, respectively                                                                                                                                                                                                                                             | H ⊆ G                               |
-| Induced Subgraph      | An induced subgraph of a graph G is a subset of vertices V' and all edges whose endpoints are both in V'                                                                                                                                                                                                                                                         | G[V'].                              |
+| Induced Subgraph      | An induced subgraph of a graph G is a subset of vertices V' and all edges E whose endpoints are both in V'                                                                                                                                                                                                                                                         | G[V'].                              |
 | Simple                | a graph that does not contain more than one edge between the pair of vertices                                                                                                                                                                                                                                                                                    |                                     |
 | Complete              | each pair of vertices is joined by an edge. A complete graph contains all possible edges.                                                                                                                                                                                                                                                                        |                                     |
-| Regular               | each vertex has same degree                                                                                                                                                                                                                                                                                                                                      |                                     |
+| Regular               | each vertex has same degree (same number of edges touching it)                                                                                                                                                                                                                                                                                                                                     |                                     |
 | K-regular             | regular graph where each vertex has degree K                                                                                                                                                                                                                                                                                                                     |                                     |
 | Bipartite             | a graph where the vertices can be divided into two disjoint sets such that all edges connect a vertex in one set to a vertex in another set. There are no edges between vertices in the disjoint sets.                                                                                                                                                           |                                     |
 | Planar                | A planar graph is a graph that can be drawn in the plane without any edges crossing.                                                                                                                                                                                                                                                                             |                                     |
@@ -193,8 +284,9 @@ A set of sentences is consistent if and only if it's possible for all sentences 
 | Acyclic               | a graph with no cycles                                                                                                                                                                                                                                                                                                                                           |                                     |
 | Hamiltonian-connected | if for every pair of vertices there is a Hamilton path between the two vertices.                                                                                                                                                                                                                                                                                 |                                     |
 | DAG                   | Directed graph without any cycles                                                                                                                                                                                                                                                                                                                                |                                     |
-| Tree                  | Connected, Undirected, and acyclic Graph with n vertices, and n-1 edges (or add edge = makes a cycle, or remove edge disconnects graph)                                                                                                                                                                                                                          |                                     |
-| K<sub>n</sub>         | Complete graph on n vertices, has $$ \binom{n}{2}$$ edges                                                                                                                                                                                                                                                                                                        |                                     |
+| Tree                  | Connected, Undirected, and Acyclic Graph with n vertices, and n-1 edges (or add edge = makes a cycle, or remove edge disconnects graph)                                                                                                                                                                                                                          |  T<sub>G</sub>                                   |
+| Forest                  | Undirected, and Acyclic Graph, n - m = number of trees in said forest                                                                                                                                                                                                                          |                                    |
+| K<sub>n</sub>         | Complete (clique) graph on n vertices, has $$ \binom{n}{2}$$ edges                                                                                                                                                                                                                                                                                                        |                                     |
 | Cycle graph           | a graph that consists of a single cycle, or in other words, some number of vertices (at least 3, if the graph is simple) connected in a closed chain.                                                                                                                                                                                                            |                                     |
 | C<sub>n</sub>         | Cycle graph on n vertices (\|n\| = # of vertices = # edges in this case)                                                                                                                                                                                                                                                                                         |                                     |
 | K<sub>a,b</sub>       | is a complete bipartite graph that consists of two disjoint sets of n vertices each, with every vertex in the first set connected to every vertex in the second set. In other words, if we have two sets of vertices U and V, each with n vertices, then <sub>a,b</sub> has an edge between every pair of vertices u ∈ U and v ∈ V. Has a\*b edges, a+b vertices |                                     |
@@ -205,37 +297,70 @@ A set of sentences is consistent if and only if it's possible for all sentences 
 
 - In the course, we usually substitute f = number of faces, n = number of vertices, m = number of edges (important for formula sheet)
 
-- Euler's formula: n+f-m = 2
+- Euler's formula: n+f-m = 2 (holds for planar graphs)
 
 - If a graph is planar and connected: m <= 3n-6
 
-- If a Graph is planar, bipartite, and connected: m <= 2n-4
+- If a graph is planar, bipartite, and connected: m <= 2n-4
 
-- Graph is bipartite if and only if all cycles have even length
+- If a graph is planar, then there exists a vertex with a degree of at most 5 
 
-- K<sub>5</sub> - Complete graph with 5 vertices, not bipartite and not planar
+- Not all planar graphs are connected 
 
-![K5 graph](k5.png)
+- A tree has 1 face 
 
-- K<sub>3,3</sub> - Non-planar graph that has 3 vertices on top, 3 on bottom that is bipartite and complete (sometimes split left and right)
+- Every tree with at least 2 vertices has a leaf (vertex of degree 1)
 
-![K3,3 graph](k3.png)
-
-- Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: it is homeomorphic of K<sub>5</sub> or K<sub>3,3</sub>
+- aA graph is bipartite if and only if all cycles have even length
 
 - Any complete graph has a Hamilton cycle
 
+- The number of vertices of odd degree in graph G is always even
+
 - A graph with m >= n-1 edges, n >= 3 vertices will have a cycle
 
-- Regular graph = each vertex has the same degree (same number of edges touching it)
+- If and only if all vertices in graph have even degrees, then there is a Euler cycle in the graph 
 
-- A Hamiltonian path that starts and ends at adjacent vertices can be completed by adding one more edge to form a Hamiltonian cycle, and removing any edge from a Hamiltonian cycle produces a Hamiltonian path.
+- A graph has an Euler path if and only if there are at most two vertices with odd degree.
+
+- A Hamiltonian path that starts and ends at adjacent vertices can be completed by adding one more edge to form a Hamiltonian cycle, and removing any edge from a Hamiltonian cycle produces a Hamiltonian path
+
+- The complement of a connected graph can be connected or disconnected 
+
+- Max number of edges in undirected graph is n*(n-1)/2
+
+- Max number of edges in undirected graph is n*(n-1)
+
+- K<sub>n</sub>: 
+
+    - if n is even, then there will be no Euler cycle
+
+    - if n is odd, there will be a Euler cycle
+
+    - for n <= 4, it is planar (homeomorph of K5 or K3,3)
+
+    - Every pair of vertices joined by an edge
+
+    - Number of different Hamiltonian cycles is (n-1)!/2 
+
+    - K<sub>5</sub> - Complete graph with 5 vertices, not bipartite and not planar
+
+      ![K5 graph](k5.png)
+
+      $ \binom{5}{2}$ = 10 edges
+
+    - K<sub>3,3</sub> - Non-planar graph that has 3 vertices on top, 3 on bottom that is bipartite and complete (sometimes split left and right)
+
+    ![K3,3 graph](k3.png)
+
+    - Any complete graph (a graph in which each vertex is connected to every other vertex) with > 5 vertices is not planar: it is homeomorphic of K<sub>5</sub> or K<sub>3,3</sub>
+
 
 - Q<sub>n</sub> - graph of n-dimensional hypercube
 
-  - is bipartite
+  - is bipartite for n >= 1
 
-  - Always has 2<sup>n</sup> vertices, n2<sup>n-1</sup> edges
+  - Always has 2<sup>n</sup> vertices, n*2<sup>n-1</sup> edges
 
     - it is a regular graph, each vertex has degree of n
 
@@ -243,47 +368,16 @@ A set of sentences is consistent if and only if it's possible for all sentences 
 
   - for graph with n > 1
 
-    - has Hamiltonian cycle
+    - has hamiltonian cycle
 
-    - is planar (iff 1 < n <= 3)
+    - is planar for 1 < n <= 3
 
-  - Q1 is a line, Q2 is a square Q3 is a cube, higher dimensions are harder to visualize
+  - Q1 is a line, Q2 is a square, Q3 is a cube, higher dimensions are harder to visualize
 
-#### Good to know
-
-Implication: A ⇒ B
-
-- A implies B (If A then B)
-
-  - A ⇒ B is false when A is true and B is false, but otherwise it's true
-
-Meta-Deduction: A ⊢ B
-
-- A proves B
-
-  - B can be proved using A as premise
-
-- ⊢ A
-
-  - A is a tautology (every premise can deduce A)
-
-Meta-implication: A ⊨ B
-
-- A entails B
-
-  - B is true in every structure where A is true
-
-  - In every model, it is not the case that A is true and B is false
-
-  - AKA Logical implication
 
 ##### Terms you may see elsewhere
 
 First order logic = Predicate logic/calculus (For all, There exists)
-
-- If A ⊢ B then A ⊨ B (soundness theorem)
-
-- If A ⊨ B then A ⊢ B (completeness theorem)
 
 Propositional logic = Sentential Logic (L arrow and L2)
 
