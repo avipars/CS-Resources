@@ -147,7 +147,7 @@ Tautology = True under every truth assignment
 
 ### English to Logic
 
-| Sentential Logic Sentence | A ↔ B                     | A → B                  | ~B → A           | ~(A → B) = A ∧ ~B               | A ∧ B           | A ∨ B                | A ↑ B                          | A ↓ B           | (A → B) & (~A → C)                 | (~B → A) & (B → C)                |
+| Sentential Logic Sentence | A ↔ B                     | A → B                  | ¬B → A           | ¬(A → B) = A ∧ ¬B               | A ∧ B           | A ∨ B                | A ↑ B                          | A ↓ B           | (A → B) ∧ (¬A → C)                 | (¬B → A) ∧ (B → C)                |
 | ------------------------- | ------------------------- | ---------------------- | ---------------- | ------------------------------- | --------------- | -------------------- | ------------------------------ | --------------- | ---------------------------------- | --------------------------------- |
 |                           |                           |                        |                  |                                 |                 |                      |                                |                 |                                    |                                   |
 | English                   | A if and only if B        | A only if B            | A unless B       | A is not sufficient for B       | A but B         | A or (else) B        | not the case that both A and B | Neither a nor b | if A, then B, and if not A, then C | if not B, then A, and if B then C |
