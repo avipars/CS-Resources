@@ -4,7 +4,7 @@ title: Mathematical Logic
 description: "intro to math formalization, deduction, formal
 proof, and concepts of mathematical logic. There is a little graph theory at the end of the course as well"
 permalink: /math/logic/
-date: '2024-11-17'
+date: '2024-11-19'
 categories: math
 tags:
 - Logic
@@ -31,9 +31,9 @@ Read: "Discrete Mathematics and Its Applications" by Kenneth H. Rosen (not requi
 
 - This is not my exhaustive list of notes (& proofs), there are topics not covered in the course on this page, so do not use this as your main source of notes
 
-## Logic
+## Math Logic
 
-### Logic Symbol Refresher
+### Symbol Refresher
 
 Here are some stuff worth knowing (on top of the basic gates/symbols)
 
@@ -65,21 +65,31 @@ Here are some stuff worth knowing (on top of the basic gates/symbols)
 
   - XOR ⊕ = Exclusive Or = Either A or B (but not both)
 
+### Truth Tables for the non-trivial logic symbols
+
+| A | B | A ⇒ B | A ↔ B | A ↑ B | A ↓  B | A ⊕ B |
+| - | - | ----- | ----- | ----- | ------ | ----- |
+| T | T | T     | T     | F     | F      | F     |
+| T | F | F     | F     | T     | F      | T     |
+| F | T | T     | F     | T     | F      | T     |
+| F | F | T     | T     | T     | T      | F     |
+
+
 #### Quantifiers
 
 - ∀x - Universal quantifier - For all x
 
-  * ∀x(S(x) ⇒ P(x)) translates to All S are P
+  * ∀x(S(x) ⇒ P(x)) translates to "All S are P"
 
 - ∃x - Existential quantifier - There exists x
 
-  * ∃x(S(x) ∧ P(x)) translates to Exists S that are P
+  * ∃x(S(x) ∧ P(x)) translates to "There exists S that are P"
 
-- There exists a planar graph that isn't connected ≡ Not all planar graphs are connected
+- Example: There exists a planar graph that isn't connected ≡ Not all planar graphs are connected
 
   * ∃x¬C(X) ≡ ¬∀xC(x)
 
-- There doesn't exist a blue swan ≡ All swans aren't blue
+- Example: There doesn't exist a blue swan ≡ All swans aren't blue
 
   * ¬∃xS(x) ≡ ∀x¬S(x)
 
@@ -121,6 +131,19 @@ Meta-implication: A ⊨ B
 
     - Prove all true statements
 
+A formula is satisfiable if it is true under some assignment of values to its variables (not always a tautology)
+
+A formula is valid if every assignment of values to variables make the formula true.
+
+A sentence is a formula without free variables (AKA with only bound variables).
+
+A set of sentences is consistent if and only if it's possible for all sentences in the set to be true at the same time (together).
+
+A set of premises Γ is inconistent only if Γ implies some contradiction
+
+Contradiction = False under any truth assignment 
+
+Tautology = True under every truth assignment 
 
 ### English to Logic
 
@@ -160,6 +183,10 @@ Meta-implication: A ⊨ B
 
 - Functionally complete sets that are good to know for exams and homework, here is a non exhaustive list of some basic ones
 
+- IMP = Implication
+
+#### Main 5
+
 - AND, OR, NOT : {∧, ∨, ¬}
 
 - NAND : {↑}
@@ -170,7 +197,7 @@ Meta-implication: A ⊨ B
 
 - OR, NOT : {∨, ¬}
 
-- Additional ones:
+#### Additional ones
 
   - IMP, NOT : {⇒, ¬}
 
@@ -179,20 +206,6 @@ Meta-implication: A ⊨ B
   - AND, BIDIRECTIONAL, FALSE : {∧, ↔, F}
 
   - OR, BIDIRECTIONAL, FALSE : {∨, ↔, F}
-
-IMP = Implication
-
-A formula is satisfiable if it is true under some assignment of values to its variables (not always a tautology)
-
-A formula is valid if every assignment of values to variables make the formula true.
-
-A sentence is a formula without free variables (AKA with only bound variables).
-
-A set of sentences is consistent if and only if it's possible for all sentences in the set to be true at the same time (together).
-
-Set of premises Γ is inconistent only if Γ implies some contradiction
-
-Contradiction = False under any truth assignment 
 
 
 ### Normal Forms:
