@@ -158,3 +158,9 @@ Actions with or about Nulls and return values
         SELECT * FROM Parents;
 
   ```
+
+##### Useful Links
+
+- [ErdPlus](https://erdplus.com/)
+
+- [SQLFiddle](https://sqlfiddle.com/)

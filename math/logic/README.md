@@ -360,7 +360,7 @@ Tautology = True under every truth assignment
 
       ![K5 graph](k5.png)
 
-      $ \binom{5}{2}$ = 10 edges
+     (5 Choose 2) Edges = 10 edges
 
     - K<sub>3,3</sub> - Non-planar graph that has 3 vertices on top, 3 on bottom that is bipartite and complete (sometimes split left and right)
 
@@ -428,7 +428,9 @@ Edge = Arc
 
 #### Calculators and tools
 
-- [Truth Table Generator](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
+- [Basic Truth Table Generator](https://avi.is-a.dev/web_calculator/logic/truth.html)
+
+- [Fancy Truth Table Tool](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)
 
 - [Logic Calculator: Truth Tables](https://www.erpelstolz.at/gateway/TruthTable.html)
 

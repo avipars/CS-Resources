@@ -35,3 +35,16 @@ sitemap:
 
 
 * example: `man 1 ls`
+
+
+##### Useful Links
+
+- [Regex101](https://regex101.com/)
+
+- [Online Man Pages](https://man.cx/)
+
+- [Termux - Linux Terminal for Android](https://termux.dev/en/)
+
+- [JSLinux](https://bellard.org/jslinux)
+
+- [WSL2 Documentation](https://learn.microsoft.com/en-us/windows/wsl/install)
