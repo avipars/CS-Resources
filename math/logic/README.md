@@ -324,7 +324,7 @@ Tautology = True under every truth assignment
 
 - Every tree with at least 2 vertices has a leaf (vertex of degree 1)
 
-- aA graph is bipartite if and only if all cycles have even length
+- A graph is bipartite if and only if all cycles have even length
 
 - Any complete graph has a Hamilton cycle
 
@@ -362,7 +362,7 @@ Tautology = True under every truth assignment
 
      (5 Choose 2) Edges = 10 edges
 
-    - K<sub>3,3</sub> - Non-planar graph that has 3 vertices on top, 3 on bottom that is bipartite and complete (sometimes split left and right)
+    - K<sub>3,3</sub> - Non-planar graph that has 3 vertices on top, 3 on bottom that is complete bipartite
 
     ![K3,3 graph](k3.png)
 
