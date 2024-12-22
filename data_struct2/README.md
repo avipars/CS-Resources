@@ -272,7 +272,7 @@ B tree:
 
 [Master theorem solver](https://www.nayuki.io/page/master-theorem-solver-javascript)
 
-[My DSA2 calculator (WIP)](https://avi.is-a.dev/web_calculator/dsa/master.html)
+<!-- [My DSA2 calculator (WIP)](https://avi.is-a.dev/web_calculator/dsa/master.html) -->
 
 [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 

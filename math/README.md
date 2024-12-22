@@ -3,7 +3,7 @@ layout: page
 title: Math 
 permalink: /math/
 description: CS Resources page on mathematics for computer science
-date: '2024-3-19'
+date: '2024-12-22'
 categories: Math
 tags:
 - Calculus
@@ -16,31 +16,25 @@ tags:
 Math for computer science. I will be updating these pages and adding mroe as I go along, I hope it can help you as well! 
 
 
-### Courses=: 
+### Courses: 
 
 [Precalculus](https://cs.aviparshan.com/math/precalculus/)
 
-
 [Calculus 1](https://cs.aviparshan.com/math/calculus/)
-
 
 [Linear Algebra 1](https://cs.aviparshan.com/math/linearalgebra/)
 
+[Linear Algebra 2](https://cs.aviparshan.com/math/linearalgebra2/)
 
 [Math Logic](https://cs.aviparshan.com/math/logic/)
 
- 
-[DIscrete Mathematics](https://cs.aviparshan.com/math/discrete/)
+[Discrete Mathematics](https://cs.aviparshan.com/math/discrete/)
 
 [Probability](https://cs.aviparshan.com/math/probability/)
  
-#### On the way:
+More on the way
 
-Linear Algebra 2
 
-Calculus 2
-
-Differential Equations
 
 #### More: 
 
