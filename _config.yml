@@ -61,7 +61,7 @@ author:
   avatar           : "https://github.com/avipars/aviparshan_site/blob/master/img/avi_parshan_profile_avatar.png?raw=true"
   bio              : "I am a student and software developer"
   location         : "Israel"
-  email            : "cs@aviparshan.com"
+  email            : "cs-blog@aviparshan.com"
 
 # default settings for files (latter half is for excluding from sitemap)
 defaults:

@@ -310,7 +310,21 @@ Tautology = True under every truth assignment
 
 - In the course, we usually substitute f = number of faces, n = number of vertices, m = number of edges (important for formula sheet)
 
-- Euler's formula: n+f-m = 2 (holds for planar graphs)
+- Tree:
+
+  - A tree has 1 face 
+
+  - Every tree with at least 2 vertices has a leaf (vertex of degree 1)
+
+  - Has no cycles, n vertices, and n-1 edges
+
+  - Is connected, has n vertices, n -1 edges 
+
+  - Has no cycles, but if you add an edge you create a cycle
+
+  - Is connected but removing an edge makes it no longer connected
+
+Planar: 
 
 - If a graph is planar and connected: m <= 3n-6
 
@@ -320,9 +334,7 @@ Tautology = True under every truth assignment
 
 - Not all planar graphs are connected 
 
-- A tree has 1 face 
-
-- Every tree with at least 2 vertices has a leaf (vertex of degree 1)
+- Euler's formula: n+f-m = 2 (holds for planar graphs)
 
 - A graph is bipartite if and only if all cycles have even length
 
@@ -343,6 +355,7 @@ Tautology = True under every truth assignment
 - Max number of edges in undirected graph is n*(n-1)/2
 
 - Max number of edges in undirected graph is n*(n-1)
+
 
 - K<sub>n</sub>: 
 
