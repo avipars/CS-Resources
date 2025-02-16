@@ -18,19 +18,19 @@ I will be adding new files, videos, and interesting information that will be rel
 
 ###### Programming
 
-* Coding problems (C/C++)... it's really C'esque but written and compiled in  [C++ (Intro to CS)](https://cs.aviparshan.com/CS-Resources/intro_cs/)
+* Coding problems (C/C++)... it's really C'esque but written and compiled in  [C++ (Intro to CS)](https://cs.aviparshan.com/intro_cs/)
 
-* [Workshop in C++](https://cs.aviparshan.com/CS-Resources/cpp_workshop)
+* [Workshop in C++](https://cs.aviparshan.com/cpp_workshop)
 
-* [DSA 1 (Data Structures & Algorithms 1)](https://cs.aviparshan.com/CS-Resources/data_struct/)
+* [DSA 1 (Data Structures & Algorithms 1)](https://cs.aviparshan.com/data_struct/)
 
-* [DSA 2 (Advanced Data Structures & Algorithms 1)](https://cs.aviparshan.com/CS-Resources/data_struct2/)
+* [DSA 2 (Advanced Data Structures & Algorithms 1)](https://cs.aviparshan.com/data_struct2/)
 
 ###### Architecture
 
-* [Digital Systems](https://cs.aviparshan.com/CS-Resources/DigitalSystems/)
+* [Digital Systems](https://cs.aviparshan.com/DigitalSystems/)
 
-* [MIPS (Computer Architecture)](https://cs.aviparshan.com/CS-Resources/mips/)
+* [MIPS (Computer Architecture)](https://cs.aviparshan.com/mips/)
 
 * [Operating Systems](https://cs.aviparshan.com/os)
 
@@ -42,17 +42,17 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Databases](https://cs.aviparshan.com/databases)
 
-###### [Math](https://cs.aviparshan.com/CS-Resources/math/)
+###### [Math](https://cs.aviparshan.com/math/)
 
-* [Pre-calculus](https://cs.aviparshan.com/CS-Resources/math/precalculus)
+* [Pre-calculus](https://cs.aviparshan.com/math/precalculus)
 
-* [Calculus](https://cs.aviparshan.com/CS-Resources/math/calculus)
+* [Calculus](https://cs.aviparshan.com/math/calculus)
 
-* [Math Logic](https://cs.aviparshan.com/CS-Resources/math/logic)
+* [Math Logic](https://cs.aviparshan.com/math/logic)
 
 * [Discrete Mathematics](https://cs.aviparshan.com/math/discrete/)
 
-* [Linear Algebra](https://cs.aviparshan.com/CS-Resources/math/linearalgebra)
+* [Linear Algebra](https://cs.aviparshan.com/math/linearalgebra)
 
 * [Linear Algebra 2](https://cs.aviparshan.com/math/linearalgebra2/)
 
@@ -62,7 +62,7 @@ I will be adding new files, videos, and interesting information that will be rel
 
 * [Intro to Software Engineering](https://cs.aviparshan.com/software_eng)
 
-* [Intro to Data Security](https://cs.aviparshan.com/CS-Resources/intro_sec)
+* [Intro to Data Security](https://cs.aviparshan.com/intro_sec)
 
 #### Articles: 
 
