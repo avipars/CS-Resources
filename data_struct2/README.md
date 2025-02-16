@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Advanced Data Structures and Algorithms (DSA2)
-description: DSA2 course dealing with hash tables, b trees, topological sort using dfs, etc.  
-date: '2024-04-07'
+description: AdvancedData Structurs course dealing with hash tables, b trees, topological sort using dfs, etc.  
+date: '2025-02-16'
 permalink: /data_struct2/
 image: /static/post-image/master.png
 categories: DSA
@@ -16,7 +16,7 @@ tags:
 ---
 
 
-#### My (incomplete) notes for DSA2 
+#### My notes for Data Structures 2 
 
 
 ### Recurrences 
@@ -99,7 +99,7 @@ Master theorem
 - Forest
   - Acyclic graph
   - a tree is a forest, but a forest isn't always a tree 
-  - its a graph and not a set of trees 
+  - it's a graph and not a set of trees 
   - a subgraph of a forest = always a forest
 
 ### Adjacency representation (for graphs)
@@ -116,15 +116,15 @@ Master theorem
 - If we are using a (linked) list, we insert an edge at the head of the list. Otherwise, we just go to the respective row and column in the matrix and flip the bit from 0 to 1
 
 
-### Vertex colors
+### Vertex Classifications/Colors (for DFS and BFS)
 
-- **White:** unprocessed/undiscovered
-- **Grey:** processing/not finished
-- **Black:** done/finished
+- **White:** unprocessed/undiscovered vertex
+- **Grey:** processing/not finished vertex
+- **Black:** done/finished processing vertex
 
-### Edge types
+### Edge Classifications (for DFS and BFS)
 
-- Let U be the parent, and V be the descendent 
+- Let U be the parent vertex, and V be the descendent vertex
 
 - **Tree Edge**
   - Parent to a child
@@ -171,14 +171,14 @@ Parenthesis Theorem
 | Use Cases       | Shortest path in unweighted graph, reachable nodes from a starting node | Detecting cycles, exploring all nodes in a graph |
 
 
-BFS 
+BFS - Breadth First Search
   - Discover all vertices reachable from a starting source vertex
   - Works for directed, undirected graphs
   - Each iteration, go one level deeper in all possible directions 
   - Stop after reaching 
   - Queue = FIFO
 
-DFS 
+DFS - Depth First Search 
   - Dicover all vertices from a starting source vertex by going deeper in graph
   - If we decide to go from left to right, go to S's first neighbor from left... then go to it's first left neighbor till you cant go further
   - Then backtrack to the next possible path and continue
@@ -201,7 +201,9 @@ Topological Sort in DAG
 
 B tree:
 
-- 2-3 Tree: Can have at most 2 keys, at most 3 children. They are a type of B tree
+- 2-3 Tree: Can have at most 2 keys, at most 3 children. They are a type of B tree with m = 3
+
+- m: order/max degree of the tree. In Corman's book, they use t as the min degree
 
 - Rules:
   - All keys in node are sorted (i.e. left = smaller)
@@ -230,7 +232,8 @@ B tree:
 
 ### Hash Table & Functions:
 
-- m = size of table 
+- m = size of table = # of slots
+- n = number of keys
 - h1(key) is the function that returns the index in the array for given item
 - Table is indexed from 0 to m-1
 - There are a lot of hashing functions, but the simplest used is usually h(key) = key % m 
@@ -244,6 +247,23 @@ B tree:
   - upon collision, the newer item gets put at the head of the list for the respective spot and the previous item in the list becomes the node after the head. 
 - Open addressing allows your key to go to almost (if not all) of the slots by using a probe/step function
   - i.e. for linear/quadratic probing we have a step function in addition to the original hash function, with a coefficient i/i^2 respective to the type of probe. Initially it will be 0, but after every collision we will increment by 1
+
+
+SUHA - Simple Uniform Hashing Assumption
+
+* AKA Independent Uniform Hashing Assumption
+
+* Each element is equally likely to hash into any of the m slots, independently of the other elements. 
+
+UHA - Uniform Hashing Assumption
+
+* Relevant to Open Addressing 
+
+* Probe sequence is a uniform random permutation of [0..m-1], Hash function also produces a uniform number. 
+
+  - Any one of m! permutations
+
+<!-- * Used for analyzing  -->
 
 - Linear probing:
     - h(k,i) = (h<sub>1</sub>(k) + i) mod m
