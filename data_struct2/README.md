@@ -199,7 +199,7 @@ Topological Sort in DAG
   - Usually we would want to reverse the linked list to get our preferred order
 
 
-B tree:
+### B-tree:
 
 - 2-3 Tree: Can have at most 2 keys, at most 3 children. They are a type of B tree with m = 3
 
@@ -286,6 +286,43 @@ UHA - Uniform Hashing Assumption
     - if there is a collision, i gets incremented by 1 and compute the index via h again 
     - keep on doing this till you find an empty spot.
     - if h<sub>2</sub> is chosen/created in a poor manner (or h<sub>1</sub>, or table is small, or not sparse) etc... you can end up in an infinite loop looking for an open slot
+
+### Disjoint Sets 
+
+# Union by Size
+
+```
+MAKE-SET(x)
+  p[x] ← x
+  size[x] = 1
+```
+
+```
+UNION(x, y) 
+  repX ← FIND-SET(x)
+  repY ← FIND-SET(y)
+  if size[repX] < size[repY] then
+      p[repX] ← repY
+      size[repY] += size[repX]
+  else  
+      p[repY] ← repX
+      size[repX] += size[repY]
+```
+
+```
+FIND-SET(x) 
+if x = p[x] then 
+    return x
+return FIND-SET(p[x])
+```
+
+```
+FIND-SET(x) # (alternative find set with path compression)
+  if x = p[x] then 
+      return x
+  p[x] ← FIND-SET(p[x])  # Path compression
+  return p[x]
+```
 
 
 #### More resources
