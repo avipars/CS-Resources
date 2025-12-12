@@ -23,7 +23,7 @@ jobs:
         run: echo "gem "github-pages", "~> 3.9.2", group::jekyll_plugins"
         
       - name: Cache gems
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: vendor/gems
           key: ${{ runner.os }}-build-${{ hashFiles('**/Gemfile.lock') }}
