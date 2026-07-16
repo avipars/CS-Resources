@@ -8,22 +8,29 @@ tags:
 - JS
 - Chrome
 - Bookmarklets
+- Shortcuts
 ---
 
 Chrome bookmarklets allow you to type javascript instead of a standard website url. 
 
 We can use this to do some fun and useful things. Either make a new bookmark and in the URL field, type this in, or you should be able to copy and drag the text into the bookmark tab as well (you'll see a plus sign). You can run many (vanilla) JS functions and code within your bookmarklets, but there are some issues with escape characters and formatting. 
 
-You can do most of these commands via chrome extensions or AutoHotKeys, but I prefer bookmarklets because they don't use nearly as much processing power as extensions, are only active once clicked, and are more privacy friendly. This means that you can run a script on a page with a single click, know what code is running and also can see what it logs via the console!
+You can do most of these commands via chrome extensions or AutoHotKeys, but I prefer bookmarklets because they don't use nearly as much processing power as extensions, are only active once clicked, and are more privacy friendly. This means that you can run a script on a page with a single click, know what code is running and also can see what it logs via the console! 
 
+
+WARNING: Always audit and review code before running it on your computer! 
+
+Edited: July-16-2026 
 
 <img src="{{ site.url }}{{ page.image }}" alt="Dall-e javascript interpretation Image" width="500" />
 
-Picture is from searching "JavaScript" in Dall-E
+The picture is from searching "JavaScript" in Dall-E
 
-## Wayback Machine and site archive: 
+## Wayback Machine
 
-* Find old version of page:
+Note: Some domains are excluded from the service and some archived webpages will not render properly
+
+* Find archived version of a webpage:
 
  ```js
 javascript: 
@@ -38,14 +45,17 @@ javascript:var url = window.location.href;
 window.location.href="https://web.archive.org/save/" + url; 
   ```
 
+## News sites
 
-* Escape paywalled article: 
+* Escape paywalled articles : 
 
  ```js
 javascript:var url = window.location.href;
-window.location.href="https://archive.ph/" + url; 
+window.location.href="https://archive.md/" + url; 
   ```
 
+
+Note: Some ISPs & DNS servers block this domain and the site may not be compatible with certain news sites. 
 
 ## Show password in password form:
 
@@ -57,10 +67,12 @@ javascript: var p=r(); function r(){var g=0;var x=false;var x=z(document.forms);
 
 ## See deleted reddit content:
 
+
  ```js
-  javascript: document.location = document.URL.replace('reddit.com','removeddit.com');
+  javascript: if (location.hostname.match(/reddit\.com$/)) {location.host = "reveddit.com";}
   ```
 
+Note: since reddit changed their API, this may not work well. Original url was abandoned, so I switched to reveddit instead. 
 
 ## Webpage auto scroll down with random seed (to pretend we aren't a bot):
 
@@ -83,5 +95,15 @@ What you could do alternatively, is to either have it copy the url into your cli
 ```js
  javascript: document.location="chrome://settings/siteData?searchSubpage="+document.location.hostname
 ```
+
+## Force moodle to open PDF preview in new tab rather than open Save As menu
+
+Naviage to a page on moodle with PDF links (that have force download enabled), and then activate the bookmarklet below. 
+Note: This change doesn't persist upon refreshing or navigating to a different url on moodle.
+
+```js
+javascript:(function(){document.querySelectorAll('a[href*="forcedownload=1"]').forEach(link=>{link.href=link.href.replace('forcedownload=1','forcedownload=0');link.setAttribute('target','_blank');link.setAttribute('rel','noopener noreferrer');});alert('Moodle links updated to open in new tabs!');})();
+```
+
 
 I hope you found these as useful as I do! Please  [tweet me](https://www.twitter.com/aviinfinity) if you have any ideas, comments or feedback!
